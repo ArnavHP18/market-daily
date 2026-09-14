@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Market Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
+<style>
+:root{
+  --bg:#0A0C0F; --surface:#14171C; --surface-2:#1B1F26; --line:#242931;
+  --ink:#F4F5F7; --ink-2:#C4C9D1; --muted:#8B93A0;
+  --up:#2FD16A; --down:#FF4D4D; --flat:#9AA3AF; --gold:#D9B45C;
+  --radius:12px; --pad:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);color:var(--ink);font:15px/1.45 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-feature-settings:"tnum" 1,"cv11" 1;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+button:focus-visible,a:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:6px}
+a{color:inherit}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+
+/* ---------- shell ---------- */
+.app{display:grid;grid-template-rows:auto 1fr;height:100dvh;overflow:hidden}
+header.mast{padding:14px var(--pad) 12px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center}
+.mast h1{font-size:17px;font-weight:600;letter-spacing:-.01em}
+.mast .date{color:var(--muted);font-size:13px;margin-left:8px;font-weight:400}
+.headline{font-size:14px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stale{font-size:12px;color:var(--muted)} .stale.warn{color:var(--gold)}
+
+.body{display:grid;grid-template-columns:400px 1fr;min-height:0}
+.list{border-right:1px solid var(--line);overflow-y:auto;overscroll-behavior:contain;padding-bottom:40px}
+.detail{overflow-y:auto;padding:var(--pad) 28px 60px}
+
+/* ---------- summary strip ---------- */
+.summary{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--line)}
+.summary div{padding:12px 16px;font-size:13px;line-height:1.5;color:var(--ink-2);border-right:1px solid var(--line)}
+.summary div:last-child{border-right:0}
+.summary b{display:block;font-weight:600;color:var(--ink);margin-bottom:2px}
+
+/* ---------- watchlist ---------- */
+.group{padding:18px 16px 6px;font-size:13px;font-weight:600;color:var(--muted);display:flex;justify-content:space-between;align-items:baseline;position:sticky;top:0;background:var(--bg);z-index:2}
+.group.metals{color:var(--gold)}
+.row{display:grid;grid-template-columns:1fr 74px 96px;gap:12px;align-items:center;width:100%;padding:10px 16px;text-align:left;border-radius:10px;margin:0 6px;width:calc(100% - 12px)}
+.row:hover{background:var(--surface)} .row[aria-current="true"]{background:var(--surface-2)}
+.row .nm{font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .sym{font-size:12px;color:var(--muted);margin-top:1px}
+.row svg{width:74px;height:30px;display:block}
+.row .px{text-align:right;font-weight:600;font-size:15px}
+.row .pill{display:inline-block;min-width:72px;text-align:center;margin-top:4px;padding:2px 7px;border-radius:6px;font-size:13px;font-weight:600;color:#0A0C0F}
+.pill.up{background:var(--up)} .pill.down{background:var(--down)} .pill.flat{background:var(--flat)}
+.row.err .px,.row.err .pill{opacity:.35}
+
+/* ---------- detail ---------- */
+.back{display:none;color:var(--muted);font-size:14px;margin-bottom:10px}
+.dhead{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.dhead .sym{color:var(--muted);font-size:14px}
+.dhead h2{font-size:22px;font-weight:600;letter-spacing:-.01em;margin-top:2px}
+.price{margin-top:16px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.price .big{font-size:44px;font-weight:600;letter-spacing:-.025em;line-height:1}
+.price .cur{font-size:14px;color:var(--muted);font-weight:500}
+.price .delta{font-size:17px;font-weight:600}
+.price .asof{font-size:13px;color:var(--muted);width:100%}
+.hover-note{font-size:13px;color:var(--muted);min-height:18px;margin-top:6px}
+
+.ranges{display:inline-flex;gap:2px;background:var(--surface);padding:3px;border-radius:9px;margin:18px 0 10px}
+.ranges button{padding:5px 13px;border-radius:7px;font-size:13px;font-weight:600;color:var(--muted)}
+.ranges button[aria-pressed="true"]{background:var(--surface-2);color:var(--ink)}
+.chart{height:320px;border-radius:var(--radius);overflow:hidden;position:relative}
+.chart .empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:14px}
+
+.returns{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:18px}
+.returns div{background:var(--surface);border-radius:10px;padding:10px 12px}
+.returns small{display:block;color:var(--muted);font-size:12px;margin-bottom:3px}
+.returns span{font-weight:600;font-size:17px}
+
+section.block{margin-top:28px;border-top:1px solid var(--line);padding-top:18px}
+section.block h3{font-size:15px;font-weight:600;margin-bottom:10px}
+.outlook p{color:var(--ink-2);margin-bottom:10px;max-width:70ch}
+.outlook .lbl{color:var(--muted);font-size:13px;margin-right:6px}
+.consensus{display:inline-flex;gap:14px;align-items:baseline;background:var(--surface);padding:10px 14px;border-radius:10px;margin-bottom:12px}
+.consensus b{font-size:20px;font-weight:600}
+.consensus small{color:var(--muted);font-size:12px}
+.none{color:var(--muted);font-size:14px}
+
+.news a{display:grid;grid-template-columns:1fr auto;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.news a:last-child{border-bottom:0}
+.news a:hover .t{text-decoration:underline}
+.news .t{font-size:15px;color:var(--ink);line-height:1.4}
+.news .s{font-size:12px;color:var(--muted);margin-top:3px}
+.news .src{align-self:start;font-size:12px;font-weight:600;color:var(--ink-2);background:var(--surface);padding:3px 9px;border-radius:6px;white-space:nowrap}
+
+.cal{display:flex;flex-wrap:wrap;gap:8px}
+.cal span{font-size:13px;background:var(--surface);padding:6px 11px;border-radius:8px;color:var(--ink-2)}
+.cal b{color:var(--ink);font-weight:600;margin-right:6px}
+.foot{margin-top:40px;font-size:12px;color:var(--muted);max-width:70ch;line-height:1.6}
+
+/* ---------- mobile ---------- */
+@media (max-width:820px){
+  .app{height:auto;overflow:visible}
+  .mast{grid-template-columns:1fr auto} .headline{grid-column:1/-1;white-space:normal}
+  .summary{grid-template-columns:1fr}
+  .summary div{border-right:0;border-bottom:1px solid var(--line)}
+  .body{grid-template-columns:1fr}
+  .list{border-right:0}
+  .app.show-detail .list,.app.show-detail .summary{display:none}
+  .app:not(.show-detail) .detail{display:none}
+  .detail{padding:16px 16px 60px}
+  .back{display:inline-block}
+  .row{grid-template-columns:1fr 64px 90px}
+  .price .big{font-size:36px}
+  .returns{grid-template-columns:repeat(3,1fr)}
+  .chart{height:260px}
+}
+@media (prefers-reduced-motion:no-preference){ .row{transition:background .12s} }
+</style>
+</head>
+<body>
+<div class="app" id="app">
+  <header class="mast">
+    <h1>Market Daily <span class="date" id="date"></span></h1>
+    <div class="headline" id="headline"></div>
+    <div class="stale" id="stale"></div>
+  </header>
+  <div class="body">
+    <aside class="list" id="list">
+      <div class="summary" id="summary"></div>
+      <div id="rows"></div>
+    </aside>
+    <main class="detail" id="detail"></main>
+  </div>
+</div>
+
+<script>
+const RANGES = [["1W",7],["1M",30],["3M",91],["6M",182],["1Y",365],["5Y",1826]];
+const $ = (s, el=document) => el.querySelector(s);
+const state = { prices:null, brief:null, sel:null, range:"1M", chart:null, series:null };
+
+async function loadJSON(path, fallback){
+  try { const r = await fetch(path + "?t=" + Date.now()); if (!r.ok) throw 0; return await r.json(); }
+  catch { if (fallback) { try { const r = await fetch(fallback); return await r.json(); } catch {} } return null; }
+}
+
+const fmtNum = (v, cur) => {
+  if (v == null) return "–";
+  const dp = Math.abs(v) >= 1000 ? 0 : Math.abs(v) >= 100 ? 1 : Math.abs(v) >= 1 ? 2 : 4;
+  return v.toLocaleString(undefined, {minimumFractionDigits: dp, maximumFractionDigits: dp});
+};
+const fmtPct = v => v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(2) + "%";
+const cls = v => v == null ? "flat" : v > 0.0001 ? "up" : v < -0.0001 ? "down" : "flat";
+const curSym = c => ({USD:"$",INR:"₹",GBP:"£",EUR:"€",JPY:"¥",HKD:"HK$",AUD:"A$"})[c] || (c ? c + " " : "");
+
+function sparkline(series, days){
+  if (!series || series.length < 2) return "";
+  const cut = new Date(series[series.length-1][0]); cut.setDate(cut.getDate()-days);
+  const pts = series.filter(p => new Date(p[0]) >= cut);
+  const ys = pts.map(p => p[1]); const lo = Math.min(...ys), hi = Math.max(...ys) || 1;
+  const w = 74, h = 30;
+  const d = pts.map((p,i) => `${(i/(pts.length-1)*w).toFixed(1)},${(h-2-(p[1]-lo)/(hi-lo||1)*(h-4)).toFixed(1)}`).join(" ");
+  const c = cls(ys[ys.length-1]-ys[0]);
+  return `<svg viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${d}" fill="none" stroke="var(--${c})" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+}
+
+function renderList(){
+  const {prices} = state; const rows = $("#rows"); rows.innerHTML = "";
+  for (const g of prices.groups){
+    const assets = prices.assets.filter(a => a.group === g.id); if (!assets.length) continue;
+    const h = document.createElement("div"); h.className = "group " + g.id; h.innerHTML = `<span>${g.label}</span><span>1D</span>`; rows.appendChild(h);
+    for (const a of assets){
+      const b = document.createElement("button"); b.className = "row" + (a.error ? " err" : "");
+      b.dataset.id = a.id; b.setAttribute("aria-current", a.id === state.sel);
+      b.innerHTML = `<div><div class="nm">${a.name}</div><div class="sym">${a.symbol}</div></div>
+        ${sparkline(a.series, 30) || "<span></span>"}
+        <div class="px">${a.error ? "–" : fmtNum(a.price)}<br><span class="pill ${cls(a.chg_1d_pct)}">${a.error ? "n/a" : fmtPct(a.chg_1d_pct)}</span></div>`;
+      b.onclick = () => select(a.id, true);
+      rows.appendChild(b);
+    }
+  }
+}
+
+function renderSummary(){
+  const s = state.brief?.summary; const el = $("#summary");
+  if (!s) { el.innerHTML = ""; return; }
+  el.innerHTML = [["US", s.us], ["India", s.india], ["Global", s.global]].map(([k,v]) => `<div><b>${k}</b>${v || ""}</div>`).join("");
+}
+
+function select(id, push){
+  state.sel = id; document.querySelectorAll(".row").forEach(r => r.setAttribute("aria-current", r.dataset.id === id));
+  $("#app").classList.add("show-detail");
+  if (push) history.replaceState(null, "", "#" + id);
+  renderDetail(); window.scrollTo(0,0);
+}
+
+function renderDetail(){
+  const a = state.prices.assets.find(x => x.id === state.sel); if (!a) return;
+  const b = state.brief?.assets?.[a.id] || {};
+  const d = $("#detail");
+  const target = a.target_mean ? `<div class="consensus"><b>${curSym(a.currency)}${fmtNum(a.target_mean)}</b><small>analyst mean target, ${a.target_n || "?"} analysts, ${fmtPct((a.target_mean/a.price-1)*100)} from last</small></div>` : "";
+  const news = (b.news || []).length
+    ? b.news.map(n => `<a href="${n.url}" target="_blank" rel="noopener"><div><div class="t">${n.title}</div><div class="s">${n.date || ""}</div></div><span class="src">${n.source}</span></a>`).join("")
+    : `<p class="none">${a.news ? "No stories filed for today yet." : "News is off for this asset. Set news:true in watchlist.json to include it."}</p>`;
+  d.innerHTML = `
+    <button class="back" id="back">‹ Watchlist</button>
+    <div class="dhead"><div><div class="sym">${a.symbol}</div><h2>${a.name}</h2></div></div>
+    <div class="price">
+      <span class="big" id="bigpx">${a.error ? "–" : curSym(a.currency) + fmtNum(a.price)}</span>
+      <span class="delta ${cls(a.chg_1d_pct)}" id="bigdelta">${a.error ? "" : fmtPct(a.chg_1d_pct) + " today"}</span>
+      <span class="asof">${a.error ? "Data error: " + a.error : "Last close " + a.as_of + (a.type === "mutual_fund" ? " (NAV, end of day)" : "")}</span>
+    </div>
+    <div class="hover-note" id="hover"></div>
+    <div class="ranges" role="group" aria-label="Chart range">${RANGES.map(([k]) => `<button data-r="${k}" aria-pressed="${k===state.range}">${k}</button>`).join("")}</div>
+    <div class="chart" id="chart"></div>
+    <div class="returns">${[["1M",a.ret_1m],["3M",a.ret_3m],["6M",a.ret_6m],["1Y",a.ret_1y],["5Y",a.ret_5y]].map(([k,v]) => `<div><small>${k}</small><span class="${cls(v)}">${fmtPct(v)}</span></div>`).join("")}</div>
+    <section class="block outlook"><h3>Outlook</h3>${target}
+      <p><span class="lbl">Next 12 months</span>${b.outlook_1y || '<span class="none">Not filed. Routine writes this from cited sell-side or house forecasts only.</span>'}</p>
+      <p><span class="lbl">Long term</span>${b.outlook_lt || '<span class="none">Not filed.</span>'}</p>
+    </section>
+    <section class="block news"><h3>News and sources</h3>${news}</section>
+    ${state.brief?.calendar?.length ? `<section class="block"><h3>Coming up</h3><div class="cal">${state.brief.calendar.map(c => `<span><b>${c.when}</b>${c.what}</span>`).join("")}</div></section>` : ""}
+    <p class="foot">Prices from Yahoo Finance and AMFI (via mfapi.in), end of day, not real time. Forward views are quoted from named third parties and are not a recommendation. Consensus targets exist mainly for US-listed equities.</p>`;
+  $("#back").onclick = () => { $("#app").classList.remove("show-detail"); };
+  d.querySelectorAll(".ranges button").forEach(btn => btn.onclick = () => { state.range = btn.dataset.r; d.querySelectorAll(".ranges button").forEach(x => x.setAttribute("aria-pressed", x === btn)); drawChart(a); });
+  drawChart(a);
+}
+
+function drawChart(a){
+  const box = $("#chart"); box.innerHTML = "";
+  if (a.error || !a.series?.length || typeof LightweightCharts === "undefined"){ box.innerHTML = `<div class="empty">${a.error ? "No price history" : "Chart library did not load"}</div>`; return; }
+  const days = RANGES.find(r => r[0] === state.range)[1];
+  const cut = new Date(a.series[a.series.length-1][0]); cut.setDate(cut.getDate()-days);
+  const pts = a.series.filter(p => new Date(p[0]) >= cut).map(p => ({time:p[0], value:p[1]}));
+  if (pts.length < 2){ box.innerHTML = `<div class="empty">Not enough history for ${state.range}</div>`; return; }
+  const base = pts[0].value, last = pts[pts.length-1].value, up = last >= base;
+  const chart = LightweightCharts.createChart(box, {
+    layout:{background:{type:"solid", color:"transparent"}, textColor:"#8B93A0", fontFamily:"Inter", fontSize:12},
+    grid:{vertLines:{visible:false}, horzLines:{color:"#1B1F26"}},
+    rightPriceScale:{borderVisible:false, scaleMargins:{top:.1, bottom:.08}},
+    timeScale:{borderVisible:false, timeVisible:false, fixLeftEdge:true, fixRightEdge:true},
+    crosshair:{mode:LightweightCharts.CrosshairMode.Magnet, vertLine:{color:"#8B93A0", width:1, style:3, labelVisible:false}, horzLine:{visible:false, labelVisible:false}},
+    handleScroll:false, handleScale:false, autoSize:true
+  });
+  const s = chart.addBaselineSeries({
+    baseValue:{type:"price", price:base}, lineWidth:2,
+    topLineColor:"#2FD16A", topFillColor1:"rgba(47,209,106,.28)", topFillColor2:"rgba(47,209,106,0)",
+    bottomLineColor:"#FF4D4D", bottomFillColor1:"rgba(255,77,77,0)", bottomFillColor2:"rgba(255,77,77,.28)",
+    priceLineVisible:false, lastValueVisible:true, crosshairMarkerRadius:4
+  });
+  s.setData(pts); chart.timeScale().fitContent();
+  const hover = $("#hover"), big = $("#bigpx"), delta = $("#bigdelta");
+  const period = `${fmtPct((last/base-1)*100)} over ${state.range}`;
+  hover.textContent = period;
+  chart.subscribeCrosshairMove(p => {
+    const v = p.seriesData?.get(s)?.value;
+    if (v == null){ big.textContent = curSym(a.currency)+fmtNum(last); delta.textContent = fmtPct(a.chg_1d_pct)+" today"; delta.className = "delta "+cls(a.chg_1d_pct); hover.textContent = period; return; }
+    big.textContent = curSym(a.currency)+fmtNum(v);
+    delta.textContent = fmtPct((v/base-1)*100) + " vs " + state.range + " start"; delta.className = "delta " + cls(v-base);
+    hover.textContent = p.time;
+  });
+  state.chart = chart;
+}
+
+(async () => {
+  state.prices = await loadJSON("data/prices.json", "data/prices.sample.json");
+  state.brief  = await loadJSON("data/brief.json",  "data/brief.sample.json");
+  if (!state.prices){ $("#rows").innerHTML = '<p class="none" style="padding:20px">No data/prices.json found. Run scripts/fetch_prices.py.</p>'; return; }
+  $("#date").textContent = state.brief?.date || state.prices.generated_at.slice(0,10);
+  $("#headline").textContent = state.brief?.headline || "";
+  const ageH = (Date.now() - new Date(state.prices.generated_at)) / 36e5;
+  const st = $("#stale"); st.textContent = ageH < 30 ? "Updated " + Math.round(ageH) + "h ago" : "Data is " + Math.round(ageH/24) + " days old"; st.classList.toggle("warn", ageH >= 30);
+  renderSummary(); renderList();
+  const first = location.hash.slice(1) || state.prices.assets[0].id;
+  state.sel = first; renderList();
+  if (window.matchMedia("(min-width:821px)").matches || location.hash) select(first, false);
+})();
+</script>
+</body>
+</html>
