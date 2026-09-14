@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T02:05:00+00:00",
+  "headline": "Sample edition. Run the routine to replace this with today's brief.",
+  "summary": {
+    "us": "One or two sentences on what moved US markets in the last session and why. Cite the driver, not adjectives.",
+    "india": "Same for Nifty, Bank Nifty, FII/DII flows, INR.",
+    "global": "Asia and Europe close, dollar, yields, one notable cross-asset move."
+  },
+  "calendar": [
+    {"when": "2026-09-16", "what": "US FOMC decision"},
+    {"when": "2026-09-18", "what": "RBI monetary policy"}
+  ],
+  "assets": {
+    "aapl": {
+      "outlook_1y": "Analyst consensus target 245 (32 analysts, Yahoo). Sell-side range 190 to 300.",
+      "outlook_lt": "Long-run case rests on services mix shift; bears cite China and AI capex lag. No number is reliable beyond 12 months.",
+      "news": [
+        {"title": "Headline in plain words", "source": "Reuters", "url": "https://www.reuters.com/...", "date": "2026-09-13"},
+        {"title": "Second headline", "source": "Bloomberg", "url": "https://www.bloomberg.com/...", "date": "2026-09-13"},
+        {"title": "Third headline", "source": "WSJ", "url": "https://www.wsj.com/...", "date": "2026-09-12"}
+      ]
+    },
+    "gold": {
+      "outlook_1y": "Goldman Sachs 12m forecast 4,300 (Sep 2026 note); UBS 4,100. Drivers: central bank buying, real yields.",
+      "outlook_lt": "Structural demand from EM central banks; downside if real yields rise. Cite the house, never invent.",
+      "news": []
+    }
+  }
+}

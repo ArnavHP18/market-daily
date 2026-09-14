@@ -1,0 +1,63 @@
+{
+  "_readme": "Edit freely. source: yahoo (symbol = Yahoo ticker) or mfapi (symbol = AMFI scheme code, verify at https://api.mfapi.in/mf/search?q=<name>). news:true means the routine searches news for it daily (keep to ~15 to control run cost).",
+  "groups": [
+    {
+      "id": "us", "label": "United States", "currency": "USD",
+      "assets": [
+        {"id": "spx", "symbol": "^GSPC", "name": "S&P 500", "type": "index", "news": true},
+        {"id": "ndx", "symbol": "^IXIC", "name": "Nasdaq Composite", "type": "index", "news": false},
+        {"id": "dji", "symbol": "^DJI", "name": "Dow Jones", "type": "index", "news": false},
+        {"id": "voo", "symbol": "VOO", "name": "Vanguard S&P 500 ETF", "type": "etf", "news": false},
+        {"id": "qqq", "symbol": "QQQ", "name": "Invesco QQQ", "type": "etf", "news": false},
+        {"id": "aapl", "symbol": "AAPL", "name": "Apple", "type": "stock", "news": true},
+        {"id": "msft", "symbol": "MSFT", "name": "Microsoft", "type": "stock", "news": true},
+        {"id": "nvda", "symbol": "NVDA", "name": "NVIDIA", "type": "stock", "news": true},
+        {"id": "tnx", "symbol": "^TNX", "name": "US 10Y yield", "type": "rate", "news": false}
+      ]
+    },
+    {
+      "id": "india", "label": "India", "currency": "INR",
+      "assets": [
+        {"id": "nifty", "symbol": "^NSEI", "name": "Nifty 50", "type": "index", "news": true},
+        {"id": "sensex", "symbol": "^BSESN", "name": "Sensex", "type": "index", "news": false},
+        {"id": "banknifty", "symbol": "^NSEBANK", "name": "Bank Nifty", "type": "index", "news": true},
+        {"id": "niftybees", "symbol": "NIFTYBEES.NS", "name": "Nippon Nifty BeES", "type": "etf", "news": false},
+        {"id": "goldbees", "symbol": "GOLDBEES.NS", "name": "Nippon Gold BeES", "type": "etf", "news": false},
+        {"id": "ppfas", "symbol": "122639", "source": "mfapi", "name": "Parag Parikh Flexi Cap (Direct, Growth)", "type": "mutual_fund", "news": false},
+        {"id": "utinifty", "symbol": "120716", "source": "mfapi", "name": "UTI Nifty 50 Index (Direct, Growth)", "type": "mutual_fund", "news": false},
+        {"id": "hdfcbank", "symbol": "HDFCBANK.NS", "name": "HDFC Bank", "type": "stock", "news": true},
+        {"id": "reliance", "symbol": "RELIANCE.NS", "name": "Reliance Industries", "type": "stock", "news": true},
+        {"id": "usdinr", "symbol": "INR=X", "name": "USD / INR", "type": "fx", "news": true}
+      ]
+    },
+    {
+      "id": "global", "label": "Global", "currency": "mixed",
+      "assets": [
+        {"id": "n225", "symbol": "^N225", "name": "Nikkei 225", "type": "index", "currency": "JPY", "news": false},
+        {"id": "ftse", "symbol": "^FTSE", "name": "FTSE 100", "type": "index", "currency": "GBP", "news": false},
+        {"id": "hsi", "symbol": "^HSI", "name": "Hang Seng", "type": "index", "currency": "HKD", "news": true},
+        {"id": "stoxx", "symbol": "^STOXX50E", "name": "Euro Stoxx 50", "type": "index", "currency": "EUR", "news": false},
+        {"id": "vxus", "symbol": "VXUS", "name": "Vanguard Total Intl ex-US", "type": "etf", "currency": "USD", "news": false}
+      ]
+    },
+    {
+      "id": "metals", "label": "Metals and commodities", "currency": "USD",
+      "assets": [
+        {"id": "gold", "symbol": "GC=F", "name": "Gold (COMEX, /oz)", "type": "commodity", "news": true},
+        {"id": "silver", "symbol": "SI=F", "name": "Silver (COMEX, /oz)", "type": "commodity", "news": true},
+        {"id": "copper", "symbol": "HG=F", "name": "Copper (COMEX, /lb)", "type": "commodity", "news": false},
+        {"id": "oil", "symbol": "CL=F", "name": "WTI crude", "type": "commodity", "news": true},
+        {"id": "remx", "symbol": "REMX", "name": "VanEck Rare Earth/Strategic Metals ETF", "type": "etf", "news": true},
+        {"id": "mp", "symbol": "MP", "name": "MP Materials", "type": "stock", "news": true},
+        {"id": "lynas", "symbol": "LYC.AX", "name": "Lynas Rare Earths", "type": "stock", "currency": "AUD", "news": false}
+      ]
+    },
+    {
+      "id": "crypto", "label": "Crypto", "currency": "USD",
+      "assets": [
+        {"id": "btc", "symbol": "BTC-USD", "name": "Bitcoin", "type": "crypto", "news": true},
+        {"id": "eth", "symbol": "ETH-USD", "name": "Ethereum", "type": "crypto", "news": false}
+      ]
+    }
+  ]
+}
