@@ -5,9 +5,10 @@ Daily market dashboard, same pattern as ai-daily-signal: a Claude Code cloud rou
 ```
 index.html                 dashboard (no build step; loads data/*.json at runtime)
 data/watchlist.json        what to track. Edit this, nothing else, to change coverage
-data/prices.json           written by scripts/fetch_prices.py (prices, returns, 5y series)
+data/prices.json           written by scripts/fetch_prices.py (prices, returns, 52w range, sparklines)
+data/series/<id>.json      5y daily history per asset, loaded on demand by the page
 data/brief.json            written by the routine (news, summaries, cited outlooks)
-data/*.sample.json         fallbacks so the page renders before the first run
+data/brief.sample.json     schema example; also the fallback until the routine's first run
 scripts/fetch_prices.py    yfinance + mfapi.in fetcher
 ROUTINE_PROMPT.md          paste into claude.ai/code/routines
 ```
@@ -23,9 +24,12 @@ ROUTINE_PROMPT.md          paste into claude.ai/code/routines
    python3 -m http.server 8000   # open http://localhost:8000
    ```
    Fix any `ERR` lines in the log (wrong ticker, wrong AMFI scheme code) in `watchlist.json`. Verify scheme codes at `https://api.mfapi.in/mf/search?q=parag`.
-4. Commit `data/prices.json` and push.
+4. Commit `data/prices.json` and `data/series/` and push. Repeat steps 3 and 4 whenever you edit `watchlist.json`; the routine will also pick the change up on its next run.
 5. claude.ai/code/routines > New routine > repo `market-daily`, paste `ROUTINE_PROMPT.md`, schedule daily 02:15 UTC, remove all connectors. Click Run now and watch the first run.
 6. Add the Pages URL to the same Apple Shortcut pattern you used for ai-daily-signal.
+
+## Portfolio
+Open the Portfolio tab, paste holdings in the shown JSON shape, save. It is stored in your browser's localStorage only and never touches the repo. Ids are shown on each asset page ("id ppfas"). SIPs are expanded into monthly buys at that day's close or NAV, so past SIP units are approximate (actual allotment NAV can differ by a day).
 
 ## Cadence and data honesty
 
