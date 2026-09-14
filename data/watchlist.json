@@ -1,0 +1,1754 @@
+{
+ "_readme": "Edit freely. source omitted = Yahoo ticker; source mfapi = AMFI scheme code (verify at https://api.mfapi.in/mf/search?q=<name>). news:true = routine always covers it; the routine also covers the top movers of each group automatically.",
+ "groups": [
+  {
+   "id": "us",
+   "label": "United States",
+   "currency": "USD",
+   "assets": [
+    {
+     "id": "gspc",
+     "symbol": "^GSPC",
+     "name": "S&P 500",
+     "type": "index",
+     "news": true
+    },
+    {
+     "id": "ixic",
+     "symbol": "^IXIC",
+     "name": "Nasdaq Composite",
+     "type": "index",
+     "news": true
+    },
+    {
+     "id": "dji",
+     "symbol": "^DJI",
+     "name": "Dow Jones",
+     "type": "index"
+    },
+    {
+     "id": "rut",
+     "symbol": "^RUT",
+     "name": "Russell 2000",
+     "type": "index"
+    },
+    {
+     "id": "vix",
+     "symbol": "^VIX",
+     "name": "VIX",
+     "type": "index"
+    },
+    {
+     "id": "tnx",
+     "symbol": "^TNX",
+     "name": "US 10Y yield",
+     "type": "rate",
+     "news": true
+    },
+    {
+     "id": "aapl",
+     "symbol": "AAPL",
+     "name": "Apple",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "msft",
+     "symbol": "MSFT",
+     "name": "Microsoft",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "nvda",
+     "symbol": "NVDA",
+     "name": "NVIDIA",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "amzn",
+     "symbol": "AMZN",
+     "name": "Amazon",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "googl",
+     "symbol": "GOOGL",
+     "name": "Alphabet",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "meta",
+     "symbol": "META",
+     "name": "Meta Platforms",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "tsla",
+     "symbol": "TSLA",
+     "name": "Tesla",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "brkb",
+     "symbol": "BRK-B",
+     "name": "Berkshire Hathaway",
+     "type": "stock"
+    },
+    {
+     "id": "avgo",
+     "symbol": "AVGO",
+     "name": "Broadcom",
+     "type": "stock"
+    },
+    {
+     "id": "jpm",
+     "symbol": "JPM",
+     "name": "JPMorgan Chase",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "lly",
+     "symbol": "LLY",
+     "name": "Eli Lilly",
+     "type": "stock"
+    },
+    {
+     "id": "v",
+     "symbol": "V",
+     "name": "Visa",
+     "type": "stock"
+    },
+    {
+     "id": "ma",
+     "symbol": "MA",
+     "name": "Mastercard",
+     "type": "stock"
+    },
+    {
+     "id": "unh",
+     "symbol": "UNH",
+     "name": "UnitedHealth",
+     "type": "stock"
+    },
+    {
+     "id": "xom",
+     "symbol": "XOM",
+     "name": "ExxonMobil",
+     "type": "stock"
+    },
+    {
+     "id": "cost",
+     "symbol": "COST",
+     "name": "Costco",
+     "type": "stock"
+    },
+    {
+     "id": "wmt",
+     "symbol": "WMT",
+     "name": "Walmart",
+     "type": "stock"
+    },
+    {
+     "id": "jnj",
+     "symbol": "JNJ",
+     "name": "Johnson & Johnson",
+     "type": "stock"
+    },
+    {
+     "id": "pg",
+     "symbol": "PG",
+     "name": "Procter & Gamble",
+     "type": "stock"
+    },
+    {
+     "id": "hd",
+     "symbol": "HD",
+     "name": "Home Depot",
+     "type": "stock"
+    },
+    {
+     "id": "nflx",
+     "symbol": "NFLX",
+     "name": "Netflix",
+     "type": "stock"
+    },
+    {
+     "id": "orcl",
+     "symbol": "ORCL",
+     "name": "Oracle",
+     "type": "stock"
+    },
+    {
+     "id": "abbv",
+     "symbol": "ABBV",
+     "name": "AbbVie",
+     "type": "stock"
+    },
+    {
+     "id": "bac",
+     "symbol": "BAC",
+     "name": "Bank of America",
+     "type": "stock"
+    },
+    {
+     "id": "crm",
+     "symbol": "CRM",
+     "name": "Salesforce",
+     "type": "stock"
+    },
+    {
+     "id": "cvx",
+     "symbol": "CVX",
+     "name": "Chevron",
+     "type": "stock"
+    },
+    {
+     "id": "ko",
+     "symbol": "KO",
+     "name": "Coca-Cola",
+     "type": "stock"
+    },
+    {
+     "id": "amd",
+     "symbol": "AMD",
+     "name": "AMD",
+     "type": "stock"
+    },
+    {
+     "id": "mrk",
+     "symbol": "MRK",
+     "name": "Merck",
+     "type": "stock"
+    },
+    {
+     "id": "pep",
+     "symbol": "PEP",
+     "name": "PepsiCo",
+     "type": "stock"
+    },
+    {
+     "id": "adbe",
+     "symbol": "ADBE",
+     "name": "Adobe",
+     "type": "stock"
+    },
+    {
+     "id": "csco",
+     "symbol": "CSCO",
+     "name": "Cisco",
+     "type": "stock"
+    },
+    {
+     "id": "acn",
+     "symbol": "ACN",
+     "name": "Accenture",
+     "type": "stock"
+    },
+    {
+     "id": "mcd",
+     "symbol": "MCD",
+     "name": "McDonald's",
+     "type": "stock"
+    },
+    {
+     "id": "wfc",
+     "symbol": "WFC",
+     "name": "Wells Fargo",
+     "type": "stock"
+    },
+    {
+     "id": "gs",
+     "symbol": "GS",
+     "name": "Goldman Sachs",
+     "type": "stock"
+    },
+    {
+     "id": "ms",
+     "symbol": "MS",
+     "name": "Morgan Stanley",
+     "type": "stock"
+    },
+    {
+     "id": "c",
+     "symbol": "C",
+     "name": "Citigroup",
+     "type": "stock"
+    },
+    {
+     "id": "blk",
+     "symbol": "BLK",
+     "name": "BlackRock",
+     "type": "stock"
+    },
+    {
+     "id": "dis",
+     "symbol": "DIS",
+     "name": "Disney",
+     "type": "stock"
+    },
+    {
+     "id": "intu",
+     "symbol": "INTU",
+     "name": "Intuit",
+     "type": "stock"
+    },
+    {
+     "id": "ibm",
+     "symbol": "IBM",
+     "name": "IBM",
+     "type": "stock"
+    },
+    {
+     "id": "ge",
+     "symbol": "GE",
+     "name": "GE Aerospace",
+     "type": "stock"
+    },
+    {
+     "id": "cat",
+     "symbol": "CAT",
+     "name": "Caterpillar",
+     "type": "stock"
+    },
+    {
+     "id": "qcom",
+     "symbol": "QCOM",
+     "name": "Qualcomm",
+     "type": "stock"
+    },
+    {
+     "id": "txn",
+     "symbol": "TXN",
+     "name": "Texas Instruments",
+     "type": "stock"
+    },
+    {
+     "id": "mu",
+     "symbol": "MU",
+     "name": "Micron",
+     "type": "stock"
+    },
+    {
+     "id": "intc",
+     "symbol": "INTC",
+     "name": "Intel",
+     "type": "stock"
+    },
+    {
+     "id": "arm",
+     "symbol": "ARM",
+     "name": "Arm Holdings",
+     "type": "stock"
+    },
+    {
+     "id": "pltr",
+     "symbol": "PLTR",
+     "name": "Palantir",
+     "type": "stock"
+    },
+    {
+     "id": "now",
+     "symbol": "NOW",
+     "name": "ServiceNow",
+     "type": "stock"
+    },
+    {
+     "id": "crwd",
+     "symbol": "CRWD",
+     "name": "CrowdStrike",
+     "type": "stock"
+    },
+    {
+     "id": "snow",
+     "symbol": "SNOW",
+     "name": "Snowflake",
+     "type": "stock"
+    },
+    {
+     "id": "uber",
+     "symbol": "UBER",
+     "name": "Uber",
+     "type": "stock"
+    },
+    {
+     "id": "coin",
+     "symbol": "COIN",
+     "name": "Coinbase",
+     "type": "stock"
+    },
+    {
+     "id": "mstr",
+     "symbol": "MSTR",
+     "name": "Strategy (MicroStrategy)",
+     "type": "stock"
+    },
+    {
+     "id": "pypl",
+     "symbol": "PYPL",
+     "name": "PayPal",
+     "type": "stock"
+    },
+    {
+     "id": "ba",
+     "symbol": "BA",
+     "name": "Boeing",
+     "type": "stock"
+    },
+    {
+     "id": "lmt",
+     "symbol": "LMT",
+     "name": "Lockheed Martin",
+     "type": "stock"
+    },
+    {
+     "id": "rtx",
+     "symbol": "RTX",
+     "name": "RTX",
+     "type": "stock"
+    },
+    {
+     "id": "pfe",
+     "symbol": "PFE",
+     "name": "Pfizer",
+     "type": "stock"
+    },
+    {
+     "id": "amgn",
+     "symbol": "AMGN",
+     "name": "Amgen",
+     "type": "stock"
+    },
+    {
+     "id": "nke",
+     "symbol": "NKE",
+     "name": "Nike",
+     "type": "stock"
+    },
+    {
+     "id": "sbux",
+     "symbol": "SBUX",
+     "name": "Starbucks",
+     "type": "stock"
+    },
+    {
+     "id": "spy",
+     "symbol": "SPY",
+     "name": "SPDR S&P 500",
+     "type": "etf"
+    },
+    {
+     "id": "voo",
+     "symbol": "VOO",
+     "name": "Vanguard S&P 500",
+     "type": "etf"
+    },
+    {
+     "id": "vti",
+     "symbol": "VTI",
+     "name": "Vanguard Total Market",
+     "type": "etf"
+    },
+    {
+     "id": "qqq",
+     "symbol": "QQQ",
+     "name": "Invesco QQQ",
+     "type": "etf"
+    },
+    {
+     "id": "iwm",
+     "symbol": "IWM",
+     "name": "iShares Russell 2000",
+     "type": "etf"
+    },
+    {
+     "id": "dia",
+     "symbol": "DIA",
+     "name": "SPDR Dow Jones",
+     "type": "etf"
+    },
+    {
+     "id": "schd",
+     "symbol": "SCHD",
+     "name": "Schwab US Dividend",
+     "type": "etf"
+    },
+    {
+     "id": "vgt",
+     "symbol": "VGT",
+     "name": "Vanguard IT",
+     "type": "etf"
+    },
+    {
+     "id": "smh",
+     "symbol": "SMH",
+     "name": "VanEck Semiconductor",
+     "type": "etf"
+    },
+    {
+     "id": "xlf",
+     "symbol": "XLF",
+     "name": "Financials Select",
+     "type": "etf"
+    },
+    {
+     "id": "xle",
+     "symbol": "XLE",
+     "name": "Energy Select",
+     "type": "etf"
+    },
+    {
+     "id": "xlv",
+     "symbol": "XLV",
+     "name": "Health Care Select",
+     "type": "etf"
+    },
+    {
+     "id": "arkk",
+     "symbol": "ARKK",
+     "name": "ARK Innovation",
+     "type": "etf"
+    },
+    {
+     "id": "tlt",
+     "symbol": "TLT",
+     "name": "iShares 20Y Treasury",
+     "type": "etf"
+    },
+    {
+     "id": "bnd",
+     "symbol": "BND",
+     "name": "Vanguard Total Bond",
+     "type": "etf"
+    },
+    {
+     "id": "gld",
+     "symbol": "GLD",
+     "name": "SPDR Gold",
+     "type": "etf"
+    },
+    {
+     "id": "slv",
+     "symbol": "SLV",
+     "name": "iShares Silver",
+     "type": "etf"
+    },
+    {
+     "id": "vea",
+     "symbol": "VEA",
+     "name": "Vanguard Developed ex-US",
+     "type": "etf"
+    },
+    {
+     "id": "vwo",
+     "symbol": "VWO",
+     "name": "Vanguard Emerging Markets",
+     "type": "etf"
+    },
+    {
+     "id": "inda",
+     "symbol": "INDA",
+     "name": "iShares MSCI India",
+     "type": "etf"
+    },
+    {
+     "id": "xlk",
+     "symbol": "XLK",
+     "name": "Technology Select",
+     "type": "etf"
+    },
+    {
+     "id": "xli",
+     "symbol": "XLI",
+     "name": "Industrials Select",
+     "type": "etf"
+    },
+    {
+     "id": "xly",
+     "symbol": "XLY",
+     "name": "Consumer Discretionary Select",
+     "type": "etf"
+    },
+    {
+     "id": "xlp",
+     "symbol": "XLP",
+     "name": "Consumer Staples Select",
+     "type": "etf"
+    },
+    {
+     "id": "xlu",
+     "symbol": "XLU",
+     "name": "Utilities Select",
+     "type": "etf"
+    },
+    {
+     "id": "xlb",
+     "symbol": "XLB",
+     "name": "Materials Select",
+     "type": "etf"
+    },
+    {
+     "id": "xlre",
+     "symbol": "XLRE",
+     "name": "Real Estate Select",
+     "type": "etf"
+    },
+    {
+     "id": "xlc",
+     "symbol": "XLC",
+     "name": "Communication Services Select",
+     "type": "etf"
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "label": "India",
+   "currency": "INR",
+   "assets": [
+    {
+     "id": "nsei",
+     "symbol": "^NSEI",
+     "name": "Nifty 50",
+     "type": "index",
+     "news": true
+    },
+    {
+     "id": "bsesn",
+     "symbol": "^BSESN",
+     "name": "Sensex",
+     "type": "index"
+    },
+    {
+     "id": "nsebank",
+     "symbol": "^NSEBANK",
+     "name": "Bank Nifty",
+     "type": "index",
+     "news": true
+    },
+    {
+     "id": "cnxit",
+     "symbol": "^CNXIT",
+     "name": "Nifty IT",
+     "type": "index"
+    },
+    {
+     "id": "nsmidcp",
+     "symbol": "^NSMIDCP",
+     "name": "Nifty Midcap 100",
+     "type": "index"
+    },
+    {
+     "id": "cnxauto",
+     "symbol": "^CNXAUTO",
+     "name": "Nifty Auto",
+     "type": "index"
+    },
+    {
+     "id": "cnxpharma",
+     "symbol": "^CNXPHARMA",
+     "name": "Nifty Pharma",
+     "type": "index"
+    },
+    {
+     "id": "cnxfmcg",
+     "symbol": "^CNXFMCG",
+     "name": "Nifty FMCG",
+     "type": "index"
+    },
+    {
+     "id": "cnxmetal",
+     "symbol": "^CNXMETAL",
+     "name": "Nifty Metal",
+     "type": "index"
+    },
+    {
+     "id": "cnxrealty",
+     "symbol": "^CNXREALTY",
+     "name": "Nifty Realty",
+     "type": "index"
+    },
+    {
+     "id": "indiavix",
+     "symbol": "^INDIAVIX",
+     "name": "India VIX",
+     "type": "index"
+    },
+    {
+     "id": "cnxmedia",
+     "symbol": "^CNXMEDIA",
+     "name": "Nifty Media",
+     "type": "index"
+    },
+    {
+     "id": "cnxinfra",
+     "symbol": "^CNXINFRA",
+     "name": "Nifty Infrastructure",
+     "type": "index"
+    },
+    {
+     "id": "cnxpsubank",
+     "symbol": "^CNXPSUBANK",
+     "name": "Nifty PSU Bank",
+     "type": "index"
+    },
+    {
+     "id": "cnxenergy",
+     "symbol": "^CNXENERGY",
+     "name": "Nifty Energy",
+     "type": "index"
+    },
+    {
+     "id": "reliance-ns",
+     "symbol": "RELIANCE.NS",
+     "name": "Reliance Industries",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "tcs-ns",
+     "symbol": "TCS.NS",
+     "name": "TCS",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "hdfcbank-ns",
+     "symbol": "HDFCBANK.NS",
+     "name": "HDFC Bank",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "icicibank-ns",
+     "symbol": "ICICIBANK.NS",
+     "name": "ICICI Bank",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "infy-ns",
+     "symbol": "INFY.NS",
+     "name": "Infosys",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "bhartiartl-ns",
+     "symbol": "BHARTIARTL.NS",
+     "name": "Bharti Airtel",
+     "type": "stock"
+    },
+    {
+     "id": "sbin-ns",
+     "symbol": "SBIN.NS",
+     "name": "State Bank of India",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "itc-ns",
+     "symbol": "ITC.NS",
+     "name": "ITC",
+     "type": "stock"
+    },
+    {
+     "id": "hindunilvr-ns",
+     "symbol": "HINDUNILVR.NS",
+     "name": "Hindustan Unilever",
+     "type": "stock"
+    },
+    {
+     "id": "lt-ns",
+     "symbol": "LT.NS",
+     "name": "Larsen & Toubro",
+     "type": "stock"
+    },
+    {
+     "id": "kotakbank-ns",
+     "symbol": "KOTAKBANK.NS",
+     "name": "Kotak Mahindra Bank",
+     "type": "stock"
+    },
+    {
+     "id": "axisbank-ns",
+     "symbol": "AXISBANK.NS",
+     "name": "Axis Bank",
+     "type": "stock"
+    },
+    {
+     "id": "bajfinance-ns",
+     "symbol": "BAJFINANCE.NS",
+     "name": "Bajaj Finance",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "bajajfinsv-ns",
+     "symbol": "BAJAJFINSV.NS",
+     "name": "Bajaj Finserv",
+     "type": "stock"
+    },
+    {
+     "id": "maruti-ns",
+     "symbol": "MARUTI.NS",
+     "name": "Maruti Suzuki",
+     "type": "stock"
+    },
+    {
+     "id": "m&m-ns",
+     "symbol": "M&M.NS",
+     "name": "Mahindra & Mahindra",
+     "type": "stock"
+    },
+    {
+     "id": "tatamotors-ns",
+     "symbol": "TATAMOTORS.NS",
+     "name": "Tata Motors",
+     "type": "stock"
+    },
+    {
+     "id": "bajaj-auto-ns",
+     "symbol": "BAJAJ-AUTO.NS",
+     "name": "Bajaj Auto",
+     "type": "stock"
+    },
+    {
+     "id": "eichermot-ns",
+     "symbol": "EICHERMOT.NS",
+     "name": "Eicher Motors",
+     "type": "stock"
+    },
+    {
+     "id": "heromotoco-ns",
+     "symbol": "HEROMOTOCO.NS",
+     "name": "Hero MotoCorp",
+     "type": "stock"
+    },
+    {
+     "id": "hcltech-ns",
+     "symbol": "HCLTECH.NS",
+     "name": "HCL Technologies",
+     "type": "stock"
+    },
+    {
+     "id": "wipro-ns",
+     "symbol": "WIPRO.NS",
+     "name": "Wipro",
+     "type": "stock"
+    },
+    {
+     "id": "techm-ns",
+     "symbol": "TECHM.NS",
+     "name": "Tech Mahindra",
+     "type": "stock"
+    },
+    {
+     "id": "ltim-ns",
+     "symbol": "LTIM.NS",
+     "name": "LTIMindtree",
+     "type": "stock"
+    },
+    {
+     "id": "persistent-ns",
+     "symbol": "PERSISTENT.NS",
+     "name": "Persistent Systems",
+     "type": "stock"
+    },
+    {
+     "id": "coforge-ns",
+     "symbol": "COFORGE.NS",
+     "name": "Coforge",
+     "type": "stock"
+    },
+    {
+     "id": "sunpharma-ns",
+     "symbol": "SUNPHARMA.NS",
+     "name": "Sun Pharma",
+     "type": "stock"
+    },
+    {
+     "id": "drreddy-ns",
+     "symbol": "DRREDDY.NS",
+     "name": "Dr. Reddy's",
+     "type": "stock"
+    },
+    {
+     "id": "cipla-ns",
+     "symbol": "CIPLA.NS",
+     "name": "Cipla",
+     "type": "stock"
+    },
+    {
+     "id": "divislab-ns",
+     "symbol": "DIVISLAB.NS",
+     "name": "Divi's Labs",
+     "type": "stock"
+    },
+    {
+     "id": "apollohosp-ns",
+     "symbol": "APOLLOHOSP.NS",
+     "name": "Apollo Hospitals",
+     "type": "stock"
+    },
+    {
+     "id": "titan-ns",
+     "symbol": "TITAN.NS",
+     "name": "Titan",
+     "type": "stock"
+    },
+    {
+     "id": "asianpaint-ns",
+     "symbol": "ASIANPAINT.NS",
+     "name": "Asian Paints",
+     "type": "stock"
+    },
+    {
+     "id": "nestleind-ns",
+     "symbol": "NESTLEIND.NS",
+     "name": "Nestle India",
+     "type": "stock"
+    },
+    {
+     "id": "britannia-ns",
+     "symbol": "BRITANNIA.NS",
+     "name": "Britannia",
+     "type": "stock"
+    },
+    {
+     "id": "tataconsum-ns",
+     "symbol": "TATACONSUM.NS",
+     "name": "Tata Consumer",
+     "type": "stock"
+    },
+    {
+     "id": "dmart-ns",
+     "symbol": "DMART.NS",
+     "name": "Avenue Supermarts (DMart)",
+     "type": "stock"
+    },
+    {
+     "id": "trent-ns",
+     "symbol": "TRENT.NS",
+     "name": "Trent",
+     "type": "stock"
+    },
+    {
+     "id": "eternal-ns",
+     "symbol": "ETERNAL.NS",
+     "name": "Eternal (Zomato)",
+     "type": "stock"
+    },
+    {
+     "id": "ultracemco-ns",
+     "symbol": "ULTRACEMCO.NS",
+     "name": "UltraTech Cement",
+     "type": "stock"
+    },
+    {
+     "id": "grasim-ns",
+     "symbol": "GRASIM.NS",
+     "name": "Grasim",
+     "type": "stock"
+    },
+    {
+     "id": "tatasteel-ns",
+     "symbol": "TATASTEEL.NS",
+     "name": "Tata Steel",
+     "type": "stock"
+    },
+    {
+     "id": "jswsteel-ns",
+     "symbol": "JSWSTEEL.NS",
+     "name": "JSW Steel",
+     "type": "stock"
+    },
+    {
+     "id": "hindalco-ns",
+     "symbol": "HINDALCO.NS",
+     "name": "Hindalco",
+     "type": "stock"
+    },
+    {
+     "id": "vedl-ns",
+     "symbol": "VEDL.NS",
+     "name": "Vedanta",
+     "type": "stock"
+    },
+    {
+     "id": "coalindia-ns",
+     "symbol": "COALINDIA.NS",
+     "name": "Coal India",
+     "type": "stock"
+    },
+    {
+     "id": "ongc-ns",
+     "symbol": "ONGC.NS",
+     "name": "ONGC",
+     "type": "stock"
+    },
+    {
+     "id": "ntpc-ns",
+     "symbol": "NTPC.NS",
+     "name": "NTPC",
+     "type": "stock"
+    },
+    {
+     "id": "powergrid-ns",
+     "symbol": "POWERGRID.NS",
+     "name": "Power Grid",
+     "type": "stock"
+    },
+    {
+     "id": "tatapower-ns",
+     "symbol": "TATAPOWER.NS",
+     "name": "Tata Power",
+     "type": "stock"
+    },
+    {
+     "id": "bpcl-ns",
+     "symbol": "BPCL.NS",
+     "name": "BPCL",
+     "type": "stock"
+    },
+    {
+     "id": "ioc-ns",
+     "symbol": "IOC.NS",
+     "name": "Indian Oil",
+     "type": "stock"
+    },
+    {
+     "id": "adanient-ns",
+     "symbol": "ADANIENT.NS",
+     "name": "Adani Enterprises",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "adaniports-ns",
+     "symbol": "ADANIPORTS.NS",
+     "name": "Adani Ports",
+     "type": "stock"
+    },
+    {
+     "id": "adanigreen-ns",
+     "symbol": "ADANIGREEN.NS",
+     "name": "Adani Green",
+     "type": "stock"
+    },
+    {
+     "id": "jiofin-ns",
+     "symbol": "JIOFIN.NS",
+     "name": "Jio Financial",
+     "type": "stock"
+    },
+    {
+     "id": "lici-ns",
+     "symbol": "LICI.NS",
+     "name": "LIC",
+     "type": "stock"
+    },
+    {
+     "id": "sbilife-ns",
+     "symbol": "SBILIFE.NS",
+     "name": "SBI Life",
+     "type": "stock"
+    },
+    {
+     "id": "hdfclife-ns",
+     "symbol": "HDFCLIFE.NS",
+     "name": "HDFC Life",
+     "type": "stock"
+    },
+    {
+     "id": "shriramfin-ns",
+     "symbol": "SHRIRAMFIN.NS",
+     "name": "Shriram Finance",
+     "type": "stock"
+    },
+    {
+     "id": "indusindbk-ns",
+     "symbol": "INDUSINDBK.NS",
+     "name": "IndusInd Bank",
+     "type": "stock"
+    },
+    {
+     "id": "bankbaroda-ns",
+     "symbol": "BANKBARODA.NS",
+     "name": "Bank of Baroda",
+     "type": "stock"
+    },
+    {
+     "id": "pnb-ns",
+     "symbol": "PNB.NS",
+     "name": "Punjab National Bank",
+     "type": "stock"
+    },
+    {
+     "id": "canbk-ns",
+     "symbol": "CANBK.NS",
+     "name": "Canara Bank",
+     "type": "stock"
+    },
+    {
+     "id": "bel-ns",
+     "symbol": "BEL.NS",
+     "name": "Bharat Electronics",
+     "type": "stock"
+    },
+    {
+     "id": "hal-ns",
+     "symbol": "HAL.NS",
+     "name": "Hindustan Aeronautics",
+     "type": "stock"
+    },
+    {
+     "id": "siemens-ns",
+     "symbol": "SIEMENS.NS",
+     "name": "Siemens India",
+     "type": "stock"
+    },
+    {
+     "id": "abb-ns",
+     "symbol": "ABB.NS",
+     "name": "ABB India",
+     "type": "stock"
+    },
+    {
+     "id": "dlf-ns",
+     "symbol": "DLF.NS",
+     "name": "DLF",
+     "type": "stock"
+    },
+    {
+     "id": "indigo-ns",
+     "symbol": "INDIGO.NS",
+     "name": "IndiGo (InterGlobe)",
+     "type": "stock"
+    },
+    {
+     "id": "irctc-ns",
+     "symbol": "IRCTC.NS",
+     "name": "IRCTC",
+     "type": "stock"
+    },
+    {
+     "id": "vbl-ns",
+     "symbol": "VBL.NS",
+     "name": "Varun Beverages",
+     "type": "stock"
+    },
+    {
+     "id": "pidilitind-ns",
+     "symbol": "PIDILITIND.NS",
+     "name": "Pidilite",
+     "type": "stock"
+    },
+    {
+     "id": "paytm-ns",
+     "symbol": "PAYTM.NS",
+     "name": "Paytm",
+     "type": "stock"
+    },
+    {
+     "id": "nykaa-ns",
+     "symbol": "NYKAA.NS",
+     "name": "Nykaa",
+     "type": "stock"
+    },
+    {
+     "id": "policybzr-ns",
+     "symbol": "POLICYBZR.NS",
+     "name": "PB Fintech",
+     "type": "stock"
+    },
+    {
+     "id": "motherson-ns",
+     "symbol": "MOTHERSON.NS",
+     "name": "Samvardhana Motherson",
+     "type": "stock"
+    },
+    {
+     "id": "niftybees-ns",
+     "symbol": "NIFTYBEES.NS",
+     "name": "Nippon Nifty BeES",
+     "type": "etf"
+    },
+    {
+     "id": "bankbees-ns",
+     "symbol": "BANKBEES.NS",
+     "name": "Nippon Bank BeES",
+     "type": "etf"
+    },
+    {
+     "id": "juniorbees-ns",
+     "symbol": "JUNIORBEES.NS",
+     "name": "Nippon Nifty Next 50 BeES",
+     "type": "etf"
+    },
+    {
+     "id": "goldbees-ns",
+     "symbol": "GOLDBEES.NS",
+     "name": "Nippon Gold BeES",
+     "type": "etf"
+    },
+    {
+     "id": "silverbees-ns",
+     "symbol": "SILVERBEES.NS",
+     "name": "Nippon Silver BeES",
+     "type": "etf"
+    },
+    {
+     "id": "itbees-ns",
+     "symbol": "ITBEES.NS",
+     "name": "Nippon IT BeES",
+     "type": "etf"
+    },
+    {
+     "id": "mon100-ns",
+     "symbol": "MON100.NS",
+     "name": "Motilal Nasdaq 100 ETF",
+     "type": "etf"
+    },
+    {
+     "id": "cpseetf-ns",
+     "symbol": "CPSEETF.NS",
+     "name": "CPSE ETF",
+     "type": "etf"
+    },
+    {
+     "id": "122639",
+     "symbol": "122639",
+     "name": "Parag Parikh Flexi Cap (Direct, Growth)",
+     "type": "mutual_fund",
+     "source": "mfapi"
+    },
+    {
+     "id": "120716",
+     "symbol": "120716",
+     "name": "UTI Nifty 50 Index (Direct, Growth)",
+     "type": "mutual_fund",
+     "source": "mfapi"
+    }
+   ]
+  },
+  {
+   "id": "global",
+   "label": "Global",
+   "currency": "USD",
+   "assets": [
+    {
+     "id": "n225",
+     "symbol": "^N225",
+     "name": "Nikkei 225",
+     "type": "index",
+     "currency": "JPY",
+     "news": true
+    },
+    {
+     "id": "hsi",
+     "symbol": "^HSI",
+     "name": "Hang Seng",
+     "type": "index",
+     "currency": "HKD",
+     "news": true
+    },
+    {
+     "id": "000001-ss",
+     "symbol": "000001.SS",
+     "name": "Shanghai Composite",
+     "type": "index",
+     "currency": "CNY"
+    },
+    {
+     "id": "ks11",
+     "symbol": "^KS11",
+     "name": "KOSPI",
+     "type": "index",
+     "currency": "KRW"
+    },
+    {
+     "id": "twii",
+     "symbol": "^TWII",
+     "name": "Taiwan Weighted",
+     "type": "index",
+     "currency": "TWD"
+    },
+    {
+     "id": "axjo",
+     "symbol": "^AXJO",
+     "name": "ASX 200",
+     "type": "index",
+     "currency": "AUD"
+    },
+    {
+     "id": "ftse",
+     "symbol": "^FTSE",
+     "name": "FTSE 100",
+     "type": "index",
+     "currency": "GBP",
+     "news": true
+    },
+    {
+     "id": "gdaxi",
+     "symbol": "^GDAXI",
+     "name": "DAX",
+     "type": "index",
+     "currency": "EUR",
+     "news": true
+    },
+    {
+     "id": "fchi",
+     "symbol": "^FCHI",
+     "name": "CAC 40",
+     "type": "index",
+     "currency": "EUR"
+    },
+    {
+     "id": "stoxx50e",
+     "symbol": "^STOXX50E",
+     "name": "Euro Stoxx 50",
+     "type": "index",
+     "currency": "EUR"
+    },
+    {
+     "id": "gsptse",
+     "symbol": "^GSPTSE",
+     "name": "S&P/TSX",
+     "type": "index",
+     "currency": "CAD"
+    },
+    {
+     "id": "bvsp",
+     "symbol": "^BVSP",
+     "name": "Bovespa",
+     "type": "index",
+     "currency": "BRL"
+    },
+    {
+     "id": "tsm",
+     "symbol": "TSM",
+     "name": "TSMC (ADR)",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "asml",
+     "symbol": "ASML",
+     "name": "ASML (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "baba",
+     "symbol": "BABA",
+     "name": "Alibaba (ADR)",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "tcehy",
+     "symbol": "TCEHY",
+     "name": "Tencent (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "sony",
+     "symbol": "SONY",
+     "name": "Sony (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "tm",
+     "symbol": "TM",
+     "name": "Toyota (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "nvo",
+     "symbol": "NVO",
+     "name": "Novo Nordisk (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "sap",
+     "symbol": "SAP",
+     "name": "SAP (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "shel",
+     "symbol": "SHEL",
+     "name": "Shell (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "hsbc",
+     "symbol": "HSBC",
+     "name": "HSBC (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "bp",
+     "symbol": "BP",
+     "name": "BP (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "mufg",
+     "symbol": "MUFG",
+     "name": "Mitsubishi UFJ (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "rio",
+     "symbol": "RIO",
+     "name": "Rio Tinto (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "bhp",
+     "symbol": "BHP",
+     "name": "BHP (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "lvmuy",
+     "symbol": "LVMUY",
+     "name": "LVMH (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "nsrgy",
+     "symbol": "NSRGY",
+     "name": "Nestle (ADR)",
+     "type": "stock"
+    },
+    {
+     "id": "005930-ks",
+     "symbol": "005930.KS",
+     "name": "Samsung Electronics",
+     "type": "stock",
+     "currency": "KRW"
+    }
+   ]
+  },
+  {
+   "id": "fx",
+   "label": "Currencies",
+   "currency": "INR",
+   "assets": [
+    {
+     "id": "inrx",
+     "symbol": "INR=X",
+     "name": "USD / INR",
+     "type": "fx",
+     "news": true
+    },
+    {
+     "id": "gbpinrx",
+     "symbol": "GBPINR=X",
+     "name": "GBP / INR",
+     "type": "fx"
+    },
+    {
+     "id": "eurinrx",
+     "symbol": "EURINR=X",
+     "name": "EUR / INR",
+     "type": "fx"
+    },
+    {
+     "id": "jpyinrx",
+     "symbol": "JPYINR=X",
+     "name": "JPY / INR",
+     "type": "fx"
+    },
+    {
+     "id": "dx-y-nyb",
+     "symbol": "DX-Y.NYB",
+     "name": "US Dollar Index",
+     "type": "fx",
+     "currency": "USD",
+     "news": true
+    },
+    {
+     "id": "eurusdx",
+     "symbol": "EURUSD=X",
+     "name": "EUR / USD",
+     "type": "fx",
+     "currency": "USD"
+    },
+    {
+     "id": "gbpusdx",
+     "symbol": "GBPUSD=X",
+     "name": "GBP / USD",
+     "type": "fx",
+     "currency": "USD"
+    },
+    {
+     "id": "usdjpyx",
+     "symbol": "USDJPY=X",
+     "name": "USD / JPY",
+     "type": "fx",
+     "currency": "JPY"
+    },
+    {
+     "id": "usdcnyx",
+     "symbol": "USDCNY=X",
+     "name": "USD / CNY",
+     "type": "fx",
+     "currency": "CNY"
+    }
+   ]
+  },
+  {
+   "id": "metals",
+   "label": "Metals and commodities",
+   "currency": "USD",
+   "assets": [
+    {
+     "id": "gcf",
+     "symbol": "GC=F",
+     "name": "Gold (COMEX, /oz)",
+     "type": "commodity",
+     "news": true
+    },
+    {
+     "id": "sif",
+     "symbol": "SI=F",
+     "name": "Silver (COMEX, /oz)",
+     "type": "commodity",
+     "news": true
+    },
+    {
+     "id": "plf",
+     "symbol": "PL=F",
+     "name": "Platinum (NYMEX, /oz)",
+     "type": "commodity"
+    },
+    {
+     "id": "paf",
+     "symbol": "PA=F",
+     "name": "Palladium (NYMEX, /oz)",
+     "type": "commodity"
+    },
+    {
+     "id": "hgf",
+     "symbol": "HG=F",
+     "name": "Copper (COMEX, /lb)",
+     "type": "commodity",
+     "news": true
+    },
+    {
+     "id": "clf",
+     "symbol": "CL=F",
+     "name": "WTI crude",
+     "type": "commodity",
+     "news": true
+    },
+    {
+     "id": "bzf",
+     "symbol": "BZ=F",
+     "name": "Brent crude",
+     "type": "commodity"
+    },
+    {
+     "id": "ngf",
+     "symbol": "NG=F",
+     "name": "Natural gas (Henry Hub)",
+     "type": "commodity"
+    },
+    {
+     "id": "remx",
+     "symbol": "REMX",
+     "name": "VanEck Rare Earth/Strategic Metals",
+     "type": "etf",
+     "news": true
+    },
+    {
+     "id": "mp",
+     "symbol": "MP",
+     "name": "MP Materials",
+     "type": "stock",
+     "news": true
+    },
+    {
+     "id": "lyc-ax",
+     "symbol": "LYC.AX",
+     "name": "Lynas Rare Earths",
+     "type": "stock",
+     "currency": "AUD"
+    },
+    {
+     "id": "alb",
+     "symbol": "ALB",
+     "name": "Albemarle (lithium)",
+     "type": "stock"
+    },
+    {
+     "id": "ura",
+     "symbol": "URA",
+     "name": "Global X Uranium",
+     "type": "etf"
+    },
+    {
+     "id": "ccj",
+     "symbol": "CCJ",
+     "name": "Cameco (uranium)",
+     "type": "stock"
+    },
+    {
+     "id": "fcx",
+     "symbol": "FCX",
+     "name": "Freeport-McMoRan (copper)",
+     "type": "stock"
+    },
+    {
+     "id": "nem",
+     "symbol": "NEM",
+     "name": "Newmont (gold)",
+     "type": "stock"
+    }
+   ]
+  },
+  {
+   "id": "crypto",
+   "label": "Crypto",
+   "currency": "USD",
+   "assets": [
+    {
+     "id": "btc-usd",
+     "symbol": "BTC-USD",
+     "name": "Bitcoin",
+     "type": "crypto",
+     "news": true
+    },
+    {
+     "id": "eth-usd",
+     "symbol": "ETH-USD",
+     "name": "Ethereum",
+     "type": "crypto",
+     "news": true
+    },
+    {
+     "id": "sol-usd",
+     "symbol": "SOL-USD",
+     "name": "Solana",
+     "type": "crypto"
+    },
+    {
+     "id": "xrp-usd",
+     "symbol": "XRP-USD",
+     "name": "XRP",
+     "type": "crypto"
+    },
+    {
+     "id": "bnb-usd",
+     "symbol": "BNB-USD",
+     "name": "BNB",
+     "type": "crypto"
+    },
+    {
+     "id": "doge-usd",
+     "symbol": "DOGE-USD",
+     "name": "Dogecoin",
+     "type": "crypto"
+    },
+    {
+     "id": "ada-usd",
+     "symbol": "ADA-USD",
+     "name": "Cardano",
+     "type": "crypto"
+    },
+    {
+     "id": "avax-usd",
+     "symbol": "AVAX-USD",
+     "name": "Avalanche",
+     "type": "crypto"
+    },
+    {
+     "id": "link-usd",
+     "symbol": "LINK-USD",
+     "name": "Chainlink",
+     "type": "crypto"
+    },
+    {
+     "id": "dot-usd",
+     "symbol": "DOT-USD",
+     "name": "Polkadot",
+     "type": "crypto"
+    },
+    {
+     "id": "ltc-usd",
+     "symbol": "LTC-USD",
+     "name": "Litecoin",
+     "type": "crypto"
+    },
+    {
+     "id": "trx-usd",
+     "symbol": "TRX-USD",
+     "name": "TRON",
+     "type": "crypto"
+    },
+    {
+     "id": "sui-usd",
+     "symbol": "SUI-USD",
+     "name": "Sui",
+     "type": "crypto"
+    },
+    {
+     "id": "ibit",
+     "symbol": "IBIT",
+     "name": "iShares Bitcoin ETF",
+     "type": "etf"
+    },
+    {
+     "id": "etha",
+     "symbol": "ETHA",
+     "name": "iShares Ethereum ETF",
+     "type": "etf"
+    }
+   ]
+  }
+ ],
+ "heatmap": {
+  "us": {
+   "label": "S&P 500 sectors",
+   "ids": [
+    "xlk",
+    "xlf",
+    "xlv",
+    "xly",
+    "xlc",
+    "xli",
+    "xlp",
+    "xle",
+    "xlu",
+    "xlb",
+    "xlre"
+   ]
+  },
+  "india": {
+   "label": "Nifty sectors",
+   "ids": [
+    "nsebank",
+    "cnxit",
+    "cnxauto",
+    "cnxpharma",
+    "cnxfmcg",
+    "cnxmetal",
+    "cnxrealty",
+    "cnxenergy",
+    "cnxpsubank",
+    "cnxinfra",
+    "cnxmedia",
+    "nsmidcp"
+   ]
+  }
+ }
+}
