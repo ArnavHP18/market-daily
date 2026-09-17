@@ -1,24 +1,20 @@
 {
- "date": "2026-09-16",
- "generated_at": "2026-09-16T01:46:39+00:00",
- "headline": "The Fed decides at 2 pm ET today with futures pricing about a 94 percent chance of the first rate hike since July 2023, after the 10 year Treasury yield touched 5.04 percent and Brent crude settled at 108.26 dollars on the shut Saudi East West pipeline.",
+ "date": "2026-09-17",
+ "generated_at": "2026-09-17T01:47:06+00:00",
+ "headline": "The Federal Reserve raised its target range by 25 basis points to 3.75 to 4.00 percent, the first hike since July 2023, and the Dow fell 631 points while the 10 year Treasury yield settled at 5.01 percent.",
  "summary": {
-  "us": "The S&P 500 fell 0.45 percent to 7,585.73 and the Nasdaq Composite lost 0.78 percent to 25,981.57 as the 10 year yield touched 5.041 percent, its highest since 2007, and CME FedWatch odds of a quarter point hike today rose to 94.5 percent from 87.3 percent a day earlier. The split inside the market came from a weekend call by Anthropic chief executive Dario Amodei to slow frontier AI development, which knocked Nvidia down 3.36 percent and Arm down 9.74 percent while CrowdStrike rose 13.85 percent on cybersecurity demand.",
-  "india": "The Nifty 50 closed 0.34 percent lower at 23,398.10 while the Bank Nifty added 0.24 percent to 56,606.55, with a 5 percent jump in the Nifty IT index on the same AI pacing story offsetting losses in energy, realty and defence. Foreign institutions sold 2,978 crore rupees of cash equities against domestic buying of 2,686 crore rupees, and the rupee closed 38 paise weaker at 95.92 as oil importers bid for dollars with Brent above 107 dollars.",
-  "global": "The Nikkei 225 slipped 0.21 percent and the Hang Seng added 0.45 percent, while in Europe the FTSE 100 rose 0.44 percent and the DAX fell 0.50 percent as the STOXX 600 hit a three month low on higher oil and multi year high bond yields. The dollar index firmed to 99.71 and USD JPY reached 155.46 before Friday's Bank of Japan decision, and crypto broke lower after the Senate cloture vote on the Clarity Act failed 46 to 43, taking bitcoin to 75,546 dollars and XRP down 10.08 percent."
+  "us": "The FOMC voted unanimously to lift the funds target to 3.75 to 4.00 percent and the new projections showed 16 of 18 officials penciling in another increase this year, which sent the Dow down 631 points or 1.21 percent and the S&P 500 down 0.45 percent to 7,551.81. Banks took the worst of it on the prospect of further tightening, with Goldman Sachs, Wells Fargo, Bank of America and Citigroup each off more than 3 percent, while the Nasdaq Composite ended flat and the 10 year yield closed at 5.006 percent.",
+  "india": "The Nifty 50 rose 0.43 percent to 23,217.60 and the Sensex added 332.63 points to 74,336.45, snapping a two session fall ahead of the Fed, with FMCG, realty and banks leading and IT and pharma lower. Foreign investors sold 2,032.60 crore rupees of cash equities while domestic institutions bought 3,908.20 crore rupees, and the rupee held near record lows at 95.99 per dollar as Bank Nifty gained 0.89 percent to 56,292.",
+  "global": "Asia closed higher before the Fed, with the Nikkei 225 up 0.69 percent to 63,923 and the Hang Seng up 0.19 percent to 24,713.78, and Europe followed as the DAX added 0.53 percent and the FTSE 100 0.29 percent. Brent fell 2.8 percent to 105.71 dollars and WTI dropped 3.6 percent to 102.02 dollars after Saudi Arabia moved to restore about half the capacity of its East West pipeline, while the dollar index gained 0.65 percent to 100.30 and gold held at 4,346.90 dollars."
  },
  "calendar": [
   {
-   "when": "2026-09-16",
-   "what": "FOMC decision at 2:00 pm ET with the Summary of Economic Projections and the Chair's press conference at 2:30 pm; futures price roughly a 94 percent chance of a 25 basis point hike. US August retail sales at 8:30 am ET. Hero Motors, Jindal Supreme and SS Retail IPOs open in India."
-  },
-  {
    "when": "2026-09-17",
-   "what": "Bank of England rate decision with the Monetary Policy Summary and MPC minutes. NSE and Sonaselection India IPOs open. Bank of Japan meeting begins."
+   "what": "Bank of England rate decision with the Monetary Policy Summary and MPC minutes. The Bank of Japan two day meeting begins. US weekly jobless claims. The NSE and Sonaselection India IPOs open in India."
   },
   {
    "when": "2026-09-18",
-   "what": "Bank of Japan statement on monetary policy; reporting ahead of the meeting points to a move to 1.25 percent, which would be the highest since 1995. Holtec Nuclear is expected to begin trading on Nasdaq. Hero Motors, Jindal Supreme and SS Retail IPOs close."
+   "what": "Bank of Japan statement on monetary policy, where about 89 percent of surveyed economists expect a 25 basis point move to 1.25 percent. Hero Motors, Jindal Supreme and SS Retail IPOs close. Reliance Industries is expected to take bids for its 12,500 crore rupee bond issue by the end of this week."
   },
   {
    "when": "2026-09-21",
@@ -26,60 +22,29 @@
   },
   {
    "when": "2026-09-22",
-   "what": "No scheduled macro release or watchlist earnings confirmed for this date in this run. The next RBI Monetary Policy Committee meeting is 5 to 7 October 2026."
+   "what": "Allotment expected for Sonaselection India. No major scheduled macro release was confirmed for this date in this run."
+  },
+  {
+   "when": "2026-09-23",
+   "what": "Tentative listing for Hero Motors and Jindal Supreme on the NSE and BSE. Meta Connect developer conference runs 23 and 24 September."
+  },
+  {
+   "when": "2026-09-24",
+   "what": "A-One Steels India IPO opens. Tentative listing for the NSE and Sonaselection India issues. The next RBI Monetary Policy Committee meeting falls outside this window, on 5 to 7 October 2026."
   }
  ],
  "ipos": [
   {
-   "name": "Hero Motors",
-   "market": "India (NSE/BSE)",
-   "sector": "Auto components and powertrain",
-   "open": "2026-09-16",
-   "close": "2026-09-18",
-   "price_band": "Rs 79 to Rs 84",
-   "lot": "178 shares",
-   "size": "Rs 1,000 cr (Rs 600 cr fresh, Rs 400 cr offer for sale)",
-   "source": "Business Today",
-   "source_url": "https://www.businesstoday.in/markets/ipo-corner/story/ipos-this-week-nse-hero-motors-ss-retail-jindal-supreme-sonaselection-check-gmp-key-dates-555327-2026-09-14",
-   "drhp_url": ""
-  },
-  {
-   "name": "Jindal Supreme (India)",
-   "market": "India (NSE/BSE)",
-   "sector": "Plastic piping solutions",
-   "open": "2026-09-16",
-   "close": "2026-09-18",
-   "price_band": "Rs 88 to Rs 93",
-   "lot": "",
-   "size": "Rs 124.88 cr (Rs 100 cr fresh, Rs 25 cr offer for sale)",
-   "source": "Chittorgarh",
-   "source_url": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
-   "drhp_url": ""
-  },
-  {
-   "name": "SS Retail",
-   "market": "India (NSE/BSE)",
-   "sector": "Retail",
-   "open": "2026-09-16",
-   "close": "2026-09-18",
-   "price_band": "Rs 403 to Rs 424",
-   "lot": "",
-   "size": "Rs 500 cr (Rs 360 cr fresh, Rs 140 cr offer for sale)",
-   "source": "Business Today",
-   "source_url": "https://www.businesstoday.in/markets/ipo-corner/story/ipos-this-week-nse-hero-motors-ss-retail-jindal-supreme-sonaselection-check-gmp-key-dates-555327-2026-09-14",
-   "drhp_url": ""
-  },
-  {
-   "name": "National Stock Exchange of India (NSE)",
+   "name": "National Stock Exchange of India",
    "market": "India (NSE/BSE)",
    "sector": "Exchange and market infrastructure",
    "open": "2026-09-17",
    "close": "2026-09-21",
    "price_band": "Rs 1,700 to Rs 1,785",
    "lot": "8 shares",
-   "size": "Rs 22,562 cr, entirely an offer for sale",
-   "source": "Outlook Money",
-   "source_url": "https://www.outlookmoney.com/invest/upcoming-ipos-next-week-nse-hero-motors-jindal-supreme-ss-retail-sonaselection-india",
+   "size": "Rs 22,562 cr (entirely offer for sale of 12.64 crore shares)",
+   "source": "The Week",
+   "source_url": "https://www.theweek.in/news/biz-tech/2026/09/16/nse-ipo-opens-for-subscription-price-band-set-at-indian-rupee1700-indian-rupee1785-gmp-hints-at-9percent-listing-premium.html",
    "drhp_url": ""
   },
   {
@@ -90,100 +55,126 @@
    "close": "2026-09-21",
    "price_band": "Rs 94 to Rs 99",
    "lot": "150 shares",
-   "size": "Rs 141.57 cr, entirely fresh issue",
-   "source": "Business Today",
-   "source_url": "https://www.businesstoday.in/markets/ipo-corner/story/ipos-this-week-nse-hero-motors-ss-retail-jindal-supreme-sonaselection-check-gmp-key-dates-555327-2026-09-14",
+   "size": "Rs 141.57 cr fresh issue of 1.43 crore shares",
+   "source": "Chittorgarh",
+   "source_url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
    "drhp_url": ""
   },
   {
-   "name": "Holtec Nuclear",
-   "market": "US (Nasdaq)",
-   "sector": "Nuclear plant equipment",
-   "open": "2026-09-18",
+   "name": "Hero Motors",
+   "market": "India (NSE/BSE)",
+   "sector": "Auto components and powertrain",
+   "open": "2026-09-16",
    "close": "2026-09-18",
-   "price_band": "$15 to $18",
-   "lot": "",
-   "size": "$825 m at the midpoint, 50 million Class A shares",
-   "source": "Renaissance Capital",
-   "source_url": "https://www.renaissancecapital.com/IPO-Center/News/121530/nuclear-plant-equipment-provider-holtec-nuclear-sets-terms-for-825-million",
-   "drhp_url": "https://www.sec.gov/Archives/edgar/data/0002104277/000119312526384287/d40440ds1a.htm"
+   "price_band": "Rs 79 to Rs 84",
+   "lot": "178 shares",
+   "size": "Rs 1,000 cr (Rs 600 cr fresh, Rs 400 cr offer for sale)",
+   "source": "Chittorgarh",
+   "source_url": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
+   "drhp_url": ""
+  },
+  {
+   "name": "Jindal Supreme (India)",
+   "market": "India (NSE/BSE)",
+   "sector": "Plastic piping solutions",
+   "open": "2026-09-16",
+   "close": "2026-09-18",
+   "price_band": "Rs 88 to Rs 93",
+   "lot": "161 shares",
+   "size": "Rs 124.88 cr (Rs 99.89 cr fresh, Rs 24.99 cr offer for sale)",
+   "source": "Chittorgarh",
+   "source_url": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
+   "drhp_url": ""
+  },
+  {
+   "name": "A-One Steels India",
+   "market": "India (NSE/BSE)",
+   "sector": "Steel and long products",
+   "open": "2026-09-24",
+   "close": "2026-09-28",
+   "price_band": "Not announced at the time of this run",
+   "lot": "Not announced at the time of this run",
+   "size": "Rs 405 cr (Rs 355 cr fresh, Rs 50 cr offer for sale)",
+   "source": "Chittorgarh",
+   "source_url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
+   "drhp_url": ""
   }
  ],
  "assets": {
   "gspc": {
-   "outlook_1y": "Goldman Sachs raised its year end 2026 S&P 500 target to 8,000 from 7,600 in May 2026, on 2026 earnings per share of 340 dollars. A Wall Street strategist tracker cited in the same coverage put the mean 2026 target at 7,268 and the median at 7,325.",
-   "outlook_lt": "No cited long run forecast found this run. Index levels and returns on this page come from the price feed, not from a projection.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Stock market news for Sept. 15, 2026",
+     "title": "Fed raises rates to 3.75 percent to 4 percent, the first hike since July 2023",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
-     "date": "2026-09-15"
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Dow, S&P 500 and Nasdaq fall as the 10 year Treasury yield touches a 2007 high ahead of Fed decision day",
+     "title": "Dow drops 600 points as the Fed rate hike and Warsh inflation talk unnerve investors",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "Dow sinks 600 points, S&P 500 and Nasdaq fall as the Fed hikes rates and bond yields rise",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Nasdaq and S&P 500 fall as the 10 year Treasury yield hits its highest since 2023",
-     "source": "TheStreet",
-     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026",
-     "date": "2026-09-14"
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+     "date": "2026-09-16"
     }
    ]
   },
   "ixic": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Nvidia and Broadcom drop as chip selling turns US stocks lower",
-     "source": "FX Leaders",
-     "url": "https://www.fxleaders.com/news/2026/09/15/nvidia-broadcom-crash-turn-us-stocks-into-a-blood-bath/",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Stock market news for Sept. 15, 2026",
+     "title": "Stock futures rise after the Fed rate hike spurs a market sell off",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
-     "date": "2026-09-15"
+     "url": "https://www.cnbc.com/2026/09/16/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Chip equipment stocks slide as the AI pacing call reaches fab spending, Applied Materials and Lam Research fall 6 percent, ASML sinks 5 percent",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/09/14/chip-equipment-stocks-slide-as-ai-pacing-call-reaches-fab-spending-applied-materials-and-lam-research-fall-6-asml-sinks-5/",
-     "date": "2026-09-14"
+     "title": "Dow drops 600 points as the Fed rate hike and Warsh inflation talk unnerve investors",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "Fed raises rates to 3.75 percent to 4 percent, the first hike since July 2023",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+     "date": "2026-09-16"
     }
    ]
   },
   "tnx": {
-   "outlook_1y": "Goldman Sachs, JPMorgan, HSBC and Deutsche Bank all forecast a quarter point increase at the 15 to 16 September FOMC meeting, per Quartz on 14 September 2026. CME FedWatch put the odds at 94.5 percent on 15 September, up from 87.3 percent a day earlier.",
-   "outlook_lt": "JPMorgan economists led by Michael Feroli raised the bank's estimate of the long run policy rate to 3.25 percent, per Quartz on 14 September 2026.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "10 year Treasury yield hits 5 percent before reversing as traders await the Fed meeting",
+     "title": "Fed raises rates to 3.75 percent to 4 percent, the first hike since July 2023",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html",
-     "date": "2026-09-14"
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Fed rate hike odds top 90 percent as the 10 year Treasury yield touches 5 percent",
-     "source": "Seoul Economic Daily",
-     "url": "https://en.sedaily.com/finance/2026/09/15/fed-rate-hike-odds-top-90-percent-as-10-year-treasury-yield",
-     "date": "2026-09-15"
+     "title": "Federal Reserve hikes interest rates for the first time since 2023",
+     "source": "Fox Business",
+     "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-september-16-2026",
+     "date": "2026-09-16"
     },
     {
-     "title": "Goldman Sachs and JPMorgan expect a Fed rate hike this week",
-     "source": "Quartz",
-     "url": "https://qz.com/goldman-sachs-jpmorgan-fed-rate-hike-september-091426",
-     "date": "2026-09-14"
+     "title": "September Fed meeting updates and commentary",
+     "source": "Kiplinger",
+     "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026",
+     "date": "2026-09-16"
     }
    ]
   },
   "aapl": {
-   "outlook_1y": "Sell side consensus 12 month target 327.2 from 39 analysts (Yahoo Finance data in this feed), against a last price of 333.08. Rosenblatt analyst Barton Crockett raised his target to 303 dollars from 300 with a Neutral rating on 1 September 2026.",
+   "outlook_1y": "Sell side consensus 12 month target 327.2 from 39 analysts (Yahoo Finance data in this feed), against a last price of 332.41.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
@@ -193,1074 +184,896 @@
      "date": "2026-09-09"
     },
     {
-     "title": "Apple is entering a new chapter, what should investors expect",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/09/04/apple-is-entering-a-new-chapter-what-should-invest/",
-     "date": "2026-09-04"
-    },
-    {
-     "title": "Apple could get a new research and AI budget as new CEO John Ternus takes the helm",
-     "source": "TipRanks",
-     "url": "https://www.tipranks.com/news/apple-stock-aapl-could-get-a-new-rd-and-ai-tech-budget-as-new-ceo-john-ternus-takes-helm-on-sept-1",
-     "date": "2026-09-01"
+     "title": "Dow drops 600 points as the Fed rate hike and Warsh inflation talk unnerve investors",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
     }
    ]
   },
   "msft": {
-   "outlook_1y": "Sell side consensus 12 month target 572.92 from 52 analysts (Yahoo Finance data in this feed), against a last price of 505.41. BofA Securities analyst Tal Liani raised his target to 600 dollars from 500 with a Buy rating on 1 September 2026.",
-   "outlook_lt": "Company guidance points to roughly 175 billion dollars of capital spending in fiscal 2027, revised from 190 billion as some leases shift from finance to operating treatment, per Global Data Center Hub coverage of the Q3 fiscal 2026 report.",
-   "news": [
-    {
-     "title": "Meta, Alphabet and Microsoft rise while Nvidia falls after three AI chiefs call for slowing down frontier models",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/meta-alphabet-microsoft-rise-while-142444084.html",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Microsoft stock gains as AI driven growth and heavy capex reshape the outlook",
-     "source": "ad hoc news",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/microsoft-stock-gains-as-ai-driven-growth-and-heavy-capex-reshape-outlook/70092981",
-     "date": "2026-09-11"
-    },
-    {
-     "title": "Microsoft holds the line on AI spending plans",
-     "source": "CFO Dive",
-     "url": "https://www.cfodive.com/news/microsoft-holds-line-ai-spending-plans/826648/",
-     "date": "2026-09-11"
-    }
-   ]
-  },
-  "nvda": {
-   "outlook_1y": "Sell side consensus 12 month target 328.66 from 58 analysts (Yahoo Finance data in this feed), against a last price of 210.96. Broker data cited by ad hoc news on 15 September 2026 put the consensus target at 324.34 dollars.",
+   "outlook_1y": "Sell side consensus 12 month target 572.92 from 52 analysts (Yahoo Finance data in this feed), against a last price of 490.3.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Nvidia stock extends its AI pullback as the September slide tests key support",
-     "source": "ad hoc news",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nvidia-stock-extends-ai-pullback-as-september-slide-tests-key-support/70105501",
-     "date": "2026-09-15"
+     "title": "Microsoft discloses that Azure topped 100 billion dollars in annual sales for the first time",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/09/16/satya-nadellas-microsoft-disclosed-azure-topped-10/",
+     "date": "2026-09-16"
     },
     {
-     "title": "Nvidia and Broadcom drop as chip selling turns US stocks lower",
-     "source": "FX Leaders",
-     "url": "https://www.fxleaders.com/news/2026/09/15/nvidia-broadcom-crash-turn-us-stocks-into-a-blood-bath/",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Meta, Alphabet and Microsoft rise while Nvidia falls after three AI chiefs call for slowing down frontier models",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/meta-alphabet-microsoft-rise-while-142444084.html",
-     "date": "2026-09-14"
-    }
-   ]
-  },
-  "amzn": {
-   "outlook_1y": "Sell side consensus 12 month target 328.17 from 60 analysts (Yahoo Finance data in this feed), against a last price of 253.54. TD Cowen analyst John Blackledge reiterated a Buy rating with a 255 dollar target on 15 September 2026, citing AWS share of generative AI workloads.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Amazon stock backed by analysts on generative AI growth and AWS strength",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/news/amazon-stock-amzn-backed-analysts-211738705.html",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Meta, Microsoft, Amazon and Alphabet are about to spend a large amount of money on AI",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/sectors/technology/article/meta-microsoft-amazon-and-alphabet-are-about-to-spend-a-shocking-amount-of-money-to-dominate-the-ai-era-115359575.html",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Stock market news for Sept. 15, 2026",
+     "title": "Microsoft starts disclosing Azure quarterly revenue as the company consolidates business units",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
-     "date": "2026-09-15"
-    }
-   ]
-  },
-  "googl": {
-   "outlook_1y": "Sell side consensus 12 month target 428.07 from 54 analysts (Yahoo Finance data in this feed), against a last price of 349.39.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Meta, Alphabet and Microsoft rise while Nvidia falls after three AI chiefs call for slowing down frontier models",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/meta-alphabet-microsoft-rise-while-142444084.html",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Alphabet stock recovers as Gemini expands across PCs",
-     "source": "FX Leaders",
-     "url": "https://www.fxleaders.com/news/2026/09/11/googl-goog-stock-recovers-as-alphabet-gemini-expands-across-pcs/",
-     "date": "2026-09-11"
-    },
-    {
-     "title": "Google starts September with AI momentum after its longest monthly losing streak in over a decade",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
+     "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
      "date": "2026-09-02"
     }
    ]
   },
-  "meta": {
-   "outlook_1y": "Sell side consensus 12 month target 758.28 from 57 analysts (Yahoo Finance data in this feed), against a last price of 665.6.",
+  "nvda": {
+   "outlook_1y": "Sell side consensus 12 month target 328.66 from 58 analysts (Yahoo Finance data in this feed), against a last price of 213.9.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Meta, Alphabet and Microsoft rise while Nvidia falls after three AI chiefs call for slowing down frontier models",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/meta-alphabet-microsoft-rise-while-142444084.html",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Meta, Microsoft, Amazon and Alphabet are about to spend a large amount of money on AI",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/sectors/technology/article/meta-microsoft-amazon-and-alphabet-are-about-to-spend-a-shocking-amount-of-money-to-dominate-the-ai-era-115359575.html",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Stock market news for Sept. 15, 2026",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
+     "title": "Is Nvidia stock a buy in September 2026",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/09/15/is-nvidia-stock-a-buy-in-september-2026/",
      "date": "2026-09-15"
+    },
+    {
+     "title": "Nvidia looks way too undervalued, 16 September note",
+     "source": "Seeking Alpha",
+     "url": "https://seekingalpha.com/mp/1392-ultimate-growth-investing/articles/6340273-16-september-2026-nvidia-looks-way-too-undervalued",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "amzn": {
+   "outlook_1y": "Sell side consensus 12 month target 328.17 from 60 analysts (Yahoo Finance data in this feed), against a last price of 245.96.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "Qualcomm issues warrants to Amazon to acquire 4 billion dollars of chipmaker stock in an AI infrastructure deal",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+     "date": "2026-09-08"
+    },
+    {
+     "title": "Amazon stock slips as AWS Bahrain damage weighs while Qualcomm gains on the Amazon deal",
+     "source": "FX Leaders",
+     "url": "https://www.fxleaders.com/news/2026/09/15/amzn-stock-slips-as-aws-bahrain-damage-weighs-while-qualcomm-qcom-gains-on-amazon-deal/",
+     "date": "2026-09-15"
+    },
+    {
+     "title": "Amazon stock dips below 245 dollars as new 8 billion dollar Generac spending raises fresh questions",
+     "source": "FX Leaders",
+     "url": "https://www.fxleaders.com/news/2026/09/16/amzn-stock-dips-below-245-as-new-8b-generac-spending-raises-fresh-risks-for-amazon/",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "googl": {
+   "outlook_1y": "Sell side consensus 12 month target 428.07 from 54 analysts (Yahoo Finance data in this feed), against a last price of 342.87.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "Sundar Pichai told employees Waymo could contribute meaningfully to Alphabet financials as soon as 2027",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/09/04/sundar-pichai-waymo-alphabet-self-driving/",
+     "date": "2026-09-04"
+    },
+    {
+     "title": "Dow drops 600 points as the Fed rate hike and Warsh inflation talk unnerve investors",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "meta": {
+   "outlook_1y": "Sell side consensus 12 month target 758.28 from 57 analysts (Yahoo Finance data in this feed), against a last price of 670.24.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "Meta stock has more upside than its valuation suggests",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/09/14/prediction-meta-stock-has-more-upside-than-its-valuation-suggests/",
+     "date": "2026-09-14"
+    },
+    {
+     "title": "Meta stock drops 10 percent as free cash flow gets crushed and Zuckerberg hints at a cloud business",
+     "source": "Fortune",
+     "url": "https://fortune.com/2026/07/29/meta-earnings-zuckerberg-hints-cloud-business-free-cash-flow-capex/",
+     "date": "2026-07-29"
     }
    ]
   },
   "tsla": {
-   "outlook_1y": "Sell side consensus 12 month target 390.09 from 39 analysts (Yahoo Finance data in this feed), against a last price of 358.97.",
+   "outlook_1y": "Sell side consensus 12 month target 390.09 from 39 analysts (Yahoo Finance data in this feed), against a last price of 358.08. Goldman Sachs cut its third quarter delivery forecast to 435,000 units from 490,000, per reporting collected this run.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Tesla takes back America, reclaiming 52 percent US EV share as rivals retreat",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/09/15/tesla-takes-back-america/",
-     "date": "2026-09-15"
+     "title": "Dow drops 600 points as the Fed rate hike and Warsh inflation talk unnerve investors",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Tesla stock holds near bull flag levels as Vietnam expansion adds a new growth story",
-     "source": "ad hoc news",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/tesla-stock-holds-near-bull-flag-levels-as-vietnam-expansion-adds-new/70105310",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Tesla stock could sink in the last half of 2026, here is why",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/investor-hub/article/tesla-stock-last-half-2026/",
-     "date": "2026-09-14"
+     "title": "Stock futures rise after the Fed rate hike spurs a market sell off",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/16/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
     }
    ]
   },
   "jpm": {
-   "outlook_1y": "Sell side consensus 12 month target 376.14 from 21 analysts (Yahoo Finance data in this feed), against a last price of 350.13.",
+   "outlook_1y": "Sell side consensus 12 month target 376.14 from 21 analysts (Yahoo Finance data in this feed), against a last price of 348.92.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Goldman Sachs and JPMorgan expect a Fed rate hike this week",
-     "source": "Quartz",
-     "url": "https://qz.com/goldman-sachs-jpmorgan-fed-rate-hike-september-091426",
-     "date": "2026-09-14"
+     "title": "JPMorgan Chase fell 1.5 percent and big banks had their worst day since February after the Fed hike",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "JPMorgan stock nears 1 trillion dollars in market value as the Fed decision looms",
-     "source": "Vantage Markets",
-     "url": "https://www.vantagemarkets.com/market-analysis/jpm-stock-1-trillion-fed-decision-september-14-2026/",
-     "date": "2026-09-14"
+     "title": "The Fed has to walk a fine line and how the stock market may react, according to JPMorgan",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/15/the-fed-has-to-walk-a-fine-line-how-the-stock-market-may-react-per-jpmorgan.html",
+     "date": "2026-09-15"
     },
     {
-     "title": "JPMorgan stock holds 348 dollars ahead of Fed week as bulls eye 356",
-     "source": "TradingKey",
-     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262163310-jpmorgan-stock-fed-rates-jpm-breakout-356-tradingkey",
-     "date": "2026-09-14"
-    }
-   ]
-  },
-  "crwd": {
-   "outlook_1y": "Sell side consensus 12 month target 234.09 from 50 analysts (Yahoo Finance data in this feed), against a last price of 235.38.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "CrowdStrike jumps 14 percent as AI fears send cybersecurity stocks surging",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/14/crowdstrike-skyrockets-14-as-ai-fears-send-cybersecurity-stocks-surging/",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Why CrowdStrike stock rocketed higher today",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/09/14/why-crowdstrike-stock-rocketed-higher-today/",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "CrowdStrike jumps 14 percent amid a cybersecurity sector rally",
-     "source": "Seeking Alpha",
-     "url": "https://seekingalpha.com/news/4642655-crowdstrike-jumps-14-percent-amid-cybersecurity-sector-rally",
-     "date": "2026-09-14"
-    }
-   ]
-  },
-  "arm": {
-   "outlook_1y": "Sell side consensus 12 month target 288.7 from 40 analysts (Yahoo Finance data in this feed), against a last price of 239.01.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Why is Arm Holdings stock falling Monday",
-     "source": "Benzinga",
-     "url": "https://www.benzinga.com/markets/tech/26/09/61770936/why-is-arm-holdings-stock-falling-monday-2",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Arm stock falls 7 percent as the AI selloff and valuation risks hit the chip designer",
-     "source": "Invezz",
-     "url": "https://invezz.com/news/2026/09/14/arm-stock-falls-7-as-ai-selloff-valuation-risks-hit-chip-designer/",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Chip equipment stocks slide as the AI pacing call reaches fab spending, Applied Materials and Lam Research fall 6 percent, ASML sinks 5 percent",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/09/14/chip-equipment-stocks-slide-as-ai-pacing-call-reaches-fab-spending-applied-materials-and-lam-research-fall-6-asml-sinks-5/",
-     "date": "2026-09-14"
+     "title": "Here are JPMorgan favorite stocks as September gets underway",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/02/here-are-jpmorgans-favorite-stocks-as-september-gets-underway.html",
+     "date": "2026-09-02"
     }
    ]
   },
   "coin": {
-   "outlook_1y": "Sell side consensus 12 month target 201.38 from 29 analysts (Yahoo Finance data in this feed), against a last price of 191.45. Compass Point upgraded the stock to Neutral on 14 September 2026, before the Clarity Act cloture vote failed.",
+   "outlook_1y": "Sell side consensus 12 month target 201.38 from 29 analysts (Yahoo Finance data in this feed), against a last price of 172.11.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Coinbase stock pops after a revised Clarity Act draft is released",
-     "source": "Benzinga",
-     "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61773762/coinbase-stock-pops-after-revised-clarity-act-draft-released",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Coinbase jumps 6 percent on a Compass Point upgrade ahead of the Senate Clarity Act vote",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-jumps-6-compass-point-150053303.html",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
+     "title": "Coinbase drops 6 percent, Strategy slides 5 percent and MARA slips as Clarity Act anxiety builds",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/09/15/coinbase-drops-6-strategy-slides-5-mara-holdings-slips-1-as-clarity-act-anxiety-builds/",
      "date": "2026-09-15"
+    },
+    {
+     "title": "Coinbase and Strategy fall as bitcoin drops before the Clarity Act vote",
+     "source": "Invezz",
+     "url": "https://invezz.com/news/2026/09/15/crypto-stocks-slide-as-bitcoin-drops-ahead-of-clarity-act-vote-and-fed-decision/",
+     "date": "2026-09-15"
+    },
+    {
+     "title": "Crypto prices tank after the CLARITY Act fails and ahead of the Fed decision",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "ibm": {
+   "outlook_1y": "Sell side consensus 12 month target 245.35 from 23 analysts (Yahoo Finance data in this feed), against a last price of 237.49.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "IBM moved down 3.11 percent on 16 September on deal deferrals and a trimmed revenue forecast",
+     "source": "TradingKey",
+     "url": "https://www.tradingkey.com/news/market-movers/262171108-market-movers-ibm-20260916",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "IBM shares slide more than 3 percent as investors weigh a mainframe slowdown against AI deals",
+     "source": "International Business Times",
+     "url": "https://www.ibtimes.com.au/ibm-shares-fall-lowered-growth-guidance-1875663",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "intc": {
+   "outlook_1y": "Sell side consensus 12 month target 115.74 from 43 analysts (Yahoo Finance data in this feed), against a last price of 101.05.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "Intel stock jumps as an AI turnaround and PC chip price increases fuel the bull case",
+     "source": "StocksToTrade",
+     "url": "https://stockstotrade.com/news/intel-corporation-intc-news-2026_09_16-2/",
+     "date": "2026-09-16"
     }
    ]
   },
   "nsei": {
-   "outlook_1y": "ICICI Direct sees the Nifty 50 at 30,000 by 2027 on IT and manufacturing growth. Motilal Oswal sees 28,500 by the end of 2026 on FII inflows and sentiment. Both views are carried in a Nifty target compilation and predate this run.",
+   "outlook_1y": "Morgan Stanley holds a June 2027 Sensex target of 89,000, with a bull case of 100,000 and a bear case of 66,000, each given a 25 percent probability (July 2026 note reported by Business Standard). JPMorgan cut its Nifty target to 27,000 on global risks and foreign outflows (brokerage note summarised on Whalesbook).",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Sensex surges 587 points and Nifty moves above 23,500 amid a rally in IT shares",
-     "source": "India TV News",
-     "url": "https://www.indiatvnews.com/business/markets/15-september-2026-stock-market-updates-sensex-surges-587-points-nifty-above-23-500-amid-rally-in-it-shares-2026-09-15-1054244",
-     "date": "2026-09-15"
+     "title": "Sensex gains 333 points and the Nifty settles at 23,218 with Nifty FMCG up nearly 2 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "Sensex and Nifty snap a two session fall with the US Fed outcome in focus",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-snap-two-session-fall-us-fed-outcome-in-focus-for-market-cues-555921-2026-09-16",
+     "date": "2026-09-16"
     },
     {
-     "title": "FII DII data today, FII sold 2,978 crore rupees while DII bought 2,686 crore rupees",
+     "title": "FII and DII cash activity for 16 September, foreign investors net sellers and domestic buyers",
      "source": "Craytheon",
      "url": "https://craytheon.com/charts/fii-dii-data/",
-     "date": "2026-09-15"
+     "date": "2026-09-16"
     }
    ]
   },
   "nsebank": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "Sensex gains 333 points and the Nifty settles at 23,218 with Nifty FMCG up nearly 2 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Indian markets rally, IT stocks and HDFC Bank lead the rebound",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/bankingfinance/Indian-Markets-Rally-IT-Stocks-And-HDFC-Bank-Lead-Rebound/6aa8c88532e8b17a60969b87",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "FII DII data today, FII sold 2,978 crore rupees while DII bought 2,686 crore rupees",
-     "source": "Craytheon",
-     "url": "https://craytheon.com/charts/fii-dii-data/",
-     "date": "2026-09-15"
+     "title": "ICICI Bank, SBI, HDFC Bank, DCB and SIB target prices as credit growth improves",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-sbi-hdfc-bank-dcb-sib-shares-target-prices-as-credit-growth-improves-553524-2026-09-07",
+     "date": "2026-09-07"
     }
    ]
   },
   "reliance-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 1676.85 from 26 analysts (Yahoo Finance data in this feed), against a last price of 1235.3.",
+   "outlook_1y": "Sell side consensus 12 month target 1676.85 from 26 analysts (Yahoo Finance data in this feed), against a last price of 1240.0.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Stocks to watch on 15 September, HDFC Bank, Tata group stocks, TCS, Infosys and others",
-     "source": "Upstox",
-     "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-sept-15-hdfc-bank-tata-group-stocks-tcs-infosys-hfcl-bhel-piramal-pharma-emami/article-200238/",
-     "date": "2026-09-15"
+     "title": "Reliance Industries set to tap the rupee bond market after three years with a 12,500 crore rupee issue",
+     "source": "Outlook Business",
+     "url": "https://www.outlookbusiness.com/markets/reliance-industries-set-to-tap-rupee-bond-market-after-3-years-with-12500-cr-bond-issue",
+     "date": "2026-09-08"
     },
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "Sensex gains 333 points and the Nifty settles at 23,218 with Nifty FMCG up nearly 2 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html",
+     "date": "2026-09-16"
     }
    ]
   },
   "tcs-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 2474.2 from 41 analysts (Yahoo Finance data in this feed), against a last price of 2251.0.",
+   "outlook_1y": "Sell side consensus 12 month target 2474.2 from 41 analysts (Yahoo Finance data in this feed), against a last price of 2188.8.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "TCS, Infosys, HCLTech, Tech Mahindra and Wipro shares jump, Nifty IT rises 5 percent in early trade",
+     "title": "Four factors denting sentiment in Indian IT stocks",
      "source": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/tcs-infosys-hcltech-tech-mahindra-wipro-shares-jump-nifty-it-rises-5-in-early-trade-heres-why-555507-2026-09-15",
-     "date": "2026-09-15"
+     "url": "https://www.businesstoday.in/markets/stocks/story/infosys-tcs-hcl-tech-coforge-tech-mahindra-wipro-four-factors-denting-sentiment-in-it-stocks-554229-2026-09-09",
+     "date": "2026-09-09"
     },
     {
-     "title": "IT stocks rally, experts weigh whether TCS, Infosys and HCL Tech can rise further",
+     "title": "Sensex and Nifty snap a two session fall with the US Fed outcome in focus",
      "source": "Business Today",
-     "url": "https://www.businesstoday.in/bt-tv/market-today/video/it-stocks-rally-tcs-infosys-hcl-tech-can-rise-further-expert-reveals-outlook-555538-2026-09-15",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Nifty IT surges 5 percent as global tech leaders signal an AI slowdown",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/technology/Nifty-IT-Surges-5percent-as-Global-Tech-Leaders-Signal-AI-Slowdown/6aa8c89f32e8b17a60969c39",
-     "date": "2026-09-15"
+     "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-snap-two-session-fall-us-fed-outcome-in-focus-for-market-cues-555921-2026-09-16",
+     "date": "2026-09-16"
     }
    ]
   },
   "infy-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 1204.1 from 42 analysts (Yahoo Finance data in this feed), against a last price of 1077.0.",
+   "outlook_1y": "Sell side consensus 12 month target 1204.1 from 42 analysts (Yahoo Finance data in this feed), against a last price of 1060.0.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "TCS, Infosys, HCLTech, Tech Mahindra and Wipro shares jump, Nifty IT rises 5 percent in early trade",
+     "title": "Four factors denting sentiment in Indian IT stocks",
      "source": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/tcs-infosys-hcltech-tech-mahindra-wipro-shares-jump-nifty-it-rises-5-in-early-trade-heres-why-555507-2026-09-15",
-     "date": "2026-09-15"
+     "url": "https://www.businesstoday.in/markets/stocks/story/infosys-tcs-hcl-tech-coforge-tech-mahindra-wipro-four-factors-denting-sentiment-in-it-stocks-554229-2026-09-09",
+     "date": "2026-09-09"
     },
     {
-     "title": "IT stocks rally, experts weigh whether TCS, Infosys and HCL Tech can rise further",
+     "title": "Sensex and Nifty snap a two session fall with the US Fed outcome in focus",
      "source": "Business Today",
-     "url": "https://www.businesstoday.in/bt-tv/market-today/video/it-stocks-rally-tcs-infosys-hcl-tech-can-rise-further-expert-reveals-outlook-555538-2026-09-15",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Nifty IT surges 5 percent as global tech leaders signal an AI slowdown",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/technology/Nifty-IT-Surges-5percent-as-Global-Tech-Leaders-Signal-AI-Slowdown/6aa8c89f32e8b17a60969c39",
-     "date": "2026-09-15"
+     "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-snap-two-session-fall-us-fed-outcome-in-focus-for-market-cues-555921-2026-09-16",
+     "date": "2026-09-16"
     }
    ]
   },
   "hdfcbank-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 994.49 from 41 analysts (Yahoo Finance data in this feed), against a last price of 716.55. Nirmal Bang Institutional Equities likes the stock on valuation at about 1.3 times forward standalone book, per Business Today on 7 September 2026.",
+   "outlook_1y": "Sell side consensus 12 month target 994.49 from 41 analysts (Yahoo Finance data in this feed), against a last price of 721.5.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Indian markets rally, IT stocks and HDFC Bank lead the rebound",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/bankingfinance/Indian-Markets-Rally-IT-Stocks-And-HDFC-Bank-Lead-Rebound/6aa8c88532e8b17a60969b87",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "ICICI Bank, SBI, HDFC Bank, DCB and SIB shares, target prices as credit growth improves",
+     "title": "ICICI Bank, SBI, HDFC Bank, DCB and SIB target prices as credit growth improves",
      "source": "Business Today",
      "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-sbi-hdfc-bank-dcb-sib-shares-target-prices-as-credit-growth-improves-553524-2026-09-07",
      "date": "2026-09-07"
     },
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "HDFC Bank, PNB, SBI, IndusInd, Federal Bank, Axis, ICICI and Kotak share price targets",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-pnb-sbi-iib-federal-bank-axis-icici-kotak-bank-share-price-targets-553201-2026-09-03",
+     "date": "2026-09-03"
     }
    ]
   },
   "icicibank-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 1745.55 from 42 analysts (Yahoo Finance data in this feed), against a last price of 1350.4. Nirmal Bang Institutional Equities names it a preferred pick on best in class returns and operating performance, per Business Today on 7 September 2026.",
+   "outlook_1y": "Sell side consensus 12 month target 1745.55 from 42 analysts (Yahoo Finance data in this feed), against a last price of 1358.8.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "ICICI Bank, SBI, HDFC Bank, DCB and SIB shares, target prices as credit growth improves",
+     "title": "ICICI Bank, SBI, HDFC Bank, DCB and SIB target prices as credit growth improves",
      "source": "Business Today",
      "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-sbi-hdfc-bank-dcb-sib-shares-target-prices-as-credit-growth-improves-553524-2026-09-07",
      "date": "2026-09-07"
     },
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "HDFC Bank, PNB, SBI, IndusInd, Federal Bank, Axis, ICICI and Kotak share price targets",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-pnb-sbi-iib-federal-bank-axis-icici-kotak-bank-share-price-targets-553201-2026-09-03",
+     "date": "2026-09-03"
     }
    ]
   },
   "sbin-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 1263.1 from 39 analysts (Yahoo Finance data in this feed), against a last price of 968.0. Nirmal Bang Institutional Equities calls it the preferred public sector bank on a sustainable 1.1 to 1.2 percent return on assets, per Business Today on 7 September 2026.",
+   "outlook_1y": "Sell side consensus 12 month target 1263.1 from 39 analysts (Yahoo Finance data in this feed), against a last price of 991.4.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "HDFC Bank, PNB, SBI, IndusInd, Federal Bank, Axis, ICICI and Kotak, share price targets",
+     "title": "ICICI Bank, SBI, HDFC Bank, DCB and SIB target prices as credit growth improves",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-sbi-hdfc-bank-dcb-sib-shares-target-prices-as-credit-growth-improves-553524-2026-09-07",
+     "date": "2026-09-07"
+    },
+    {
+     "title": "HDFC Bank, PNB, SBI, IndusInd, Federal Bank, Axis, ICICI and Kotak share price targets",
      "source": "Business Today",
      "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-pnb-sbi-iib-federal-bank-axis-icici-kotak-bank-share-price-targets-553201-2026-09-03",
      "date": "2026-09-03"
-    },
-    {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
     }
    ]
   },
   "bajfinance-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 1159.86 from 35 analysts (Yahoo Finance data in this feed), against a last price of 1009.2.",
+   "outlook_1y": "Sell side consensus 12 month target 1159.86 from 35 analysts (Yahoo Finance data in this feed), against a last price of 1006.2.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "RBI draft revolving credit curbs drag NBFC stocks and Bajaj Finance falls 6 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/finance/news/rbi-s-draft-revolving-credit-curbs-drag-nbfc-stocks-bajaj-finance-down-6-126080701605_1.html",
+     "date": "2026-08-07"
     },
     {
-     "title": "FII DII data today, FII sold 2,978 crore rupees while DII bought 2,686 crore rupees",
-     "source": "Craytheon",
-     "url": "https://craytheon.com/charts/fii-dii-data/",
-     "date": "2026-09-15"
+     "title": "Why Bajaj Finance and Bajaj Finserv shares fell after the RBI draft proposal",
+     "source": "India Infoline",
+     "url": "https://www.indiainfoline.com/news/companies/why-bajaj-finance-and-bajaj-finserv-shares-fell-today-rbis-draft-proposal-triggers-sell-off",
+     "date": "2026-08-07"
     }
    ]
   },
   "adanient-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 3773.0 from 4 analysts (Yahoo Finance data in this feed), against a last price of 2928.6001. Coverage is thin, so the consensus figure rests on very few estimates.",
+   "outlook_1y": "Sell side consensus 12 month target 3773.0 from 4 analysts (Yahoo Finance data in this feed), against a last price of 2920.0.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Adani Enterprises rises as its airport unit secures investment from BlackRock, Temasek and Premji Invest",
-     "source": "Business Standard",
-     "url": "https://www.business-standard.com/markets/reliance-industries-ltd-share-price-476/news",
+     "title": "Adani Airport to raise 1 billion dollars from Temasek, BlackRock and others",
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-09/adani-airport-to-raise-1-billion-from-temasek-blackrock-others",
      "date": "2026-09-09"
     },
     {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
+     "title": "India Adani Airport to raise 1 billion dollars by selling shares to Temasek and BlackRock",
+     "source": "Forbes",
+     "url": "https://www.forbes.com/sites/yessarrosendar/2026/09/09/indias-adani-airport-to-raise-1-billion-by-selling-shares-to-temasek-blackrock/",
+     "date": "2026-09-09"
+    },
+    {
+     "title": "India Adani Airport to raise 1 billion dollars from BlackRock, Temasek and others",
+     "source": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/business-deals/india-s-adani-airport-to-raise-1bn-from-blackrock-temasek-and-others",
+     "date": "2026-09-09"
     }
    ]
   },
-  "bel-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 490.45 from 31 analysts (Yahoo Finance data in this feed), against a last price of 382.9.",
-   "outlook_lt": "No cited long run forecast found this run.",
+  "indiavix": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Defence stocks fall 4 percent, why BEL, HAL, BDL and MIDHANI are down",
-     "source": "Equentis",
-     "url": "https://www.equentis.com/blog/defence-stocks-fall-4-why-bel-hal-bdl-midhani-are-down/",
-     "date": "2026-09-15"
+     "title": "Sensex and Nifty snap a two session fall with the US Fed outcome in focus",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-snap-two-session-fall-us-fed-outcome-in-focus-for-market-cues-555921-2026-09-16",
+     "date": "2026-09-16"
     },
     {
-     "title": "Bharat Electronics hits an intraday low amid price pressure",
-     "source": "MarketsMojo",
-     "url": "https://www.marketsmojo.com/news/stocks-in-action/bharat-electronics-ltd-hits-intraday-low-amid-price-pressure-on-15-sep-2026-4193419",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Top gainers and losers, September 15, 2026 at 4:00 pm IST",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/top-gainers-losers-september-15-2026-at-4-pm",
-     "date": "2026-09-15"
+     "title": "Sensex gains 333 points and the Nifty settles at 23,218 with Nifty FMCG up nearly 2 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html",
+     "date": "2026-09-16"
     }
    ]
   },
-  "hal-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 5467.89 from 26 analysts (Yahoo Finance data in this feed), against a last price of 4695.0.",
+  "policybzr-ns": {
+   "outlook_1y": "Sell side consensus 12 month target 1959.68 from 25 analysts (Yahoo Finance data in this feed), against a last price of 1827.1.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Defence stocks fall 4 percent, why BEL, HAL, BDL and MIDHANI are down",
-     "source": "Equentis",
-     "url": "https://www.equentis.com/blog/defence-stocks-fall-4-why-bel-hal-bdl-midhani-are-down/",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Hindustan Aeronautics hits an intraday low amid price pressure",
-     "source": "MarketsMojo",
-     "url": "https://www.marketsmojo.com/news/stocks-in-action/hindustan-aeronautics-ltd-hits-intraday-low-amid-price-pressure-on-15-sep-2026-4193529",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Top gainers and losers, September 15, 2026 at 4:00 pm IST",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/top-gainers-losers-september-15-2026-at-4-pm",
-     "date": "2026-09-15"
+     "title": "Sensex gains 333 points and the Nifty settles at 23,218 with Nifty FMCG up nearly 2 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html",
+     "date": "2026-09-16"
     }
    ]
   },
   "siemens-ns": {
    "outlook_1y": "Sell side consensus 12 month target 3971.26 from 27 analysts (Yahoo Finance data in this feed), against a last price of 3770.0.",
    "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Siemens hits an intraday low amid price pressure",
-     "source": "MarketsMojo",
-     "url": "https://www.marketsmojo.com/news/stocks-in-action/siemens-ltd-hits-intraday-low-amid-price-pressure-on-15-sep-2026-4193525",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
-    }
-   ]
-  },
-  "shriramfin-ns": {
-   "outlook_1y": "Sell side consensus 12 month target 1199.56 from 32 analysts (Yahoo Finance data in this feed), against a last price of 979.8.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Sectoral snapshot, realty falls, financials and autos slide while IT bucks the trend",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/sectoral-snapshot-today-september-15-2026-realty-crashes-financials-and-autos-slide-it-bucks-trend",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Top gainers and losers, September 15, 2026 at 4:00 pm IST",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/top-gainers-losers-september-15-2026-at-4-pm",
-     "date": "2026-09-15"
-    }
-   ]
+   "news": []
   },
   "n225": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Asian markets close mixed",
-     "source": "News on AIR",
-     "url": "https://www.newsonair.gov.in/asian-markets-close-mixed-nikkei-surges-1-8-hang-seng-dips-1-6",
-     "date": "2026-09-15"
+     "title": "Asian stocks mostly higher ahead of the Fed interest rate decision",
+     "source": "Associated Press via News4Jax",
+     "url": "https://www.news4jax.com/business/2026/09/16/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
+     "date": "2026-09-16"
     },
     {
-     "title": "Asian stocks, 15 September 2026",
-     "source": "ARMENPRESS",
-     "url": "https://armenpress.am/en/article/1260483",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "USD JPY rises as markets brace for the Bank of Japan meeting",
-     "source": "FXStreet",
-     "url": "https://www.fxstreet.com/analysis/usd-jpy-rises-as-markets-brace-for-the-bank-of-japan-meeting-202609150711",
-     "date": "2026-09-15"
+     "title": "Asia market quick take for 16 September",
+     "source": "Saxo Bank",
+     "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take-16-september-2026-16092026",
+     "date": "2026-09-16"
     }
    ]
   },
   "hsi": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Hang Seng closes down 0.9 percent, leading Asia's session losses",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/cards/a-flat-hong-kong-open-turned-into-a-0-9-loss-by-the-bell-t-hsi-market-bell-01m2j1gb83ka6jf2d6a1ad7k3s",
-     "date": "2026-09-15"
+     "title": "Asian stocks mostly higher ahead of the Fed interest rate decision",
+     "source": "Associated Press via News4Jax",
+     "url": "https://www.news4jax.com/business/2026/09/16/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
+     "date": "2026-09-16"
     },
     {
-     "title": "Asian stocks, 15 September 2026",
-     "source": "ARMENPRESS",
-     "url": "https://armenpress.am/en/article/1260483",
-     "date": "2026-09-15"
+     "title": "Asian stocks close lower on 16 September",
+     "source": "Armenpress",
+     "url": "https://armenpress.am/en/article/1260574",
+     "date": "2026-09-16"
     }
    ]
   },
   "ftse": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "European stocks fall as oil prices extend gains on Iranian threats",
-     "source": "Yahoo Finance UK",
-     "url": "https://uk.finance.yahoo.com/news/european-stocks-fall-oil-prices-082208453.html",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "US oil tops 105 dollars as Saudi Arabia reportedly cancels some crude cargoes after the pipeline closure",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
-     "date": "2026-09-15"
+     "title": "FTSE 100 closes up 0.2 percent, trailing the DAX and CAC 40",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/cards/london-finished-up-0-2-roughly-a-third-of-the-dax-s-0-65-ftse-market-bell-01m2ndmf77sakg387xpwz0djyb",
+     "date": "2026-09-16"
     }
    ]
   },
   "gdaxi": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "European stocks fall as oil prices extend gains on Iranian threats",
-     "source": "Yahoo Finance UK",
-     "url": "https://uk.finance.yahoo.com/news/european-stocks-fall-oil-prices-082208453.html",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "US oil tops 105 dollars as Saudi Arabia reportedly cancels some crude cargoes after the pipeline closure",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
-     "date": "2026-09-15"
+     "title": "FTSE 100 closes up 0.2 percent while the DAX adds 0.65 percent",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/cards/london-finished-up-0-2-roughly-a-third-of-the-dax-s-0-65-ftse-market-bell-01m2ndmf77sakg387xpwz0djyb",
+     "date": "2026-09-16"
     }
    ]
   },
   "tsm": {
-   "outlook_1y": "Sell side consensus 12 month target 551.26 from 20 analysts (Yahoo Finance data in this feed), against a last price of 418.01.",
+   "outlook_1y": "Sell side consensus 12 month target 551.26 from 20 analysts (Yahoo Finance data in this feed), against a last price of 417.72.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Chip equipment stocks slide as the AI pacing call reaches fab spending, Applied Materials and Lam Research fall 6 percent, ASML sinks 5 percent",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/09/14/chip-equipment-stocks-slide-as-ai-pacing-call-reaches-fab-spending-applied-materials-and-lam-research-fall-6-asml-sinks-5/",
-     "date": "2026-09-14"
+     "title": "TSMC August revenue surges over 53 percent to a record high",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/10/tsmc-august-revenue-chip-ai.html",
+     "date": "2026-09-10"
     },
     {
-     "title": "Meta, Alphabet and Microsoft rise while Nvidia falls after three AI chiefs call for slowing down frontier models",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/meta-alphabet-microsoft-rise-while-142444084.html",
-     "date": "2026-09-14"
+     "title": "TSMC revenue rises 53 percent as AI chip demand outstrips supply",
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-53-as-ai-chip-demand-outstrips-supply",
+     "date": "2026-09-10"
     }
    ]
   },
   "baba": {
-   "outlook_1y": "Sell side consensus 12 month target 185.95 from 39 analysts (Yahoo Finance data in this feed), against a last price of 109.23.",
+   "outlook_1y": "Sell side consensus 12 month target 185.99 from 39 analysts (Yahoo Finance data in this feed), against a last price of 109.34.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "European stocks fall as oil prices extend gains on Iranian threats",
-     "source": "Yahoo Finance UK",
-     "url": "https://uk.finance.yahoo.com/news/european-stocks-fall-oil-prices-082208453.html",
-     "date": "2026-09-15"
+     "title": "Asian stocks mostly higher ahead of the Fed interest rate decision",
+     "source": "Associated Press via News4Jax",
+     "url": "https://www.news4jax.com/business/2026/09/16/asian-stocks-mostly-higher-ahead-of-feds-interest-rate-decision/",
+     "date": "2026-09-16"
     },
     {
-     "title": "Alibaba plunges after announcing a 10.2 billion dollar share placement to fund its AI push",
+     "title": "Asian stocks close lower on 16 September",
+     "source": "Armenpress",
+     "url": "https://armenpress.am/en/article/1260574",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "bp": {
+   "outlook_1y": "Sell side consensus 12 month target 48.59 from 18 analysts (Yahoo Finance data in this feed), against a last price of 45.38.",
+   "outlook_lt": "Goldman Sachs raised its Brent forecast to 85 dollars for December 2026 and 80 dollars for 2027 in a 7 September 2026 note, with an upside case above 120 dollars and a downside case in the 60s.",
+   "news": [
+    {
+     "title": "Oil prices fall after the US says the damaged Saudi pipeline restarts in days",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
-     "date": "2026-08-24"
+     "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "Oil falls as the Saudi supply outlook improves",
+     "source": "Rigzone",
+     "url": "https://www.rigzone.com/news/wire/oil_falls_as_saudi_supply_outlook_improves-16-sep-2026-184635-article/",
+     "date": "2026-09-16"
     }
    ]
   },
-  "asml": {
-   "outlook_1y": "Sell side consensus 12 month target 2146.02 from 16 analysts (Yahoo Finance data in this feed), against a last price of 1575.15. Management raised full year 2026 revenue guidance to 43 billion to 45 billion euros, per Motley Fool coverage on 14 September 2026.",
-   "outlook_lt": "No cited long run forecast found this run.",
+  "shel": {
+   "outlook_1y": "Sell side consensus 12 month target 100.35 from 15 analysts (Yahoo Finance data in this feed), against a last price of 95.7.",
+   "outlook_lt": "Goldman Sachs raised its Brent forecast to 85 dollars for December 2026 and 80 dollars for 2027 in a 7 September 2026 note.",
    "news": [
     {
-     "title": "Why ASML stock is falling today",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/09/14/why-asml-stock-is-falling-today/",
-     "date": "2026-09-14"
+     "title": "Oil prices fall after the US says the damaged Saudi pipeline restarts in days",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Chip equipment stocks slide as the AI pacing call reaches fab spending, Applied Materials and Lam Research fall 6 percent, ASML sinks 5 percent",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/09/14/chip-equipment-stocks-slide-as-ai-pacing-call-reaches-fab-spending-applied-materials-and-lam-research-fall-6-asml-sinks-5/",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "ASML stock falls as Reuters cites 2028 EUV plans",
-     "source": "ad hoc news",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-falls-as-reuters-cites-2028-euv-plans/70105490",
-     "date": "2026-09-15"
+     "title": "Oil falls as the Saudi supply outlook improves",
+     "source": "Rigzone",
+     "url": "https://www.rigzone.com/news/wire/oil_falls_as_saudi_supply_outlook_improves-16-sep-2026-184635-article/",
+     "date": "2026-09-16"
     }
    ]
   },
-  "sap": {
-   "outlook_1y": "Sell side consensus 12 month target 247.25 from 12 analysts (Yahoo Finance data in this feed), against a last price of 218.28.",
+  "tcehy": {
+   "outlook_1y": "Sell side consensus 12 month target 96.7 from 3 analysts (Yahoo Finance data in this feed), against a last price of 54.51.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "SAP stock rises as investors weigh strong cloud growth and a fresh analyst target increase",
-     "source": "Quiver Quantitative",
-     "url": "https://www.quiverquant.com/news/SAP+stock+rises+as+investors+weigh+strong+cloud+growth+and+a+fresh+analyst+target+increase",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "SAP stock gains as cloud growth and AI investments underpin the outlook",
-     "source": "ad hoc news",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/sap-stock-gains-as-cloud-growth-and-ai-investments-underpin-outlook/70099297",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Meta, Alphabet and Microsoft rise while Nvidia falls after three AI chiefs call for slowing down frontier models",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/meta-alphabet-microsoft-rise-while-142444084.html",
-     "date": "2026-09-14"
-    }
-   ]
-  },
-  "bhp": {
-   "outlook_1y": "Sell side consensus 12 month target 76.25 from 6 analysts (Yahoo Finance data in this feed), against a last price of 84.74. The consensus sits below the last price and rests on only six estimates.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "BHP FY26 scorecard, record iron ore, soft copper guidance and a dividend surprise brewing",
-     "source": "Market Index",
-     "url": "https://www.marketindex.com.au/news/bhp-fy26-scorecard-record-iron-ore-soft-copper-guidance-and-a-dividend-surprise-brewing",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "BHP shares rise as copper overtakes iron ore in FY26 results",
-     "source": "AskTraders",
-     "url": "https://www.asktraders.com/analysis/bhp-shares-rise-as-copper-overtakes-iron-ore-in-fy26-results/",
-     "date": "2026-09-14"
+     "title": "Asian stocks close lower on 16 September",
+     "source": "Armenpress",
+     "url": "https://armenpress.am/en/article/1260574",
+     "date": "2026-09-16"
     }
    ]
   },
   "inrx": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Rupee slumps 38 paise to close at 95.92 against the US dollar",
-     "source": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/business/rupee-against-us-dollar-today-september-15-tuesday-enn26091501070",
-     "date": "2026-09-15"
+     "title": "Sensex gains 333 points and the Nifty settles at 23,218 with Nifty FMCG up nearly 2 percent",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Rupee drops as Brent crude crosses 106 dollars",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/economy/Rupee-Drops-30-Paise-to-9584-as-Brent-Crude-Crosses-dollar106/6aa8d24332e8b17a6096ab7e",
-     "date": "2026-09-15"
+     "title": "FII and DII cash activity for 16 September, foreign investors net sellers and domestic buyers",
+     "source": "Craytheon",
+     "url": "https://craytheon.com/charts/fii-dii-data/",
+     "date": "2026-09-16"
     }
    ]
   },
   "dx-y-nyb": {
-   "outlook_1y": "No cited forecast found this run.",
+   "outlook_1y": "ING wrote in its September 2026 G10 FX Talking that the dollar downtrend is delayed and that the 16 September Fed hike offers temporary support for the dollar, particularly against low yielding currencies.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Europe fundamental forecast, 15 September 2026",
-     "source": "IC Markets",
-     "url": "https://ic.com/blog/ic-europe-fundamental-forecast-15-september-2026/",
-     "date": "2026-09-15"
+     "title": "Euro trades cautiously against the US dollar ahead of the expected Fed rate hike",
+     "source": "FXStreet",
+     "url": "https://www.fxstreet.com/news/euro-trades-cautiously-against-us-dollar-ahead-of-expected-fed-rate-hike-202609161345",
+     "date": "2026-09-16"
     },
     {
-     "title": "Physical gold slips to a six week low near 4,263 dollars as the dollar firms before the Fed decision",
-     "source": "USAGOLD",
-     "url": "https://www.usagold.com/daily-precious-metals-market-report-september-15-2026/",
+     "title": "Fed raises rates to 3.75 percent to 4 percent, the first hike since July 2023",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "eurusdx": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Euro trades cautiously against the US dollar ahead of the expected Fed rate hike",
+     "source": "FXStreet",
+     "url": "https://www.fxstreet.com/news/euro-trades-cautiously-against-us-dollar-ahead-of-expected-fed-rate-hike-202609161345",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "G10 FX Talking, dollar downtrend delayed",
+     "source": "ING",
+     "url": "https://think.ing.com/articles/g10-fx-talking-september-2026",
+     "date": "2026-09-15"
+    }
+   ]
+  },
+  "gbpusdx": {
+   "outlook_1y": "Currency News UK reported a forecast of 1.38 on GBP against the dollar for the fourth quarter of 2026 in a 14 September 2026 piece.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "G10 FX Talking, dollar downtrend delayed",
+     "source": "ING",
+     "url": "https://think.ing.com/articles/g10-fx-talking-september-2026",
      "date": "2026-09-15"
     }
    ]
   },
   "usdjpyx": {
-   "outlook_1y": "No cited forecast found this run.",
+   "outlook_1y": "ING wrote in its September 2026 G10 FX Talking that a Fed hike can see USD/JPY trade a wide 155 to 160 range, with the market pricing a Bank of Japan move to 1.25 percent on 18 September.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "USD JPY rises as markets brace for the Bank of Japan meeting",
-     "source": "FXStreet",
-     "url": "https://www.fxstreet.com/analysis/usd-jpy-rises-as-markets-brace-for-the-bank-of-japan-meeting-202609150711",
+     "title": "G10 FX Talking, dollar downtrend delayed",
+     "source": "ING",
+     "url": "https://think.ing.com/articles/g10-fx-talking-september-2026",
      "date": "2026-09-15"
     },
     {
-     "title": "Yen jumps to a one month intraday high as traders weigh the chance of further intervention",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/03/yen-japan-intervention-boj.html",
-     "date": "2026-09-03"
+     "title": "Asia market quick take for 16 September",
+     "source": "Saxo Bank",
+     "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take-16-september-2026-16092026",
+     "date": "2026-09-16"
     }
    ]
   },
   "gcf": {
-   "outlook_1y": "UBS, in a note dated 13 September 2026, sees gold at 4,600 dollars in December 2026, 5,000 in March 2027 and 5,200 in June 2027. Goldman Sachs forecasts 5,400 to 5,600 dollars for 2027 and JPMorgan targets 5,400 dollars by end 2027.",
-   "outlook_lt": "UBS puts gold at 5,400 dollars by September 2027 and Westpac sits lower at 5,000 dollars. Beyond that horizon no cited forecast was found this run.",
+   "outlook_1y": "Bank year end 2026 gold targets collected this run cluster between 4,500 dollars (JPMorgan) and 4,900 dollars (Goldman Sachs), per a September 2026 compilation on Golden Ark Reserve.",
+   "outlook_lt": "The same September 2026 compilation puts JPMorgan and UBS at 5,400 dollars an ounce by end 2027, Goldman Sachs at 5,400 to 5,600 dollars and Westpac at 5,000 dollars.",
    "news": [
     {
-     "title": "Physical gold slips to a six week low near 4,263 dollars as the dollar firms before the Fed decision",
-     "source": "USAGOLD",
-     "url": "https://www.usagold.com/daily-precious-metals-market-report-september-15-2026/",
-     "date": "2026-09-15"
+     "title": "Gold and silver prices rise as oil eases before the Fed decision",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-09-16/gold-silver-prices-rise-oil-eases-fed-decision-kitco-am-report",
+     "date": "2026-09-16"
     },
     {
-     "title": "Gold prices today, gold sees its lowest open in weeks as Treasury yields keep rising",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-september-15-2026-gold-sees-lowest-open-in-weeks-as-treasury-yields-keep-rising-111454530.html",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Gold price outlook September 2026, what the Fed meeting means for metals",
-     "source": "GoldSilver",
-     "url": "https://goldsilver.com/industry-news/article/gold-price-outlook-september-2026/",
-     "date": "2026-09-14"
+     "title": "Gold price right before the hike",
+     "source": "Kitco",
+     "url": "http://www.kitco.com/opinion/2026-09-16/gold-price-right-hike",
+     "date": "2026-09-16"
     }
    ]
   },
   "sif": {
-   "outlook_1y": "UBS, in a note dated 8 September 2026, forecasts silver at 70 dollars in 2026 and 80 dollars in 2027. HSBC raised its 2026 and 2027 targets and sees a 65 dollar year end 2027 price on a 68 dollar 2027 average, while warning upside may be limited.",
-   "outlook_lt": "JPMorgan cut its 2027 average forecast to 63.90 dollars from 85.80 dollars, per TheStreet. Commerzbank is at 80 dollars for end 2027. The cited range is wide, which is the point.",
+   "outlook_1y": "UBS trimmed its silver targets to 85 dollars for September from 95, to 80 dollars for December from 85 and to 75 dollars for March 2027 from 85, and now sees the 2026 deficit narrowing to roughly 60 to 70 million ounces (Investing.com report on the UBS note).",
+   "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Silver price prediction, UBS forecasts 70 dollars in 2026 and 80 dollars in 2027",
-     "source": "ExchangeRates.org.uk",
-     "url": "https://www.exchangerates.org.uk/news/47119/2026-09-08-silver-price-prediction-ubs-forecasts-70-in-2026-and-80-in-2027.html",
-     "date": "2026-09-08"
-    },
-    {
-     "title": "HSBC raises silver forecasts for 2026 and 2027 but warns upside may be limited",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/commodities/articles/hsbc-raises-silver-forecasts-2026-113000675.html",
-     "date": "2026-09-10"
-    },
-    {
-     "title": "JPMorgan revisits its silver price target ahead of 2027",
-     "source": "TheStreet",
-     "url": "https://www.thestreet.com/investing/jp-morgan-cuts-silver-price-target-ahead-of-2027",
-     "date": "2026-09-10"
+     "title": "Gold and silver prices rise as oil eases before the Fed decision",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-09-16/gold-silver-prices-rise-oil-eases-fed-decision-kitco-am-report",
+     "date": "2026-09-16"
     }
    ]
   },
   "hgf": {
-   "outlook_1y": "Citi is holding a 15,000 dollar a tonne three month target on structural, cyclical and strategic tailwinds. Goldman Sachs raised its 2027 average forecast to 13,800 dollars a tonne.",
-   "outlook_lt": "Goldman Sachs has also published the view that record high copper prices are not forecast to last, and elsewhere expects a 10,000 to 11,000 dollar a tonne range over 2026 and 2027. The houses do not agree.",
+   "outlook_1y": "Citi held its three month copper target at 15,000 dollars a tonne on 14 September 2026 (Yahoo Finance). Goldman Sachs left its 2027 projection at 10,750 dollars a tonne.",
+   "outlook_lt": "Goldman Sachs expects LME prices to retreat from records once tariffs are enacted and global markets rebalance, per its published research.",
    "news": [
     {
-     "title": "Citi holds its bullish copper call with a 15,000 dollar target",
+     "title": "Citi holds a bullish copper call with a 15,000 dollar target",
      "source": "Yahoo Finance",
      "url": "https://finance.yahoo.com/markets/commodities/articles/citi-holds-bullish-copper-call-133600001.html",
      "date": "2026-09-14"
     },
     {
-     "title": "Copper price touches the bearish target, forecast today",
-     "source": "Economies.com",
-     "url": "https://www.economies.com/commodities/copper-analysis/copper-price-touches-the-bearish-target-%E2%80%93-forecast-today-%E2%80%93-15-9-2026-129876",
-     "date": "2026-09-15"
+     "title": "Gold and silver prices rise as oil eases before the Fed decision",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-09-16/gold-silver-prices-rise-oil-eases-fed-decision-kitco-am-report",
+     "date": "2026-09-16"
     }
    ]
   },
   "clf": {
-   "outlook_1y": "JPMorgan Global Research forecasts Brent to average 86 dollars in the third quarter of 2026, 80 dollars in the fourth quarter and 78 dollars at year end. Goldman Sachs cut its fourth quarter 2026 Brent forecast to 80 dollars and its 2027 average to 75 dollars on 16 June 2026. The EIA September Short Term Energy Outlook puts Brent near 90 dollars for the second half of 2026.",
-   "outlook_lt": "All three cited views predate the Saudi East West pipeline shutdown and the current Hormuz disruption, so they sit far below spot. No updated long run forecast was found this run.",
+   "outlook_1y": "Goldman Sachs raised its WTI forecast to 80 dollars for December 2026 and 75 dollars for 2027 in a 7 September 2026 note, citing Middle East shipping disruption.",
+   "outlook_lt": "Goldman Sachs set an upside case above 120 dollars Brent if Gulf output stays 4 million barrels a day below pre war levels, and a downside case in the 60s if output runs 1 million barrels a day above it.",
    "news": [
     {
-     "title": "US oil tops 105 dollars as Saudi Arabia reportedly cancels some crude cargoes after the pipeline closure",
+     "title": "Oil prices fall after the US says the damaged Saudi pipeline restarts in days",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
-     "date": "2026-09-15"
+     "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Oil climbs as the Saudi pipeline remains offline and Hormuz traffic slumps",
-     "source": "EnergyNow",
-     "url": "https://energynow.ca/2026/09/oil-climbs-as-saudi-pipeline-remains-offline-and-hormuz-traffic-slumps/",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Oil prices rise on the Saudi pipeline outage and rising Red Sea risks",
-     "source": "OilPrice.com",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-on-Saudi-Pipeline-Outage-and-Rising-Red-Sea-Risks.html",
-     "date": "2026-09-15"
+     "title": "Oil falls as the Saudi supply outlook improves",
+     "source": "Rigzone",
+     "url": "https://www.rigzone.com/news/wire/oil_falls_as_saudi_supply_outlook_improves-16-sep-2026-184635-article/",
+     "date": "2026-09-16"
     }
    ]
   },
   "bzf": {
-   "outlook_1y": "JPMorgan Global Research forecasts Brent to average 86 dollars in the third quarter of 2026, 80 dollars in the fourth quarter and 78 dollars at year end. Goldman Sachs cut its fourth quarter 2026 Brent forecast to 80 dollars and its 2027 average to 75 dollars on 16 June 2026.",
-   "outlook_lt": "JPMorgan has separately said it expects Brent to stay in the low 100s while OECD oil stocks approach stress levels. No longer dated forecast was found this run.",
+   "outlook_1y": "Goldman Sachs raised its Brent forecast to 85 dollars for December 2026 and 80 dollars for 2027 in a 7 September 2026 note.",
+   "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "US oil tops 105 dollars as Saudi Arabia reportedly cancels some crude cargoes after the pipeline closure",
+     "title": "Oil prices fall after the US says the damaged Saudi pipeline restarts in days",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
-     "date": "2026-09-15"
+     "url": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Oil climbs as the Saudi pipeline remains offline and Hormuz traffic slumps",
-     "source": "EnergyNow",
-     "url": "https://energynow.ca/2026/09/oil-climbs-as-saudi-pipeline-remains-offline-and-hormuz-traffic-slumps/",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Oil prices rise on the Saudi pipeline outage and rising Red Sea risks",
-     "source": "OilPrice.com",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-on-Saudi-Pipeline-Outage-and-Rising-Red-Sea-Risks.html",
-     "date": "2026-09-15"
+     "title": "Oil falls as the Saudi supply outlook improves",
+     "source": "Rigzone",
+     "url": "https://www.rigzone.com/news/wire/oil_falls_as_saudi_supply_outlook_improves-16-sep-2026-184635-article/",
+     "date": "2026-09-16"
     }
    ]
   },
   "remx": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "The US Department of Defense backed price floor of 110 dollars a kilogram for NdPr under the MP Materials contract is the policy anchor most Western coverage cites. The Chinese oxide benchmark has traded below that floor for two consecutive cycles.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "MP Materials and rare earth stocks pop after China curbs US shipments",
-     "source": "Schaeffer's Investment Research",
-     "url": "https://www.schaeffersresearch.com/content/news/2026/09/04/mp-materials-rare-earth-stocks-pop-after-china-curbs-us-shipments",
-     "date": "2026-09-04"
+     "title": "Rare earth stocks tumble on US and China thaw hopes",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/09/10/rare-earth-stocks-tumble-on-u-s-china-thaw-hopes-usa-rare-earth-sinks-4-mp-materials-drops-5-critical-metals-slips/",
+     "date": "2026-09-10"
     },
     {
-     "title": "Rare earth market outlook September 2026, risks mount",
-     "source": "Rare Earth Mining",
-     "url": "https://rare-earth-mining.com/rare-earth-market-outlook-september-2026/",
-     "date": "2026-09-10"
+     "title": "MP Materials and rare earth stocks pop after China curbs US shipments",
+     "source": "Schaeffers Investment Research",
+     "url": "https://www.schaeffersresearch.com/content/news/2026/09/04/mp-materials-rare-earth-stocks-pop-after-china-curbs-us-shipments",
+     "date": "2026-09-04"
     }
    ]
   },
   "mp": {
-   "outlook_1y": "Sell side consensus 12 month target 75.38 from 16 analysts (Yahoo Finance data in this feed), against a last price of 50.68.",
-   "outlook_lt": "The Department of Defense backed 110 dollar a kilogram NdPr floor under the company's contract is the structural support most coverage cites. Second quarter 2026 revenue of 108.49 million dollars included 42.3 million dollars of price protection income from the US government.",
+   "outlook_1y": "Sell side consensus 12 month target 75.38 from 16 analysts (Yahoo Finance data in this feed), against a last price of 49.17.",
+   "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "MP Materials and rare earth stocks pop after China curbs US shipments",
-     "source": "Schaeffer's Investment Research",
-     "url": "https://www.schaeffersresearch.com/content/news/2026/09/04/mp-materials-rare-earth-stocks-pop-after-china-curbs-us-shipments",
-     "date": "2026-09-04"
+     "title": "Rare earth stocks tumble on US and China thaw hopes, MP Materials drops 5 percent",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/09/10/rare-earth-stocks-tumble-on-u-s-china-thaw-hopes-usa-rare-earth-sinks-4-mp-materials-drops-5-critical-metals-slips/",
+     "date": "2026-09-10"
     },
     {
-     "title": "MP Materials adjusted profit beats the Street on rising rare earths sales",
-     "source": "Mining.com",
-     "url": "https://www.mining.com/web/mp-materials-adjusted-profit-beats-street-on-rising-rare-earths-sales/",
-     "date": "2026-08-07"
+     "title": "MP Materials and rare earth stocks pop after China curbs US shipments",
+     "source": "Schaeffers Investment Research",
+     "url": "https://www.schaeffersresearch.com/content/news/2026/09/04/mp-materials-rare-earth-stocks-pop-after-china-curbs-us-shipments",
+     "date": "2026-09-04"
     }
    ]
   },
-  "ccj": {
-   "outlook_1y": "Sell side consensus 12 month target 129.77 from 12 analysts (Yahoo Finance data in this feed), against a last price of 93.26.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": []
-  },
-  "ura": {
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": []
-  },
-  "nem": {
-   "outlook_1y": "Sell side consensus 12 month target 133.67 from 21 analysts (Yahoo Finance data in this feed), against a last price of 123.07.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": []
-  },
-  "btc-usd": {
-   "outlook_1y": "No cited forecast found this run.",
+  "alb": {
+   "outlook_1y": "Sell side consensus 12 month target 172.56 from 20 analysts (Yahoo Finance data in this feed), against a last price of 109.47.",
    "outlook_lt": "No cited long run forecast found this run.",
    "news": [
     {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-     "date": "2026-09-15"
+     "title": "Lithium stocks slide as supply comfort overwhelms demand",
+     "source": "Rio Times",
+     "url": "https://www.riotimesonline.com/lithium-markets-latam-friday-september-11-2026/",
+     "date": "2026-09-11"
     },
     {
-     "title": "Bitcoin and ethereum prices today, crypto prices sliding ahead of the Fed meeting",
+     "title": "Lithium wrap, SQM and Albemarle slide while LIT dips",
+     "source": "Rio Times",
+     "url": "https://www.riotimesonline.com/lithium-markets-latam-tuesday-september-8-2026",
+     "date": "2026-09-08"
+    }
+   ]
+  },
+  "nem": {
+   "outlook_1y": "Sell side consensus 12 month target 133.67 from 21 analysts (Yahoo Finance data in this feed), against a last price of 121.76.",
+   "outlook_lt": "No cited long run forecast found this run.",
+   "news": [
+    {
+     "title": "Why Newmont stock slipped after the Fed raised its target range",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/09/16/why-newmont-mining-stock-slipped-today/",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "Gold and silver prices rise as oil eases before the Fed decision",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-09-16/gold-silver-prices-rise-oil-eases-fed-decision-kitco-am-report",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "btc-usd": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Crypto prices tank after the CLARITY Act fails and ahead of the Fed decision",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-15-2026-crypto-prices-sliding-this-morning-ahead-of-fed-meeting-113732149.html",
-     "date": "2026-09-15"
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Bitcoin climbs to 78,000 dollars as crypto sits out the AI selloff",
+     "title": "Bitcoin loses touch with the dollar index and US stocks ahead of the Fed",
      "source": "CoinDesk",
-     "url": "https://www.coindesk.com/markets/2026/09/14/bitcoin-climbs-to-usd78-000-as-crypto-sits-out-the-ai-selloff",
-     "date": "2026-09-14"
+     "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "Fed raises rates for the first time since 2023 and bitcoin trades near 76,000 dollars",
+     "source": "KuCoin",
+     "url": "https://www.kucoin.com/news/flash/fed-hikes-rates-for-first-time-since-2023-bitcoin-surges-to-76-000",
+     "date": "2026-09-16"
     }
    ]
   },
   "eth-usd": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Bitcoin and ethereum prices today, crypto prices sliding ahead of the Fed meeting",
+     "title": "Crypto prices tank after the CLARITY Act fails and ahead of the Fed decision",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-15-2026-crypto-prices-sliding-this-morning-ahead-of-fed-meeting-113732149.html",
-     "date": "2026-09-15"
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Clarity Act live updates, crypto bill fails to advance in the US Senate cloture vote",
-     "source": "CoinGape",
-     "url": "https://coingape.com/clarity-act-live-updates-today-sept-15-crypto-bill-senate-cloture-vote/",
-     "date": "2026-09-15"
-    }
-   ]
-  },
-  "xrp-usd": {
-   "outlook_1y": "Bernstein projected a 15 to 30 percent altcoin drawdown in a Clarity Act failure scenario, per CoinDesk coverage on 15 September 2026. That is the only cited view found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
+     "title": "Bitcoin loses touch with the dollar index and US stocks ahead of the Fed",
      "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "What happens to XRP if the Clarity Act dies in September",
-     "source": "crypto.news",
-     "url": "https://crypto.news/what-happens-to-xrp-if-clarity-act-dies-september/",
-     "date": "2026-09-14"
-    },
-    {
-     "title": "Clarity Act live updates, crypto bill fails to advance in the US Senate cloture vote",
-     "source": "CoinGape",
-     "url": "https://coingape.com/clarity-act-live-updates-today-sept-15-crypto-bill-senate-cloture-vote/",
-     "date": "2026-09-15"
-    }
-   ]
-  },
-  "ada-usd": {
-   "outlook_1y": "Bernstein projected a 15 to 30 percent altcoin drawdown in a Clarity Act failure scenario, per CoinDesk coverage on 15 September 2026. That is the only cited view found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
-   "news": [
-    {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Clarity Act live updates, crypto bill fails to advance in the US Senate cloture vote",
-     "source": "CoinGape",
-     "url": "https://coingape.com/clarity-act-live-updates-today-sept-15-crypto-bill-senate-cloture-vote/",
-     "date": "2026-09-15"
+     "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
+     "date": "2026-09-16"
     }
    ]
   },
   "dot-usd": {
-   "outlook_1y": "Bernstein projected a 15 to 30 percent altcoin drawdown in a Clarity Act failure scenario, per CoinDesk coverage on 15 September 2026. That is the only cited view found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
+     "title": "Bitcoin loses touch with the dollar index and US stocks ahead of the Fed",
      "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-     "date": "2026-09-15"
-    },
-    {
-     "title": "Clarity Act live updates, crypto bill fails to advance in the US Senate cloture vote",
-     "source": "CoinGape",
-     "url": "https://coingape.com/clarity-act-live-updates-today-sept-15-crypto-bill-senate-cloture-vote/",
-     "date": "2026-09-15"
+     "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
+     "date": "2026-09-16"
     }
    ]
   },
-  "sol-usd": {
-   "outlook_1y": "Bernstein projected a 15 to 30 percent altcoin drawdown in a Clarity Act failure scenario, per CoinDesk coverage on 15 September 2026. That is the only cited view found this run.",
-   "outlook_lt": "No cited long run forecast found this run.",
+  "avax-usd": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Live updates, Clarity Act fails in the Senate, sending crypto lower",
+     "title": "Bitcoin loses touch with the dollar index and US stocks ahead of the Fed",
      "source": "CoinDesk",
-     "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
-     "date": "2026-09-15"
+     "url": "https://www.coindesk.com/daybook-us/2026/09/16/bitcoin-loses-touch-with-the-dollar-index-u-s-stocks-ahead-of-the-fed",
+     "date": "2026-09-16"
+    }
+   ]
+  },
+  "etha": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Crypto prices tank after the CLARITY Act fails and ahead of the Fed decision",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
+     "date": "2026-09-16"
     },
     {
-     "title": "Clarity Act live updates, crypto bill fails to advance in the US Senate cloture vote",
-     "source": "CoinGape",
-     "url": "https://coingape.com/clarity-act-live-updates-today-sept-15-crypto-bill-senate-cloture-vote/",
+     "title": "Coinbase and Strategy fall as bitcoin drops before the Clarity Act vote",
+     "source": "Invezz",
+     "url": "https://invezz.com/news/2026/09/15/crypto-stocks-slide-as-bitcoin-drops-ahead-of-clarity-act-vote-and-fed-decision/",
      "date": "2026-09-15"
     }
    ]
