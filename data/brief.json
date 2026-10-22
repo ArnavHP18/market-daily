@@ -1,36 +1,40 @@
 {
- "date": "2026-10-21",
- "generated_at": "2026-10-21T00:51:33+00:00",
- "headline": "With the US 10 year at 5.12 percent and a December Fed increase about 75 percent priced, Tuesday gains in New York went to the Dow and small caps rather than technology, and India opens its largest ever IPO today, Jio Platforms at 30,213 crore rupees, after foreign investors pulled close to 50,000 crore rupees out this month.",
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T00:51:12+00:00",
+ "headline": "US stocks took a third straight gain on Meta's revenue beat and a near 8 percent jump in SpaceX, while Brent above 110 dollars, a 10 year Treasury yield near 5.15 percent and a December Fed increase close to fully priced left the Nifty lower for a second session with India VIX at a four month high.",
  "summary": {
-  "us": "The Dow rose 1.02 percent to 52,495.88 and the Russell 2000 1.65 percent to 2,773.42 after 3M beat estimates and raised full year guidance, while the Nasdaq Composite ended flat at 26,424.82 and technology was the only sector to close lower; the S&P 500 added 0.28 percent to 7,712.57 and the VIX fell 6.13 percent to 17.31. The 10 year yield eased to 5.117 percent from about 5.31 percent earlier this month, General Motors fell about 7 percent despite beating estimates, and Meta and Tesla report after the US close tonight.",
-  "india": "Exchanges were shut on Tuesday for Dussehra, so the last close is Monday: the Nifty 50 fell 1.11 percent to 22,888.95 and the Sensex 1.17 percent to 73,852.90 as private banks and IT dragged, with Axis Bank down 4.19 percent after September quarter profit of 7,003 crore rupees missed the 7,124 crore rupee consensus compiled by LSEG. Foreign institutions sold about 1,149 crore rupees against 3,201 crore rupees of domestic buying, taking October foreign outflows to roughly 49,900 crore rupees, the rupee is at 94.77 a dollar, and the Jio Platforms and Paras Healthcare IPOs open today.",
-  "global": "China third quarter GDP of 4.5 percent beat the 4.4 percent consensus, but the Nikkei 225 fell 1.30 percent to 64,075.37 as SoftBank dropped about 6 percent with its five year credit default swaps at 432 basis points, the widest since November 2022. Europe closed slightly lower, with the Stoxx 600 at 638.64 and the DAX at 25,304.42 both down 0.1 percent and London banks the biggest drag, while crude swung on a reported United States and Iran peace proposal: Brent settled little changed at 109.64 dollars and the front month WTI quote dropped to 98.55 dollars as the November contract expired and the December contract took over, so most of that 4.9 percent fall is the contract roll rather than the market."
+  "us": "The S&P 500 rose 0.58 percent to 7,757.17 and the Nasdaq Composite 1.05 percent to 26,702.86 for a third straight advance, led by Nvidia up more than 2 percent and a near 8 percent jump in SpaceX after its first profit as a public company and Elon Musk's comment that a Tesla merger would be a good idea. After the close Meta reported revenue up 26 percent to 64.6 billion dollars and announced a 2-for-1 stock split, Tesla beat on adjusted earnings of 0.48 dollars but slipped on margin and AI spending questions, and the 10 year Treasury yield held near 5.11 to 5.15 percent with commentary putting December increase odds around 94 percent.",
+  "india": "The Nifty 50 fell 0.34 percent to 22,811.35 and the Bank Nifty 0.92 percent to 54,976.90 for a second straight decline as Brent above 110 dollars and continued foreign selling weighed, leaving the Nifty IT index up 2.52 percent as the only major gainer after Infosys and Wipro each added about 3 to 4 percent. ABB India and Siemens each dropped more than 5 percent in a capital goods selloff, Bajaj Finance fell 3.27 percent, State Bank of India slipped 1.1 percent after disclosing a suspected dark web leak of 3,897 customer records, the rupee traded near 94.71 a dollar, and the 30,213 crore rupee Jio Platforms IPO closed day one at about 3.2 times overall with institutions at 9.42 times and retail at 0.73 times.",
+  "global": "Japan's Nikkei 225 closed 0.85 percent higher at 64,621.24 as AI names recovered from one month lows, while Hong Kong's Hang Seng fell 0.90 percent to 23,651.87 and US listed China tech dropped sharply, with Alibaba down about 5 percent and Tencent's ADR off 4.1 percent on reports that ByteDance, Alibaba and Tencent have placed more than 35 billion dollars of Nvidia chip orders that may not all be filled. UK inflation came in hotter than expected at 3.5 percent in the year to September, the highest in a year, keeping the FTSE 100 close to flat, and Korea's Kospi was recovering after a 3.73 percent drop on October 20 that capped a slide of roughly 21 percent from its September high on doubts about AI capital spending."
  },
  "calendar": [
   {
-   "when": "2026-10-21",
-   "what": "Jio Platforms and Paras Healthcare IPOs open in India; Meta and Tesla September quarter results after the US close; EIA crude inventories; US 20 year bond auction"
-  },
-  {
    "when": "2026-10-22",
-   "what": "US weekly jobless claims, consensus about 200,000; Infosys board meets on the September quarter results"
+   "what": "US weekly jobless claims for the week to October 17, consensus about 200,000; Jio Platforms and Paras Healthcare IPO day two bidding; iPhone Duo reviews out ahead of sale"
   },
   {
    "when": "2026-10-23",
-   "what": "Infosys September quarter results and dividend decision; Jio Platforms and Paras Healthcare IPOs close; US flash October purchasing managers indices; University of Michigan inflation expectations; Apple iPhone Duo on sale"
+   "what": "Infosys September quarter results and dividend decision, alongside Dr Reddy's Laboratories, JSW Steel and Tata Motors on one of the busiest Indian earnings days of the week; Jio Platforms and Paras Healthcare IPOs close; US flash October services and manufacturing purchasing managers indices, consensus about 58.0 and 55.5; Apple iPhone Duo on sale"
+  },
+  {
+   "when": "2026-10-24",
+   "what": "Kotak Mahindra Bank and IDFC First Bank September quarter results"
   },
   {
    "when": "2026-10-26",
-   "what": "Jio Platforms allotment expected"
+   "what": "Jio Platforms allotment expected; EAAA India Alternatives IPO opens"
   },
   {
    "when": "2026-10-27",
-   "what": "US Federal Open Market Committee two day meeting begins; SFC Environmental Technologies IPO opens in India"
+   "what": "US Federal Open Market Committee two day meeting begins; SFC Environmental Technologies and BLS Polymers IPOs open in India"
   },
   {
    "when": "2026-10-28",
-   "what": "Fed decision at 2pm New York time, policy range now 3.75 to 4.00 percent; Alphabet September quarter results; Adani Enterprises board meets on results; Jio Platforms listing expected"
+   "what": "Fed decision at 2pm New York time, with markets expecting a hold at this meeting; Alphabet and Microsoft September quarter results; Adani Enterprises board meets on results; Jio Platforms listing expected"
+  },
+  {
+   "when": "2026-10-29",
+   "what": "Fed blackout period ends; SFC Environmental Technologies and BLS Polymers IPOs close; Strategy and Eli Lilly third quarter results"
   }
  ],
  "ipos": [
@@ -42,9 +46,9 @@
    "close": "2026-10-23",
    "price_band": "₹1,065 to ₹1,119",
    "lot": "12 shares",
-   "size": "₹30,213 cr fresh issue, no offer for sale",
-   "source": "Chittorgarh",
-   "source_url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
+   "size": "₹30,213 cr fresh issue",
+   "source": "Upstox",
+   "source_url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-india-s-biggest-public-issue-opens-for-subscription-check-lot-size-subscription-status-and-key-dates/article-202116/",
    "drhp_url": ""
   },
   {
@@ -56,8 +60,21 @@
    "price_band": "₹660 to ₹693",
    "lot": "21 shares",
    "size": "about ₹1,450 cr",
-   "source": "TradingView News",
-   "source_url": "https://www.tradingview.com/news/moodys:abefe00440cee:0-jio-platforms-paras-healthcare-ipos-to-open-this-week-nine-listings-scheduled/",
+   "source": "Zerodha IPO list",
+   "source_url": "https://zerodha.com/ipo/",
+   "drhp_url": ""
+  },
+  {
+   "name": "EAAA India Alternatives",
+   "market": "India (NSE/BSE)",
+   "sector": "Alternative asset management",
+   "open": "2026-10-26",
+   "close": "2026-10-28",
+   "price_band": "₹1,585 to ₹1,665",
+   "lot": "",
+   "size": "₹1,200 cr, listing expected 2 November",
+   "source": "Zerodha IPO list",
+   "source_url": "https://zerodha.com/ipo/",
    "drhp_url": ""
   },
   {
@@ -66,11 +83,24 @@
    "sector": "Water and wastewater treatment",
    "open": "2026-10-27",
    "close": "2026-10-29",
-   "price_band": "not announced as of this run",
+   "price_band": "₹313 to ₹330",
    "lot": "",
-   "size": "₹150 cr fresh issue plus an offer for sale of 1.56 crore shares",
+   "size": "₹667.53 cr",
    "source": "Chittorgarh",
    "source_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
+   "drhp_url": ""
+  },
+  {
+   "name": "BLS Polymers",
+   "market": "India (NSE/BSE)",
+   "sector": "Polymer compounds",
+   "open": "2026-10-27",
+   "close": "2026-10-29",
+   "price_band": "₹142 to ₹150",
+   "lot": "",
+   "size": "₹255 cr, listing expected 3 November",
+   "source": "Zerodha IPO list",
+   "source_url": "https://zerodha.com/ipo/",
    "drhp_url": ""
   }
  ],
@@ -80,302 +110,338 @@
  },
  "assets": {
   "gspc": {
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "Citi economist Nathan Sheets argues that fiscal deficits and AI financing needs keep upward pressure on Treasury yields, which is the main discount rate risk for US equity valuations (Citi, October 2026). No index level target found this run.",
+   "outlook_1y": "Panmure Liberum set a year end 2027 target of 5,000 on October 5, 2026, arguing market resilience could unravel if bond yields and rates keep rising. Goldman Sachs raised its year end 2026 target to 8,000 from 7,600 in May 2026.",
+   "outlook_lt": "Morgan Stanley's US equity strategist carried a mid 2027 target of 8,300 as of May 2026, based on expected 2027 earnings growth of 12 percent, and Wells Fargo Investment Institute's June 2026 table showed 8,600 to 8,800 for year end 2027. Analysts tracked by LSEG IBES expect index earnings growth to slow from 35 percent in 2026 to 15 percent in 2027, per an October 3, 2026 report.",
    "news": [
     {
-     "title": "Stock market today: live updates for 20 October",
+     "title": "Dow, S&P 500 and Nasdaq rise as tech rallies and SpaceX jumps nearly 8 percent",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "How major US stock indexes fared Wednesday 10/21/2026",
+     "source": "Associated Press",
+     "url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-10212026/616-7b5f5e36-88da-4c68-b7a1-1ed8d1bc2cb5",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Stock futures fall as investors digest earnings from Meta and Tesla",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "S&P 500 closes up 0.2 percent as money rotates from tech into value",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/cards/money-moved-out-of-tech-and-into-old-economy-names-today-th-gspc-market-bell-01m5dekq8fms2exrh55bf56qwp",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "Dow rises 500 points as 3M and Northrop climb and oil falls",
-     "source": "Quartz",
-     "url": "https://qz.com/nasdaq-slips-micron-intel-sandisk-ai-stocks-102026",
-     "date": "2026-10-20"
+     "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html",
+     "date": "2026-10-21"
     }
    ]
   },
   "ixic": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited index target found this run. The AI capital spending cycle and the cost of debt funding it are the drivers named in current coverage.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Nasdaq rises over 100 points, 3M earnings top views",
-     "source": "Benzinga",
-     "url": "https://www.benzinga.com/markets/market-summary/26/10/62473694/nasdaq-rises-over-100-points-3m-earnings-top-views",
-     "date": "2026-10-20"
+     "title": "S&P 500 and Nasdaq gain, powered by Meta and Tesla",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-gain-powered-231519176.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "Dow rises 500 points as 3M and Northrop climb and oil falls",
-     "source": "Quartz",
-     "url": "https://qz.com/nasdaq-slips-micron-intel-sandisk-ai-stocks-102026",
-     "date": "2026-10-20"
+     "title": "Stock market news for Oct. 21, 2026",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "Health care stocks hit record highs, GM drops nearly 8 percent",
-     "source": "Benzinga",
-     "url": "https://www.benzinga.com/markets/equities/26/10/62475717/health-care-stocks-hit-record-highs-gm-drops-nearly-8-stock-market-today",
-     "date": "2026-10-20"
+     "title": "How major US stock indexes fared Wednesday 10/21/2026",
+     "source": "Associated Press",
+     "url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-10212026/616-7b5f5e36-88da-4c68-b7a1-1ed8d1bc2cb5",
+     "date": "2026-10-21"
     }
    ]
   },
   "tnx": {
-   "outlook_1y": "No cited level forecast found this run. Futures priced roughly a 75 percent chance of a 25 basis point Fed increase in December and about 15 percent for the 27 and 28 October meeting, with the policy range at 3.75 to 4.00 percent after the September increase.",
-   "outlook_lt": "Citi economist Nathan Sheets says fiscal supply and AI financing demand argue for persistently higher yields (Citi, October 2026). No numeric long run forecast found this run.",
-   "news": [
-    {
-     "title": "10 year Treasury yield at 5.08 percent as the Fed decision nears",
-     "source": "Pomegra",
-     "url": "https://pomegra.io/news/10-year-treasury-yield-at-508-as-fed-rate-decision-nears",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "Citi economist warns markets could misread the Fed, sees fiscal and AI financing worries pushing up Treasury yields",
-     "source": "Stocktwits",
-     "url": "https://stocktwits.com/news-articles/markets/equity/citi-s-nathan-sheets-warns-markets-could-misread-the-fed-sees-fiscal-ai-financing-worries-pushing-up-treasury-yields/cZxqU0dRBuU",
-     "date": "2026-10-20"
-    }
-   ]
-  },
-  "vix": {
-   "outlook_1y": "No cited forecast found this run.",
+   "outlook_1y": "No house yield forecast found this run. For context on pricing, JPMorgan strategists said on October 20, 2026 that equities could gain into year end if yields remain stable, and market commentary that day put the implied odds of a December Fed increase near 94 percent with the Fed expected to hold at the October 27 to 28 meeting.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Stock market today: live updates for 20 October",
+     "title": "Treasury yields steady as investors await jobless claims and mortgage data",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
-     "date": "2026-10-20"
+     "url": "https://cnbc.com/amp/2026/10/21/bonds-us-treasurys-yields.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "S&P 500 closes up 0.2 percent as money rotates from tech into value",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/cards/money-moved-out-of-tech-and-into-old-economy-names-today-th-gspc-market-bell-01m5dekq8fms2exrh55bf56qwp",
+     "title": "US Treasury yields ease, JPMorgan sees year end stock gains if yields remain stable",
+     "source": "Invezz",
+     "url": "https://invezz.com/news/2026/10/20/us-treasury-yields-ease-jpmorgan-sees-year-end-stock-gains-if-yields-remain-stable/",
      "date": "2026-10-20"
     }
    ]
   },
   "aapl": {
-   "outlook_1y": "Analyst mean target 328 dollars from 39 analysts (Yahoo Finance consensus, 21 October 2026). Last close 342.94 dollars on 2026-10-19. Loop Capital cut Apple to hold with a 330 dollar target on 20 October; JPMorgan raised its target to 360 dollars with an overweight rating.",
-   "outlook_lt": "Bulls cite the services mix and the new launch cadence around iPhone Duo; Jefferies points to shorter Pro delivery times and component order cuts as the bear case (Jefferies, 19 October 2026). Next results are due 2 November.",
+   "outlook_1y": "Analyst consensus mean target 328.35 across 39 analysts (Yahoo Finance data, pulled this run). The mean sits below the October 20 close of 339.50.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Loop Capital cuts Apple target to 330 dollars over a complicated 2026 to 2027 iPhone cycle",
-     "source": "AppleInsider",
-     "url": "https://appleinsider.com/articles/26/10/20/loop-capital-cuts-aapl-target-to-330-over-complicated-2026-2027-iphone-cycle",
+     "title": "Apple announces American Manufacturing Program partners for its latest iPhone lineup",
+     "source": "Apple Newsroom",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-announces-american-manufacturing-program-partners-for-latest-iphone-lineup/",
      "date": "2026-10-20"
     },
     {
-     "title": "Apple stock in focus as iPhone Duo launch, US expansion and earnings loom",
-     "source": "Benzinga",
-     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62467759/apple-stock-in-focus-as-iphone-duo-launch-us-expansion-and-earnings-loom",
-     "date": "2026-10-20"
+     "title": "iPhone Duo pre-order guide as Apple's foldable arrives with limited supply",
+     "source": "PhoneArena",
+     "url": "https://phonearena.com/news/iphone-duo-waiting-game_id184180",
+     "date": "2026-10-21"
     },
     {
-     "title": "Apple downgraded as iPhone shipment concerns mount",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/aapl-stock-downgraded-iphone-shipment-123814814.html",
-     "date": "2026-10-19"
+     "title": "Apple daily news roundup for October 21, 2026",
+     "source": "9to5Mac",
+     "url": "https://9to5mac.com/2026/10/21/daily-october-21-2026/",
+     "date": "2026-10-21"
     }
    ]
   },
   "msft": {
-   "outlook_1y": "Analyst mean target 599 dollars from 53 analysts (Yahoo Finance consensus, 21 October 2026). Last close 533.52 dollars on 2026-10-19.",
-   "outlook_lt": "Microsoft has guided to capital spending of about 50 billion dollars for the September to December quarter and said it expects to stay capacity constrained on AI into the end of its fiscal year (company guidance reported October 2026). Margin mix is the bear case cited by analysts.",
+   "outlook_1y": "Analyst consensus mean target 601.73 across 53 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Microsoft denies reports of 20 percent cloud cuts to offset AI spending",
-     "source": "Fast Company",
-     "url": "https://www.fastcompany.com/91623630/microsoft-denies-reports-of-20-cloud-cuts-to-offset-ai-spending",
-     "date": "2026-10-14"
+     "title": "Microsoft takes on Apple's Macs with an Nvidia powered Surface Ultra and more on-device AI",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-4-day-winning-032843614.html",
+     "date": "2026-10-20"
     },
     {
-     "title": "Microsoft weighs 20 percent cost cuts in Azure vertical amid soaring AI data centre spending",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-weighs-20-cost-cuts-234048608.html",
-     "date": "2026-10-13"
+     "title": "Tech news today: Amazon, Apple, ByteDance, Microsoft, Nvidia, OpenAI and Salesforce",
+     "source": "Tech Startups",
+     "url": "https://techstartups.com/2026/10/20/tech-news-today-october-20-2026-amazon-apple-bytedance-microsoft-nvidia-openai-salesforce-more/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Alphabet slips 2 percent despite Nasdaq rally as Pichai says Google Cloud is giving up revenue for AI capacity",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/alphabet-slips-2-despite-nasdaq-rally-as-pichai-says-google-cloud-is-giving-up-revenue-for-ai-capacity-amazon-dips-microsoft-holds-steady/",
+     "date": "2026-10-21"
     }
    ]
   },
   "nvda": {
-   "outlook_1y": "Analyst mean target 329 dollars from 59 analysts (Yahoo Finance consensus, 21 October 2026). Last close 217.09 dollars on 2026-10-19.",
-   "outlook_lt": "Reuters reported ByteDance, Alibaba and Tencent ordering more than 3 million Blackwell chips worth about 35 billion dollars, with one source saying Nvidia can fill only 5 to 10 percent of that (Reuters, 20 October 2026). Bears point to neocloud balance sheets and the cost of AI debt.",
+   "outlook_1y": "Analyst consensus mean target 328.72 across 59 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Nvidia reportedly lands 35 billion dollars in chip orders from Chinese companies",
-     "source": "The Motley Fool",
-     "url": "https://www.fool.com/investing/2026/10/20/nvidia-reportedly-just-landed-usd35-billion-in-chip-orders-from-chinese-companies-here-s-why-that-could-be-great-news-for-the-stock/",
+     "title": "Stock market news for Oct. 21, 2026",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Tech news today: Amazon, Apple, ByteDance, Microsoft, Nvidia, OpenAI and Salesforce",
+     "source": "Tech Startups",
+     "url": "https://techstartups.com/2026/10/20/tech-news-today-october-20-2026-amazon-apple-bytedance-microsoft-nvidia-openai-salesforce-more/",
      "date": "2026-10-20"
     },
     {
-     "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html",
-     "date": "2026-10-16"
+     "title": "China tech stocks slide while US market rises, Alibaba sinks 5 percent, JD.com and PDD drop 4 percent",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/china-tech-stocks-slide-while-broader-market-edges-higher-alibaba-sinks-5-jd-com-and-pdd-drop-4/",
+     "date": "2026-10-21"
     }
    ]
   },
   "amzn": {
-   "outlook_1y": "Analyst mean target 332 dollars from 58 analysts (Yahoo Finance consensus, 21 October 2026). Last close 262.45 dollars on 2026-10-19. Morgan Stanley raised its target to 350 dollars from 335 dollars on 19 October, naming Amazon a top pick on faster AWS growth.",
-   "outlook_lt": "Morgan Stanley now models AWS revenue growth of 47 percent in 2027 and 42 percent in 2028, up from 41 and 37 percent (Morgan Stanley, 19 October 2026).",
+   "outlook_1y": "Analyst consensus mean target 331.72 across 58 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Amazon jumps 5 percent as Morgan Stanley names it top pick on faster AWS growth",
-     "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/10/19/amazon-jumps-5-as-morgan-stanley-names-it-top-pick-on-faster-aws-growth-microsoft-and-alphabet-edge-higher/",
-     "date": "2026-10-19"
-    },
-    {
-     "title": "Why is Amazon stock volatile today",
-     "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-amazon-stock-volatile-today-93CH-4960276",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "Between Amazon and Alphabet, one has got much more for its 200 billion dollars",
+     "title": "Amazon is warehousing billions in Nvidia AI chips it cannot yet power up",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/between-amazon-alphabet-one-gotten-124530437.html",
+     "url": "https://finance.yahoo.com/technology/ai/articles/amazon-warehousing-billions-nvidia-ai-142317720.html",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Amazon takes its biggest shot at Nvidia yet with the new TorchNeuron dev tool",
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
      "date": "2026-10-20"
+    },
+    {
+     "title": "Alphabet slips 2 percent despite Nasdaq rally as Pichai says Google Cloud is giving up revenue for AI capacity",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/alphabet-slips-2-despite-nasdaq-rally-as-pichai-says-google-cloud-is-giving-up-revenue-for-ai-capacity-amazon-dips-microsoft-holds-steady/",
+     "date": "2026-10-21"
     }
    ]
   },
   "googl": {
-   "outlook_1y": "Analyst mean target 430 dollars from 54 analysts (Yahoo Finance consensus, 21 October 2026). Last close 344.18 dollars on 2026-10-19. Bank of America models Google Cloud growth of 93 percent against consensus of 89 percent ahead of the 28 October results (BofA, October 2026).",
-   "outlook_lt": "Alphabet raised its full year capital spending plan by 15 billion dollars to a range of 195 to 205 billion dollars, and reported negative free cash flow of 5.9 billion dollars in the June quarter (company disclosure, 2026).",
+   "outlook_1y": "Analyst consensus mean target 430.33 across 54 analysts (Yahoo Finance data, pulled this run). KeyBanc analyst Justin Patterson cut his target to 410 from 435 on October 19, 2026 while keeping an Overweight rating, and BMO Capital raised its target to 480 from 465.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Alphabet set for earnings beat as cloud and AI chips take centre stage",
-     "source": "Proactive Investors",
-     "url": "https://proactiveinvestors.com/companies/news/1100415/alphabet-set-for-earnings-beat-as-cloud-and-ai-chips-take-centre-stage-1100415.html",
-     "date": "2026-10-20"
+     "title": "Alphabet slips 2 percent despite Nasdaq rally as Pichai says Google Cloud is giving up revenue for AI capacity",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/alphabet-slips-2-despite-nasdaq-rally-as-pichai-says-google-cloud-is-giving-up-revenue-for-ai-capacity-amazon-dips-microsoft-holds-steady/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Alphabet stock slipped after June quarter earnings, what investors need to see next",
-     "source": "The Motley Fool",
-     "url": "https://www.fool.com/investing/2026/10/19/alphabet-q3-earnings-expectations/",
-     "date": "2026-10-19"
+     "title": "Why Alphabet stock is sliding today",
+     "source": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-alphabet-stock-sliding-today-93CH-4963511",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Alphabet's October 28 earnings could hinge on Google Cloud growth",
+     "source": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/203e07c4-91b0-4285-a501-08d65731ebb8",
+     "date": "2026-10-21"
     }
    ]
   },
   "meta": {
-   "outlook_1y": "Analyst mean target 818 dollars from 58 analysts (Yahoo Finance consensus, 21 October 2026). Last close 705.44 dollars on 2026-10-19. Meta has guided full year 2026 earnings per share to a range of 7.65 to 7.75 dollars (company guidance, 2026).",
-   "outlook_lt": "The question analysts name ahead of tonight is whether AI spending is converting into revenue. No long run house target found this run.",
+   "outlook_1y": "Analyst consensus mean target 817.87 across 58 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Meta against Tesla, the earnings setup ahead of September quarter results",
-     "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/meta-vs-tesla-earnings-setup-ahead-of-q3-2026-results-93CH-4960746",
-     "date": "2026-10-20"
+     "title": "Meta beats third quarter revenue expectations and announces a 2-for-1 stock split",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/live/meta-earnings-live-meta-q3-earnings-to-test-wall-streets-stomach-for-ai-spending-173000302.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "Magnificent 7 earnings preview, Meta and Tesla take centre stage this week",
+     "title": "Why Meta stock is rising after hours while Tesla falls",
+     "source": "TipRanks",
+     "url": "https://www.tipranks.com/news/why-meta-stock-is-rising-after-hours-while-tesla-falls-and-what-wall-street-sees-next",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Third quarter earnings beats for Meta, Tesla, IBM and Texas Instruments",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-7-earnings-preview-meta-173500726.html",
-     "date": "2026-10-19"
+     "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-beats-meta-tesla-205600481.html",
+     "date": "2026-10-21"
     }
    ]
   },
   "tsla": {
-   "outlook_1y": "Analyst mean target 398 dollars from 38 analysts (Yahoo Finance consensus, 21 October 2026). Last close 368.06 dollars on 2026-10-19. Consensus for tonight sits near 0.43 to 0.44 dollars of earnings per share on about 27.8 to 28.1 billion dollars of revenue (Bloomberg and Zacks compilations, October 2026).",
-   "outlook_lt": "Third quarter deliveries of 486,532 beat the roughly 462,000 consensus while energy storage of 13.7 GWh missed about 15.9 GWh expected (company figures, October 2026). Analysts name full self driving in Europe, Robotaxi and Optimus as the swing factors.",
+   "outlook_1y": "Analyst consensus mean target 397.83 across 38 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Tesla September quarter earnings preview, flat revenue and falling profits",
-     "source": "Electrek",
-     "url": "https://electrek.co/2026/10/20/tesla-tsla-q3-2026-earnings-preview/",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "Meta against Tesla, the earnings setup ahead of September quarter results",
+     "title": "Tesla beats third quarter estimates as the stock slips after hours",
      "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/meta-vs-tesla-earnings-setup-ahead-of-q3-2026-results-93CH-4960746",
-     "date": "2026-10-20"
+     "url": "https://za.investing.com/news/stock-market-news/earnings-call-transcript-tesla-beats-q3-2026-estimates-as-stock-slips-after-hours-93CH-4517968",
+     "date": "2026-10-21"
     },
     {
-     "title": "Earnings live updates, all eyes on Musk and Meta",
+     "title": "Analyst Daniel Ives weighs in on Tesla and Meta after earnings",
+     "source": "TipRanks",
+     "url": "https://www.tipranks.com/news/top-analyst-daniel-ives-weighs-in-on-tesla-and-meta-stocks-after-earnings-heres-what-he-sees",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Dow, S&P 500 and Nasdaq rise as tech rallies and SpaceX jumps nearly 8 percent",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html",
-     "date": "2026-10-20"
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html",
+     "date": "2026-10-21"
     }
    ]
   },
   "jpm": {
-   "outlook_1y": "Analyst mean target 373 dollars from 23 analysts (Yahoo Finance consensus, 21 October 2026). Last close 333.53 dollars on 2026-10-19.",
-   "outlook_lt": "Chief executive Jamie Dimon named large fiscal deficits, sticky inflation, elevated asset prices and geopolitics as the forces that could shift the outlook, and chief financial officer Jeremy Barnum said the bank would not be immune to an AI downturn (company commentary, 13 to 16 October 2026).",
+   "outlook_1y": "Analyst consensus mean target 372.57 across 23 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bank earnings: JPMorgan, Goldman, Wells Fargo and Citigroup",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
-     "date": "2026-10-13"
+     "title": "US Treasury yields ease, JPMorgan sees year end stock gains if yields remain stable",
+     "source": "Invezz",
+     "url": "https://invezz.com/news/2026/10/20/us-treasury-yields-ease-jpmorgan-sees-year-end-stock-gains-if-yields-remain-stable/",
+     "date": "2026-10-20"
     },
     {
-     "title": "JPMorgan profit misses analyst estimates as Dimon warns economic forces shift under the surface",
+     "title": "Dow, S&P 500 and Nasdaq rise as tech rallies and SpaceX jumps nearly 8 percent",
      "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/article/jpmorgan-profit-misses-analyst-estimates-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-112446859.html",
-     "date": "2026-10-13"
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "mstr": {
+   "outlook_1y": "Analyst consensus mean target 239.27 across 15 analysts (Yahoo Finance data, pulled this run). Clear Street raised its target to 211 from 201 with a Buy rating ahead of the October 29, 2026 third quarter report.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Strategy shares surge 4.9 percent to close at 142.72",
+     "source": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/9132711/strategy-inc-mstr-shares-surge-49-what-gf-score-of-61-tells-investors",
+     "date": "2026-10-20"
     },
     {
-     "title": "Dimon sees a higher chance of market trouble than Wall Street does",
-     "source": "Benzinga",
-     "url": "https://www.benzinga.com/markets/equities/26/10/62345825/jamie-dimon-sees-higher-chance-of-market-trouble-than-wall-street-does-that-is-not-a-prediction-but-jpmorgan-is-preparing-for-the-risk",
-     "date": "2026-10-16"
+     "title": "Bitcoin ETFs add 550 million dollars in two days as Ether outflows persist",
+     "source": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-add-550m-in-2-days-as-ether-outflows-persist",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "adbe": {
+   "outlook_1y": "Analyst consensus mean target 272.31 across 32 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Adobe rebounds as the Firefly AI push takes focus",
+     "source": "Kalkine Media",
+     "url": "https://kalkinemedia.com/us/stocks/technology/adobe-nasdaqadbe-rebounds-as-firefly-ai-push-takes-focus",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "ge": {
+   "outlook_1y": "Analyst consensus mean target 387.0 across 21 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "GE Aerospace slides 3 percent despite beating revenue and earnings estimates and raising guidance",
+     "source": "Schwab",
+     "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+     "date": "2026-10-20"
     }
    ]
   },
   "nsei": {
-   "outlook_1y": "Bernstein cut its December 2026 Nifty target to 25,000 from 26,000 on 19 October 2026, citing elevated crude prices, supply chain pressure and a lack of earnings upgrades, on about 18 times FY28 earnings. PL Capital carries a 12 month base case of 27,958 on 18.3 times December 2027 earnings, a call from earlier in 2026.",
-   "outlook_lt": "Targets set in December 2025 by Nomura, Goldman Sachs, JPMorgan, BofA and Jefferies ran from roughly 28,300 to 30,000 and predate the 2026 correction, so they are stale. No current long run house target found this run.",
+   "outlook_1y": "No October 2026 house target found this run. A mid 2026 compilation published by Univest listed year end 2026 index targets of 29,300 at Nomura, about 29,000 at Goldman Sachs and Bank of America, 30,000 at JP Morgan and 28,300 at Jefferies; treat those as dated given the index is near 22,800.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Closing bell: Sensex loses over 1,000 points from day high, Nifty slips below 22,900 as private banks and IT drag",
-     "source": "Zee Business",
-     "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161",
-     "date": "2026-10-19"
+     "title": "Post market update: Nifty falls as India VIX hits a four month high",
+     "source": "5paisa",
+     "url": "https://www.5paisa.com/blog/post-market-update-nifty-falls-india-vix-hits-4-month-high-october-21-2026",
+     "date": "2026-10-21"
     },
     {
-     "title": "Nifty falls 1.1 percent as private bank selling outweighs domestic institutional buying",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/sebiexchange/Nifty-Falls-11percent-as-Private-Bank-Sell-Off-Outweighs-DII-Buying/6ad61f8b79a16deaeaf7047e",
-     "date": "2026-10-19"
+     "title": "Indian equities close lower on Oct 21 as Brent tops 110 dollars and the IT index rises",
+     "source": "MediaBias News",
+     "url": "https://mediabias.news/business/indian-equities-close-lower-on-oct-21-as-brent-tops-110-it-index-rises",
+     "date": "2026-10-21"
     },
     {
-     "title": "Stock market updates for 19 October: Sensex opens higher, Axis Bank drops over 3 percent",
-     "source": "India TV News",
-     "url": "https://www.indiatvnews.com/business/markets/19-october-2026-stock-market-updates-sensex-opens-in-green-nifty-flat-axis-bank-drops-over-3-per-cent-2026-10-19-1057331",
-     "date": "2026-10-19"
+     "title": "Sensex falls for a second session as Eternal and midcaps slide despite IT stocks hitting highs",
+     "source": "IBTimes",
+     "url": "https://www.ibtimes.com.au/india-sensex-falls-second-session-stocks-slide-1877107",
+     "date": "2026-10-21"
     }
    ]
   },
   "nsebank": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "Private bank margins are the live issue: HDFC Bank net interest margin fell to 3.16 percent and ICICI Bank to 4.18 percent in the September quarter, while Axis Bank missed on profit (company results, 17 to 19 October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Axis Bank shares fall 5 percent as September quarter profit misses estimates",
-     "source": "BW Businessworld",
-     "url": "https://www.businessworld.in/article/axis-bank-shares-fall-5-as-q2-profit-misses-estimates-629321",
-     "date": "2026-10-19"
+     "title": "Post market update: Nifty falls as India VIX hits a four month high",
+     "source": "5paisa",
+     "url": "https://www.5paisa.com/blog/post-market-update-nifty-falls-india-vix-hits-4-month-high-october-21-2026",
+     "date": "2026-10-21"
     },
     {
-     "title": "Nifty falls 1.1 percent as private bank selling outweighs domestic institutional buying",
-     "source": "Whalesbook",
-     "url": "https://www.whalesbook.com/news/English/sebiexchange/Nifty-Falls-11percent-as-Private-Bank-Sell-Off-Outweighs-DII-Buying/6ad61f8b79a16deaeaf7047e",
-     "date": "2026-10-19"
-    },
-    {
-     "title": "Axis Bank September quarter results: profit 7,003 crore rupees, net interest income up 12 percent",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/stocks/axis-bank-q2-fy27-results/",
-     "date": "2026-10-19"
+     "title": "Indian equities close lower on Oct 21 as Brent tops 110 dollars and the IT index rises",
+     "source": "MediaBias News",
+     "url": "https://mediabias.news/business/indian-equities-close-lower-on-oct-21-as-brent-tops-110-it-index-rises",
+     "date": "2026-10-21"
     }
    ]
   },
@@ -384,684 +450,778 @@
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Closing bell: Sensex loses over 1,000 points from day high, Nifty slips below 22,900 as private banks and IT drag",
-     "source": "Zee Business",
-     "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-loses-over-1000-pts-from-days-high-nifty-slips-below-22900-private-banks-it-stocks-drag-404161",
-     "date": "2026-10-19"
+     "title": "Post market update: Nifty falls as India VIX hits a four month high",
+     "source": "5paisa",
+     "url": "https://www.5paisa.com/blog/post-market-update-nifty-falls-india-vix-hits-4-month-high-october-21-2026",
+     "date": "2026-10-21"
     },
     {
-     "title": "Stock market updates for 19 October: Sensex opens higher, Axis Bank drops over 3 percent",
-     "source": "India TV News",
-     "url": "https://www.indiatvnews.com/business/markets/19-october-2026-stock-market-updates-sensex-opens-in-green-nifty-flat-axis-bank-drops-over-3-per-cent-2026-10-19-1057331",
-     "date": "2026-10-19"
+     "title": "Sensex falls for a second session as Eternal and midcaps slide despite IT stocks hitting highs",
+     "source": "IBTimes",
+     "url": "https://www.ibtimes.com.au/india-sensex-falls-second-session-stocks-slide-1877107",
+     "date": "2026-10-21"
     }
    ]
   },
   "reliance-ns": {
-   "outlook_1y": "Analyst mean target 1666 rupees from 25 analysts (Yahoo Finance consensus, 21 October 2026). Last close 1202.0 rupees on 2026-10-19.",
-   "outlook_lt": "The Jio Platforms issue is priced at about 34 times earnings against Bharti Airtel at 39 times, and 27,500 crore rupees of the proceeds are earmarked to prepay Reliance Jio Infocomm borrowings during FY27 (red herring prospectus, reported 15 October 2026).",
+   "outlook_1y": "Analyst consensus mean target 1666.00 across 25 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Jio 30,213 crore rupee IPO priced at 34 times earnings, below Bharti Airtel at 39 times",
-     "source": "Business Standard",
-     "url": "https://www.business-standard.com/amp/markets/news/jio-s-30-213-cr-ipo-priced-at-34x-earnings-below-bharti-airtel-s-39x-126101501478_1.html",
-     "date": "2026-10-15"
+     "title": "Sensex and Nifty erase early gains as RIL rises on the Jio Platforms IPO opening",
+     "source": "Upstox",
+     "url": "https://upstox.com/news/market-news/stocks/sensex-nifty-erase-early-gains-tumble-nearly-1-in-noon-deals-ril-llts-hfcl-among-buzzing-stocks/article-202159/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Reliance files the red herring prospectus for Jio Platforms with a price band of 1,065 to 1,119 rupees",
-     "source": "Newsquawk",
-     "url": "https://www.newsquawk.com/headlines/pre-market-indian-stocks-news-reliance-industries-ril-is-filed-the-red-herring-prospectus-for-subsidiary-jio-platforms-ipo-setting-a-price-band-of-inr-1065-1119shr-",
-     "date": "2026-10-15"
+     "title": "Jio Platforms IPO, India's biggest public issue, fully subscribed on day one",
+     "source": "Upstox",
+     "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-india-s-biggest-public-issue-opens-for-subscription-check-lot-size-subscription-status-and-key-dates/article-202116/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Reliance Industries share price in focus ahead of the Jio Platforms IPO",
-     "source": "Angel One",
-     "url": "https://www.angelone.in/news/stocks/reliance-industries-share-price-in-focus-ahead-of-jio-platforms-ipo",
-     "date": "2026-10-20"
+     "title": "Jio IPO day two: how to apply under two categories with one PAN card",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/personal-finance/story/bt-explainer-jio-ipo-day-2-how-you-can-apply-under-two-categories-with-one-pan-card-562912-2026-10-22",
+     "date": "2026-10-22"
     }
    ]
   },
   "tcs-ns": {
-   "outlook_1y": "Analyst mean target 2390 rupees from 42 analysts (Yahoo Finance consensus, 21 October 2026). Last close 2460.8999 rupees on 2026-10-19. Goldman Sachs kept a buy rating with a 2,210 rupee target after the results while flagging margin pressure (Goldman Sachs, October 2026).",
-   "outlook_lt": "September quarter revenue grew 11.2 percent to 73,188 crore rupees with an operating margin of 24.0 percent against 25.2 percent a year earlier, and annualised AI revenue reached 3.1 billion dollars (company results, 8 October 2026).",
+   "outlook_1y": "Analyst consensus mean target 2390.26 across 42 analysts (Yahoo Finance data, pulled this run). The mean sits below the October 21 close of 2,529.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "TCS share price rebounds 14 percent from its September low, can the rally extend",
-     "source": "TradingView News",
-     "url": "https://www.tradingview.com/news/moodys:c592aa339353c:0-tcs-share-price-rebounds-14-from-september-low-can-the-rally-extend-further/",
-     "date": "2026-10-14"
+     "title": "IT stocks steal the show as Nifty IT jumps 2.6 percent against the market trend",
+     "source": "Upstox",
+     "url": "https://upstox.com/news/market-news/stocks/infosys-wipro-it-stocks-steal-the-show-as-nifty-it-jumps-2-6-against-market-trend-what-s-driving-the-rally/article-202148/",
+     "date": "2026-10-21"
     },
     {
-     "title": "TCS shares rise 4 percent after results, Goldman Sachs and Morgan Stanley targets",
-     "source": "APAC News Network",
-     "url": "https://apacnewsnetwork.com/2026/10/tcs-shares-q2-results-target-prices/",
-     "date": "2026-10-09"
+     "title": "Indian IT stocks rally as Nifty IT gains 2.51 percent, with Wipro, Infosys, TCS and HCLTech up 2 to 4 percent",
+     "source": "Univest",
+     "url": "https://univest.in/blogs/infosys-tcs-to-hcl-tech-tectonic-rally-in-indian-it-stocks-but-experts-recommend-just-one-it-stock-to-buy-target-sl",
+     "date": "2026-10-21"
     },
     {
-     "title": "TCS shares jump 3 percent ahead of September quarter results",
+     "title": "Nifty IT soars 14 percent in six days on second quarter earnings",
      "source": "Business Standard",
-     "url": "https://www.business-standard.com/amp/markets/news/tcs-shares-jump-3-ahead-of-q2-results-2026-what-to-expect-how-to-trade-126100800261_1.html",
-     "date": "2026-10-08"
-    }
-   ]
-  },
-  "hdfcbank-ns": {
-   "outlook_1y": "Analyst mean target 959 rupees from 41 analysts (Yahoo Finance consensus, 21 October 2026). Last close 712.0 rupees on 2026-10-19.",
-   "outlook_lt": "September quarter standalone profit of about 19,510 crore rupees was up 4.7 percent and broadly in line, net interest income rose 9.7 percent to 34,620 crore rupees, the margin fell to 3.16 percent and gross non performing assets improved to 1.11 percent (company results, 17 October 2026).",
-   "news": [
-    {
-     "title": "Banking results compared beyond profit growth: HDFC Bank, ICICI Bank and Axis Bank",
-     "source": "Finin2Min",
-     "url": "https://finin2min.com/finnews/economy-policy/hdfc-bank-q2-fy27-results-17-october-2026-profit-nii-treasury-funding/",
-     "date": "2026-10-17"
-    },
-    {
-     "title": "Banking stocks in focus on 17 October as HDFC Bank, ICICI Bank and Axis Bank report",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/stocks/banking-stocks-q2fy27-results-in-focus-17-october-2026/",
-     "date": "2026-10-17"
-    },
-    {
-     "title": "Axis Bank shares fall 5 percent as September quarter profit misses estimates",
-     "source": "TradingView News",
-     "url": "https://www.tradingview.com/news/moodys:2f46b16a0fb74:0-axis-bank-shares-fall-5-as-q2-profit-misses-estimates/",
-     "date": "2026-10-19"
-    }
-   ]
-  },
-  "icicibank-ns": {
-   "outlook_1y": "Analyst mean target 1768 rupees from 42 analysts (Yahoo Finance consensus, 21 October 2026). Last close 1381.0 rupees on 2026-10-19.",
-   "outlook_lt": "September quarter consolidated profit rose 22.3 percent to 16,333 crore rupees and standalone profit 20.1 percent to 14,843 crore rupees, with the margin at 4.18 percent and a 230 crore rupee treasury loss against a 220 crore rupee gain a year earlier (company results, 17 October 2026).",
-   "news": [
-    {
-     "title": "ICICI Bank September quarter result: net profit rises 22.3 percent to 16,333 crore rupees",
-     "source": "Business Standard",
-     "url": "https://www.business-standard.com/amp/companies/quarterly-results/icici-bank-q2-fy27-result-net-profit-rises-22-3-to-16-333-crore-126101700550_1.html",
-     "date": "2026-10-17"
-    },
-    {
-     "title": "Banking results compared beyond profit growth: HDFC Bank, ICICI Bank and Axis Bank",
-     "source": "Finin2Min",
-     "url": "https://finin2min.com/finnews/economy-policy/hdfc-bank-q2-fy27-results-17-october-2026-profit-nii-treasury-funding/",
-     "date": "2026-10-17"
+     "url": "https://www.business-standard.com/amp/markets/news/nifty-it-soars-14-in-6-days-on-q2-earnings-boost-techm-wipro-tcs-shine-126101600315_1.html",
+     "date": "2026-10-16"
     }
    ]
   },
   "infy-ns": {
-   "outlook_1y": "Analyst mean target 1180 rupees from 42 analysts (Yahoo Finance consensus, 21 October 2026). Last close 1130.7 rupees on 2026-10-19. Ahead of the 23 October results, HDFC Securities expects the FY27 constant currency growth guidance trimmed to 2 to 3 percent and Emkay to 1.5 to 2.5 percent, from 1.5 to 3.0 percent now.",
-   "outlook_lt": "Brokerage polls put September quarter revenue at 49,090 to 49,323 crore rupees, constant currency growth of 1.1 to 1.7 percent sequentially, with the current FY27 margin guidance at 20 to 22 percent (brokerage estimates, October 2026).",
+   "outlook_1y": "Analyst consensus mean target 1183.31 across 42 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Infosys share price in focus as the board takes up September quarter results and a dividend decision on 23 October",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/stocks/infosys-q2-fy27-results-and-dividend-decision-on-23-october-share-price-in-focus/",
-     "date": "2026-10-20"
+     "title": "Indian IT stocks rally as Nifty IT gains 2.51 percent, with Wipro, Infosys, TCS and HCLTech up 2 to 4 percent",
+     "source": "Univest",
+     "url": "https://univest.in/blogs/infosys-tcs-to-hcl-tech-tectonic-rally-in-indian-it-stocks-but-experts-recommend-just-one-it-stock-to-buy-target-sl",
+     "date": "2026-10-21"
     },
     {
-     "title": "Infosys September quarter revenue growth likely to stay modest, analysts see a guidance cut",
-     "source": "TradingView News",
-     "url": "https://www.tradingview.com/news/moodys:5f90fa053e78c:0-infosys-q2-revenue-growth-likely-to-remain-modest-analysts-see-guidance-cut/",
-     "date": "2026-10-20"
+     "title": "IT stocks steal the show as Nifty IT jumps 2.6 percent against the market trend",
+     "source": "Upstox",
+     "url": "https://upstox.com/news/market-news/stocks/infosys-wipro-it-stocks-steal-the-show-as-nifty-it-jumps-2-6-against-market-trend-what-s-driving-the-rally/article-202148/",
+     "date": "2026-10-21"
     },
     {
-     "title": "After the TCS 12 rupee dividend, attention turns to the Infosys results and dividend",
+     "title": "Second quarter results this week with Infosys and Bajaj Finance in focus",
      "source": "TradingView News",
-     "url": "https://www.tradingview.com/news/moodys:33c4c98e32ae3:0-after-tcs-rs-12-dividend-all-eyes-on-infosys-q2-results-dividend-date-time-earnings-schedule-yield-stock-report/",
+     "url": "https://www.tradingview.com/news/moodys:a7564e066b424:0-q2-results-this-week-infosys-bajaj-finance-in-focus/",
+     "date": "2026-10-20"
+    }
+   ]
+  },
+  "hdfcbank-ns": {
+   "outlook_1y": "Analyst consensus mean target 959.02 across 41 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "HDFC Bank falls 1.5 percent after second quarter results, analysts say the worst is over",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/hdfc-bank-share-price-falls-1-5-post-q2-show-analysts-say-worst-over-eyes-on-new-ceo-126101900140_1.html",
      "date": "2026-10-19"
+    },
+    {
+     "title": "Post market update: Nifty falls as India VIX hits a four month high",
+     "source": "5paisa",
+     "url": "https://www.5paisa.com/blog/post-market-update-nifty-falls-india-vix-hits-4-month-high-october-21-2026",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "icicibank-ns": {
+   "outlook_1y": "Analyst consensus mean target 1768.79 across 42 analysts (Yahoo Finance data, pulled this run). Motilal Oswal carried a target of 1,750 rupees in an October 2026 note.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "ICICI Bank gains 1 percent after second quarter results as analysts stay upbeat on asset quality",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/icici-bank-shares-gain-1-after-q2-results-brokerages-remain-bullish-126101900131_1.html",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Motilal Oswal sets an ICICI Bank target of 1,750 rupees",
+     "source": "TopNews",
+     "url": "https://topnews.in/icici-bank-share-price-target-rs-1750-motilal-oswal-issues-bullish-outlook-private-sector-lender",
+     "date": "2026-10-20"
     }
    ]
   },
   "sbin-ns": {
-   "outlook_1y": "Analyst mean target 1255 rupees from 39 analysts (Yahoo Finance consensus, 21 October 2026). Last close 973.7 rupees on 2026-10-19. Management has retained full year loan growth guidance of 14 to 15 percent.",
+   "outlook_1y": "Analyst consensus mean target 1255.41 across 39 analysts (Yahoo Finance data, pulled this run).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": []
-  },
-  "bajfinance-ns": {
-   "outlook_1y": "Analyst mean target 1168 rupees from 35 analysts (Yahoo Finance consensus, 21 October 2026). Last close 957.35 rupees on 2026-10-19.",
-   "outlook_lt": "September quarter consolidated profit rose 29 percent to 6,367 crore rupees, assets under management rose 26 percent to 5,84,624 crore rupees and net interest income rose 24 percent to 13,335 crore rupees, inside the 6,250 to 6,390 crore rupee range analysts had modelled (company results, 19 October 2026).",
    "news": [
     {
-     "title": "Bajaj Finance September quarter results: net interest income up 24 percent, assets under management reach 5.85 lakh crore rupees",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/stocks/bajaj-finance-share-price-and-q2-fy-27-results/",
+     "title": "SBI probes a suspected dark web leak involving 3,897 customer records",
+     "source": "Business Standard",
+     "url": "https://business-standard.com/industry/banking/sbi-customer-data-dark-web-cybersecurity-pii-cert-in-126102100304_1.html",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Cyberattack hits SBI as nearly 4,000 customers' data is leaked to the dark web",
+     "source": "Deccan Herald",
+     "url": "https://www.deccanherald.com/business/cyberattack-hits-sbi-nearly-4k-customers-data-leaked-to-dark-web-4190687",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Cyberattack hits India's largest bank and exposes customer records",
+     "source": "The Star",
+     "url": "https://thestar.com.my/tech/tech-news/2026/10/21/cyberattack-hits-indias-largest-bank-exposes-customer-records",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "bajfinance-ns": {
+   "outlook_1y": "Analyst consensus mean target 1164.71 across 35 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Bajaj Finance second quarter slides show 26 percent AUM growth, an AI push and raised guidance",
+     "source": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/bajaj-finance-q2-fy27-slides-26-aum-growth-ai-push-guidance-raised-93CH-4958021",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Bajaj Finance second quarter net profit jumps 29 percent to 6,367 crore rupees as net interest income rises 24 percent",
+     "source": "APAC News Network",
+     "url": "https://apacnewsnetwork.com/2026/10/bajaj-finance-q2-results-profit-jumps-29-nii-rises-24/",
      "date": "2026-10-19"
     },
     {
-     "title": "Bajaj Finance September quarter results: date, time, preview and expectations",
-     "source": "TradingView News",
-     "url": "https://www.tradingview.com/news/moodys:2eb3e0720dee5:0-bajaj-finance-q2-results-2026-date-time-preview-expectations-share-price-outlook-target-stop-loss-rationale/",
-     "date": "2026-10-19"
-    },
-    {
-     "title": "Bajaj Finance results: net interest income and profit seen growing in double digits on strong assets under management",
-     "source": "Upstox",
-     "url": "https://upstox.com/news/market-news/earnings/bajaj-finance-q2-results-nii-and-net-profit-likely-to-see-double-digit-growth-driven-by-strong-aum-and-loan-growth/article-202049/",
-     "date": "2026-10-17"
+     "title": "Top gainers and losers on October 21, 2026",
+     "source": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/top-gainers-and-losers-on-october-21-2026-at-3-30-pm",
+     "date": "2026-10-21"
     }
    ]
   },
   "adanient-ns": {
-   "outlook_1y": "Analyst mean target 3684 rupees from 4 analysts (Yahoo Finance consensus, 21 October 2026). Last close 2657.5 rupees on 2026-10-19. Jefferies retained a buy rating with a 3,830 rupee target in notes dated 4 and 5 October 2026.",
-   "outlook_lt": "CARE Ratings raised the long term rating to AA stable from AA minus stable, the highest in the company history, and the group sold 5.54 percent of Adani Airport Holdings for about 1 billion dollars at an 18 billion dollar pre money valuation to buyers including Temasek, BlackRock managed funds and Premji Invest (September and October 2026).",
+   "outlook_1y": "Analyst consensus mean target 3684.00 across 4 analysts (Yahoo Finance data, pulled this run). Only four analysts contribute, so the mean is thin.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Adani Enterprises signs a 50:50 AI hardware venture with Jabil",
-     "source": "Ad Hoc News",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/adani-enterprises-signs-jabil-mou-as-49-92-percent-growth-frames-adani-enterprises-stock/70360357",
-     "date": "2026-10-13"
+     "title": "Adani Green Energy second quarter net profit rises 15 percent to 673 crore rupees as the stock falls 4.2 percent",
+     "source": "Business Today",
+     "url": "https://businesstoday.in/markets/stocks/story/adani-green-energy-q2-results-net-profit-rises-15-to-rs-rs-673-crore-stock-reacts-562820-2026-10-21",
+     "date": "2026-10-21"
     },
     {
-     "title": "CARE Ratings raises Adani Enterprises to AA",
-     "source": "Ad Hoc News",
-     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/care-raised-adani-enterprises-to-aa-adani-enterprises-stock-is-18-89-percent-below-high/70299351",
-     "date": "2026-10-08"
-    },
-    {
-     "title": "Adani Enterprises jumps 6 percent on a 1 billion dollar airport business stake sale",
-     "source": "Business Standard",
-     "url": "https://www.business-standard.com/markets/news/adani-enterprises-share-price-nifty-s-2026-winner-jumps-6-on-1-billion-airport-biz-stake-sale-126090900301_1.html",
-     "date": "2026-09-09"
+     "title": "Adani Power, Adani Energy and Adani Enterprises slip after a 1.48 crore rupee SEBI settlement",
+     "source": "TradingView News",
+     "url": "https://www.tradingview.com/news/moodys:c1bd9dd072692:0-adani-stocks-today-adani-power-adani-energy-adani-enterprises-slip-after-rs-1-48-crore-sebi-settlement/",
+     "date": "2026-09-29"
     }
    ]
   },
-  "axisbank-ns": {
-   "outlook_1y": "Analyst mean target 1584 rupees from 41 analysts (Yahoo Finance consensus, 21 October 2026). Last close 1236.0 rupees on 2026-10-19.",
-   "outlook_lt": "September quarter profit of 7,003 crore rupees missed the 7,124 crore rupee consensus compiled by LSEG, with net interest income up about 12 percent, loans up 23 percent, other income down 1.4 percent and the gross non performing asset ratio down to 1.16 percent from 1.28 percent (company results, 19 October 2026).",
+  "abb-ns": {
+   "outlook_1y": "Analyst consensus mean target 7035.33 across 27 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Axis Bank shares fall 5 percent as September quarter profit misses estimates",
-     "source": "BW Businessworld",
-     "url": "https://www.businessworld.in/article/axis-bank-shares-fall-5-as-q2-profit-misses-estimates-629321",
-     "date": "2026-10-19"
+     "title": "ABB India plunges 6 percent as the BSE Capital Goods index falls",
+     "source": "Equitymaster",
+     "url": "https://www.equitymaster.com/indian-share-markets/ABB-Plunges-6-BSE-CAPITAL-GOODS-Index-Down-34/10659/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Axis Bank shares fall 5 percent as September quarter profit misses estimates",
-     "source": "TradingView News",
-     "url": "https://www.tradingview.com/news/moodys:2f46b16a0fb74:0-axis-bank-shares-fall-5-as-q2-profit-misses-estimates/",
-     "date": "2026-10-19"
+     "title": "Top gainers and losers on October 21, 2026",
+     "source": "HDFC Sky",
+     "url": "https://hdfcsky.com/news/top-gainers-and-losers-on-october-21-2026-at-3-30-pm",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "siemens-ns": {
+   "outlook_1y": "Analyst consensus mean target 3966.08 across 26 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Top losers on the NSE and BSE for 21 October 2026, with Siemens and ABB India among the biggest fallers",
+     "source": "Multibagg",
+     "url": "https://www.multibagg.ai/market-pulse/articles/top-losers-india-today-cmvi0651l000z2lph5juj05ur",
+     "date": "2026-10-21"
     },
     {
-     "title": "Axis Bank September quarter results: profit 7,003 crore rupees, net interest income up 12 percent",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/stocks/axis-bank-q2-fy27-results/",
-     "date": "2026-10-19"
+     "title": "ABB India plunges 6 percent as the BSE Capital Goods index falls",
+     "source": "Equitymaster",
+     "url": "https://www.equitymaster.com/indian-share-markets/ABB-Plunges-6-BSE-CAPITAL-GOODS-Index-Down-34/10659/",
+     "date": "2026-10-21"
     }
    ]
   },
   "n225": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "SoftBank five year credit default swaps reached 432 basis points on 20 October, the widest since early November 2022, against an OpenAI commitment of about 64.6 billion dollars part funded by a record 11.1 billion dollar high yield bond sale in September; S&P has a negative outlook on the company (Bloomberg, 20 October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "SoftBank Group credit risk hits a four year high on AI funding strain",
-     "source": "Bloomberg",
-     "url": "https://bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain",
-     "date": "2026-10-20"
+     "title": "Asia market quick take, October 21, 2026",
+     "source": "Saxo",
+     "url": "https://www.home.saxo/en-hk/content/articles/macro/asia-market-quick-take-october-21-2026-21102026",
+     "date": "2026-10-21"
     },
     {
-     "title": "Nikkei 225 drops to 64,075 as SoftBank sinks 6 percent on rising yields and AI funding fears",
-     "source": "BBN Times",
-     "url": "https://www.bbntimes.com/financial/nikkei-225-drops-to-64-075-37-as-softbank-sinks-6-on-rising-yields-and-ai-funding-fears",
-     "date": "2026-10-20"
+     "title": "Stock market news for Oct. 21, 2026",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "Nikkei slips as AI doubts and bond yields rattle markets",
-     "source": "Finimize",
-     "url": "https://finimize.com/content/nikkei-slips-as-ai-doubts-and-bond-yields-rattle-markets",
-     "date": "2026-10-20"
+     "title": "Japanese shares extend their rally",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/japan/stock-market/news/524400",
+     "date": "2026-10-21"
     }
    ]
   },
   "hsi": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "Third quarter GDP of 4.5 percent keeps growth inside the 4.5 to 5 percent annual target, which analysts quoted by Reuters say reduces the pressure on Beijing for larger stimulus (October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "China third quarter GDP growth accelerates to 4.5 percent, beating forecast",
-     "source": "Reuters via Investing.com",
-     "url": "https://www.investing.com/news/economy-news/chinas-q3-gdp-growth-accelerates-to-45-beating-forecast-4956208",
-     "date": "2026-10-19"
+     "title": "Stock market news for Oct. 21, 2026",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "China stocks end higher as strong GDP outweighs AI jitters",
-     "source": "Business Recorder",
-     "url": "https://www.brecorder.com/news/40445029/china-stocks-end-higher-as-strong-gdp-outweighs-ai-jitters",
-     "date": "2026-10-19"
+     "title": "China tech stocks slide while US market rises, Alibaba sinks 5 percent, JD.com and PDD drop 4 percent",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/china-tech-stocks-slide-while-broader-market-edges-higher-alibaba-sinks-5-jd-com-and-pdd-drop-4/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Chinese stocks post record 10 week losing streak despite 4.5 percent GDP growth",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/economy/articles/chinese-stocks-post-record-10-110540087.html",
-     "date": "2026-10-19"
+     "title": "Asia market quick take, October 21, 2026",
+     "source": "Saxo",
+     "url": "https://www.home.saxo/en-hk/content/articles/macro/asia-market-quick-take-october-21-2026-21102026",
+     "date": "2026-10-21"
     }
    ]
   },
   "ftse": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "Banks were the biggest drag on the index on 20 October, with the sector down nearly 2 percent to a four month low intraday as Middle East headlines moved oil (Sharecast, 20 October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Europe close: stocks end off lows as oil falls and French markets lag",
-     "source": "Sharecast",
-     "url": "https://www.sharecast.com/amp/news/market-report-europe-close/stoxx-600-oil-prices-abb-schneider-electric-ovhcloud-iran-war--23892723.html",
-     "date": "2026-10-20"
+     "title": "Meta and Tesla deliver mixed third quarter results as UK inflation surprises higher",
+     "source": "Equiti",
+     "url": "https://www.equiti.com/uae-en/news/market-news/meta-and-tesla-deliver-mixed-q3-results-uk-inflation-surprises-higher/",
+     "date": "2026-10-22"
     },
     {
-     "title": "FTSE 100 falls to 10,733 after recovering from an early bank led sell-off",
-     "source": "BBN Times",
-     "url": "https://www.bbntimes.com/global-economy/ftse-100-falls-to-10-733-00-after-recovering-from-an-early-bank-led-sell-off-amid-us-iran-tensions",
-     "date": "2026-10-20"
+     "title": "Closing look, Wednesday October 21, 2026",
+     "source": "Cappnotes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-october-21",
+     "date": "2026-10-21"
     },
     {
-     "title": "European stocks close mostly lower as Middle East headlines drive market swings",
-     "source": "investingLive",
-     "url": "https://investinglive.com/stocks/european-stocks-close-mostly-lower-as-middle-east-headlines-drive-market-swings/",
-     "date": "2026-10-20"
+     "title": "Newsquawk daily European opening news, 21st October 2026",
+     "source": "Newsquawk",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---21st-october-2026",
+     "date": "2026-10-21"
     }
    ]
   },
   "gdaxi": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "The index ended 20 October down 0.1 percent at 25,304.42 with the Stoxx 600 at 638.64; ABB fell about 5 percent despite record orders and Schneider Electric raised 6 billion euros to help fund its PTC acquisition (Sharecast, 20 October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Europe close: stocks end off lows as oil falls and French markets lag",
-     "source": "Sharecast",
-     "url": "https://www.sharecast.com/amp/news/market-report-europe-close/stoxx-600-oil-prices-abb-schneider-electric-ovhcloud-iran-war--23892723.html",
+     "title": "Closing look, Wednesday October 21, 2026",
+     "source": "Cappnotes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-october-21",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Market talk, October 21, 2026",
+     "source": "Armstrong Economics",
+     "url": "https://www.armstrongeconomics.com/market-talk/market-talk-october-21-2026/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Newsquawk daily European opening news, 21st October 2026",
+     "source": "Newsquawk",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---21st-october-2026",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "ks11": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Kospi plunges nearly 4 percent as AI concerns hit Samsung and SK Hynix",
+     "source": "Korea JoongAng Daily",
+     "url": "https://www.koreajoongangdaily.com/business/kospi-slides-nearly-4-on-ai-jitters-unrest-in-france/12930159",
      "date": "2026-10-20"
     },
     {
-     "title": "European stocks close mostly lower as Middle East headlines drive market swings",
-     "source": "investingLive",
-     "url": "https://investinglive.com/stocks/european-stocks-close-mostly-lower-as-middle-east-headlines-drive-market-swings/",
-     "date": "2026-10-20"
+     "title": "Wednesday market update, October 21, 2026",
+     "source": "Moomoo",
+     "url": "https://www.moomoo.com/community/feed/wednesday-market-update-october-21-2026-117477748834310",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Kospi drops as Samsung and SK Hynix shares plunge on AI and rate fears",
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt",
+     "date": "2026-10-15"
     }
    ]
   },
   "tsm": {
-   "outlook_1y": "Analyst mean target 584 dollars from 20 analysts (Yahoo Finance consensus, 21 October 2026). Last close 420.22 dollars on 2026-10-19.",
-   "outlook_lt": "September quarter revenue grew 41.2 percent and net income 68.7 percent year on year, December quarter guidance is 52.3 to 54.3 billion dollars and 2026 capital spending plans of 60 to 64 billion dollars are unchanged (company results, October 2026). The analyst debate is whether the December quarter operating margin midpoint marks a peak.",
+   "outlook_1y": "Analyst consensus mean target 584.39 across 20 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "TSMC stock rises 2.5 percent as its 53.3 billion dollar sales target tests margins",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-rise-2-5-171603381.html",
-     "date": "2026-10-19"
+     "title": "TSMC shares climb 1.6 percent on strong third quarter results and higher guidance",
+     "source": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/price-taiwan-semiconductor-manufacturing-nyse-tsm-shares-climb-16-heres-why-2026-10-21/",
+     "date": "2026-10-21"
     },
     {
-     "title": "TSMC climbs over 3 percent after AI driven growth sparks record earnings",
-     "source": "Traders Union",
-     "url": "https://tradersunion.com/news/stocks/show/3878165-tsmc-surges-3-36percent-today-on/",
-     "date": "2026-10-16"
+     "title": "Chinese stocks decline while TSMC gains",
+     "source": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/9135255/chinese-stocks-decline-tsmc-tsm-and-other-gainers-amid-market-drop",
+     "date": "2026-10-21"
     }
    ]
   },
   "baba": {
-   "outlook_1y": "Analyst mean target 187 dollars from 40 analysts (Yahoo Finance consensus, 21 October 2026). Last close 108.57 dollars on 2026-10-19.",
-   "outlook_lt": "At the Apsara conference the T-Head unit introduced the Zhenwu V900 AI processor, reported as three times faster than the M890 and slated for mass production in the first quarter of 2027, with Qwen 4 in training and more than 60 percent of T-Head capacity already serving outside customers (September 2026).",
+   "outlook_1y": "Analyst consensus mean target 186.60 across 40 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Alibaba touts a new AI chip, Qwen Intelligence and the age of machine intelligence",
-     "source": "Constellation Research",
-     "url": "https://www.constellationr.com/insights/news/alibaba-touts-new-ai-chip-qwen-intelligence-and-age-machine-intelligence",
-     "date": "2026-09-24"
+     "title": "China tech stocks slide while US market rises, Alibaba sinks 5 percent, JD.com and PDD drop 4 percent",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/china-tech-stocks-slide-while-broader-market-edges-higher-alibaba-sinks-5-jd-com-and-pdd-drop-4/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Chinese stocks decline, notable movers include TSMC and Alibaba",
-     "source": "GuruFocus",
-     "url": "https://www.gurufocus.com/news/9120075/chinese-stocks-decline-notable-movers-include-tsmc-and-alibaba",
-     "date": "2026-10-13"
+     "title": "China tech stocks fall in the US as Alibaba drops 5 percent while JD.com and PDD fall 4 percent",
+     "source": "Pluang",
+     "url": "https://pluang.com/en/news-feed/saham-teknologi-china-turun-saat-pasar-as-naik-alibaba-jdcom-pdd-turun",
+     "date": "2026-10-21"
     },
     {
-     "title": "China third quarter GDP growth accelerates to 4.5 percent, beating forecast",
-     "source": "Reuters via Investing.com",
-     "url": "https://www.investing.com/news/economy-news/chinas-q3-gdp-growth-accelerates-to-45-beating-forecast-4956208",
-     "date": "2026-10-19"
-    }
-   ]
-  },
-  "005930-ks": {
-   "outlook_1y": "Analyst mean target 478906 won from 36 analysts (Yahoo Finance consensus, 21 October 2026). Last close 221000.0 won on 2026-10-21.",
-   "outlook_lt": "Counterpoint Research puts June quarter high bandwidth memory revenue share at 50 percent for SK Hynix, 33 percent for Samsung and 18 percent for Micron, with Samsung up from 21 percent in the prior quarter on HBM4 demand (Counterpoint, 2026).",
-   "news": [
-    {
-     "title": "AI spending fears drag the Kospi as Samsung and SK Hynix shares slide",
-     "source": "Korea JoongAng Daily",
-     "url": "https://www.koreajoongangdaily.com/business/from-boon-to-burden-ai-spending-woes-leave-kospi-among-worstperforming-major-indexes/12926660",
-     "date": "2026-10-19"
-    },
-    {
-     "title": "Record AI chip profits collide with investor caution on Samsung",
-     "source": "International Business Times",
-     "url": "https://www.ibtimes.com.au/samsung-record-profits-shares-buying-opportunity-ai-memory-1877023",
-     "date": "2026-10-19"
-    }
-   ]
-  },
-  "shel": {
-   "outlook_1y": "Analyst mean target 105 dollars from 15 analysts (Yahoo Finance consensus, 21 October 2026). Last close 104.82 dollars on 2026-10-19.",
-   "outlook_lt": "Oil majors tracked the 20 October swing in crude, which eased on a reported United States and Iran peace proposal and then pared the move when officials indicated no deal was imminent (Sharecast, 20 October 2026).",
-   "news": [
-    {
-     "title": "Europe close: stocks end off lows as oil falls and French markets lag",
-     "source": "Sharecast",
-     "url": "https://www.sharecast.com/amp/news/market-report-europe-close/stoxx-600-oil-prices-abb-schneider-electric-ovhcloud-iran-war--23892723.html",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "European stocks close mostly lower as Middle East headlines drive market swings",
-     "source": "investingLive",
-     "url": "https://investinglive.com/stocks/european-stocks-close-mostly-lower-as-middle-east-headlines-drive-market-swings/",
+     "title": "Tech news today: Amazon, Apple, ByteDance, Microsoft, Nvidia, OpenAI and Salesforce",
+     "source": "Tech Startups",
+     "url": "https://techstartups.com/2026/10/20/tech-news-today-october-20-2026-amazon-apple-bytedance-microsoft-nvidia-openai-salesforce-more/",
      "date": "2026-10-20"
     }
    ]
   },
-  "hsbc": {
-   "outlook_1y": "Analyst mean target 106 dollars from 3 analysts (Yahoo Finance consensus, 21 October 2026). Last close 92.96 dollars on 2026-10-19.",
-   "outlook_lt": "London banks fell nearly 2 percent as a sector to a four month low intraday on 20 October before recovering part of the move (Sharecast and BBN Times, 20 October 2026).",
+  "tcehy": {
+   "outlook_1y": "Analyst consensus mean target 90.88 across 3 analysts (Yahoo Finance data, pulled this run). Only three analysts contribute, so the mean is thin.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Europe close: stocks end off lows as oil falls and French markets lag",
-     "source": "Sharecast",
-     "url": "https://www.sharecast.com/amp/news/market-report-europe-close/stoxx-600-oil-prices-abb-schneider-electric-ovhcloud-iran-war--23892723.html",
-     "date": "2026-10-20"
+     "title": "China tech stocks slide while US market rises, Alibaba sinks 5 percent, JD.com and PDD drop 4 percent",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/china-tech-stocks-slide-while-broader-market-edges-higher-alibaba-sinks-5-jd-com-and-pdd-drop-4/",
+     "date": "2026-10-21"
     },
     {
-     "title": "FTSE 100 falls to 10,733 after recovering from an early bank led sell-off",
-     "source": "BBN Times",
-     "url": "https://www.bbntimes.com/global-economy/ftse-100-falls-to-10-733-00-after-recovering-from-an-early-bank-led-sell-off-amid-us-iran-tensions",
+     "title": "Tech news today: Amazon, Apple, ByteDance, Microsoft, Nvidia, OpenAI and Salesforce",
+     "source": "Tech Startups",
+     "url": "https://techstartups.com/2026/10/20/tech-news-today-october-20-2026-amazon-apple-bytedance-microsoft-nvidia-openai-salesforce-more/",
      "date": "2026-10-20"
     }
    ]
+  },
+  "nvo": {
+   "outlook_1y": "Analyst consensus mean target 45.25 across 12 analysts (Yahoo Finance data, pulled this run).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": []
   },
   "inrx": {
-   "outlook_1y": "Analysts quoted by CNBC on 16 October 2026 see the rupee drifting toward 100 a dollar even as the Reserve Bank pushes back. No single house number was available this run.",
-   "outlook_lt": "The Reserve Bank announced a support package on 10 October including a special dollar window for three state oil companies, and the rupee appreciated about 2 percent in the week to 16 October (October 2026).",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "India rupee forecast to weaken toward 100 a dollar even as the Reserve Bank pushes back",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/16/india-rupee-rbi-dollar-iran-war.html",
+     "title": "Rupee firms to 94.79 against the dollar as RBI intervention supports",
+     "source": "Whalesbook",
+     "url": "https://www.whalesbook.com/news/English/economy/Rupee-Firms-to-9479-Against-Dollar-RBI-Intervention-Supports/6ad1b1a179a16deaeaf3bfe4",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Indian equities close lower on Oct 21 as Brent tops 110 dollars and the IT index rises",
+     "source": "MediaBias News",
+     "url": "https://mediabias.news/business/indian-equities-close-lower-on-oct-21-as-brent-tops-110-it-index-rises",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Rupee rises 7 paise to close at 94.92 against the US dollar on RBI intervention",
+     "source": "Deccan Herald",
+     "url": "https://www.deccanherald.com/amp/story/business/markets/rupee-rises-7-paise-to-close-at-9492-against-us-dollar-on-rbi-intervention-4185135",
      "date": "2026-10-16"
-    },
-    {
-     "title": "Rupee falls 2 paise to close at 94.91 against the dollar",
-     "source": "The Shillong Times",
-     "url": "https://theshillongtimes.com/2026/10/20/rupee-falls-2-paise-to-close-at-94-91-against-usd/",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "Reserve Bank curbs rupee hedging after the pair neared 97",
-     "source": "Admiral Markets",
-     "url": "https://admiralmarkets.com/analytics/traders-blog/usd-inr-rbi-rupee-rescue-october-2026",
-     "date": "2026-10-19"
     }
    ]
   },
   "dx-y-nyb": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "The Federal Reserve meets on 27 and 28 October and the European Central Bank on 29 October, the two events currency desks name as the near term drivers (October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Euro near 1.1224 and dollar yen at 158.46 with the Fed, ECB and Bank of Japan this week",
-     "source": "Vantage Markets",
-     "url": "https://vantagemarkets.com/market-news/eurusd-usdjpy-fed-ecb-boj-decisions-october-20-2026",
-     "date": "2026-10-20"
+     "title": "Gold, silver and platinum forecasts: gold attempts to rebound as the dollar pulls back",
+     "source": "FXEmpire",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-platinum-forecasts-gold-attempts-to-rebound-as-dollar-pulls-back-3-1639679",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Treasury yields steady as investors await jobless claims and mortgage data",
+     "source": "CNBC",
+     "url": "https://cnbc.com/amp/2026/10/21/bonds-us-treasurys-yields.html",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "jpyinrx": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": []
+  },
+  "eurinrx": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": []
+  },
+  "gbpusdx": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Meta and Tesla deliver mixed third quarter results as UK inflation surprises higher",
+     "source": "Equiti",
+     "url": "https://www.equiti.com/uae-en/news/market-news/meta-and-tesla-deliver-mixed-q3-results-uk-inflation-surprises-higher/",
+     "date": "2026-10-22"
     }
    ]
   },
   "gcf": {
-   "outlook_1y": "Goldman Sachs trimmed its end 2026 target to 4,650 dollars from 4,900 dollars on 18 September 2026 and kept 5,400 dollars for end 2027. UBS raised its forecast on 23 July 2026 to 4,600 dollars for end 2026 and 5,200 dollars for mid 2027. Citi raised its zero to three month target to 4,800 dollars on 24 August 2026.",
-   "outlook_lt": "Goldman Sachs end 2027 target is 5,400 dollars, with the bank framing Fed tightening as delaying rather than ending the move (Goldman Sachs, September 2026). Central bank buying and real yields are the drivers both houses name.",
+   "outlook_1y": "Goldman Sachs carried a twelve month forecast of 5,235 dollars an ounce as of an October 14, 2026 report, alongside an end 2026 target cut to 4,650. UBS published a path of 4,600 by December 2026, 5,000 by March 2027 and 5,200 by June 2027 in a mid September 2026 note.",
+   "outlook_lt": "UBS extended the same mid September 2026 path to 5,400 dollars an ounce by September 2027. No house view beyond that horizon was found this run.",
    "news": [
     {
-     "title": "Gold and silver pressured by hot inflation, but gold ETF holdings hit 2026 highs",
-     "source": "Kitco",
-     "url": "https://www.kitco.com/news/article/2026-10-19/gold-and-silver-prices-pressured-hot-inflation-gold-etf-holdings-buck-trend",
-     "date": "2026-10-19"
+     "title": "Gold and silver prices: three factors to watch for the next upmove",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/gold-silver-prices-3-factors-to-watch-for-the-next-upmove-562722-2026-10-21",
+     "date": "2026-10-21"
     },
     {
-     "title": "Gold holds near 4,170 dollars as inflation keeps a December Fed move in play",
-     "source": "Kitco",
-     "url": "https://www.kitco.com/news/article/2026-10-16/gold-holds-near-4170-inflation-keeps-december-fed-tightening-play-kitco-am",
-     "date": "2026-10-16"
+     "title": "Gold and silver forecast: oil dip cools Fed bets as gold tries to clear 4,201 dollars",
+     "source": "FXEmpire",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-oil-dip-cools-fed-bets-can-gold-clear-4201-1638857",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Gold price and historical data",
+     "source": "Trading Economics",
+     "url": "https://tradingeconomics.com/commodity/gold",
+     "date": "2026-10-21"
     }
    ]
   },
   "sif": {
-   "outlook_1y": "UBS path is 70 dollars by December 2026 and 75 dollars in March and June 2027, held through a 13 September 2026 update by strategists Wayne Gordon and Dominic Schnider.",
-   "outlook_lt": "UBS targets 80 dollars by September 2027 on the gold linkage plus industrial and investment demand (UBS, September 2026). A secondary compilation puts the JPMorgan 2027 average at 63.90 dollars and HSBC at 68 dollars, neither confirmed against a primary note this run.",
+   "outlook_1y": "UBS strategist Dominic Schnider forecast 70 dollars an ounce by December 2026 and 75 by March and June 2027, in a September 18, 2026 note made when spot was 66.50. J.P. Morgan was reported to have cut its 2027 annual average forecast to 63.90 from 85.80.",
+   "outlook_lt": "UBS's September 18, 2026 path runs to 80 dollars an ounce by September 2027. No house view beyond that horizon was found this run.",
    "news": [
     {
-     "title": "Gold and silver pressured by hot inflation, but gold ETF holdings hit 2026 highs",
-     "source": "Kitco",
-     "url": "https://www.kitco.com/news/article/2026-10-19/gold-and-silver-prices-pressured-hot-inflation-gold-etf-holdings-buck-trend",
-     "date": "2026-10-19"
+     "title": "Gold and silver prices: three factors to watch for the next upmove",
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/markets/stocks/story/gold-silver-prices-3-factors-to-watch-for-the-next-upmove-562722-2026-10-21",
+     "date": "2026-10-21"
     },
     {
-     "title": "Gold holds near 4,170 dollars as inflation keeps a December Fed move in play",
-     "source": "Kitco",
-     "url": "https://www.kitco.com/news/article/2026-10-16/gold-holds-near-4170-inflation-keeps-december-fed-tightening-play-kitco-am",
-     "date": "2026-10-16"
+     "title": "Gold and silver forecast: oil dip cools Fed bets as gold tries to clear 4,201 dollars",
+     "source": "FXEmpire",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-oil-dip-cools-fed-bets-can-gold-clear-4201-1638857",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "UBS forecasts silver at 80 dollars by September 2027 as gold and industrial demand provide support",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/commodities/articles/ubs-forecasts-silver-80-september-142821460.html",
+     "date": "2026-10-20"
     }
    ]
   },
   "hgf": {
-   "outlook_1y": "Goldman Sachs raised its end 2026 copper forecast to 14,700 dollars a tonne in October 2026, citing an ex United States deficit of about 950,000 tonnes in 2026 and Chinese scrap shortages.",
-   "outlook_lt": "Goldman Sachs sees a 2027 average of 15,400 dollars a tonne on a further 220,000 tonne deficit outside the United States (Goldman Sachs, October 2026). The open variable is whether Washington puts tariffs on refined copper.",
+   "outlook_1y": "Goldman Sachs raised its year end 2026 LME copper forecast to 14,700 dollars a tonne from 13,735 on October 20, 2026, citing weak mine supply. Morgan Stanley's Amy Gower carried a fourth quarter 2026 forecast of 14,250 dollars a tonne in an October 2026 note.",
+   "outlook_lt": "Goldman Sachs raised its 2027 average LME forecast to 15,400 dollars a tonne from 13,800 on October 20, 2026, on a projected deficit outside the United States of about 950,000 tonnes in 2026 and 220,000 tonnes in 2027.",
    "news": [
     {
-     "title": "Copper flat as China caution outweighs United States stockpiling and a Goldman upgrade",
+     "title": "Goldman Sachs raises its 2027 average LME copper forecast to 15,400 dollars a tonne",
+     "source": "MINING.com",
+     "url": "https://x.com/mining/status/2112561592759931135",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Copper flat as China caution outweighs US stockpiling and a Goldman upgrade",
      "source": "Business Recorder",
      "url": "https://www.brecorder.com/news/40445090/copper-flat-as-china-caution-outweighs-us-stockpiling-goldman-upgrade",
-     "date": "2026-10-20"
+     "date": "2026-10-21"
     },
     {
-     "title": "Goldman Sachs raises its copper forecast as United States and China competition tightens supply",
-     "source": "Reuters via TradingView",
-     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4651HV:0-goldman-sachs-raises-copper-forecast-as-us-china-competition-tightens-supply/",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "Copper prices stay stuck as tariff questions linger",
-     "source": "Finimize",
-     "url": "https://finimize.com/content/copper-prices-stay-stuck-as-tariff-questions-linger",
-     "date": "2026-10-20"
+     "title": "Copper price holds near record as stockpiles rise",
+     "source": "Discovery Alert",
+     "url": "https://discoveryalert.com/analysis/copper-price-record-stockpiles-october-2026/",
+     "date": "2026-10-21"
     }
    ]
   },
   "clf": {
-   "outlook_1y": "Goldman Sachs raised its December 2026 Brent forecast to 90 dollars from 85 dollars in a note published the weekend of 17 and 18 October 2026, and sees the market moving into surplus in the fourth quarter.",
-   "outlook_lt": "Goldman Sachs expects Brent to average about 80 dollars in 2027 on a Middle East supply recovery, with a risk case of above 130 dollars by end 2026 and a 105 dollar 2027 average if the Strait of Hormuz stays disrupted (Goldman Sachs, October 2026). The IEA says there is little chance of oil returning to normal levels next year.",
+   "outlook_1y": "Morgan Stanley raised its Brent forecast to 105 dollars a barrel for the fourth quarter of 2026 from 100, and to 100 for the first quarter of 2027 from 95, in an October 13, 2026 note. Goldman Sachs raised its December Brent target to 90 dollars from 85 on October 12, 2026.",
+   "outlook_lt": "Goldman Sachs sees Brent averaging about 80 dollars a barrel in 2027 if Middle East supply recovers gradually and the risk premium shrinks, with a risk case averaging roughly 125 dollars, per its October 2026 work.",
    "news": [
     {
-     "title": "US stocks rise after Brent crude tumbles 3 percent, what caused oil prices to fall",
-     "source": "TradingKey",
-     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262226204-brent-crude-oil-us-stock-rise-what-reasons-prices-to-drop-tradingkey",
-     "date": "2026-10-20"
+     "title": "Oil prices climb above 110 dollars as Middle East supply fears persist",
+     "source": "OilPrice.com",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
+     "date": "2026-10-21"
     },
     {
-     "title": "Goldman Sachs sees Brent averaging 80 dollars in 2027 on Middle East supply recovery",
-     "source": "This Day Live",
-     "url": "https://www.thisdaylive.com/2026/10/19/goldman-sachs-brent-to-average-80-in-2027-amid-meast-oil-supply-recovery/",
-     "date": "2026-10-19"
+     "title": "Brent crude tops 110 dollars as Red Sea shipping risks and Saudi oil threats raise supply fears",
+     "source": "Sunday Guardian",
+     "url": "https://sundayguardianlive.com/world/oil-prices-today-brent-crude-tops-110-as-red-sea-shipping-risks-and-saudi-oil-threats-raise-supply-fears-check-wti-prices-market-trends-and-latest-updates-us-israel-iran-war-latest-live-news-309336/",
+     "date": "2026-10-21"
     },
     {
-     "title": "Little chance of oil returning to normal levels next year, IEA says",
-     "source": "Asia Financial",
-     "url": "https://www.asiafinancial.com/little-chance-of-oil-returning-to-normal-levels-next-year-iea-says",
-     "date": "2026-10-20"
+     "title": "API data show crude and product inventories continuing to draw",
+     "source": "OilPrice.com",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
+     "date": "2026-10-21"
     }
    ]
   },
   "ngf": {
-   "outlook_1y": "The US Energy Information Administration Short Term Energy Outlook projects Henry Hub averaging 3.16 dollars per million British thermal units in 2027, and says ample inventories relative to the five year average limit upward pressure.",
-   "outlook_lt": "No cited forecast found this run.",
+   "outlook_1y": "The US Energy Information Administration's October 2026 Short Term Energy Outlook put Henry Hub at 3.30 dollars per million British thermal units in the fourth quarter of 2026 and 3.47 in the first quarter of 2027, with a 2026 average of 3.48. Those figures predate this week's selloff.",
+   "outlook_lt": "The same October 2026 EIA outlook cut its 2027 Henry Hub forecast to 3.16 dollars per million British thermal units, as production growth is expected to outpace demand.",
    "news": [
     {
-     "title": "Natural gas tests 3 dollars as a warm United States outlook caps near term heating demand",
-     "source": "FX Empire",
-     "url": "https://www.fxempire.com/forecasts/article/natural-gas-tests-3-as-warm-u-s-outlook-caps-near-term-heating-demand-1639282",
-     "date": "2026-10-20"
+     "title": "Natural gas futures slump as weather forecasts turn more bearish",
+     "source": "Natural Gas Intelligence",
+     "url": "https://naturalgasintel.com/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Natural gas price forecast: mild weather through late October keeps the short term bias bearish",
+     "source": "FXEmpire",
+     "url": "https://www.fxempire.com/forecasts/natural-gas",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "October 2026 Short Term Energy Outlook",
+     "source": "US Energy Information Administration",
+     "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+     "date": "2026-10-07"
     }
    ]
   },
   "remx": {
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "Washington set a 110 dollar a kilogram floor for MP Materials output, and Chinese neodymium praseodymium oxide pricing is moving toward that level while Western spot prices for ammonium paratungstate have slipped, a gap commentators blame for miners lagging the metal (October 2026). A second package of five rare earth export controls is suspended until 10 November 2026.",
+   "outlook_1y": "Canaccord noted the ex China neodymium praseodymium price is up 23 percent year to date while its rare earth producer coverage is down 28 percent on average, in an October 2026 note. No fund level forecast was found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
      "title": "The great rare earth disconnect: prices up 23 percent, miners down 28 percent",
-     "source": "IT Be Here",
-     "url": "https://ifttt.itbehere.com/2026/10/20/the-great-rare-earth-disconnect-prices-up-23-miners-down-28/",
-     "date": "2026-10-20"
+     "source": "ZeroHedge",
+     "url": "https://www.zerohedge.com/commodities/great-rare-earth-disconnect-prices-23-miners-down-28",
+     "date": "2026-10-21"
     },
     {
-     "title": "China rare earth export controls timeline, second package suspended to 10 November",
-     "source": "AI Horizon Network",
-     "url": "https://www.aihorizonnetwork.com/blog/china-rare-earth-export-controls-timeline",
-     "date": "2026-10-16"
+     "title": "Japan is months away from running out of a critical rare earth mineral",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/japan-is-just-months-away-from-running-out-of-a-critical-rare-earth-mineral-heres-why-rare-earths-are-becoming-ais-biggest-bottleneck",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Rare earths versus copper: MP Materials or Freeport-McMoRan",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/10/21/rare-earths-vs-copper-should-you-buy-mp-materials/",
+     "date": "2026-10-21"
     }
    ]
   },
   "mp": {
-   "outlook_1y": "Analyst mean target 71.24 dollars from 17 analysts (Yahoo Finance consensus, 21 October 2026). Last close 38.95 dollars on 2026-10-19.",
-   "outlook_lt": "China added MP Materials and USA Rare Earth to its export control list on 22 June 2026, and the Washington agreement sets a 110 dollar a kilogram price floor for MP output (2026).",
+   "outlook_1y": "Analyst consensus mean target 71.24 across 17 analysts (Yahoo Finance data, pulled this run). Wedbush initiated coverage with an Outperform rating and a 90 dollar target on October 21, 2026, and Canaccord carried an 82 dollar target in an October 2026 note.",
+   "outlook_lt": "The Pentagon price protection agreement sets a floor of 110 dollars a kilogram for neodymium praseodymium from Mountain Pass, per October 2026 reporting, against roughly 95 dollars traded in Europe and North America in August 2026.",
    "news": [
     {
-     "title": "The great rare earth disconnect: prices up 23 percent, miners down 28 percent",
-     "source": "IT Be Here",
-     "url": "https://ifttt.itbehere.com/2026/10/20/the-great-rare-earth-disconnect-prices-up-23-miners-down-28/",
-     "date": "2026-10-20"
+     "title": "Rare earths versus copper: MP Materials or Freeport-McMoRan",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/10/21/rare-earths-vs-copper-should-you-buy-mp-materials/",
+     "date": "2026-10-21"
     },
     {
-     "title": "China rare earth export controls timeline, second package suspended to 10 November",
-     "source": "AI Horizon Network",
-     "url": "https://www.aihorizonnetwork.com/blog/china-rare-earth-export-controls-timeline",
-     "date": "2026-10-16"
+     "title": "Japan is months away from running out of a critical rare earth mineral",
+     "source": "24/7 Wall St",
+     "url": "https://247wallst.com/investing/2026/10/21/japan-is-just-months-away-from-running-out-of-a-critical-rare-earth-mineral-heres-why-rare-earths-are-becoming-ais-biggest-bottleneck",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "The great rare earth disconnect: prices up 23 percent, miners down 28 percent",
+     "source": "ZeroHedge",
+     "url": "https://www.zerohedge.com/commodities/great-rare-earth-disconnect-prices-23-miners-down-28",
+     "date": "2026-10-21"
     }
    ]
   },
-  "lyc-ax": {
-   "outlook_1y": "Analyst mean target 17.57 Australian dollars from 12 analysts (Yahoo Finance consensus, 21 October 2026). Last close 11.48 Australian dollars on 2026-10-21.",
-   "outlook_lt": "Rare earth miners have lagged the metal, with commentators pointing to the United States price floor and the suspended second package of Chinese export controls, due back on 10 November 2026 unless the truce is renewed (October 2026).",
+  "paf": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "The great rare earth disconnect: prices up 23 percent, miners down 28 percent",
-     "source": "IT Be Here",
-     "url": "https://ifttt.itbehere.com/2026/10/20/the-great-rare-earth-disconnect-prices-up-23-miners-down-28/",
-     "date": "2026-10-20"
+     "title": "Platinum and palladium prices today",
+     "source": "Metal.com",
+     "url": "https://www.metal.com/industry/precious-metals/pgms",
+     "date": "2026-10-21"
     },
     {
-     "title": "China rare earth export controls timeline, second package suspended to 10 November",
-     "source": "AI Horizon Network",
-     "url": "https://www.aihorizonnetwork.com/blog/china-rare-earth-export-controls-timeline",
-     "date": "2026-10-16"
+     "title": "Gold, silver and platinum forecasts: gold attempts to rebound as the dollar pulls back",
+     "source": "FXEmpire",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-platinum-forecasts-gold-attempts-to-rebound-as-dollar-pulls-back-3-1639679",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "plf": {
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Gold, silver and platinum forecasts: gold attempts to rebound as the dollar pulls back",
+     "source": "FXEmpire",
+     "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-platinum-forecasts-gold-attempts-to-rebound-as-dollar-pulls-back-3-1639679",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Platinum and palladium prices today",
+     "source": "Metal.com",
+     "url": "https://www.metal.com/industry/precious-metals/pgms",
+     "date": "2026-10-21"
     }
    ]
   },
   "btc-usd": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "US spot bitcoin funds took in about 526.6 million dollars on 19 October, with BlackRock iShares Bitcoin Trust accounting for about 665 million dollars of that day flow, after a 549 million dollar net outflow week across bitcoin and ether funds (October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin and ethereum prices today, Tuesday 20 October: crypto slides as oil costs soar",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
-     "date": "2026-10-20"
+     "title": "US spot Bitcoin ETFs see 23.2 million dollars of net inflow while Ethereum ETFs record 26.1 million of outflow",
+     "source": "KuCoin News",
+     "url": "https://kucoin.com/news/flash/us-bitcoin-spot-etfs-see-23-2m-net-inflow-ethereum-etfs-record-26-1m-net-outflow",
+     "date": "2026-10-21"
     },
     {
-     "title": "BlackRock posts its biggest 2026 inflow as bitcoin ETFs add 527 million dollars",
+     "title": "Bitcoin ETFs add 550 million dollars in two days as Ether outflows persist",
      "source": "Bitcoin.com News",
-     "url": "https://news.bitcoin.com/bitcoin-etf/blackrock-posts-biggest-2026-inflow-as-bitcoin-etfs-add-527m/",
-     "date": "2026-10-20"
+     "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-add-550m-in-2-days-as-ether-outflows-persist",
+     "date": "2026-10-21"
     },
     {
-     "title": "Murad says the crypto bull cycle has yet to begin as bitcoin holds near 82,000 dollars",
-     "source": "Crypto.news",
-     "url": "https://crypto.news/murad-crypto-bull-cycle-bitcoin-etf-flows/",
-     "date": "2026-10-20"
+     "title": "Crypto prices today: Bitcoin holds near 82,585 dollars as Zcash leads gains",
+     "source": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-holds-near-usd-82585-as-zcash-leads-top-12-gains",
+     "date": "2026-10-21"
     }
    ]
   },
   "eth-usd": {
    "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "US spot ether funds have seen about 955 million dollars of net October outflows, with BlackRock iShares Ethereum Trust accounting for 299 million dollars, or about 93 percent, of the prior week total (Farside data cited October 2026).",
+   "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin and ether ETFs shed 549 million dollars, October ether outflows near 1 billion",
-     "source": "Cointelegraph",
-     "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows",
-     "date": "2026-10-19"
+     "title": "US spot Bitcoin ETFs see 23.2 million dollars of net inflow while Ethereum ETFs record 26.1 million of outflow",
+     "source": "KuCoin News",
+     "url": "https://kucoin.com/news/flash/us-bitcoin-spot-etfs-see-23-2m-net-inflow-ethereum-etfs-record-26-1m-net-outflow",
+     "date": "2026-10-21"
     },
     {
-     "title": "Ether ETF outflows top bitcoin by 92 million dollars",
-     "source": "Blockchain Reporter",
-     "url": "https://blockchainreporter.net/ethereum-etf-outflows-top-bitcoin-by-92-million-october-2026/",
-     "date": "2026-10-19"
-    },
-    {
-     "title": "Bitcoin and ethereum prices today, Tuesday 20 October: crypto slides as oil costs soar",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
+     "title": "Crypto today: Bitcoin, Ethereum and XRP tick lower amid mixed ETF flows",
+     "source": "FXStreet",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-tick-lower-amid-mixed-etf-flows-202610201028",
      "date": "2026-10-20"
+    },
+    {
+     "title": "Bitcoin ETFs add 550 million dollars in two days as Ether outflows persist",
+     "source": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-add-550m-in-2-days-as-ether-outflows-persist",
+     "date": "2026-10-21"
     }
    ]
   },
-  "ltc-usd": {
+  "etha": {
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin and ethereum prices today, Tuesday 20 October: crypto slides as oil costs soar",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
-     "date": "2026-10-20"
+     "title": "US spot Bitcoin ETFs see 23.2 million dollars of net inflow while Ethereum ETFs record 26.1 million of outflow",
+     "source": "KuCoin News",
+     "url": "https://kucoin.com/news/flash/us-bitcoin-spot-etfs-see-23-2m-net-inflow-ethereum-etfs-record-26-1m-net-outflow",
+     "date": "2026-10-21"
     },
     {
-     "title": "Bitcoin and ether ETFs shed 549 million dollars, October ether outflows near 1 billion",
-     "source": "Cointelegraph",
-     "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows",
-     "date": "2026-10-19"
+     "title": "Bitcoin ETFs add 550 million dollars in two days as Ether outflows persist",
+     "source": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-add-550m-in-2-days-as-ether-outflows-persist",
+     "date": "2026-10-21"
     }
    ]
   },
-  "ada-usd": {
+  "xrp-usd": {
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin and ethereum prices today, Tuesday 20 October: crypto slides as oil costs soar",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
+     "title": "Crypto today: Bitcoin, Ethereum and XRP tick lower amid mixed ETF flows",
+     "source": "FXStreet",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-tick-lower-amid-mixed-etf-flows-202610201028",
      "date": "2026-10-20"
     },
     {
-     "title": "Bitcoin and ether ETFs shed 549 million dollars, October ether outflows near 1 billion",
-     "source": "Cointelegraph",
-     "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows",
-     "date": "2026-10-19"
+     "title": "What drives XRP's price in October 2026: ETF flows, adoption and market trends",
+     "source": "Analytics Insight",
+     "url": "https://analyticsinsight.net/amp/story/xrp/what-drives-xrps-price-in-october-2026-etf-flows-adoption-and-market-trends",
+     "date": "2026-10-20"
     }
    ]
   },
-  "doge-usd": {
+  "link-usd": {
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin and ethereum prices today, Tuesday 20 October: crypto slides as oil costs soar",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-20-2026-crypto-prices-slide-and-oil-costs-soar-as-mid-east-attacks-persist-114152288.html",
+     "title": "Crypto today: Bitcoin, Ethereum and XRP tick lower amid mixed ETF flows",
+     "source": "FXStreet",
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-tick-lower-amid-mixed-etf-flows-202610201028",
      "date": "2026-10-20"
-    },
-    {
-     "title": "Bitcoin and ether ETFs shed 549 million dollars, October ether outflows near 1 billion",
-     "source": "Cointelegraph",
-     "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows",
-     "date": "2026-10-19"
     }
    ]
   }
  },
- "_schema_note": ""
+ "_schema_note": "Keys: date, generated_at, headline, summary{us,india,global}, calendar[{when,what}], assets{id:{outlook_1y,outlook_lt,news[{title,source,url,date}]}}, ipos[...], weekly{week_ending,narrative} (Saturdays only, otherwise omit or leave unchanged)."
 }
