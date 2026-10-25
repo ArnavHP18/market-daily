@@ -148,7 +148,7 @@ table.t a{text-decoration:none} table.t a:hover{text-decoration:underline}
 
 /* overview */
 .ov{display:flex;flex-direction:column}
-.ov-head{order:1} .ov-cards{order:2} .ov-heat{order:3} .ov-week{order:4} .ov-cal{order:5} .ov-ipo{order:6} .ov-foot{order:7}
+.ov-head{order:1} .ov-cards{order:2} .ov-ins{order:3} .ov-heat{order:4} .ov-week{order:5} .ov-cal{order:6} .ov-ipo{order:7} .ov-foot{order:8}
 .headline{font-size:23px;font-weight:650;letter-spacing:-.015em;line-height:1.3;margin-top:4px}
 .subhead{font-size:15px;color:var(--ink-2);margin-top:8px;max-width:78ch;line-height:1.55}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
@@ -190,6 +190,30 @@ a.wl{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-
 .chips a{font-size:14px;font-weight:600;background:var(--surface);border:1px solid var(--edge);padding:7px 12px;border-radius:8px;text-decoration:none;color:var(--ink-2)}
 .chips a:hover{background:var(--surface-2);color:var(--ink)}
 .chips a.buy{border-color:var(--line)}
+
+/* insights */
+.breadth{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.br{background:var(--surface);border:1px solid var(--edge);border-radius:10px;padding:10px 14px}
+.br .lbl{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px;color:var(--ink-2)} .br .lbl b{color:var(--ink);font-weight:600}
+.br .bar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:8px;background:var(--flat-bg)}
+.br .bar i{display:block;height:100%} .br .bar .u{background:var(--up-strong)} .br .bar .d{background:var(--down-strong)}
+.movers{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px}
+.mv{background:var(--surface);border:1px solid var(--edge);border-radius:12px;padding:14px 16px 14px 18px;display:flex;flex-direction:column;gap:8px;box-shadow:inset 3px 0 0 var(--mv)}
+.mv.up{--mv:var(--up-strong)} .mv.down{--mv:var(--down-strong)}
+.mv .top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.mv .lead{font-size:16px;text-align:left;color:var(--ink-2)} .mv .lead b{color:var(--ink);font-weight:600} .mv .lead:hover b{text-decoration:underline}
+.mv .chg{font-size:22px;font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+.mv .tag{font-size:13px;color:var(--muted);margin-top:-4px}
+.mv .ctx{display:flex;flex-wrap:wrap;gap:6px}
+.mv .ctx span{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--surface-2);color:var(--ink-2)}
+.mv .ctx span.hot{background:var(--amber-bg);color:var(--gold)}
+.mv .why{font-size:14px;color:var(--ink-2);line-height:1.45;border-top:1px solid var(--line);padding-top:9px;margin-top:2px}
+.mv .why small{display:block;color:var(--muted);font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:.06em;margin-bottom:2px}
+.mv .why a{text-decoration:none} .mv .why a:hover{text-decoration:underline}
+.notes{list-style:none;display:grid;gap:9px;margin-top:16px}
+.notes li{display:grid;grid-template-columns:20px 1fr;gap:6px;font-size:15px;line-height:1.5;color:var(--ink-2)}
+.notes .ic{font-size:12px;line-height:1.9}
+a.al{color:var(--ink);font-weight:600;text-decoration:none} a.al:hover{text-decoration:underline}
 
 /* asset */
 .price{margin-top:16px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
@@ -240,7 +264,8 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
   .list{border-right:0;overflow:visible;padding-bottom:20px}
   .app.v-list .detail{display:none} .app:not(.v-list) .list{display:none}
   .detail{overflow:visible;padding:16px 16px 40px} .back{display:inline-block}
-  .ov-heat{order:2} .ov-cards{order:3;margin-top:28px}
+  .ov-heat{order:2} .ov-cards{order:3;margin-top:28px} .ov-ins{order:4}
+  .breadth{grid-template-columns:1fr;gap:6px} .br{padding:8px 12px} .br .bar{margin-top:6px} .movers{grid-template-columns:1fr}
   .headline{font-size:21px}
   .row .fav{opacity:.6}
   .spk{flex-basis:56px;width:56px} .spk svg{width:56px}
@@ -540,6 +565,64 @@ function regionCard(key, label, b){
   const bs = toBullets(b.summary?.[key]).slice(0, 4);
   return `<div class="card"><h3>${label}</h3>${bs.length ? `<ul>${bs.map(x => `<li>${boldNums(x.text)}${x.url ? `<a class="cite" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.title || x.source || "Source")}">${esc(x.source || "Source")}</a>` : ""}</li>`).join("")}</ul>` : '<p class="none">Not filed.</p>'}</div>`;
 }
+/* insights: computed from prices (move vs usual swing, streaks, 52-week extremes, breadth); reasons come from the brief */
+function dailyStats(a){
+  const s = a.spark || [], r = [];
+  for (let i = 1; i < s.length; i++) if (s[i-1]) r.push((s[i] / s[i-1] - 1) * 100);
+  if (r.length < 6) return null;
+  const prior = r.slice(0, -1), mean = prior.reduce((x,y) => x + y, 0) / prior.length;
+  const sd = Math.sqrt(prior.reduce((x,y) => x + (y - mean) ** 2, 0) / prior.length);
+  let streak = 1; const up = r[r.length-1] > 0;
+  for (let i = r.length - 2; i >= 0 && (r[i] > 0) === up && r[i] !== 0; i--) streak++;
+  return {z: sd ? a.chg_1d_pct / sd : null, biggest: Math.abs(a.chg_1d_pct) > Math.max(...prior.map(Math.abs)), streak: up ? streak : -streak};
+}
+function at52(a, near = 0){
+  if (a.hi_52w == null || a.lo_52w == null) return null;
+  if (a.price >= a.hi_52w * (1 - Math.max(near, .001))) return near ? "Near 52-week high" : "52-week high";
+  if (a.price <= a.lo_52w * (1 + Math.max(near, .001))) return near ? "Near 52-week low" : "52-week low";
+  return null;
+}
+const shortName = a => a.name.replace(/\s*\((ADR|gold|copper|lithium|uranium)\)/g, "").replace(/, \/oz| \(COMEX.*\)/g, "");
+const sectionLabel = a => (sections().find(s => s[0] === sectionOf(a)) || [, a.group])[1];
+function moverCard({a, s}){
+  const c = a.chg_1d_pct, m = Math.abs(c), up = c > 0, B = state.brief?.assets?.[a.id] || {}, n = (B.news || [])[0];
+  const verb = up ? (m >= 7 ? "surged" : m >= 4 ? "jumped" : "rose") : (m >= 7 ? "plunged" : m >= 4 ? "fell" : "slipped");
+  const ctx = [];
+  if (s?.biggest) ctx.push(['<span class="hot">', "Biggest move in a month"]);
+  if (s?.z != null && Math.abs(s.z) >= 2) ctx.push(["<span>", `${Math.abs(s.z).toFixed(1)}× its usual daily swing`]);
+  if (s && Math.abs(s.streak) >= 3) ctx.push(["<span>", s.streak > 0 ? `${s.streak} straight gains` : `${-s.streak} straight losses`]);
+  const hl = at52(a) || at52(a, .02); if (hl) ctx.push([hl.startsWith("Near") ? "<span>" : '<span class="hot">', hl]);
+  const why = B.why ? `<p class="why"><small>Why it moved</small>${esc(B.why)}${n ? `<a class="cite" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.source)}</a>` : ""}</p>`
+    : n ? `<p class="why"><small>In the news</small><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="cite">${esc(n.source)}</span></p>` : "";
+  return `<article class="mv ${up ? "up" : "down"}"><div class="top"><button class="lead" data-id="${a.id}"><b>${esc(shortName(a))}</b> ${verb}</button><span class="chg ${up ? "up" : "down"}">${fmtPct(c)}</span></div>
+    <div class="tag">${esc(sectionLabel(a))} · ${esc(a.symbol)} · ${curSym(a.currency)}${fmtNum(a.price, a.currency)} · ${fmtDay(a.as_of)}</div>
+    ${ctx.length ? `<div class="ctx">${ctx.map(([o, t]) => o + esc(t) + "</span>").join("")}</div>` : ""}${why}</article>`;
+}
+function insightsSection(){
+  const live = state.prices.assets.filter(a => !noData(a) && a.chg_1d_pct != null && !["fx","rate","mutual_fund"].includes(a.type));
+  const link = a => `<a class="al" href="#${a.id}" data-id="${a.id}">${esc(shortName(a))}</a>`;
+  const list = (xs, max = 6) => xs.slice(0, max).map(link).join(", ") + (xs.length > max ? ` and ${xs.length - max} more` : "");
+  const movers = live.filter(a => !/VIX/i.test(a.name) && Math.abs(a.chg_1d_pct) >= (a.type === "crypto" ? 5 : 3)).map(a => ({a, s: dailyStats(a)}));
+  const score = ({a, s}) => (s?.z != null ? Math.abs(s.z) : Math.abs(a.chg_1d_pct) / 2) + (state.brief?.assets?.[a.id] ? 1 : 0) + (s?.biggest ? .5 : 0);
+  const top = movers.sort((x, y) => score(y) - score(x)).slice(0, 6);
+  const breadth = [["us","US stocks"],["india","India stocks"],["global","Global stocks"]].map(([g, l]) => {
+    const xs = live.filter(a => a.group === g && a.type === "stock"), u = xs.filter(a => a.chg_1d_pct > 0).length, d = xs.filter(a => a.chg_1d_pct < 0).length, t = xs.length || 1;
+    return `<div class="br"><div class="lbl"><b>${l}</b><span><span class="up">${u} up</span> · <span class="down">${d} down</span></span></div><div class="bar" role="img" aria-label="${u} up, ${d} down of ${xs.length}"><i class="u" style="width:${(u / t * 100).toFixed(1)}%"></i><i style="flex:1"></i><i class="d" style="width:${(d / t * 100).toFixed(1)}%"></i></div></div>`;
+  }).join("");
+  const highs = live.filter(a => at52(a) === "52-week high"), lows = live.filter(a => at52(a) === "52-week low");
+  const streaks = live.filter(a => ["stock","etf","commodity","crypto"].includes(a.type)).map(a => ({a, k: dailyStats(a)?.streak || 0}));
+  const runs = (xs, sign) => xs.filter(x => x.k * sign >= 5).sort((x, y) => (y.k - x.k) * sign).slice(0, 5).map(x => `${link(x.a)} ${Math.abs(x.k)}`).join(", ");
+  const losing = runs(streaks, -1), winning = runs(streaks, 1);
+  const notes = [
+    highs.length && `<li><span class="ic up" aria-hidden="true">▲</span><span><b>${highs.length} at 52-week highs:</b> ${list(highs)}</span></li>`,
+    lows.length && `<li><span class="ic down" aria-hidden="true">▼</span><span><b>${lows.length} at 52-week lows:</b> ${list(lows)}</span></li>`,
+    losing && `<li><span class="ic down" aria-hidden="true">▼</span><span><b>Longest losing runs</b> (sessions): ${losing}</span></li>`,
+    winning && `<li><span class="ic up" aria-hidden="true">▲</span><span><b>Longest winning runs</b> (sessions): ${winning}</span></li>`].filter(Boolean);
+  return `<section class="block ov-ins"><h3><span>What moved</span><span class="sub">computed from the latest prices; reasons from the brief's sources</span></h3>
+    <div class="breadth">${breadth}</div>
+    ${top.length ? `<div class="movers">${top.map(moverCard).join("")}</div>` : '<p class="none">No asset moved more than 3% in the last session.</p>'}
+    ${notes.length ? `<ul class="notes">${notes.join("")}</ul>` : ""}</section>`;
+}
 function weekSection(b){
   const wk = state.prices.assets.filter(a => !a.error && a.ret_1w != null && ["stock","etf"].includes(a.type));
   const winners = [...wk].sort((x,y) => y.ret_1w - x.ret_1w).slice(0,8), losers = [...wk].sort((x,y) => x.ret_1w - y.ret_1w).slice(0,8);
@@ -579,6 +662,7 @@ function renderOverview(){
   d.innerHTML = `<div class="ov">
     <header class="ov-head"><div class="sub">${day} edition</div><h2 class="headline">${esc(hl.main || "No edition filed yet. The routine writes today's brief.")}</h2>${hl.sub ? `<p class="subhead">${esc(hl.sub)}</p>` : ""}</header>
     <div class="cards ov-cards">${[["us","US"],["india","India"],["global","Global"]].map(([k,l]) => regionCard(k, l, b)).join("")}</div>
+    ${insightsSection(b)}
     ${hk.map((k, i) => `<section class="block ov-heat"><h3><span>${esc(hm[k].label)}</span>${i === 0 ? `<span class="seg" id="heatseg" role="group" aria-label="Heatmap period">${[["1D","chg_1d_pct"],["1M","ret_1m"],["1Y","ret_1y"]].map(([l,f]) => `<button data-f="${f}" aria-pressed="${f === state.heatRange}">${l}</button>`).join("")}</span>` : ""}</h3>${i === 0 ? legend() : ""}<div class="heat">${hm[k].ids.map(heatTile).join("")}</div></section>`).join("")}
     ${weekSection(b)}
     <section class="block ov-cal"><h3><span>Coming up</span><span class="sub"><span class="wlkey" aria-hidden="true"></span>underlined names are on your watchlist</span></h3>${(b.calendar || []).length ? `<ol class="cal">${[...b.calendar].sort((x,y) => String(x.when).localeCompare(String(y.when))).map(evRow).join("")}</ol>` : '<p class="none">Not filed.</p>'}</section>
