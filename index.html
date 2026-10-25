@@ -15,14 +15,14 @@
 <meta property="og:title" content="Market Daily">
 <meta property="og:description" content="US, India and global markets, metals, FX and crypto. A cited brief every morning before India opens.">
 <meta property="og:url" content="https://arnavhp18.github.io/market-daily/">
-<meta property="og:image" content="https://arnavhp18.github.io/market-daily/og.png">
+<meta property="og:image" content="https://arnavhp18.github.io/market-daily/og.png?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Market Daily: markets dashboard with a cited morning brief">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Market Daily">
 <meta name="twitter:description" content="US, India and global markets, metals, FX and crypto. A cited brief every morning before India opens.">
-<meta name="twitter:image" content="https://arnavhp18.github.io/market-daily/og.png">
+<meta name="twitter:image" content="https://arnavhp18.github.io/market-daily/og.png?v=2">
 <script>try { const t = localStorage.getItem("md_theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
 <style>
 :root,[data-theme="dark"]{
   --bg:#080B0F; --surface:#10151B; --surface-2:#171F28; --surface-3:#212B36; --line:#1F2832; --edge:transparent;
-  --ink:#F4F5F7; --ink-2:#C4C9D1; --muted:#8B93A0;
+  --ink:#F4F5F7; --ink-2:#D0D5DC; --muted:#A4ACB9;
   --up:#2FD16A; --down:#FF4D4D; --flat:#9AA3AF; --gold:#D9B45C;
   --up-rgb:47,209,106; --down-rgb:255,77,77;
   --up-strong:#2FD16A; --down-strong:#FF4D4D; --on-strong:#0A0C0F;
@@ -68,6 +68,12 @@ header.top.warn{background:var(--amber-bg);border-bottom-color:var(--gold)}
 .brand{display:inline-flex;align-items:center;gap:9px;font-size:16px;font-weight:700;letter-spacing:-.01em;white-space:nowrap} .brand svg{width:24px;height:24px}
 .status{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;gap:2px 0;font-size:13px;color:var(--muted)}
 .status .si+.si::before{content:"·";margin:0 8px;opacity:.6}
+.health{display:inline;position:relative}
+.health summary{display:inline;cursor:pointer;list-style:none;text-decoration:underline dotted;text-underline-offset:3px}
+.health summary::-webkit-details-marker{display:none}
+.health .pop{position:absolute;top:calc(100% + 8px);left:0;z-index:30;width:min(300px,86vw);display:grid;gap:2px;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 14px 34px rgba(0,0,0,.4)}
+.health .pop button{display:grid;text-align:left;padding:8px 10px;border-radius:7px;font-size:13px;color:var(--ink)} .health .pop button:hover{background:var(--surface-2)}
+.health .pop small{color:var(--muted);font-size:12px}
 header.top.warn .status{color:var(--gold)} .status b{font-weight:600}
 .tabs{display:flex;gap:2px;background:var(--surface);padding:3px;border-radius:10px;border:1px solid var(--edge)}
 .tabs button{padding:5px 14px;border-radius:8px;font-size:14px;font-weight:600;color:var(--muted)}
@@ -82,7 +88,7 @@ header.top.warn .status{color:var(--gold)} .status b{font-weight:600}
 .tk{flex:1 0 auto;display:inline-flex;align-items:baseline;justify-content:center;gap:6px;padding:8px 8px;white-space:nowrap;font-size:12px;border-right:1px solid var(--line)}
 .tape.more{-webkit-mask-image:linear-gradient(to right,#000 90%,transparent);mask-image:linear-gradient(to right,#000 90%,transparent)}
 .tk:last-child{border-right:0} .tk:hover{background:var(--surface-2)}
-.tk .n{color:var(--muted)} .tk .v{font-weight:600} .tk .c{font-weight:600}
+.tk .n{color:var(--ink-2)} .tk .vc{display:inline-flex;gap:6px} .tk .v{font-weight:600} .tk .c{font-weight:600}
 
 /* holdings strip */
 .hold{border-bottom:1px solid var(--line);padding:6px calc(var(--pad) - 8px)}
@@ -179,7 +185,7 @@ table.t a{text-decoration:none} table.t a:hover{text-decoration:underline}
 .gauge svg{width:100%;max-width:220px;margin-top:10px;overflow:visible}
 .gauge .gv{font-size:34px;font-weight:700;line-height:1;margin-top:-42px}
 .gauge .gl{font-size:15px;font-weight:600;margin-top:8px}
-.gauge .gs{font-size:13px;color:var(--muted);margin-top:2px}
+.gauge .gs{font-size:14px;color:var(--ink-2);margin-top:2px}
 .rh{display:flex;align-items:center;gap:12px}
 .rbadge{flex:0 0 34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:12px;font-weight:700;letter-spacing:.03em;background:var(--accent-soft);color:var(--accent)}
 .rix{flex:1;min-width:0;text-align:left}
@@ -207,6 +213,7 @@ table.t a{text-decoration:none} table.t a:hover{text-decoration:underline}
 .card li{position:relative;padding-left:14px;font-size:15px;line-height:1.5;color:var(--ink-2)}
 .card li::before{content:"";position:absolute;left:0;top:.66em;width:5px;height:5px;border-radius:50%;background:var(--muted)}
 .card li b{color:var(--ink);font-weight:600}
+.card .more{font-size:13px;font-weight:600;color:var(--accent);margin-left:2px}
 .cite{display:inline-block;font-size:12px;font-weight:600;line-height:1.5;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:5px;padding:0 6px;margin-left:6px;white-space:nowrap;vertical-align:1px}
 .cite:hover{color:var(--ink);border-color:var(--muted)}
 .heat{display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:6px}
@@ -313,8 +320,12 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
   .list{border-right:0;overflow:visible;padding-bottom:20px}
   .app.v-list .detail{display:none} .app:not(.v-list) .list{display:none}
   .detail{overflow:visible;padding:16px 16px 40px} .back{display:inline-block}
-  .ov-heat{order:2} .ov-cards{order:3} .ov-ins{order:4}
-  .hero{grid-template-columns:1fr} .tk{padding:8px 14px}
+  .ov-cards{display:contents} .card.r-us{order:2;margin-top:14px} .card.r-india{order:3;margin-top:14px} .ov-heat{order:4} .card.r-global{order:5;margin-top:14px}
+  .ov-ins{order:6} .ov-week{order:7} .ov-cal{order:8} .ov-ipo{order:9} .ov-foot{order:10}
+  .tape{scroll-snap-type:x proximity} .tape.more{-webkit-mask-image:linear-gradient(to right,#000 90%,transparent);mask-image:linear-gradient(to right,#000 90%,transparent)}
+  .tk{flex:0 0 auto;flex-direction:column;align-items:flex-start;gap:1px;padding:6px 8px;font-size:12.5px;scroll-snap-align:start} .tk .vc{gap:4px} .tk .c{font-size:11px}
+  .tk .n{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+  .hero{grid-template-columns:1fr}
   .gauge{display:grid;grid-template-columns:132px 1fr;column-gap:16px;align-items:center;text-align:left;padding:14px 16px}
   .gauge h4{grid-column:1/-1;margin-bottom:2px} .gauge svg{grid-column:1;grid-row:2 / span 3;margin-top:4px;max-width:132px}
   .gauge .gv,.gauge .gl,.gauge .gs{grid-column:2} .gauge .gv{margin-top:0;font-size:30px} .gauge .gl{margin-top:2px} section.block{padding:16px} .alloc{grid-template-columns:1fr;justify-items:center} .leg{width:100%}
@@ -325,7 +336,7 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
   .price .big{font-size:36px} .returns{grid-template-columns:repeat(3,1fr)} .chart{height:260px}
   .cards,.wk,.kpis{grid-template-columns:1fr}
   .ev{grid-template-columns:1fr;gap:10px}
-  .when{flex-direction:row;align-items:center;gap:8px}
+  .when{flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px 8px} .badge{white-space:normal} .ev{min-width:0}
   table.ipo thead{display:none}
   table.ipo,table.ipo tbody,table.ipo tr,table.ipo td{display:block;width:100%}
   table.ipo tr{background:var(--surface-2);border:1px solid var(--edge);border-radius:10px;padding:10px 12px;margin-bottom:10px}
@@ -336,7 +347,7 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
 @media (hover:none){ .row .fav{opacity:.6} .row .fav[aria-pressed="true"]{opacity:1} }
 @media (prefers-reduced-motion:no-preference){ .row{transition:background .12s} .chev{transition:transform .15s}
   .anim .hl-card,.anim .gauge,.anim .card,.anim section.block{animation:rise .5s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0) * 60ms)}
-  @keyframes rise{from{opacity:0;transform:translateY(8px)}} }
+  @keyframes rise{from{transform:translateY(6px)}} }
 </style>
 </head>
 <body>
@@ -438,6 +449,9 @@ function applyTheme(t, save){
 /* ---------- top bar ---------- */
 function mode(xs){ const c = {}; let best = null; for (const x of xs){ c[x] = (c[x] || 0) + 1; if (!best || c[x] > c[best]) best = x; } return best; }
 const ageText = h => h < 48 ? Math.round(h) + " hours" : Math.floor(h / 24) + " days";
+const fetchReason = a => !a.error ? "Not enough price history this run"
+  : /stooq|empty history|delisted|No data/i.test(a.error) ? "Yahoo returned no data; the symbol may be delisted or renamed"
+  : /urlopen|reset|timed out|Connection/i.test(a.error) ? "Network error while fetching; usually clears on the next run" : a.error;
 function renderStatus(){
   const P = state.prices, B = state.brief, top = $("#top");
   const close = mode(P.assets.filter(a => !a.error && a.as_of && a.group !== "fx" && !["crypto","mutual_fund"].includes(a.type)).map(a => a.as_of));
@@ -451,8 +465,10 @@ function renderStatus(){
   if (warn) items.push(`<b>${briefAge === Infinity ? "No brief filed" : briefAge > 24 ? "Brief is " + ageText(briefAge) + " old" : "Prices are " + ageText(priceAge) + " old"}</b>`);
   if (close) items.push(`As of close, ${fmtDay(close)}`);
   items.push(`<span title="${esc(upd.toString())}">Updated ${when} (${rel})</span>`);
-  items.push(`<span${failed.length ? ` title="Not fetched: ${esc(failed.map(a => a.symbol).join(", "))}"` : ""}>${ok} of ${P.assets.length} fetched</span>`);
+  const wasOpen = !!$("#status .health")?.open;
+  items.push(failed.length ? `<details class="health"${wasOpen ? " open" : ""}><summary>${ok} of ${P.assets.length} fetched</summary><div class="pop">${failed.map(a => `<button data-id="${a.id}"><span><b>${esc(a.name)}</b> · ${esc(a.symbol)}</span><small>${esc(fetchReason(a))}</small></button>`).join("")}</div></details>` : `${ok} of ${P.assets.length} fetched`);
   $("#status").innerHTML = items.map(x => `<span class="si">${x}</span>`).join("");
+  $("#status").querySelectorAll(".pop [data-id]").forEach(b => b.onclick = () => { $("#status .health").open = false; openAsset(b.dataset.id, state.view === "asset" ? state.back : state.view); });
   top.classList.toggle("warn", warn);
 }
 
@@ -461,7 +477,7 @@ const TAPE = [["bzf","Brent"],["clf","WTI"],["gcf","Gold"],["sif","Silver"],["hg
 function renderTape(){
   $("#tape").innerHTML = TAPE.map(([id, n]) => { const a = byId(id); if (!a) return "";
     const v = noData(a) ? '<span class="v none">stale</span>' : `<span class="v">${id === "tnx" ? a.price.toFixed(2) + "%" : (a.currency === "INR" ? "₹" : "") + fmtNum(a.price, a.currency)}</span><span class="c ${cls(a.chg_1d_pct)}">${fmtPct(a.chg_1d_pct)}</span>`;
-    return `<button class="tk" data-id="${id}"><span class="n">${n}</span>${v}</button>`; }).join("");
+    return `<button class="tk" data-id="${id}"><span class="n">${n}</span><span class="vc">${v}</span></button>`; }).join("");
   $("#tape").querySelectorAll("[data-id]").forEach(b => b.onclick = () => openAsset(b.dataset.id, state.view === "asset" ? state.back : state.view));
   const t = $("#tape"), fade = () => t.classList.toggle("more", t.scrollLeft + t.clientWidth < t.scrollWidth - 4);
   fade(); t.onscroll = fade; window.addEventListener("resize", fade);
@@ -478,15 +494,10 @@ function areaSpark(ys){
   const d = ys.map((y,i) => `${(i/(ys.length-1)*w).toFixed(1)},${(h-3-(y-lo)/(hi-lo||1)*(h-6)).toFixed(1)}`).join(" ");
   return `<svg class="area" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,${h} ${d} ${w},${h}" fill="url(#g-${c})"/><polyline points="${d}" fill="none" stroke="var(--${c})" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>`;
 }
-/* count-up and fade-in, first overview render only, skipped when reduced motion is requested */
+/* a short slide-in on first overview render; content is never hidden, so previews and background tabs see it */
 function animateIn(root){
   if (state.animated || !root || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return; state.animated = true;
   root.classList.add("anim"); root.querySelectorAll(".hl-card,.gauge,.card,section.block").forEach((el, i) => el.style.setProperty("--i", Math.min(i, 8)));
-  root.querySelectorAll("[data-count]").forEach(el => {
-    const end = +el.dataset.count, dp = +(el.dataset.dp || 0), loc = el.dataset.cur === "INR" ? "en-IN" : "en-US", t0 = performance.now();
-    const step = t => { const k = Math.min(1, (t - t0) / 800); el.textContent = (end * (1 - Math.pow(1 - k, 3))).toLocaleString(loc, {minimumFractionDigits:dp, maximumFractionDigits:dp}); if (k < 1) requestAnimationFrame(step); };
-    requestAnimationFrame(step);
-  });
 }
 
 /* ---------- list ---------- */
@@ -663,13 +674,20 @@ const REGION_BADGE = {us:"US", india:"IN", global:"GL"};
 const shortIdx = n => n.replace(" Composite", "").replace("Dow Jones", "Dow").replace("Nifty Midcap 100", "Midcap 100");
 function regionHead(key, label){
   const [pid, others] = REGION_IDX[key], a = byId(pid), ok = a && !noData(a);
-  const main = ok ? `<button class="rix" data-id="${a.id}"><span class="rn">${label} · ${esc(a.name)}</span><span class="rv" data-count="${a.price}" data-dp="${dpFor(a.price)}" data-cur="${a.currency}">${fmtNum(a.price, a.currency)}</span><span class="rc ${cls(a.chg_1d_pct)}">${fmtPct(a.chg_1d_pct)}</span></button>` : `<div class="rix"><span class="rn">${label}</span></div>`;
+  const main = ok ? `<button class="rix" data-id="${a.id}"><span class="rn">${label} · ${esc(a.name)}</span><span class="rv">${fmtNum(a.price, a.currency)}</span><span class="rc ${cls(a.chg_1d_pct)}">${fmtPct(a.chg_1d_pct)}</span></button>` : `<div class="rix"><span class="rn">${label}</span></div>`;
   const chipsH = others.map(byId).filter(x => x && !noData(x)).map(x => `<button data-id="${x.id}">${esc(shortIdx(x.name))} <b class="${cls(x.chg_1d_pct)}">${fmtPct(x.chg_1d_pct)}</b></button>`).join("");
   return `<div class="rh"><span class="rbadge" aria-hidden="true">${REGION_BADGE[key]}</span>${main}</div>${ok ? areaSpark(a.spark) : ""}${chipsH ? `<div class="rchips">${chipsH}</div>` : ""}`;
 }
+const CLAMP = 90; // characters, about two lines in a region card
+function bulletHtml(x){
+  const t = String(x.text), cite = x.url ? `<a class="cite" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.title || x.source || "Source")}">${esc(x.source || "Source")}</a>` : "";
+  if (t.length <= CLAMP + 25) return `<li>${boldNums(t)}${cite}</li>`;
+  let cut = t.lastIndexOf(" ", CLAMP); if (cut < 50) cut = CLAMP;
+  return `<li>${boldNums(t.slice(0, cut))}<span class="ell">…</span><span class="rest" hidden>${boldNums(t.slice(cut))}</span>${cite} <button class="more" aria-expanded="false">more</button></li>`;
+}
 function regionCard(key, label, b){
   const bs = toBullets(b.summary?.[key]).slice(0, 4);
-  return `<div class="card"><h3 class="sr">${label}</h3>${regionHead(key, label)}${bs.length ? `<ul>${bs.map(x => `<li>${boldNums(x.text)}${x.url ? `<a class="cite" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.title || x.source || "Source")}">${esc(x.source || "Source")}</a>` : ""}</li>`).join("")}</ul>` : '<p class="none">Not filed.</p>'}</div>`;
+  return `<div class="card r-${key}"><h3 class="sr">${label}</h3>${regionHead(key, label)}${bs.length ? `<ul>${bs.map(bulletHtml).join("")}</ul>` : '<p class="none">Not filed.</p>'}</div>`;
 }
 /* insights: computed from prices (move vs usual swing, streaks, 52-week extremes, breadth); reasons come from the brief */
 function dailyStats(a){
@@ -711,9 +729,9 @@ function insightsSection(){
   const movers = live.filter(a => !/VIX/i.test(a.name) && Math.abs(a.chg_1d_pct) >= (a.type === "crypto" ? 5 : 3)).map(a => ({a, s: dailyStats(a)}));
   const score = ({a, s}) => (s?.z != null ? Math.abs(s.z) : Math.abs(a.chg_1d_pct) / 2) + (state.brief?.assets?.[a.id] ? 1 : 0) + (s?.biggest ? .5 : 0);
   const top = movers.sort((x, y) => score(y) - score(x)).slice(0, 6);
-  const breadth = [["us","US stocks"],["india","India stocks"],["global","Global stocks"]].map(([g, l]) => {
-    const xs = live.filter(a => a.group === g && a.type === "stock"), u = xs.filter(a => a.chg_1d_pct > 0).length, d = xs.filter(a => a.chg_1d_pct < 0).length, t = xs.length || 1;
-    return `<div class="br"><div class="lbl"><b>${l}</b><span><span class="up">${u} up</span> · <span class="down">${d} down</span></span></div><div class="bar" role="img" aria-label="${u} up, ${d} down of ${xs.length}"><i class="u" style="width:${(u / t * 100).toFixed(1)}%"></i><i style="flex:1"></i><i class="d" style="width:${(d / t * 100).toFixed(1)}%"></i></div></div>`;
+  const breadth = breadthBy().rows.map(({l, n, u, d}) => {
+    const t = n || 1;
+    return `<div class="br"><div class="lbl"><b>${l}</b><span><span class="up">${u} up</span> · <span class="down">${d} down</span></span></div><div class="bar" role="img" aria-label="${u} up, ${d} down of ${n}"><i class="u" style="width:${(u / t * 100).toFixed(1)}%"></i><i style="flex:1"></i><i class="d" style="width:${(d / t * 100).toFixed(1)}%"></i></div></div>`;
   }).join("");
   const highs = live.filter(a => at52(a) === "52-week high"), lows = live.filter(a => at52(a) === "52-week low");
   const streaks = live.filter(a => ["stock","etf","commodity","crypto"].includes(a.type)).map(a => ({a, k: dailyStats(a)?.streak || 0}));
@@ -739,42 +757,58 @@ function weekSection(b){
       <div><b>Losers</b>${losers.map(a => `<button data-id="${a.id}"><span class="nm">${esc(a.name)}</span><span class="down">${fmtPct(a.ret_1w)}</span></button>`).join("")}</div></div></div>
     <button class="linkbtn" id="wkmore" aria-controls="wkbody" aria-expanded="${open}">${open ? "Show less" : rest ? "Read the full week, with winners and losers" : "Show winners and losers"}</button></section>`;
 }
-function evRow(c){
-  const iso = isISO(c.when), n = iso ? relDays(c.when) : null; let hit = false;
-  const lines = String(c.what || "").split(/;\s*/).filter(Boolean).map(p => { const r = linkNames(p); hit = hit || r.hit; return `<li>${r.html}</li>`; });
-  return `<li class="ev${hit ? " hit" : ""}${n != null && n < 0 ? " past" : ""}"><div class="when"><span class="dchip">${iso ? fmtDay(c.when) : esc(c.when)}</span>${iso ? `<span class="badge${n === 0 || n === 1 ? " soon" : ""}">${relLabel(n)}</span>` : ""}</div><ul class="what">${lines.join("")}</ul></li>`;
+/* when: "YYYY-MM-DD" for a confirmed day, or "YYYY-MM-DD/YYYY-MM-DD" when only the window is known */
+const RANGE_RE = /^(\d{4}-\d{2}-\d{2})\/(\d{4}-\d{2}-\d{2})$/;
+function whenParts(w){
+  if (isISO(w)){ const n = relDays(w); return {chip: fmtDay(w), badge: relLabel(n), soon: n === 0 || n === 1, past: n < 0}; }
+  const m = String(w).match(RANGE_RE); if (!m) return {chip: esc(w)};
+  const s = relDays(m[1]), e = relDays(m[2]), [d1, mo1] = fmtDay(m[1]).split(" ").slice(1), [d2, mo2] = fmtDay(m[2]).split(" ").slice(1);
+  return {chip: mo1 === mo2 ? `${d1} to ${d2} ${mo2}` : `${d1} ${mo1} to ${d2} ${mo2}`, badge: e < 0 ? "past" : s <= 0 ? "this week" : `from ${relLabel(s)}`, past: e < 0};
 }
-function ipoStatus(i){
-  if (i.subscription) return esc(i.subscription);
-  if (!isISO(i.open)) return '<span class="none">–</span>';
+function evRow(c){
+  const w = whenParts(c.when); let hit = false;
+  const lines = String(c.what || "").split(/;\s*/).filter(Boolean).map(p => { const r = linkNames(p); hit = hit || r.hit; return `<li>${r.html}</li>`; });
+  return `<li class="ev${hit ? " hit" : ""}${w.past ? " past" : ""}"><div class="when"><span class="dchip">${w.chip}</span>${w.badge ? `<span class="badge${w.soon ? " soon" : ""}">${w.badge}</span>` : ""}</div><ul class="what">${lines.join("")}</ul></li>`;
+}
+function ipoWindow(i){
+  if (!isISO(i.open)) return "";
   const o = relDays(i.open), c = isISO(i.close) ? relDays(i.close) : o;
-  return `<span class="sub">${o > 0 ? "Opens " + relLabel(o) : c >= 0 ? "Open, closes " + relLabel(c) : "Closed"}</span>`;
+  return `<div class="sub" style="font-size:12px">${o > 0 ? relLabel(o) : c >= 0 ? "open now" : "closed"}</div>`;
 }
 function ipoSection(b){
   const ipos = b.ipos || [], src = (u, t) => u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t;
+  const hasSub = ipos.some(i => i.subscription), hasGmp = ipos.some(i => i.gmp);
   const rows = ipos.map(i => `<tr><td data-l="Issue"><b>${esc(i.name)}</b><div class="sub" style="font-size:13px">${esc(i.sector || "")}${i.size ? " · " + esc(i.size) : ""}</div></td>
-    <td data-l="Market">${esc(i.market)}</td><td class="dt" data-l="Opens">${isISO(i.open) ? fmtDay(i.open) : esc(i.open)}</td><td class="dt" data-l="Closes">${isISO(i.close) ? fmtDay(i.close) : esc(i.close)}</td>
+    <td data-l="Market">${esc(i.market)}</td><td class="dt" data-l="Opens">${isISO(i.open) ? fmtDay(i.open) : esc(i.open)}${ipoWindow(i)}</td><td class="dt" data-l="Closes">${isISO(i.close) ? fmtDay(i.close) : esc(i.close)}</td>
     <td class="n" data-l="Price band">${esc(i.price_band || "–")}</td><td class="n" data-l="Lot">${esc(i.lot || "–")}</td>
-    <td data-l="Subscription">${ipoStatus(i)}</td><td class="n" data-l="GMP">${i.gmp ? src(i.gmp_url, esc(i.gmp)) : '<span class="none" title="Not sourced this run">–</span>'}</td>
+    ${hasSub ? `<td data-l="Subscription">${i.subscription ? esc(i.subscription) : '<span class="none">–</span>'}</td>` : ""}${hasGmp ? `<td class="n" data-l="GMP">${i.gmp ? src(i.gmp_url, esc(i.gmp)) : '<span class="none" title="Not sourced this run">–</span>'}</td>` : ""}
     <td data-l="Details">${i.source_url ? src(i.source_url, esc(i.source || "Source")) : ""}${i.drhp_url ? ` · ${src(i.drhp_url, "DRHP")}` : ""}</td></tr>`).join("");
   return `<section class="block ov-ipo"><h3><span class="ttl">${ico("rocket")}Upcoming IPOs</span><span class="sub">as found by the routine, verify before applying</span></h3>
-    ${ipos.length ? `<div class="tw"><table class="t ipo"><thead><tr><th>Issue</th><th>Market</th><th>Opens</th><th>Closes</th><th class="n">Price band</th><th class="n">Lot</th><th>Subscription</th><th class="n">GMP</th><th>Details</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p class="none">No IPOs filed yet.</p>'}
+    ${ipos.length ? `<div class="tw"><table class="t ipo"><thead><tr><th>Issue</th><th>Market</th><th>Opens</th><th>Closes</th><th class="n">Price band</th><th class="n">Lot</th>${hasSub ? "<th>Subscription</th>" : ""}${hasGmp ? '<th class="n">GMP</th>' : ""}<th>Details</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p class="none">No IPOs filed yet.</p>'}
     <div class="chips" style="margin-top:14px">${chips([["Apply, India: Zerodha","https://zerodha.com/ipo/"],["Groww IPO","https://groww.in/ipo"],["Upstox IPO","https://upstox.com/ipo/"],["NSE IPO board","https://www.nseindia.com/market-data/all-upcoming-issues-ipo"],["SEBI DRHPs","https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10"],["US calendar: Nasdaq","https://www.nasdaq.com/market-activity/ipos"],["Renaissance Capital","https://www.renaissancecapital.com/IPO-Center/Calendar"]], "buy")}</div>
-    <p class="foot" style="margin-top:12px">Grey-market premium is unofficial and unregulated; treat it as sentiment, not a price. US IPO allocations are broker-gated; Indian residents can normally only buy after listing via an LRS broker. Indian IPOs are applied through your broker with UPI or ASBA.</p></section>`;
+    <p class="foot" style="margin-top:12px">${hasGmp ? "Grey-market premium is unofficial and unregulated; treat it as sentiment, not a price. " : ""}US IPO allocations are broker-gated; Indian residents can normally only buy after listing via an LRS broker. Indian IPOs are applied through your broker with UPI or ASBA.</p></section>`;
 }
-function breadthAll(){ const xs = state.prices.assets.filter(a => a.type === "stock" && !noData(a) && a.chg_1d_pct != null), u = xs.filter(a => a.chg_1d_pct > 0).length; return {u, n: xs.length, pct: xs.length ? Math.round(u / xs.length * 100) : null}; }
+/* breadth: stocks in the US, India and Global groups; the gauge and the What moved bars both use this */
+function breadthBy(){
+  const rows = [["us","US stocks"],["india","India stocks"],["global","Global stocks"]].map(([g, l]) => {
+    const xs = state.prices.assets.filter(a => a.group === g && a.type === "stock" && !noData(a) && a.chg_1d_pct != null);
+    return {l, n: xs.length, u: xs.filter(a => a.chg_1d_pct > 0).length, d: xs.filter(a => a.chg_1d_pct < 0).length};
+  });
+  const u = rows.reduce((x, y) => x + y.u, 0), n = rows.reduce((x, y) => x + y.n, 0);
+  return {rows, u, n, pct: n ? Math.round(u / n * 100) : null};
+}
 const moodOf = p => p == null ? ["flat","No breadth data"] : p < 35 ? ["down","Broad selling"] : p < 45 ? ["down","Mostly lower"] : p <= 55 ? ["flat","Mixed session"] : p <= 65 ? ["up","Mostly higher"] : ["up","Broad buying"];
 function gauge(br, mc, ml){
   const v = br.pct ?? 50, th = Math.PI * (1 - v / 100), x = (100 + 80 * Math.cos(th)).toFixed(1), y = (100 - 80 * Math.sin(th)).toFixed(1);
-  return `<div class="gauge"><h4>Market breadth</h4><svg viewBox="0 0 200 110" role="img" aria-label="${br.u} of ${br.n} watchlist stocks rose">
+  return `<div class="gauge"><h4>Market breadth</h4><svg viewBox="0 0 200 110" role="img" aria-label="${br.pct ?? 0}% of stocks rose: ${br.u} of ${br.n}">
     <path d="M20 100 A80 80 0 0 1 180 100" fill="none" stroke="url(#g-gauge)" stroke-width="14" stroke-linecap="round" opacity=".9"/>
     <circle cx="${x}" cy="${y}" r="9" fill="var(--surface)" stroke="var(--ink)" stroke-width="3"/></svg>
-    <div class="gv" data-count="${br.pct ?? 0}" data-dp="0">${br.pct ?? "–"}</div><div class="gl ${mc}">${ml}</div><div class="gs">${br.u} of ${br.n} watchlist stocks rose</div></div>`;
+    <div class="gv">${br.pct == null ? "–" : br.pct + "%"}</div><div class="gl ${mc}">${ml}</div><div class="gs">${br.u} of ${br.n} US, India and Global stocks rose</div></div>`;
 }
 function renderOverview(){
   const b = state.brief || {}, d = $("#detail"), hm = state.wl?.heatmap || {}, hk = Object.keys(hm), hl = headlineParts(b);
   const day = isISO(b.date) ? fmtDay(b.date) + " " + b.date.slice(0,4) : esc(b.date || state.prices.generated_at.slice(0,10));
-  const br = breadthAll(), [mc, ml] = moodOf(br.pct);
+  const br = breadthBy(), [mc, ml] = moodOf(br.pct);
   d.innerHTML = `<div class="ov">
     <div class="hero ov-head"><header class="hl-card mood-${mc}"><div class="eyebrow"><span class="chip">${day} edition</span><span class="chip mood">${ml}</span></div><h2 class="headline">${esc(hl.main || "No edition filed yet. The routine writes today's brief.")}</h2>${hl.sub ? `<p class="subhead">${esc(hl.sub)}</p>` : ""}</header>${gauge(br, mc, ml)}</div>
     <div class="cards ov-cards">${[["us","US"],["india","India"],["global","Global"]].map(([k,l]) => regionCard(k, l, b)).join("")}</div>
@@ -788,6 +822,8 @@ function renderOverview(){
   d.querySelectorAll("#heatseg button").forEach(bt => bt.onclick = e => { e.stopPropagation(); state.heatRange = bt.dataset.f; renderOverview(); $(`#heatseg [data-f="${state.heatRange}"]`)?.focus(); });
   const tog = () => { state.weekOpen = !state.weekOpen; const y = window.scrollY, dy = d.scrollTop; renderOverview(); window.scrollTo(0, y); d.scrollTop = dy; $("#wktog")?.focus(); };
   $("#wktog").onclick = tog; $("#wkmore").onclick = tog;
+  d.querySelectorAll(".card .more").forEach(bt => bt.onclick = () => { const li = bt.closest("li"), open = bt.getAttribute("aria-expanded") !== "true";
+    $(".rest", li).hidden = !open; $(".ell", li).hidden = open; bt.setAttribute("aria-expanded", open); bt.textContent = open ? "less" : "more"; });
   animateIn($(".ov", d));
 }
 
