@@ -9,7 +9,7 @@ You maintain the Market Daily dashboard in this repository. Produce today's edit
 
 ## 1. Refresh prices
 ```
-pip install -q -U yfinance
+python3 -m pip install -q -U yfinance
 python3 scripts/fetch_prices.py
 ```
 Read the stderr log. If more than half the assets errored, retry once after 60 seconds. If it still fails, commit whatever succeeded, and put the failure in `brief.json` under `"headline"` so it is visible on the dashboard. Never fabricate prices or returns.
