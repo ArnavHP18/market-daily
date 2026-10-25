@@ -34,6 +34,7 @@ favicon.svg, apple-touch-icon.png, og.png   tab icon, home-screen icon, link pre
 - Desktop: the sidebar groups assets by market (US, India, Global, ETFs, Crypto, Metals, FX) under collapsible headers. Sort by name, 1-day move or size of move, filter to moves over 3%, and tap the star on any row to pin it to the top of its group. Pins, theme and holdings are saved in your browser only.
 - The top bar shows the close the prices are from, when the edition was written, and how many assets fetched; it turns amber when the brief is more than a day old.
 - Tile colour scales with the move: grey under 0.5%, faded to 2%, full colour above (1M and 1Y heatmaps use 2/8% and 5/20%). A dashed grey "stale" tile means no data this run.
+- The S&P 500 sector heatmap sizes each tile by the sector's index weight, from `heatmap.us.weights` in `watchlist.json` (with `weights_source`). The routine cannot edit that file, so refresh the weights by hand every few months. The Nifty map stays equal-sized because its indices overlap.
 
 ## Portfolio
 Open the Portfolio tab, paste holdings in the shown JSON shape, save. The "My holdings" strip at the top then shows value, today's profit or loss and total P&L. It is stored in your browser's localStorage only and never touches the repo. Ids are shown on each asset page ("id ppfas"). SIPs are expanded into monthly buys at that day's close or NAV, so past SIP units are approximate (actual allotment NAV can differ by a day).

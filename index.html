@@ -223,6 +223,14 @@ table.t a{text-decoration:none} table.t a:hover{text-decoration:underline}
 .heat .t-up-soft .n,.heat .t-down-soft .n{color:var(--ink)}
 .heat .t-flat .n{color:var(--ink)}
 .heat .t-stale .v{font-weight:600;font-size:14px}
+.heat.tree{display:block;position:relative;width:100%}
+.heat.tree .tile{position:absolute;min-height:0;overflow:hidden}
+.heat.tree .wt{display:block;font-size:12px;margin-top:4px;opacity:.75}
+.heat.tree .sm .wt{display:none} .heat.tree .xs{padding:6px 7px} .heat.tree .xs .n,.heat.tree .xs .wt{display:none} .heat.tree .xs .v{font-size:13px;margin-top:0}
+.heat.tree .xxs > span{display:none}
+.hnote{font-size:13px;color:var(--muted);margin-top:10px}
+.tiny{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px} .tiny .hnote{margin:0}
+.tiny button{font-size:13px;padding:3px 9px;border-radius:7px} .tiny b{font-weight:700}
 .legend{display:flex;flex-wrap:wrap;gap:6px 12px;margin:-2px 0 12px;font-size:13px;color:var(--muted);align-items:center}
 .legend i{display:inline-block;width:14px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 .wk{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
@@ -320,7 +328,7 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
   .list{border-right:0;overflow:visible;padding-bottom:20px}
   .app.v-list .detail{display:none} .app:not(.v-list) .list{display:none}
   .detail{overflow:visible;padding:16px 16px 40px} .back{display:inline-block}
-  .ov-cards{display:contents} .card.r-us{order:2;margin-top:14px} .card.r-india{order:3;margin-top:14px} .ov-heat{order:4} .card.r-global{order:5;margin-top:14px}
+  .ov-cards{display:contents} .card.r-us{order:2;margin-top:14px} .card.r-india{order:3;margin-top:14px} .card.r-global{order:4;margin-top:14px} .ov-heat{order:5}
   .ov-ins{order:6} .ov-week{order:7} .ov-cal{order:8} .ov-ipo{order:9} .ov-foot{order:10}
   .tape{scroll-snap-type:x proximity} .tape.more{-webkit-mask-image:linear-gradient(to right,#000 90%,transparent);mask-image:linear-gradient(to right,#000 90%,transparent)}
   .tk{flex:0 0 auto;flex-direction:column;align-items:flex-start;gap:1px;padding:6px 8px;font-size:12.5px;scroll-snap-align:start} .tk .vc{gap:4px} .tk .c{font-size:11px}
@@ -649,6 +657,32 @@ function heatTile(id){
   if (v == null) return `<button class="tile t-stale" ${a ? `data-id="${a.id}"` : "disabled"} title="No data in this edition"><span class="n">${nm}</span><span class="v">stale</span></button>`;
   return `<button class="tile ${tierCls(v, state.heatRange)}" data-id="${a.id}"><span class="n">${nm}</span><span class="v">${fmtPct(v)}</span></button>`;
 }
+/* squarified treemap (Bruls et al.): rows of tiles kept as close to square as possible */
+function squarify(items, x, y, w, h){
+  const out = [], worst = (row, len) => { const s = row.reduce((a, b) => a + b.v, 0), mx = Math.max(...row.map(r => r.v)), mn = Math.min(...row.map(r => r.v)); return Math.max(len * len * mx / (s * s), (s * s) / (len * len * mn)); };
+  const place = row => { const s = row.reduce((a, b) => a + b.v, 0);
+    if (w >= h){ const rw = s / h; let yy = y; row.forEach(r => { out.push({...r, x, y: yy, w: rw, h: r.v / rw}); yy += r.v / rw; }); x += rw; w -= rw; }
+    else { const rh = s / w; let xx = x; row.forEach(r => { out.push({...r, x: xx, y, w: r.v / rh, h: rh}); xx += r.v / rh; }); y += rh; h -= rh; } };
+  let row = [];
+  for (const it of items){ const len = Math.min(w, h); if (!row.length || worst([...row, it], len) <= worst(row, len)) row.push(it); else { place(row); row = [it]; } }
+  if (row.length) place(row);
+  return out;
+}
+function heatBody(cfg){
+  if (!cfg.weights) return `<div class="heat">${cfg.ids.map(heatTile).join("")}</div>${cfg.note ? `<p class="hnote">${esc(cfg.note)}</p>` : ""}`;
+  const aspect = isDesktop() ? 3.1 : 0.8, W = 100 * aspect, H = 100, cw = Math.max(280, $("#detail").clientWidth - (isDesktop() ? 100 : 64));
+  const items = cfg.ids.map(id => ({id, wt: +cfg.weights[id] || 0})).filter(x => x.wt > 0).sort((a, b) => b.wt - a.wt), tot = items.reduce((s, x) => s + x.wt, 0);
+  items.forEach(x => x.v = x.wt / tot * W * H);
+  const tiny = [];
+  const tiles = squarify(items, 0, 0, W, H).map(r => {
+    const a = byId(r.id), v = a && !noData(a) ? a[state.heatRange] : null, nm = esc((a ? a.name : r.id).replace(/ Select$/, "")), pw = r.w / W * cw, ph = r.h / H * cw / aspect;
+    const size = pw < 72 || ph < 30 ? " xxs" : pw < 96 || ph < 54 ? " xs" : ph < 84 ? " sm" : "";
+    if ((size === " xxs" || size === " xs") && a) tiny.push(`<button class="${v == null ? "t-stale" : tierCls(v, state.heatRange)}" data-id="${a.id}">${nm} <b>${v == null ? "stale" : fmtPct(v)}</b></button>`);
+    const pos = `left:calc(${(r.x / W * 100).toFixed(3)}% + 2px);top:calc(${(r.y / H * 100).toFixed(3)}% + 2px);width:calc(${(r.w / W * 100).toFixed(3)}% - 4px);height:calc(${(r.h / H * 100).toFixed(3)}% - 4px)`;
+    return `<button class="tile ${v == null ? "t-stale" : tierCls(v, state.heatRange)}${size}" style="${pos}" ${a ? `data-id="${a.id}"` : "disabled"} aria-label="${nm}, ${v == null ? "no data" : fmtPct(v)}, ${r.wt}% of the index" title="${nm}: ${v == null ? "no data" : fmtPct(v)}, ${r.wt}% of the index"><span class="n">${nm}</span><span class="v">${v == null ? "stale" : fmtPct(v)}</span><span class="wt">${r.wt}% of index</span></button>`;
+  }).join("");
+  return `<div class="heat tree" style="aspect-ratio:${aspect}">${tiles}</div>${tiny.length ? `<div class="tiny"><span class="hnote">Smaller sectors:</span>${tiny.join("")}</div>` : ""}<p class="hnote">Tile size is each sector's weight in the index${cfg.weights_source ? ` (${esc(cfg.weights_source)})` : ""}.</p>`;
+}
 function legend(){
   const [lo, hi] = TIERS[state.heatRange];
   return `<div class="legend" aria-label="Colour key"><span><i class="t-flat"></i>under ${lo}%</span><span><i class="t-up-soft"></i><i class="t-down-soft"></i>${lo} to ${hi}%</span><span><i class="t-up-strong"></i><i class="t-down-strong"></i>over ${hi}%</span><span><i class="t-stale"></i>no data</span></div>`;
@@ -813,7 +847,7 @@ function renderOverview(){
     <div class="hero ov-head"><header class="hl-card mood-${mc}"><div class="eyebrow"><span class="chip">${day} edition</span><span class="chip mood">${ml}</span></div><h2 class="headline">${esc(hl.main || "No edition filed yet. The routine writes today's brief.")}</h2>${hl.sub ? `<p class="subhead">${esc(hl.sub)}</p>` : ""}</header>${gauge(br, mc, ml)}</div>
     <div class="cards ov-cards">${[["us","US"],["india","India"],["global","Global"]].map(([k,l]) => regionCard(k, l, b)).join("")}</div>
     ${insightsSection(b)}
-    ${hk.map((k, i) => `<section class="block ov-heat"><h3><span class="ttl">${ico("grid")}${esc(hm[k].label)}</span>${i === 0 ? `<span class="seg" id="heatseg" role="group" aria-label="Heatmap period">${[["1D","chg_1d_pct"],["1M","ret_1m"],["1Y","ret_1y"]].map(([l,f]) => `<button data-f="${f}" aria-pressed="${f === state.heatRange}">${l}</button>`).join("")}</span>` : ""}</h3>${i === 0 ? legend() : ""}<div class="heat">${hm[k].ids.map(heatTile).join("")}</div></section>`).join("")}
+    ${hk.map((k, i) => `<section class="block ov-heat"><h3><span class="ttl">${ico("grid")}${esc(hm[k].label)}</span>${i === 0 ? `<span class="seg" id="heatseg" role="group" aria-label="Heatmap period">${[["1D","chg_1d_pct"],["1M","ret_1m"],["1Y","ret_1y"]].map(([l,f]) => `<button data-f="${f}" aria-pressed="${f === state.heatRange}">${l}</button>`).join("")}</span>` : ""}</h3>${i === 0 ? legend() : ""}${heatBody(hm[k])}</section>`).join("")}
     ${weekSection(b)}
     <section class="block ov-cal"><h3><span class="ttl">${ico("cal")}Coming up</span><span class="sub"><span class="wlkey" aria-hidden="true"></span>underlined names are on your watchlist</span></h3>${(b.calendar || []).length ? `<ol class="cal">${[...b.calendar].sort((x,y) => String(x.when).localeCompare(String(y.when))).map(evRow).join("")}</ol>` : '<p class="none">Not filed.</p>'}</section>
     ${ipoSection(b)}
@@ -1005,7 +1039,7 @@ function wireEditor(){
   $("#big").onclick = e => { const was = filtering(); state.big = !state.big; e.currentTarget.setAttribute("aria-pressed", state.big); filterChanged(was); };
   document.querySelectorAll("#tabs [data-tab]").forEach(t => t.onclick = () => setView(t.dataset.tab));
   $("#home").onclick = () => setView("overview");
-  window.matchMedia("(min-width:821px)").addEventListener("change", e => { if (e.matches && state.view === "list") setView("overview"); });
+  window.matchMedia("(min-width:821px)").addEventListener("change", e => { if (e.matches && state.view === "list") setView("overview"); else if (state.view === "overview" || state.view === "list") renderOverview(); });
   renderList();
   const hash = location.hash.slice(1);
   if (hash === "portfolio") setView("portfolio");

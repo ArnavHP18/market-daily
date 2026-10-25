@@ -252,6 +252,12 @@
      "type": "stock"
     },
     {
+     "id": "exls",
+     "symbol": "EXLS",
+     "name": "EXL Service",
+     "type": "stock"
+    },
+    {
      "id": "mcd",
      "symbol": "MCD",
      "name": "McDonald's",
@@ -681,12 +687,6 @@
      "type": "index"
     },
     {
-     "id": "cnxmedia",
-     "symbol": "^CNXMEDIA",
-     "name": "Nifty Media",
-     "type": "index"
-    },
-    {
      "id": "cnxinfra",
      "symbol": "^CNXINFRA",
      "name": "Nifty Infrastructure",
@@ -809,8 +809,14 @@
     },
     {
      "id": "tatamotors-ns",
-     "symbol": "TATAMOTORS.NS",
-     "name": "Tata Motors",
+     "symbol": "TMPV.NS",
+     "name": "Tata Motors Passenger Vehicles",
+     "type": "stock"
+    },
+    {
+     "id": "tmcv-ns",
+     "symbol": "TMCV.NS",
+     "name": "Tata Motors (commercial vehicles)",
      "type": "stock"
     },
     {
@@ -851,8 +857,8 @@
     },
     {
      "id": "ltim-ns",
-     "symbol": "LTIM.NS",
-     "name": "LTIMindtree",
+     "symbol": "LTM.NS",
+     "name": "LTM (formerly LTIMindtree)",
      "type": "stock"
     },
     {
@@ -1697,7 +1703,7 @@
     },
     {
      "id": "sui-usd",
-     "symbol": "SUI-USD",
+     "symbol": "SUI20947-USD",
      "name": "Sui",
      "type": "crypto"
     },
@@ -1731,7 +1737,22 @@
     "xlu",
     "xlb",
     "xlre"
-   ]
+   ],
+   "weights": {
+    "xlk": 36.5,
+    "xlf": 12.4,
+    "xlv": 9.7,
+    "xlc": 9.6,
+    "xly": 9.6,
+    "xli": 7.8,
+    "xlp": 5.4,
+    "xle": 3.7,
+    "xlu": 2.0,
+    "xlre": 1.7,
+    "xlb": 1.6
+   },
+   "weights_note": "S&P 500 sector weights, percent, from historyofmarket.com/sp500/sectors (data file 24 Oct 2026). Update by hand every few months; the page sizes tiles by these.",
+   "weights_source": "historyofmarket.com, 24 Oct 2026"
   },
   "india": {
    "label": "Nifty sectors",
@@ -1746,9 +1767,9 @@
     "cnxenergy",
     "cnxpsubank",
     "cnxinfra",
-    "cnxmedia",
     "nsmidcp"
-   ]
+   ],
+   "note": "Equal-size tiles: these indices overlap (PSU Bank sits inside Bank Nifty, Midcap 100 is not a sector), so sizing them by weight would double-count."
   }
  }
 }
