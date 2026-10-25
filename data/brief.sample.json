@@ -1,11 +1,60 @@
 {
  "date": "2026-09-14",
  "generated_at": "2026-09-14T02:05:00+00:00",
- "headline": "Sample edition. Run the routine to replace this with today's brief.",
+ "headline": "Sample: one line of about 15 words with the single most important cross-market fact",
+ "subhead": "One sentence of supporting detail under the headline, with the key numbers.",
  "summary": {
-  "us": "One or two sentences on what moved US markets in the last session and why. Cite the driver, not adjectives.",
-  "india": "Same for Nifty, Bank Nifty, FII/DII flows, INR.",
-  "global": "Asia and Europe close, dollar, yields, one notable cross-asset move."
+  "us": [
+   {
+    "text": "Short claim with the key numbers, for example the S&P 500 fell 0.5 percent to 7,624.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/..."
+   },
+   {
+    "text": "Second driver in one short sentence.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/..."
+   },
+   {
+    "text": "Third point, for example what the week ahead turns on.",
+    "source": "WSJ",
+    "url": "https://www.wsj.com/..."
+   }
+  ],
+  "india": [
+   {
+    "text": "Nifty and Bank Nifty close and the reason.",
+    "source": "Economic Times",
+    "url": "https://economictimes.indiatimes.com/..."
+   },
+   {
+    "text": "FII and DII net flows in crore rupees.",
+    "source": "Moneycontrol",
+    "url": "https://www.moneycontrol.com/..."
+   },
+   {
+    "text": "USD/INR close and the driver.",
+    "source": "Mint",
+    "url": "https://www.livemint.com/..."
+   }
+  ],
+  "global": [
+   {
+    "text": "Asia close with the numbers.",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/..."
+   },
+   {
+    "text": "Europe close with the numbers.",
+    "source": "FT",
+    "url": "https://www.ft.com/..."
+   },
+   {
+    "text": "One notable cross-asset move: dollar, yields, oil or crypto.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/..."
+   }
+  ]
  },
  "calendar": [
   {
@@ -55,12 +104,15 @@
    "sector": "Speciality chemicals",
    "open": "2026-09-18",
    "close": "2026-09-22",
-   "price_band": "\u20b9410 to \u20b9432",
+   "price_band": "₹410 to ₹432",
    "lot": "34 shares",
-   "size": "\u20b91,200 cr",
+   "size": "₹1,200 cr",
    "source": "Chittorgarh",
    "source_url": "https://www.chittorgarh.com/ipo/...",
-   "drhp_url": "https://www.sebi.gov.in/..."
+   "drhp_url": "https://www.sebi.gov.in/...",
+   "subscription": "2.4x overall at day 2 close (QIB 1.1x, NII 3.0x, retail 2.9x)",
+   "gmp": "₹38 (8.8%)",
+   "gmp_url": "https://www.investorgain.com/..."
   },
   {
    "name": "Example Inc",
@@ -73,12 +125,15 @@
    "size": "$450 m",
    "source": "Nasdaq",
    "source_url": "https://www.nasdaq.com/market-activity/ipos",
-   "drhp_url": ""
+   "drhp_url": "",
+   "subscription": "",
+   "gmp": "",
+   "gmp_url": ""
   }
  ],
  "weekly": {
   "week_ending": "2026-09-12",
   "narrative": "Saturday only. Three to five sentences on what drove the week across US, India, metals and crypto, and the setup for next week. Winners and losers are computed on the page from 1W returns; do not list them here."
  },
- "_schema_note": "Keys: date, generated_at, headline, summary{us,india,global}, calendar[{when,what}], assets{id:{outlook_1y,outlook_lt,news[{title,source,url,date}]}}, ipos[...], weekly{week_ending,narrative} (Saturdays only, otherwise omit or leave unchanged)."
+ "_schema_note": "Keys: date, generated_at, headline (one line, about 15 words), subhead (one sentence), summary{us,india,global} each an array of 3 {text, source, url}, calendar[{when,what}] (separate items within a day with '; '), assets{id:{outlook_1y,outlook_lt,news[{title,source,url,date}]}}, ipos[{name,market,sector,open,close,price_band,lot,size,subscription,gmp,gmp_url,source,source_url,drhp_url}] (subscription, gmp, gmp_url are empty strings when not sourced), weekly{week_ending,narrative} (Saturdays only, otherwise omit or leave unchanged). Older briefs with a long headline and string summaries still render."
 }

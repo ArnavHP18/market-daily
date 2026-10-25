@@ -1,181 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0A0C0F" id="themecolor">
 <title>Market Daily</title>
+<meta name="description" content="Daily dashboard for US, India and global markets, metals, FX and crypto, with a cited morning brief, heatmaps and an IPO calendar.">
+<link rel="canonical" href="https://arnavhp18.github.io/market-daily/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Market Daily">
+<meta property="og:title" content="Market Daily">
+<meta property="og:description" content="US, India and global markets, metals, FX and crypto. A cited brief every morning before India opens.">
+<meta property="og:url" content="https://arnavhp18.github.io/market-daily/">
+<meta property="og:image" content="https://arnavhp18.github.io/market-daily/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Market Daily: markets dashboard with a cited morning brief">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Market Daily">
+<meta name="twitter:description" content="US, India and global markets, metals, FX and crypto. A cited brief every morning before India opens.">
+<meta name="twitter:image" content="https://arnavhp18.github.io/market-daily/og.png">
+<script>try { const t = localStorage.getItem("md_theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
 <style>
-:root{
-  --bg:#0A0C0F; --surface:#14171C; --surface-2:#1B1F26; --line:#242931;
+:root,[data-theme="dark"]{
+  --bg:#0A0C0F; --surface:#14171C; --surface-2:#1B1F26; --line:#242931; --edge:transparent;
   --ink:#F4F5F7; --ink-2:#C4C9D1; --muted:#8B93A0;
   --up:#2FD16A; --down:#FF4D4D; --flat:#9AA3AF; --gold:#D9B45C;
-  --radius:12px; --pad:20px;
+  --up-rgb:47,209,106; --down-rgb:255,77,77;
+  --up-strong:#2FD16A; --down-strong:#FF4D4D; --on-strong:#0A0C0F;
+  --up-soft:rgba(47,209,106,.2); --down-soft:rgba(255,77,77,.2); --flat-bg:#232831;
+  --amber-bg:rgba(217,180,92,.12);
+  --radius:12px; --pad:20px; color-scheme:dark;
+}
+[data-theme="light"]{
+  --bg:#F5F6F8; --surface:#FFFFFF; --surface-2:#ECEEF2; --line:#DDE1E6; --edge:#E3E6EA;
+  --ink:#0F1216; --ink-2:#38404A; --muted:#646D79;
+  --up:#0B7A36; --down:#C62828; --flat:#6B7280; --gold:#9A6B00;
+  --up-rgb:11,122,54; --down-rgb:198,40,40;
+  --up-strong:#12803C; --down-strong:#C62828; --on-strong:#FFFFFF;
+  --up-soft:rgba(18,128,60,.13); --down-soft:rgba(198,40,40,.12); --flat-bg:#E7E9ED;
+  --amber-bg:rgba(154,107,0,.10);
+  color-scheme:light;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{background:var(--bg);color:var(--ink);font:15px/1.45 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-feature-settings:"tnum" 1,"cv11" 1;-webkit-font-smoothing:antialiased}
-button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
-button:focus-visible,a:focus-visible,[tabindex]:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:6px}
+html{background:var(--bg);color:var(--ink);font:15px/1.5 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-feature-settings:"tnum" 1,"cv11" 1;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+body{background:var(--bg)}
+button,select{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+button:focus-visible,a:focus-visible,[tabindex]:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:6px}
 a{color:inherit}
+[hidden]{display:none!important}
 .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
-.none{color:var(--muted);font-size:14px}
+.none{color:var(--muted);font-size:15px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* shell */
-.app{display:grid;grid-template-rows:auto 1fr;height:100dvh;overflow:hidden}
-header.mast{padding:14px var(--pad) 12px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
-.mast h1{font-size:17px;font-weight:600;letter-spacing:-.01em;cursor:pointer}
-.mast .date{color:var(--muted);font-size:13px;margin-left:8px;font-weight:400}
-.stale{font-size:12px;color:var(--muted);white-space:nowrap} .stale.warn{color:var(--gold)}
+.app{display:grid;grid-template-rows:auto auto 1fr;height:100dvh;overflow:hidden}
+header.top{display:flex;align-items:center;gap:16px;padding:8px var(--pad);min-height:50px;border-bottom:1px solid var(--line)}
+header.top.warn{background:var(--amber-bg);border-bottom-color:var(--gold)}
+.brand{font-size:16px;font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+.status{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;gap:2px 0;font-size:13px;color:var(--muted)}
+.status .si+.si::before{content:"·";margin:0 8px;opacity:.6}
+header.top.warn .status{color:var(--gold)} .status b{font-weight:600}
+.tabs{display:flex;gap:2px;background:var(--surface);padding:3px;border-radius:10px;border:1px solid var(--edge)}
+.tabs button{padding:5px 14px;border-radius:8px;font-size:14px;font-weight:600;color:var(--muted)}
+.tabs button[aria-current="page"]{background:var(--surface-2);color:var(--ink)}
+.only-phone{display:none}
+.theme{width:34px;height:34px;display:grid;place-items:center;border-radius:9px;color:var(--ink-2);background:var(--surface);border:1px solid var(--edge)}
+.theme svg{width:17px;height:17px}
+
+/* holdings strip */
+.hold{border-bottom:1px solid var(--line);padding:6px calc(var(--pad) - 8px)}
+.hold-btn{width:100%;display:flex;align-items:center;flex-wrap:wrap;gap:4px 22px;padding:5px 8px;border-radius:9px;text-align:left;font-size:14px}
+.hold-btn:hover{background:var(--surface)}
+.hold-btn > b{font-weight:600}
+.hold-btn .kv{display:inline-flex;gap:7px;align-items:baseline;font-weight:600}
+.hold-btn small{font-size:13px;color:var(--muted);font-weight:500}
+.hold-btn .muted{color:var(--muted)}
+.hold-btn .go{margin-left:auto;color:var(--muted);font-size:18px;line-height:1}
+
 .body{display:grid;grid-template-columns:400px 1fr;min-height:0}
 .list{border-right:1px solid var(--line);overflow-y:auto;overscroll-behavior:contain;padding-bottom:40px}
 .detail{overflow-y:auto;padding:var(--pad) 28px 60px}
 
 /* list */
-.listbar{position:sticky;top:0;z-index:3;background:var(--bg);padding:10px 12px;border-bottom:1px solid var(--line);display:flex;gap:6px}
-.listbar input{flex:1;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:8px 12px;color:var(--ink);font:inherit;font-size:14px}
+.listbar{position:sticky;top:0;z-index:3;background:var(--bg);padding:10px 12px;border-bottom:1px solid var(--line);display:grid;gap:8px}
+.listbar input,.ctrls select{width:100%;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:8px 12px;color:var(--ink);font-size:15px}
+.ctrls select{padding:7px 10px;font-size:14px;flex:1}
 .listbar input::placeholder{color:var(--muted)} .listbar input:focus{outline:none;border-color:var(--muted)}
-.listbar button{padding:0 11px;border-radius:9px;background:var(--surface);font-size:13px;font-weight:600;color:var(--muted);white-space:nowrap}
-.listbar button[aria-pressed="true"]{color:var(--ink);background:var(--surface-2)}
-.group{padding:18px 16px 6px;font-size:13px;font-weight:600;color:var(--muted);display:flex;justify-content:space-between;align-items:baseline;position:sticky;top:53px;background:var(--bg);z-index:2}
-.group.metals{color:var(--gold)}
-.row{display:flex;align-items:center;gap:10px;margin:0 6px;padding:9px 10px;border-radius:10px;cursor:pointer;user-select:none}
-.row:hover{background:var(--surface)} .row[aria-current="true"]{background:var(--surface-2)}
+.ctrls{display:flex;gap:6px;align-items:center}
+.ctrls button{padding:7px 12px;border-radius:9px;background:var(--surface);border:1px solid var(--line);font-size:14px;font-weight:600;color:var(--muted);white-space:nowrap}
+.ctrls button[aria-pressed="true"]{color:var(--ink);background:var(--surface-2);border-color:var(--muted)}
+.group{width:100%;display:flex;align-items:center;gap:9px;padding:13px 16px 9px;font-size:14px;font-weight:600;color:var(--ink-2);text-align:left;position:sticky;top:var(--lb,0px);background:var(--bg);z-index:2;border-top:1px solid var(--line)}
+.group:first-child{border-top:0}
+.group.g-metals{color:var(--gold)}
+.group .cnt{margin-left:auto;font-size:13px;font-weight:500;color:var(--muted);background:var(--surface);border:1px solid var(--edge);padding:0 8px;border-radius:999px}
+.chev{width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translate(-2px,-2px);flex:0 0 8px;opacity:.7}
+[aria-expanded="false"] > .chev{transform:rotate(-45deg)}
+.grp{padding-bottom:8px}
+.row{display:flex;align-items:center;margin:0 6px;border-radius:10px}
+.row:hover{background:var(--surface)} .row.cur{background:var(--surface-2)}
+.row .fav{flex:0 0 28px;height:28px;margin-left:2px;display:grid;place-items:center;color:var(--muted);border-radius:6px;opacity:0}
+.row:hover .fav,.row .fav:focus-visible,.row .fav[aria-pressed="true"]{opacity:1}
+.row .fav[aria-pressed="true"]{color:var(--gold)}
+.fav path{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linejoin:round} .fav[aria-pressed="true"] path{fill:currentColor}
+.row .open{flex:1;min-width:0;display:flex;align-items:center;gap:10px;padding:9px 10px 9px 4px;text-align:left;border-radius:10px}
 .row .id{flex:1 1 auto;min-width:0}
-.row .nm{font-weight:600;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.25}
-.row .sym{font-size:12px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.row svg{flex:0 0 64px;width:64px;height:28px;display:block}
-.row .px{flex:0 0 92px;text-align:right;font-weight:600;font-size:14px;line-height:1.25}
-.pill{display:inline-block;min-width:66px;text-align:center;margin-top:4px;padding:2px 6px;border-radius:6px;font-size:12px;font-weight:600;color:#0A0C0F}
-.pill.up{background:var(--up)} .pill.down{background:var(--down)} .pill.flat{background:var(--flat)}
-.row.err .px,.row.err .pill{opacity:.35}
+.row .nm{display:block;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.row .sym{display:block;font-size:13px;color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spk{flex:0 0 64px;width:64px;display:flex;flex-direction:column;gap:5px}
+.spk svg{width:64px;height:26px;display:block}
+.rng{position:relative;height:3px;background:var(--line);border-radius:2px}
+.rng i{position:absolute;top:-2px;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;background:var(--ink-2)}
+.row .px{flex:0 0 96px;text-align:right;font-weight:600;font-size:15px;line-height:1.3}
+.row .px .p{display:block}
+.pill{display:inline-block;min-width:70px;text-align:center;margin-top:4px;padding:2px 6px;border-radius:6px;font-size:13px;font-weight:600}
+.t-flat{background:var(--flat-bg);color:var(--ink-2)}
+.t-up-soft{background:var(--up-soft);color:var(--up)} .t-down-soft{background:var(--down-soft);color:var(--down)}
+.t-up-strong{background:var(--up-strong);color:var(--on-strong)} .t-down-strong{background:var(--down-strong);color:var(--on-strong)}
+.t-stale{background:transparent;border:1px dashed var(--muted);color:var(--muted)}
+.row.err .nm{color:var(--ink-2)}
 
 /* detail common */
-.back{display:none;color:var(--muted);font-size:14px;margin-bottom:10px}
-h2.title{font-size:22px;font-weight:600;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:14px}
+.back{display:none;color:var(--muted);font-size:15px;margin-bottom:10px}
+h2.title{font-size:23px;font-weight:600;letter-spacing:-.01em;line-height:1.3}
+.sub{color:var(--muted);font-size:14px;font-weight:400}
 section.block{margin-top:28px;border-top:1px solid var(--line);padding-top:18px}
-section.block h3{font-size:15px;font-weight:600;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;gap:12px}
-.seg{display:inline-flex;gap:2px;background:var(--surface);padding:3px;border-radius:9px}
-.seg button{padding:4px 11px;border-radius:7px;font-size:12px;font-weight:600;color:var(--muted)}
+section.block h3{font-size:16px;font-weight:600;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.seg{display:inline-flex;gap:2px;background:var(--surface);padding:3px;border-radius:9px;border:1px solid var(--edge)}
+.seg button{padding:4px 11px;border-radius:7px;font-size:13px;font-weight:600;color:var(--muted)}
 .seg button[aria-pressed="true"]{background:var(--surface-2);color:var(--ink)}
-.foot{margin-top:40px;font-size:12px;color:var(--muted);max-width:70ch;line-height:1.6}
-table.t{width:100%;border-collapse:collapse;font-size:14px}
-table.t th{text-align:left;font-weight:500;color:var(--muted);font-size:12px;padding:6px 8px;border-bottom:1px solid var(--line)}
-table.t td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
-table.t td.n,table.t th.n{text-align:right;white-space:nowrap}
-table.t tr:last-child td{border-bottom:0}
+.foot{margin-top:40px;font-size:13px;color:var(--muted);max-width:72ch;line-height:1.6}
+.tw{overflow-x:auto}
+table.t{width:100%;border-collapse:collapse;font-size:15px}
+table.t th{text-align:left;font-weight:500;color:var(--muted);font-size:13px;padding:7px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.t td{padding:11px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+table.t td.n,table.t th.n,table.t td.dt{text-align:right;white-space:nowrap} table.t td.dt{text-align:left}
+table.t tbody tr:last-child td,table.t tr:last-child td{border-bottom:0}
 table.t a{text-decoration:none} table.t a:hover{text-decoration:underline}
+.linkbtn{color:var(--ink-2);font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:3px;margin-top:10px}
+.disc{display:inline-flex;align-items:center;gap:10px;font-weight:600}
 
 /* overview */
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
-.cards div{background:var(--surface);border-radius:var(--radius);padding:14px 16px;font-size:14px;line-height:1.5;color:var(--ink-2)}
-.cards b{display:block;color:var(--ink);font-weight:600;margin-bottom:4px}
-.heat{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:6px}
-.heat button{border-radius:8px;padding:10px 10px 8px;text-align:left;color:#0A0C0F;line-height:1.2}
-.heat .n{font-size:12px;font-weight:600;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.heat .v{font-size:15px;font-weight:700;display:block;margin-top:4px}
-.heat .na{background:var(--surface);color:var(--muted)}
-.cal{display:flex;flex-wrap:wrap;gap:8px}
-.cal span{font-size:13px;background:var(--surface);padding:6px 11px;border-radius:8px;color:var(--ink-2)}
-.cal b{color:var(--ink);font-weight:600;margin-right:6px}
-.wk{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.wk div{background:var(--surface);border-radius:var(--radius);padding:12px 14px}
-.wk b{display:block;font-weight:600;margin-bottom:6px;font-size:13px;color:var(--muted)}
-.wk button{display:flex;justify-content:space-between;width:100%;padding:5px 0;font-size:14px;text-align:left}
+.ov{display:flex;flex-direction:column}
+.ov-head{order:1} .ov-cards{order:2} .ov-heat{order:3} .ov-week{order:4} .ov-cal{order:5} .ov-ipo{order:6} .ov-foot{order:7}
+.headline{font-size:23px;font-weight:650;letter-spacing:-.015em;line-height:1.3;margin-top:4px}
+.subhead{font-size:15px;color:var(--ink-2);margin-top:8px;max-width:78ch;line-height:1.55}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+.card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--radius);padding:14px 16px}
+.card h3{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:9px}
+.card ul{list-style:none;display:grid;gap:10px}
+.card li{position:relative;padding-left:14px;font-size:15px;line-height:1.5;color:var(--ink-2)}
+.card li::before{content:"";position:absolute;left:0;top:.66em;width:5px;height:5px;border-radius:50%;background:var(--muted)}
+.card li b{color:var(--ink);font-weight:600}
+.cite{display:inline-block;font-size:12px;font-weight:600;line-height:1.5;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:5px;padding:0 6px;margin-left:6px;white-space:nowrap;vertical-align:1px}
+.cite:hover{color:var(--ink);border-color:var(--muted)}
+.heat{display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:6px}
+.heat .tile{border-radius:8px;padding:10px 10px 8px;text-align:left;line-height:1.25;min-height:60px}
+.heat .n{font-size:13px;font-weight:600;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.heat .v{font-size:16px;font-weight:700;display:block;margin-top:5px}
+.heat .t-up-soft .n,.heat .t-down-soft .n{color:var(--ink)}
+.heat .t-flat .n{color:var(--ink)}
+.heat .t-stale .v{font-weight:600;font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 12px;margin:-2px 0 12px;font-size:13px;color:var(--muted);align-items:center}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.wk{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.wk div{background:var(--surface);border:1px solid var(--edge);border-radius:var(--radius);padding:12px 14px}
+.wk b{display:block;font-weight:600;margin-bottom:6px;font-size:14px;color:var(--muted)}
+.wk button{display:flex;justify-content:space-between;gap:10px;width:100%;padding:5px 0;font-size:15px;text-align:left}
 .wk button:hover .nm{text-decoration:underline}
-.prose{color:var(--ink-2);max-width:72ch;line-height:1.55}
+.prose{color:var(--ink-2);max-width:74ch;line-height:1.6}
+.cal{list-style:none;display:grid;gap:12px}
+.ev{display:grid;grid-template-columns:136px 1fr;gap:16px;padding:14px 16px;background:var(--surface);border:1px solid var(--edge);border-radius:10px}
+.ev.hit{box-shadow:inset 3px 0 0 var(--gold)}
+.ev.past{opacity:.55}
+.when{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
+.dchip{font-size:14px;font-weight:600;background:var(--surface-2);padding:3px 10px;border-radius:7px;white-space:nowrap}
+.badge{font-size:12px;font-weight:600;padding:1px 9px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);white-space:nowrap}
+.badge.soon{background:var(--gold);border-color:var(--gold);color:#0A0C0F}
+.what{list-style:none;display:grid;gap:8px;font-size:15px;line-height:1.5;color:var(--ink-2)}
+a.wl{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:2px;text-underline-offset:3px}
+.wlkey{display:inline-block;width:14px;height:3px;background:var(--gold);border-radius:2px;margin-right:6px;vertical-align:3px}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
-.chips a{font-size:13px;font-weight:600;background:var(--surface);padding:7px 12px;border-radius:8px;text-decoration:none;color:var(--ink-2)}
+.chips a{font-size:14px;font-weight:600;background:var(--surface);border:1px solid var(--edge);padding:7px 12px;border-radius:8px;text-decoration:none;color:var(--ink-2)}
 .chips a:hover{background:var(--surface-2);color:var(--ink)}
-.chips a.buy{border:1px solid var(--line)}
+.chips a.buy{border-color:var(--line)}
 
 /* asset */
 .price{margin-top:16px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .price .big{font-size:44px;font-weight:600;letter-spacing:-.025em;line-height:1}
 .price .delta{font-size:17px;font-weight:600}
-.price .asof{font-size:13px;color:var(--muted);width:100%}
-.hover-note{font-size:13px;color:var(--muted);min-height:18px;margin-top:6px}
+.price .asof{font-size:14px;color:var(--muted);width:100%}
+.hover-note{font-size:14px;color:var(--muted);min-height:20px;margin-top:6px}
 .chartbar{display:flex;justify-content:space-between;align-items:center;margin:18px 0 10px;gap:10px;flex-wrap:wrap}
 .chart{height:320px;border-radius:var(--radius);overflow:hidden;position:relative}
-.chart .empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:14px}
+.chart .empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:15px}
 .returns{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:18px}
-.returns div{background:var(--surface);border-radius:10px;padding:10px 12px}
-.returns small{display:block;color:var(--muted);font-size:12px;margin-bottom:3px}
+.returns div{background:var(--surface);border:1px solid var(--edge);border-radius:10px;padding:10px 12px}
+.returns small{display:block;color:var(--muted);font-size:13px;margin-bottom:3px}
 .returns span{font-weight:600;font-size:17px}
-.range52{margin-top:12px;font-size:13px;color:var(--muted)} .range52 b{color:var(--ink-2);font-weight:500}
+.range52{margin-top:12px;font-size:14px;color:var(--muted)} .range52 b{color:var(--ink-2);font-weight:500}
 .range52 .bar{position:relative;height:4px;background:var(--surface-2);border-radius:2px;margin-top:6px}
 .range52 .bar i{position:absolute;top:-3px;width:10px;height:10px;border-radius:50%;background:var(--ink);margin-left:-5px}
-.outlook p{color:var(--ink-2);margin-bottom:10px;max-width:70ch}
-.outlook .lbl{color:var(--muted);font-size:13px;margin-right:6px}
-.consensus{display:inline-flex;gap:14px;align-items:baseline;background:var(--surface);padding:10px 14px;border-radius:10px;margin-bottom:12px}
-.consensus b{font-size:20px;font-weight:600} .consensus small{color:var(--muted);font-size:12px}
-.news a{display:grid;grid-template-columns:1fr auto;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.outlook p{color:var(--ink-2);margin-bottom:10px;max-width:72ch}
+.outlook .lbl{color:var(--muted);font-size:14px;margin-right:6px}
+.consensus{display:inline-flex;gap:14px;align-items:baseline;background:var(--surface);border:1px solid var(--edge);padding:10px 14px;border-radius:10px;margin-bottom:12px}
+.consensus b{font-size:20px;font-weight:600} .consensus small{color:var(--muted);font-size:13px}
+.news a{display:grid;grid-template-columns:1fr auto;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none}
 .news a:last-child{border-bottom:0} .news a:hover .t{text-decoration:underline}
-.news .t{font-size:15px;color:var(--ink);line-height:1.4} .news .s{font-size:12px;color:var(--muted);margin-top:3px}
-.news .src{align-self:start;font-size:12px;font-weight:600;color:var(--ink-2);background:var(--surface);padding:3px 9px;border-radius:6px;white-space:nowrap}
+.news .t{font-size:15px;color:var(--ink);line-height:1.45} .news .s{font-size:13px;color:var(--muted);margin-top:3px}
+.news .src{align-self:start;font-size:13px;font-weight:600;color:var(--ink-2);background:var(--surface);border:1px solid var(--edge);padding:3px 9px;border-radius:6px;white-space:nowrap}
 
 /* portfolio */
 .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}
-.kpis div{background:var(--surface);border-radius:10px;padding:12px 14px}
-.kpis small{display:block;color:var(--muted);font-size:12px;margin-bottom:3px} .kpis span{font-weight:600;font-size:20px}
-textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--ink);font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;padding:12px;resize:vertical}
+.kpis div{background:var(--surface);border:1px solid var(--edge);border-radius:10px;padding:12px 14px}
+.kpis small{display:block;color:var(--muted);font-size:13px;margin-bottom:3px} .kpis span{font-weight:600;font-size:20px}
+textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--ink);font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;padding:12px;resize:vertical}
 .btns{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
-.btns button{padding:8px 14px;border-radius:9px;background:var(--surface-2);font-size:13px;font-weight:600}
-.btns button.primary{background:var(--ink);color:#0A0C0F}
-.warn{font-size:13px;color:var(--gold);margin-top:8px}
+.btns button{padding:8px 14px;border-radius:9px;background:var(--surface-2);font-size:14px;font-weight:600}
+.btns button.primary{background:var(--ink);color:var(--bg)}
+.warn{font-size:14px;color:var(--gold);margin-top:8px}
 
 @media (max-width:820px){
-  .app{height:auto;overflow:visible}
-  .mast{gap:10px}
-  .body{grid-template-columns:1fr} .list{border-right:0}
-  .app.show-detail .list{display:none} .app:not(.show-detail) .detail{display:none}
-  .detail{padding:16px 16px 60px} .back{display:inline-block}
-  .row svg{flex-basis:56px;width:56px}
+  .app{display:block;height:auto;overflow:visible;padding-bottom:calc(62px + env(safe-area-inset-bottom))}
+  header.top{flex-wrap:wrap;gap:4px 12px;padding:10px 16px}
+  .status{order:3;flex-basis:100%;gap:0 14px} .status .si+.si::before{content:none}
+  .theme{margin-left:auto}
+  .only-phone{display:block}
+  .tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;border:0;border-top:1px solid var(--line);border-radius:0;padding:6px 8px calc(6px + env(safe-area-inset-bottom));background:var(--bg)}
+  .tabs button{flex:1;padding:9px 0;font-size:15px}
+  .hold{padding:6px 8px}
+  .hold-btn .hide-sm{display:none}
+  .body{display:block}
+  .list{border-right:0;overflow:visible;padding-bottom:20px}
+  .app.v-list .detail{display:none} .app:not(.v-list) .list{display:none}
+  .detail{overflow:visible;padding:16px 16px 40px} .back{display:inline-block}
+  .ov-heat{order:2} .ov-cards{order:3;margin-top:28px}
+  .headline{font-size:21px}
+  .row .fav{opacity:.6}
+  .spk{flex-basis:56px;width:56px} .spk svg{width:56px}
   .price .big{font-size:36px} .returns{grid-template-columns:repeat(3,1fr)} .chart{height:260px}
   .cards,.wk,.kpis{grid-template-columns:1fr}
-  .listbar button{padding:0 8px}
+  .ev{grid-template-columns:1fr;gap:10px}
+  .when{flex-direction:row;align-items:center;gap:8px}
+  table.ipo thead{display:none}
+  table.ipo,table.ipo tbody,table.ipo tr,table.ipo td{display:block;width:100%}
+  table.ipo tr{background:var(--surface);border:1px solid var(--edge);border-radius:10px;padding:10px 12px;margin-bottom:10px}
+  table.ipo td{border:0;padding:3px 0;text-align:left!important;display:flex;justify-content:space-between;gap:12px}
+  table.ipo td::before{content:attr(data-l);color:var(--muted);font-size:13px;flex:0 0 auto}
+  table.ipo td:first-child{display:block} table.ipo td:first-child::before{content:none}
 }
-@media (prefers-reduced-motion:no-preference){ .row{transition:background .12s} }
+@media (hover:none){ .row .fav{opacity:.6} .row .fav[aria-pressed="true"]{opacity:1} }
+@media (prefers-reduced-motion:no-preference){ .row{transition:background .12s} .chev{transition:transform .15s} }
 </style>
 </head>
 <body>
 <div class="app" id="app">
-  <header class="mast">
-    <h1 id="home">Market Daily <span class="date" id="date"></span></h1>
-    <div class="stale" id="stale"></div>
+  <header class="top" id="top">
+    <button class="brand" id="home">Market Daily</button>
+    <div class="status" id="status" aria-live="polite"></div>
+    <nav class="tabs" id="tabs" aria-label="Sections">
+      <button data-tab="overview">Overview</button>
+      <button data-tab="list" class="only-phone">Assets</button>
+      <button data-tab="portfolio">Portfolio</button>
+    </nav>
+    <button class="theme" id="theme" aria-label="Switch to light theme"></button>
   </header>
+  <div class="hold" id="hold"></div>
   <div class="body">
-    <aside class="list" id="list">
-      <div class="listbar">
-        <input id="q" type="search" placeholder="Search name or ticker" autocomplete="off" spellcheck="false">
-        <button id="tab-overview" aria-pressed="true">Overview</button>
-        <button id="tab-portfolio" aria-pressed="false">Portfolio</button>
-        <button id="movers" aria-pressed="false" title="Sort by today's move">Movers</button>
+    <aside class="list" id="list" aria-label="Watchlist">
+      <div class="listbar" id="listbar">
+        <input id="q" type="search" placeholder="Search name or ticker" autocomplete="off" spellcheck="false" aria-label="Search name or ticker">
+        <div class="ctrls">
+          <label class="sr" for="sort">Sort</label>
+          <select id="sort">
+            <option value="default">Watchlist order</option>
+            <option value="name">Name, A to Z</option>
+            <option value="move">1D move, best first</option>
+            <option value="abs">Size of move</option>
+          </select>
+          <button id="big" aria-pressed="false" title="Only assets that moved more than 3% on the day">Big movers only</button>
+        </div>
       </div>
       <div id="rows"></div>
     </aside>
     <main class="detail" id="detail"></main>
   </div>
 </div>
-
 <script>
 const RANGES = [["1W",7],["1M",30],["3M",91],["6M",182],["1Y",365],["5Y",1826]];
+const TIERS = {chg_1d_pct:[0.5,2], ret_1m:[2,8], ret_1y:[5,20]}; // grey below lo, faded to hi, full colour above
+const SECTIONS = [["us","US"],["india","India"],["global","Global"],["etf","ETFs"],["crypto","Crypto"],["metals","Metals"],["fx","FX"]];
+const FAV_KEY = "md_favs_v1", THEME_KEY = "md_theme", HOLD_KEY = "md_holdings_v1";
 const $ = (s, el=document) => el.querySelector(s);
-const state = { prices:null, brief:null, wl:null, view:"overview", sel:null, range:"1M", q:"", movers:false, cache:{}, inr:false, heatRange:"chg_1d_pct", holdings:null };
+const LS = { get(k){ try { return localStorage.getItem(k); } catch { return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch {} }, del(k){ try { localStorage.removeItem(k); } catch {} } };
+const state = { prices:null, brief:null, wl:null, view:"overview", tab:"overview", back:"overview", sel:null, range:"1M", q:"", sort:"default", big:false, open:new Set(), savedOpen:null, favs:new Set(), weekOpen:false, cache:{}, inr:false, heatRange:"chg_1d_pct", holdings:null, alias:null };
 const byId = id => state.prices.assets.find(x => x.id === id);
+const noData = a => !!a.error || a.price == null;
+const isDesktop = () => window.matchMedia("(min-width:821px)").matches;
 
 async function loadJSON(path, fallback){
   try { const r = await fetch(path + "?t=" + Date.now()); if (!r.ok) throw 0; return await r.json(); }
   catch { if (fallback) { try { const r = await fetch(fallback); if (r.ok) return await r.json(); } catch {} } return null; }
 }
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const fmtNum = v => { if (v == null || isNaN(v)) return "–"; const dp = Math.abs(v) >= 1000 ? 0 : Math.abs(v) >= 100 ? 1 : Math.abs(v) >= 1 ? 2 : 4; return v.toLocaleString("en-IN", {minimumFractionDigits:dp, maximumFractionDigits:dp}); };
+/* Indian digit grouping (2,05,083) only for INR, Western grouping (205,083) for everything else */
+const fmtNum = (v, cur) => { if (v == null || isNaN(v)) return "–"; const dp = Math.abs(v) >= 1000 ? 0 : Math.abs(v) >= 100 ? 1 : Math.abs(v) >= 1 ? 2 : 4; return v.toLocaleString(cur === "INR" ? "en-IN" : "en-US", {minimumFractionDigits:dp, maximumFractionDigits:dp}); };
 const fmtPct = v => v == null || isNaN(v) ? "–" : (v > 0 ? "+" : "") + v.toFixed(2) + "%";
 const cls = v => v == null || isNaN(v) ? "flat" : v > 0.0001 ? "up" : v < -0.0001 ? "down" : "flat";
 const curSym = c => ({USD:"$",INR:"₹",GBP:"£",EUR:"€",JPY:"¥",HKD:"HK$",AUD:"A$",CNY:"CN¥",KRW:"₩",TWD:"NT$",CAD:"C$",BRL:"R$"})[c] || (c ? c + " " : "");
+const money = v => (v > 0 ? "+" : v < 0 ? "-" : "") + "₹" + fmtNum(Math.abs(v), "INR");
+const isISO = s => /^\d{4}-\d{2}-\d{2}$/.test(String(s || ""));
+const pad2 = n => String(n).padStart(2, "0");
+const localISO = d => `${d.getFullYear()}-${pad2(d.getMonth()+1)}-${pad2(d.getDate())}`;
+const fmtDay = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", {weekday:"short", day:"numeric", month:"short", timeZone:"UTC"}).replace(",", "");
+const relDays = iso => { const t = new Date(); t.setHours(0,0,0,0); const [y,m,d] = iso.split("-").map(Number); return Math.round((new Date(y, m-1, d) - t) / 864e5); };
+const relLabel = n => n === 0 ? "today" : n === 1 ? "tomorrow" : n === -1 ? "yesterday" : n > 1 ? `in ${n} days` : `${-n} days ago`;
+function tierCls(v, field = "chg_1d_pct"){
+  if (v == null || isNaN(v)) return "t-stale";
+  const [lo, hi] = TIERS[field] || TIERS.chg_1d_pct, m = Math.abs(v);
+  return m < lo ? "t-flat" : "t-" + (v > 0 ? "up" : "down") + (m < hi ? "-soft" : "-strong");
+}
+const sentences = s => { const out = []; String(s || "").split(/([.!?])\s+(?=[A-Z])/).forEach((p, i) => { if (i % 2) out[out.length-1] += p; else out.push(p); }); return out.map(x => x.trim()).filter(Boolean); };
+const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 /* INR conversion: uses today's cross rates from the FX group */
 function inrRate(cur){
@@ -183,57 +335,121 @@ function inrRate(cur){
   const m = {USD:"inrx", GBP:"gbpinrx", EUR:"eurinrx", JPY:"jpyinrx"};
   const a = m[cur] && byId(m[cur]); return a && !a.error ? a.price : null;
 }
-const showPrice = (v, a) => { if (v == null) return "–"; const r = state.inr && inrRate(a.currency); return r ? "₹" + fmtNum(v * r) : curSym(a.currency) + fmtNum(v); };
+const showPrice = (v, a) => { if (v == null) return "–"; const r = state.inr && inrRate(a.currency); return r ? "₹" + fmtNum(v * r, "INR") : curSym(a.currency) + fmtNum(v, a.currency); };
+
+/* ---------- theme ---------- */
+const ICON_SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+const ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>';
+function applyTheme(t, save){
+  document.documentElement.dataset.theme = t; if (save) LS.set(THEME_KEY, t);
+  const b = $("#theme"); b.innerHTML = t === "dark" ? ICON_SUN : ICON_MOON; b.setAttribute("aria-label", t === "dark" ? "Switch to light theme" : "Switch to dark theme");
+  $("#themecolor").setAttribute("content", t === "dark" ? "#0A0C0F" : "#F5F6F8");
+  if (state.prices && state.view === "asset") drawChart(byId(state.sel));
+}
+
+/* ---------- top bar ---------- */
+function mode(xs){ const c = {}; let best = null; for (const x of xs){ c[x] = (c[x] || 0) + 1; if (!best || c[x] > c[best]) best = x; } return best; }
+const ageText = h => h < 48 ? Math.round(h) + " hours" : Math.floor(h / 24) + " days";
+function renderStatus(){
+  const P = state.prices, B = state.brief, top = $("#top");
+  const close = mode(P.assets.filter(a => !a.error && a.as_of && a.group !== "fx" && !["crypto","mutual_fund"].includes(a.type)).map(a => a.as_of));
+  const upd = new Date(B?.generated_at || P.generated_at), mins = (Date.now() - upd) / 6e4;
+  const rel = mins < 60 ? Math.max(1, Math.round(mins)) + "m ago" : mins < 2880 ? Math.round(mins / 60) + "h ago" : Math.floor(mins / 1440) + "d ago";
+  const hhmm = upd.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
+  const when = localISO(upd) === localISO(new Date()) ? hhmm : fmtDay(localISO(upd)) + " " + hhmm;
+  const failed = P.assets.filter(noData), ok = P.assets.length - failed.length;
+  const briefAge = B?.generated_at ? (Date.now() - new Date(B.generated_at)) / 36e5 : Infinity, priceAge = (Date.now() - new Date(P.generated_at)) / 36e5;
+  const warn = briefAge > 24 || priceAge > 30, items = [];
+  if (warn) items.push(`<b>${briefAge === Infinity ? "No brief filed" : briefAge > 24 ? "Brief is " + ageText(briefAge) + " old" : "Prices are " + ageText(priceAge) + " old"}</b>`);
+  if (close) items.push(`As of close, ${fmtDay(close)}`);
+  items.push(`<span title="${esc(upd.toString())}">Updated ${when} (${rel})</span>`);
+  items.push(`<span${failed.length ? ` title="Not fetched: ${esc(failed.map(a => a.symbol).join(", "))}"` : ""}>${ok} of ${P.assets.length} fetched</span>`);
+  $("#status").innerHTML = items.map(x => `<span class="si">${x}</span>`).join("");
+  top.classList.toggle("warn", warn);
+}
 
 /* ---------- list ---------- */
+const STAR = '<svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><path d="M10 2.2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.6l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>';
+const sectionOf = a => a.type === "etf" ? "etf" : a.group;
+function sections(){ const known = new Set(SECTIONS.map(s => s[0])); return [...SECTIONS, ...state.prices.groups.filter(g => !known.has(g.id)).map(g => [g.id, g.label])]; }
 function sparkline(ys){
   if (!ys || ys.length < 2) return "";
-  const lo = Math.min(...ys), hi = Math.max(...ys) || 1, w = 64, h = 28;
+  const lo = Math.min(...ys), hi = Math.max(...ys) || 1, w = 64, h = 26;
   const d = ys.map((y,i) => `${(i/(ys.length-1)*w).toFixed(1)},${(h-2-(y-lo)/(hi-lo||1)*(h-4)).toFixed(1)}`).join(" ");
-  return `<svg viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${d}" fill="none" stroke="var(--${cls(ys[ys.length-1]-ys[0])})" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+  return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><polyline points="${d}" fill="none" stroke="var(--${cls(ys[ys.length-1]-ys[0])})" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
+}
+function spark(a){
+  let rng = "";
+  if (!noData(a) && a.hi_52w != null && a.lo_52w != null){
+    const pos = Math.max(0, Math.min(100, (a.price - a.lo_52w) / ((a.hi_52w - a.lo_52w) || 1) * 100));
+    rng = `<span class="rng" title="52-week range ${fmtNum(a.lo_52w, a.currency)} to ${fmtNum(a.hi_52w, a.currency)}"><i style="left:${pos.toFixed(1)}%"></i></span>`;
+  }
+  return `<span class="spk" aria-hidden="true">${sparkline(a.spark)}${rng}</span>`;
 }
 function rowEl(a){
-  const b = document.createElement("div"); b.className = "row" + (a.error ? " err" : "");
-  b.dataset.id = a.id; b.setAttribute("role","button"); b.tabIndex = 0; b.setAttribute("aria-current", state.view === "asset" && a.id === state.sel);
-  b.innerHTML = `<div class="id"><div class="nm">${esc(a.name)}</div><div class="sym">${esc(a.symbol)}</div></div>
-    ${sparkline(a.spark) || '<span style="flex:0 0 64px"></span>'}
-    <div class="px">${a.error ? "–" : fmtNum(a.price)}<br><span class="pill ${cls(a.chg_1d_pct)}">${a.error ? "n/a" : fmtPct(a.chg_1d_pct)}</span></div>`;
-  b.onclick = () => openAsset(a.id);
-  b.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openAsset(a.id); } };
-  return b;
+  const r = document.createElement("div"), fav = state.favs.has(a.id), cur = state.view === "asset" && state.sel === a.id;
+  const nd = noData(a); r.className = "row" + (nd ? " err" : "") + (cur ? " cur" : ""); r.dataset.id = a.id;
+  r.innerHTML = `<button class="fav" aria-pressed="${fav}" aria-label="${fav ? "Unpin" : "Pin"} ${esc(a.name)}" title="${fav ? "Unpin" : "Pin to the top of its group"}">${STAR}</button>
+    <button class="open"${cur ? ' aria-current="true"' : ""}><span class="id"><span class="nm">${esc(a.name)}</span><span class="sym">${esc(a.symbol)}</span></span>${spark(a)}
+    <span class="px"><span class="p">${nd ? "–" : fmtNum(a.price, a.currency)}</span><span class="pill ${nd ? "t-stale" : tierCls(a.chg_1d_pct)}"${nd ? ` title="${esc(a.error || "Not enough history this run")}"` : ""}>${nd ? "stale" : fmtPct(a.chg_1d_pct)}</span></span></button>`;
+  r.querySelector(".open").onclick = () => openAsset(a.id, "list");
+  r.querySelector(".fav").onclick = () => toggleFav(a.id);
+  return r;
+}
+function toggleFav(id){
+  state.favs.has(id) ? state.favs.delete(id) : state.favs.add(id);
+  LS.set(FAV_KEY, JSON.stringify([...state.favs])); renderList();
+  const b = $(`.row[data-id="${CSS.escape(id)}"] .fav`); if (b) b.focus();
+}
+const byDesc = f => (x, y) => { const a = f(x), b = f(y); if (a == null && b == null) return 0; if (a == null) return 1; if (b == null) return -1; return b - a; };
+function sortAssets(as){
+  const chg = a => a.error || a.chg_1d_pct == null ? null : a.chg_1d_pct, s = [...as];
+  if (state.sort === "name") s.sort((x,y) => x.name.localeCompare(y.name));
+  else if (state.sort === "move") s.sort(byDesc(chg));
+  else if (state.sort === "abs") s.sort(byDesc(a => chg(a) == null ? null : Math.abs(chg(a))));
+  return [...s.filter(a => state.favs.has(a.id)), ...s.filter(a => !state.favs.has(a.id))];
+}
+const filtering = () => !!state.q.trim() || state.big;
+function filterChanged(was){
+  const now = filtering();
+  if (!was && now){ state.savedOpen = new Set(state.open); state.open = new Set(sections().map(s => s[0])); }
+  if (was && !now){ state.open = state.savedOpen || new Set([sections()[0][0]]); state.savedOpen = null; }
+  renderList();
 }
 function renderList(){
-  const {prices} = state; const rows = $("#rows"); rows.innerHTML = "";
+  const rows = $("#rows"); rows.innerHTML = "";
   const q = state.q.trim().toLowerCase();
-  const match = a => !q || a.name.toLowerCase().includes(q) || a.symbol.toLowerCase().includes(q) || a.id.includes(q);
-  if (state.movers){
-    const list = prices.assets.filter(a => !a.error && a.chg_1d_pct != null && match(a)).sort((x,y) => Math.abs(y.chg_1d_pct) - Math.abs(x.chg_1d_pct)).slice(0, 40);
-    const h = document.createElement("div"); h.className = "group"; h.innerHTML = `<span>Biggest moves today</span><span>1D</span>`; rows.appendChild(h);
-    list.forEach(a => rows.appendChild(rowEl(a))); return;
-  }
+  const match = a => (!q || a.name.toLowerCase().includes(q) || a.symbol.toLowerCase().includes(q) || a.id.includes(q)) && (!state.big || (!a.error && Math.abs(a.chg_1d_pct ?? 0) > 3));
   let total = 0;
-  for (const g of prices.groups){
-    const assets = prices.assets.filter(a => a.group === g.id && match(a)); if (!assets.length) continue; total += assets.length;
-    const h = document.createElement("div"); h.className = "group " + g.id; h.innerHTML = `<span>${esc(g.label)}</span><span>${assets.length}</span>`; rows.appendChild(h);
-    assets.forEach(a => rows.appendChild(rowEl(a)));
+  for (const [sid, label] of sections()){
+    const as = sortAssets(state.prices.assets.filter(a => sectionOf(a) === sid && match(a))); if (!as.length) continue; total += as.length;
+    const open = state.open.has(sid), h = document.createElement("button");
+    h.className = "group g-" + sid; h.setAttribute("aria-expanded", open);
+    h.innerHTML = `<span class="chev" aria-hidden="true"></span><span>${esc(label)}</span><span class="cnt">${as.length}</span>`;
+    h.onclick = () => { state.open.has(sid) ? state.open.delete(sid) : state.open.add(sid); renderList(); $(`.group.g-${sid}`)?.focus(); };
+    rows.appendChild(h);
+    if (open){ const box = document.createElement("div"); box.className = "grp"; as.forEach(a => box.appendChild(rowEl(a))); rows.appendChild(box); }
   }
-  if (!total) rows.innerHTML = `<p class="none" style="padding:20px">Nothing matches "${esc(state.q)}". Add it to data/watchlist.json.</p>`;
+  if (!total) rows.innerHTML = `<p class="none" style="padding:20px">${state.big ? "Nothing moved more than 3% on the day" + (q ? ` matching "${esc(state.q)}"` : "") + "." : `Nothing matches "${esc(state.q)}". Add it to data/watchlist.json.`}</p>`;
+  setLb();
 }
+const setLb = () => $("#list").style.setProperty("--lb", $("#listbar").offsetHeight + "px");
 
 /* ---------- navigation ---------- */
-function setView(view, id){
+function setView(view, id, from){
+  if (view === "list" && isDesktop()) view = "overview";
+  if (view === "asset") state.back = from || (state.view === "asset" ? state.back : state.view);
   state.view = view; state.sel = id || null;
-  $("#tab-overview").setAttribute("aria-pressed", view === "overview");
-  $("#tab-portfolio").setAttribute("aria-pressed", view === "portfolio");
-  document.querySelectorAll(".row").forEach(r => r.setAttribute("aria-current", view === "asset" && r.dataset.id === id));
-  history.replaceState(null, "", view === "asset" ? "#" + id : view === "overview" ? "#" : "#" + view);
-  if (view === "asset") { $("#app").classList.add("show-detail"); renderAsset(); }
-  else if (view === "portfolio") { $("#app").classList.add("show-detail"); renderPortfolio(); }
-  else { $("#app").classList.add("show-detail"); renderOverview(); }
-  $("#detail").scrollTop = 0; window.scrollTo(0,0);
+  state.tab = view === "asset" ? state.back : view;
+  document.querySelectorAll("#tabs [data-tab]").forEach(t => t.dataset.tab === state.tab ? t.setAttribute("aria-current", "page") : t.removeAttribute("aria-current"));
+  $("#app").classList.toggle("v-list", view === "list"); if (view === "list") setLb();
+  history.replaceState(null, "", view === "asset" ? "#" + id : view === "overview" ? location.pathname + location.search : "#" + (view === "list" ? "assets" : view));
+  document.querySelectorAll(".row").forEach(r => { const c = view === "asset" && r.dataset.id === id, o = r.querySelector(".open"); r.classList.toggle("cur", c); c ? o.setAttribute("aria-current", "true") : o.removeAttribute("aria-current"); });
+  if (view === "asset") renderAsset(); else if (view === "portfolio") renderPortfolio(); else renderOverview();
+  $("#detail").scrollTop = 0; window.scrollTo(0, 0);
 }
-const openAsset = id => setView("asset", id);
-function backBtn(){ const b = $("#back"); if (b) b.onclick = () => $("#app").classList.remove("show-detail"); }
+const openAsset = (id, from) => setView("asset", id, from);
+function backBtn(){ const b = $("#back"); if (b) b.onclick = () => setView(state.back || "overview"); }
 
 /* ---------- links ---------- */
 function assetLinks(a){
@@ -271,37 +487,107 @@ function assetLinks(a){
 }
 const chips = (items, extra="") => items.map(([n,u]) => `<a class="${extra}" href="${esc(u)}" ${u.startsWith("#") ? "" : 'target="_blank" rel="noopener"'}>${esc(n)}</a>`).join("");
 
+/* ---------- watchlist name matching (calendar highlights) ---------- */
+const GENERIC = new Set(["State","India","Indian","Global","Natural","United","Asian","Avenue","Strategy","Coal","Power","Morgan","Wells","Johnson","Procter","Texas","Home","Mahindra","Persistent","Novo","Bharat","Punjab","Canara","General"]);
+function buildAliases(){
+  const stocks = state.prices.assets.filter(a => a.type === "stock"), map = new Map(), firsts = {};
+  const clean = n => n.replace(/\s*\([^)]*\)/g, "").replace(/\s+(Ltd|Inc|Corp|Corporation|plc)\.?$/i, "").trim();
+  stocks.forEach(a => { const f = clean(a.name).split(/\s+/)[0]; firsts[f] = (firsts[f] || 0) + 1; });
+  const add = (k, id) => { if (k && k.length >= 3 && !map.has(k)) map.set(k, id); };
+  for (const a of stocks){
+    const n = clean(a.name), paren = (a.name.match(/\(([^)]*)\)/) || [])[1];
+    add(n, a.id); if (n.includes("&")) add(n.replace(/&/g, "and"), a.id);
+    if (paren && /^[A-Z]/.test(paren) && paren !== "ADR") add(paren, a.id);
+    const f = n.split(/\s+/)[0]; if (f !== n && f.length >= 4 && firsts[f] === 1 && !GENERIC.has(f)) add(f, a.id);
+  }
+  const keys = [...map.keys()].sort((x,y) => y.length - x.length).map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  state.alias = {map, re: keys.length ? new RegExp(`(?<![\\w&])(?:${keys.join("|")})(?![\\w])`, "g") : null};
+}
+function linkNames(text){
+  const {map, re} = state.alias; if (!re) return {html: esc(text), hit: false};
+  let html = "", last = 0, hit = false;
+  for (const m of String(text).matchAll(re)){ const id = map.get(m[0]); html += esc(text.slice(last, m.index)) + `<a class="wl" href="#${id}" data-id="${id}">${esc(m[0])}</a>`; last = m.index + m[0].length; hit = true; }
+  return {html: html + esc(String(text).slice(last)), hit};
+}
+
 /* ---------- overview ---------- */
 function heatTile(id){
-  const a = byId(id); if (!a || a.error || a[state.heatRange] == null) return `<button class="na"><span class="n">${esc(a ? a.name : id)}</span><span class="v">n/a</span></button>`;
-  const v = a[state.heatRange], cap = state.heatRange === "chg_1d_pct" ? 3 : state.heatRange === "ret_1m" ? 10 : 40;
-  const k = Math.max(-1, Math.min(1, v / cap)), col = k >= 0 ? `rgba(47,209,106,${0.18 + 0.72*k})` : `rgba(255,77,77,${0.18 - 0.72*k})`;
-  return `<button style="background:${col};color:${Math.abs(k) > .45 ? "#0A0C0F" : "var(--ink)"}" data-id="${a.id}"><span class="n">${esc(a.name.replace(/ Select$/,"").replace(/^Nifty /,""))}</span><span class="v">${fmtPct(v)}</span></button>`;
+  const a = byId(id), v = a && !noData(a) ? a[state.heatRange] : null, nm = esc((a ? a.name : id).replace(/ Select$/,"").replace(/^Nifty /,""));
+  if (v == null) return `<button class="tile t-stale" ${a ? `data-id="${a.id}"` : "disabled"} title="No data in this edition"><span class="n">${nm}</span><span class="v">stale</span></button>`;
+  return `<button class="tile ${tierCls(v, state.heatRange)}" data-id="${a.id}"><span class="n">${nm}</span><span class="v">${fmtPct(v)}</span></button>`;
 }
-function renderOverview(){
-  const b = state.brief || {}, d = $("#detail"), hm = state.wl?.heatmap || {};
+function legend(){
+  const [lo, hi] = TIERS[state.heatRange];
+  return `<div class="legend" aria-label="Colour key"><span><i class="t-flat"></i>under ${lo}%</span><span><i class="t-up-soft"></i><i class="t-down-soft"></i>${lo} to ${hi}%</span><span><i class="t-up-strong"></i><i class="t-down-strong"></i>over ${hi}%</span><span><i class="t-stale"></i>no data</span></div>`;
+}
+/* headline: short line plus sub-line; older briefs only carry one long headline, so split it at a comma */
+function headlineParts(b){
+  const h = String(b.headline || "").trim();
+  if (b.subhead) return {main:h, sub:b.subhead};
+  const w = h.split(/\s+/); if (w.length <= 18) return {main:h, sub:""};
+  const cut = h.split(/,\s+/); let main = "", i = 0;
+  while (i < cut.length && (main ? main + ", " + cut[i] : cut[i]).split(/\s+/).length <= 20){ main = main ? main + ", " + cut[i] : cut[i]; i++; }
+  if (!main || i === cut.length) return {main: w.slice(0, 15).join(" ") + "…", sub: h};
+  const rest = cut.slice(i).join(", ");
+  return {main, sub: rest.charAt(0).toUpperCase() + rest.slice(1)};
+}
+/* summary bullets: [{text, source, url}]; older briefs carry a plain string, shown as one bullet per sentence */
+const toBullets = v => Array.isArray(v) ? v.map(x => typeof x === "string" ? {text:x} : x).filter(x => x && x.text) : typeof v === "string" ? sentences(v).map(t => ({text:t})) : [];
+const NUM_RE = /(^|[^A-Za-z0-9.])([+-]?(?:[$₹£€¥]\s?)?\d[\d,]*(?:\.\d+)?(?:\s?(?:%|percent|bps|basis points|crore|lakh|trillion|billion|million|dollars|rupees|points))?)/g;
+const IDX_RE = /(?:S&amp;P|Nifty|Nikkei|FTSE|DAX|Smallcap|Midcap|Stoxx|Russell|CAC|IBEX|MIB|ASX|Sensex)\s$/;
+const boldNums = s => esc(s).replace(NUM_RE, (m, pre, num, off, str) => /^\d+$/.test(num) && IDX_RE.test(str.slice(0, off + pre.length)) ? m : `${pre}<b>${num}</b>`); // keeps "S&P 500" plain, bolds "DAX 0.75 percent"
+function regionCard(key, label, b){
+  const bs = toBullets(b.summary?.[key]).slice(0, 4);
+  return `<div class="card"><h3>${label}</h3>${bs.length ? `<ul>${bs.map(x => `<li>${boldNums(x.text)}${x.url ? `<a class="cite" href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.title || x.source || "Source")}">${esc(x.source || "Source")}</a>` : ""}</li>`).join("")}</ul>` : '<p class="none">Not filed.</p>'}</div>`;
+}
+function weekSection(b){
   const wk = state.prices.assets.filter(a => !a.error && a.ret_1w != null && ["stock","etf"].includes(a.type));
   const winners = [...wk].sort((x,y) => y.ret_1w - x.ret_1w).slice(0,8), losers = [...wk].sort((x,y) => x.ret_1w - y.ret_1w).slice(0,8);
-  const ipos = b.ipos || [];
-  d.innerHTML = `
-    <button class="back" id="back">‹ Watchlist</button>
-    <div class="sub">${esc(b.date || state.prices.generated_at.slice(0,10))}</div>
-    <h2 class="title">${esc(b.headline || "No edition filed yet. The routine writes today's brief.")}</h2>
-    <div class="cards">${[["US", b.summary?.us], ["India", b.summary?.india], ["Global", b.summary?.global]].map(([k,v]) => `<div><b>${k}</b>${esc(v) || '<span class="none">Not filed.</span>'}</div>`).join("")}</div>
-    ${Object.keys(hm).map(k => `<section class="block"><h3><span>${esc(hm[k].label)}</span>${k === Object.keys(hm)[0] ? `<span class="seg" id="heatseg">${[["1D","chg_1d_pct"],["1M","ret_1m"],["1Y","ret_1y"]].map(([l,f]) => `<button data-f="${f}" aria-pressed="${f===state.heatRange}">${l}</button>`).join("")}</span>` : ""}</h3><div class="heat">${hm[k].ids.map(heatTile).join("")}</div></section>`).join("")}
-    <section class="block"><h3><span>This week</span><span class="sub">stocks and ETFs, 1W return</span></h3>
-      ${b.weekly?.narrative ? `<p class="prose" style="margin-bottom:14px">${esc(b.weekly.narrative)}</p>` : ""}
-      <div class="wk"><div><b>Winners</b>${winners.map(a => `<button data-id="${a.id}"><span class="nm">${esc(a.name)}</span><span class="up">${fmtPct(a.ret_1w)}</span></button>`).join("")}</div>
-      <div><b>Losers</b>${losers.map(a => `<button data-id="${a.id}"><span class="nm">${esc(a.name)}</span><span class="down">${fmtPct(a.ret_1w)}</span></button>`).join("")}</div></div></section>
-    <section class="block"><h3>Coming up</h3>${(b.calendar||[]).length ? `<div class="cal">${b.calendar.map(c => `<span><b>${esc(c.when)}</b>${esc(c.what)}</span>`).join("")}</div>` : '<p class="none">Not filed.</p>'}</section>
-    <section class="block"><h3><span>Upcoming IPOs</span><span class="sub">as found by the routine, verify before applying</span></h3>
-      ${ipos.length ? `<table class="t"><tr><th>Issue</th><th>Market</th><th>Opens</th><th>Closes</th><th class="n">Price band</th><th class="n">Lot</th><th>Details</th></tr>${ipos.map(i => `<tr><td><b>${esc(i.name)}</b><div class="sub" style="font-size:12px">${esc(i.sector || "")}</div></td><td>${esc(i.market)}</td><td>${esc(i.open)}</td><td>${esc(i.close)}</td><td class="n">${esc(i.price_band || "–")}</td><td class="n">${esc(i.lot || "–")}</td><td>${i.source_url ? `<a href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.source || "Source")}</a>` : ""}${i.drhp_url ? ` · <a href="${esc(i.drhp_url)}" target="_blank" rel="noopener">DRHP</a>` : ""}</td></tr>`).join("")}</table>` : '<p class="none">No IPOs filed yet.</p>'}
-      <div class="chips" style="margin-top:12px">${chips([["Apply, India: Zerodha","https://zerodha.com/ipo/"],["Groww IPO","https://groww.in/ipo"],["Upstox IPO","https://upstox.com/ipo/"],["NSE IPO board","https://www.nseindia.com/market-data/all-upcoming-issues-ipo"],["SEBI DRHPs","https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10"],["US calendar: Nasdaq","https://www.nasdaq.com/market-activity/ipos"],["Renaissance Capital","https://www.renaissancecapital.com/IPO-Center/Calendar"]], "buy")}</div>
-      <p class="foot" style="margin-top:10px">US IPO allocations are broker-gated; Indian residents can normally only buy after listing via an LRS broker. Indian IPOs are applied through your broker with UPI or ASBA.</p></section>
-    <p class="foot">Prices from Yahoo Finance and AMFI (via mfapi.in), end of day. Sector tiles are ETFs (US) and NSE sector indices (India). Nothing here is a recommendation.</p>`;
-  backBtn();
-  d.querySelectorAll("[data-id]").forEach(el => el.onclick = () => openAsset(el.dataset.id));
-  d.querySelectorAll("#heatseg button").forEach(bt => bt.onclick = e => { e.stopPropagation(); state.heatRange = bt.dataset.f; renderOverview(); });
+  const ss = sentences(b.weekly?.narrative), lead = ss.slice(0,2).join(" "), rest = ss.slice(2).join(" "), open = state.weekOpen;
+  return `<section class="block ov-week"><h3><button class="disc" id="wktog" aria-expanded="${open}" aria-controls="wkbody"><span class="chev" aria-hidden="true"></span>This week${isISO(b.weekly?.week_ending) ? ` <span class="sub">to ${fmtDay(b.weekly.week_ending)}</span>` : ""}</button><span class="sub">stocks and ETFs, 1W return</span></h3>
+    ${lead ? `<p class="prose">${esc(lead)}${open && rest ? " " + esc(rest) : ""}</p>` : ""}
+    <div id="wkbody"${open ? "" : " hidden"}><div class="wk"><div><b>Winners</b>${winners.map(a => `<button data-id="${a.id}"><span class="nm">${esc(a.name)}</span><span class="up">${fmtPct(a.ret_1w)}</span></button>`).join("")}</div>
+      <div><b>Losers</b>${losers.map(a => `<button data-id="${a.id}"><span class="nm">${esc(a.name)}</span><span class="down">${fmtPct(a.ret_1w)}</span></button>`).join("")}</div></div></div>
+    <button class="linkbtn" id="wkmore" aria-controls="wkbody" aria-expanded="${open}">${open ? "Show less" : rest ? "Read the full week, with winners and losers" : "Show winners and losers"}</button></section>`;
+}
+function evRow(c){
+  const iso = isISO(c.when), n = iso ? relDays(c.when) : null; let hit = false;
+  const lines = String(c.what || "").split(/;\s*/).filter(Boolean).map(p => { const r = linkNames(p); hit = hit || r.hit; return `<li>${r.html}</li>`; });
+  return `<li class="ev${hit ? " hit" : ""}${n != null && n < 0 ? " past" : ""}"><div class="when"><span class="dchip">${iso ? fmtDay(c.when) : esc(c.when)}</span>${iso ? `<span class="badge${n === 0 || n === 1 ? " soon" : ""}">${relLabel(n)}</span>` : ""}</div><ul class="what">${lines.join("")}</ul></li>`;
+}
+function ipoStatus(i){
+  if (i.subscription) return esc(i.subscription);
+  if (!isISO(i.open)) return '<span class="none">–</span>';
+  const o = relDays(i.open), c = isISO(i.close) ? relDays(i.close) : o;
+  return `<span class="sub">${o > 0 ? "Opens " + relLabel(o) : c >= 0 ? "Open, closes " + relLabel(c) : "Closed"}</span>`;
+}
+function ipoSection(b){
+  const ipos = b.ipos || [], src = (u, t) => u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t;
+  const rows = ipos.map(i => `<tr><td data-l="Issue"><b>${esc(i.name)}</b><div class="sub" style="font-size:13px">${esc(i.sector || "")}${i.size ? " · " + esc(i.size) : ""}</div></td>
+    <td data-l="Market">${esc(i.market)}</td><td class="dt" data-l="Opens">${isISO(i.open) ? fmtDay(i.open) : esc(i.open)}</td><td class="dt" data-l="Closes">${isISO(i.close) ? fmtDay(i.close) : esc(i.close)}</td>
+    <td class="n" data-l="Price band">${esc(i.price_band || "–")}</td><td class="n" data-l="Lot">${esc(i.lot || "–")}</td>
+    <td data-l="Subscription">${ipoStatus(i)}</td><td class="n" data-l="GMP">${i.gmp ? src(i.gmp_url, esc(i.gmp)) : '<span class="none" title="Not sourced this run">–</span>'}</td>
+    <td data-l="Details">${i.source_url ? src(i.source_url, esc(i.source || "Source")) : ""}${i.drhp_url ? ` · ${src(i.drhp_url, "DRHP")}` : ""}</td></tr>`).join("");
+  return `<section class="block ov-ipo"><h3><span>Upcoming IPOs</span><span class="sub">as found by the routine, verify before applying</span></h3>
+    ${ipos.length ? `<div class="tw"><table class="t ipo"><thead><tr><th>Issue</th><th>Market</th><th>Opens</th><th>Closes</th><th class="n">Price band</th><th class="n">Lot</th><th>Subscription</th><th class="n">GMP</th><th>Details</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p class="none">No IPOs filed yet.</p>'}
+    <div class="chips" style="margin-top:14px">${chips([["Apply, India: Zerodha","https://zerodha.com/ipo/"],["Groww IPO","https://groww.in/ipo"],["Upstox IPO","https://upstox.com/ipo/"],["NSE IPO board","https://www.nseindia.com/market-data/all-upcoming-issues-ipo"],["SEBI DRHPs","https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10"],["US calendar: Nasdaq","https://www.nasdaq.com/market-activity/ipos"],["Renaissance Capital","https://www.renaissancecapital.com/IPO-Center/Calendar"]], "buy")}</div>
+    <p class="foot" style="margin-top:12px">Grey-market premium is unofficial and unregulated; treat it as sentiment, not a price. US IPO allocations are broker-gated; Indian residents can normally only buy after listing via an LRS broker. Indian IPOs are applied through your broker with UPI or ASBA.</p></section>`;
+}
+function renderOverview(){
+  const b = state.brief || {}, d = $("#detail"), hm = state.wl?.heatmap || {}, hk = Object.keys(hm), hl = headlineParts(b);
+  const day = isISO(b.date) ? fmtDay(b.date) + " " + b.date.slice(0,4) : esc(b.date || state.prices.generated_at.slice(0,10));
+  d.innerHTML = `<div class="ov">
+    <header class="ov-head"><div class="sub">${day} edition</div><h2 class="headline">${esc(hl.main || "No edition filed yet. The routine writes today's brief.")}</h2>${hl.sub ? `<p class="subhead">${esc(hl.sub)}</p>` : ""}</header>
+    <div class="cards ov-cards">${[["us","US"],["india","India"],["global","Global"]].map(([k,l]) => regionCard(k, l, b)).join("")}</div>
+    ${hk.map((k, i) => `<section class="block ov-heat"><h3><span>${esc(hm[k].label)}</span>${i === 0 ? `<span class="seg" id="heatseg" role="group" aria-label="Heatmap period">${[["1D","chg_1d_pct"],["1M","ret_1m"],["1Y","ret_1y"]].map(([l,f]) => `<button data-f="${f}" aria-pressed="${f === state.heatRange}">${l}</button>`).join("")}</span>` : ""}</h3>${i === 0 ? legend() : ""}<div class="heat">${hm[k].ids.map(heatTile).join("")}</div></section>`).join("")}
+    ${weekSection(b)}
+    <section class="block ov-cal"><h3><span>Coming up</span><span class="sub"><span class="wlkey" aria-hidden="true"></span>underlined names are on your watchlist</span></h3>${(b.calendar || []).length ? `<ol class="cal">${[...b.calendar].sort((x,y) => String(x.when).localeCompare(String(y.when))).map(evRow).join("")}</ol>` : '<p class="none">Not filed.</p>'}</section>
+    ${ipoSection(b)}
+    <p class="foot ov-foot">Prices from Yahoo Finance and AMFI (via mfapi.in), end of day. Sector tiles are ETFs (US) and NSE sector indices (India). Tile colour scales with the size of the move. Nothing here is a recommendation.</p></div>`;
+  d.querySelectorAll("[data-id]").forEach(el => el.onclick = e => { e.preventDefault(); openAsset(el.dataset.id, "overview"); });
+  d.querySelectorAll("#heatseg button").forEach(bt => bt.onclick = e => { e.stopPropagation(); state.heatRange = bt.dataset.f; renderOverview(); $(`#heatseg [data-f="${state.heatRange}"]`)?.focus(); });
+  const tog = () => { state.weekOpen = !state.weekOpen; const y = window.scrollY, dy = d.scrollTop; renderOverview(); window.scrollTo(0, y); d.scrollTop = dy; $("#wktog")?.focus(); };
+  $("#wktog").onclick = tog; $("#wkmore").onclick = tog;
 }
 
 /* ---------- asset ---------- */
@@ -313,12 +599,12 @@ function renderAsset(){
     ? b.news.map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener"><div><div class="t">${esc(n.title)}</div><div class="s">${esc(n.date || "")}</div></div><span class="src">${esc(n.source)}</span></a>`).join("")
     : `<p class="none">${a.news ? "No stories filed for today yet." : "No stories today. The routine covers this asset when it is among the day's biggest movers; set news:true in watchlist.json to cover it every day."}</p>`;
   d.innerHTML = `
-    <button class="back" id="back">‹ Watchlist</button>
-    <div class="sub">${esc(a.symbol)} <span style="opacity:.6">· id ${esc(a.id)}</span></div><h2 class="title">${esc(a.name)}</h2>
+    <button class="back" id="back">‹ ${({list:"Assets", portfolio:"Portfolio"})[state.back] || "Overview"}</button>
+    <div class="sub">${esc(a.symbol)} <span style="opacity:.7">· id ${esc(a.id)}</span></div><h2 class="title">${esc(a.name)}</h2>
     <div class="price">
-      <span class="big" id="bigpx">${a.error ? "–" : showPrice(a.price, a)}</span>
-      <span class="delta ${cls(a.chg_1d_pct)}" id="bigdelta">${a.error ? "" : fmtPct(a.chg_1d_pct) + " today"}</span>
-      <span class="asof">${a.error ? "Data error: " + esc(a.error) : "Last close " + a.as_of + (a.type === "mutual_fund" ? " (NAV, end of day)" : "") + (state.inr && canInr ? ", shown in INR at today's rate" : "")}</span>
+      <span class="big" id="bigpx">${noData(a) ? "–" : showPrice(a.price, a)}</span>
+      <span class="delta ${cls(a.chg_1d_pct)}" id="bigdelta">${noData(a) ? "" : fmtPct(a.chg_1d_pct) + " today"}</span>
+      <span class="asof">${noData(a) ? "Stale: " + esc(a.error || "not enough price history this run") : "Last close " + fmtDay(a.as_of) + " " + a.as_of.slice(0,4) + (a.type === "mutual_fund" ? " (NAV, end of day)" : "") + (state.inr && canInr ? ", shown in INR at today's rate" : "")}</span>
     </div>
     <div class="hover-note" id="hover"></div>
     <div class="chartbar">
@@ -342,7 +628,7 @@ function renderAsset(){
   drawChart(a);
 }
 async function drawChart(a){
-  const box = $("#chart"); box.innerHTML = "";
+  const box = $("#chart"); if (!box || !a) return; box.innerHTML = "";
   if (a.error || typeof LightweightCharts === "undefined"){ box.innerHTML = `<div class="empty">${a.error ? "No price history" : "Chart library did not load"}</div>`; return; }
   if (!state.cache[a.id]){ box.innerHTML = '<div class="empty">Loading history</div>'; state.cache[a.id] = await loadJSON(`data/series/${a.id}.json`) || []; if (state.sel !== a.id || state.view !== "asset") return; box.innerHTML = ""; }
   const series = state.cache[a.id];
@@ -351,17 +637,17 @@ async function drawChart(a){
   const cut = new Date(series[series.length-1][0]); cut.setDate(cut.getDate()-days);
   const pts = series.filter(p => new Date(p[0]) >= cut).map(p => ({time:p[0], value:p[1]}));
   if (pts.length < 2){ box.innerHTML = `<div class="empty">Not enough history for ${state.range}</div>`; return; }
-  const base = pts[0].value, last = pts[pts.length-1].value;
+  const base = pts[0].value, last = pts[pts.length-1].value, muted = cssv("--muted"), up = cssv("--up-rgb"), dn = cssv("--down-rgb");
   const chart = LightweightCharts.createChart(box, {
-    layout:{background:{type:"solid", color:"transparent"}, textColor:"#8B93A0", fontFamily:"Inter", fontSize:12},
-    grid:{vertLines:{visible:false}, horzLines:{color:"#1B1F26"}},
+    layout:{background:{type:"solid", color:"transparent"}, textColor:muted, fontFamily:"Inter", fontSize:12},
+    grid:{vertLines:{visible:false}, horzLines:{color:cssv("--surface-2")}},
     rightPriceScale:{borderVisible:false, scaleMargins:{top:.1, bottom:.08}},
     timeScale:{borderVisible:false, timeVisible:false, fixLeftEdge:true, fixRightEdge:true},
-    crosshair:{mode:LightweightCharts.CrosshairMode.Magnet, vertLine:{color:"#8B93A0", width:1, style:3, labelVisible:false}, horzLine:{visible:false, labelVisible:false}},
+    crosshair:{mode:LightweightCharts.CrosshairMode.Magnet, vertLine:{color:muted, width:1, style:3, labelVisible:false}, horzLine:{visible:false, labelVisible:false}},
     handleScroll:false, handleScale:false, autoSize:true });
   const s = chart.addBaselineSeries({ baseValue:{type:"price", price:base}, lineWidth:2,
-    topLineColor:"#2FD16A", topFillColor1:"rgba(47,209,106,.28)", topFillColor2:"rgba(47,209,106,0)",
-    bottomLineColor:"#FF4D4D", bottomFillColor1:"rgba(255,77,77,0)", bottomFillColor2:"rgba(255,77,77,.28)",
+    topLineColor:`rgb(${up})`, topFillColor1:`rgba(${up},.28)`, topFillColor2:`rgba(${up},0)`,
+    bottomLineColor:`rgb(${dn})`, bottomFillColor1:`rgba(${dn},0)`, bottomFillColor2:`rgba(${dn},.28)`,
     priceLineVisible:false, lastValueVisible:true, crosshairMarkerRadius:4 });
   s.setData(pts); chart.timeScale().fitContent();
   const hover = $("#hover"), big = $("#bigpx"), delta = $("#bigdelta"), period = `${fmtPct((last/base-1)*100)} over ${state.range}`;
@@ -374,13 +660,12 @@ async function drawChart(a){
 }
 
 /* ---------- portfolio ---------- */
-const HOLD_KEY = "md_holdings_v1";
 const SAMPLE_HOLDINGS = {
-  "_help": "transactions: one row per buy (units > 0) or sell (units < 0), price in the asset's own currency. sips: monthly buys of a fixed amount on a given day, units derived from that day's close or NAV. id = watchlist id (shown under the ticker on each asset page, e.g. ppfas, niftybees-ns, aapl, gcf).",
+  "_help": "transactions: one row per buy (units > 0) or sell (units < 0), price in the asset's own currency. sips: monthly buys of a fixed amount on a given day, units derived from that day's close or NAV. id = watchlist id (shown under the ticker on each asset page, e.g. 122639, niftybees-ns, aapl, gcf).",
   "transactions": [ {"id":"aapl","date":"2025-01-15","units":10,"price":232.5}, {"id":"niftybees-ns","date":"2024-06-03","units":500,"price":251.2} ],
-  "sips": [ {"id":"ppfas","amount":10000,"day":5,"start":"2024-01-05","end":null} ]
+  "sips": [ {"id":"122639","amount":10000,"day":5,"start":"2024-01-05","end":null} ]
 };
-function loadHoldings(){ try { const s = localStorage.getItem(HOLD_KEY); if (s) return JSON.parse(s); } catch {} return null; }
+function loadHoldings(){ try { const s = LS.get(HOLD_KEY); if (s) return JSON.parse(s); } catch {} return null; }
 function seriesCloseOnOrAfter(series, iso){ for (const [d,c] of series) if (d >= iso) return [d,c]; return null; }
 function xirr(flows){ // flows: [[Date, amount]] negative = outflow
   if (flows.length < 2) return null;
@@ -390,19 +675,10 @@ function xirr(flows){ // flows: [[Date, amount]] negative = outflow
   for (let i = 0; i < 200; i++){ const mid = (lo+hi)/2, fm = f(mid); if (Math.abs(fm) < 1e-7) return mid; if (f(lo) * fm < 0) hi = mid; else lo = mid; }
   return (lo+hi)/2;
 }
-async function renderPortfolio(){
-  const d = $("#detail"), h = state.holdings;
-  const editor = `<section class="block"><h3><span>Holdings</span><span class="sub">stored in this browser only</span></h3>
-    <textarea class="holdings" id="hjson" spellcheck="false">${esc(JSON.stringify(h || SAMPLE_HOLDINGS, null, 1))}</textarea>
-    <div class="btns"><button class="primary" id="hsave">Save to this browser</button><button id="hclear">Clear</button></div>
-    <p class="warn">Holdings live in localStorage on this device, not in the repo. Do not commit a holdings file to a public GitHub Pages repo.</p></section>`;
-  if (!h){ d.innerHTML = `<button class="back" id="back">‹ Watchlist</button><h2 class="title">Portfolio</h2><p class="prose" style="margin-top:8px">Paste your holdings below in the format shown, then save. Every id must match a watchlist asset.</p>${editor}`; wireEditor(); return; }
-  d.innerHTML = `<button class="back" id="back">‹ Watchlist</button><h2 class="title">Portfolio</h2><p class="none" style="margin-top:8px">Loading price history for your holdings</p>`;
-  backBtn();
+async function computePortfolio(h){
   const ids = [...new Set([...(h.transactions||[]).map(t => t.id), ...(h.sips||[]).map(s => s.id)])];
   await Promise.all(ids.map(async id => { if (!state.cache[id]) state.cache[id] = await loadJSON(`data/series/${id}.json`) || []; }));
-  const today = new Date(); const rows = [], problems = [];
-  const flowsAll = []; let totalVal = 0, totalInv = 0;
+  const today = new Date(), rows = [], problems = [], flowsAll = []; let totalVal = 0, totalInv = 0, totalDay = 0;
   for (const id of ids){
     const a = byId(id); if (!a || a.error){ problems.push(`Unknown or failed asset id "${id}"`); continue; }
     const ser = state.cache[id]; let units = 0, invested = 0; const flows = [];
@@ -417,50 +693,77 @@ async function renderPortfolio(){
     if (units <= 0 && invested <= 0) continue;
     const rate = inrRate(a.currency) || (a.currency === "INR" ? 1 : null);
     if (!rate) problems.push(`${a.name}: no INR rate for ${a.currency}, counted at face value`);
-    const fx = rate || 1, value = units * a.price, pnl = value - invested;
+    const fx = rate || 1, value = units * a.price, pnl = value - invested, c = a.chg_1d_pct;
     flows.sort((x,y) => x[0]-y[0]); const r = xirr([...flows, [today, value]]);
     flows.forEach(([dt,v]) => flowsAll.push([dt, v * fx])); totalVal += value * fx; totalInv += invested * fx;
+    if (c != null) totalDay += value * c / (100 + c) * fx;
     rows.push({a, units, invested, value, pnl, r, fx});
   }
-  flowsAll.sort((x,y) => x[0]-y[0]); const totalR = xirr([...flowsAll, [today, totalVal]]);
-  rows.sort((x,y) => y.value*y.fx - x.value*x.fx);
-  d.innerHTML = `<button class="back" id="back">‹ Watchlist</button><h2 class="title">Portfolio</h2><div class="sub">${rows.length} holdings, valued at last close, totals in INR at today's rates</div>
-    <div class="kpis"><div><small>Current value</small><span>₹${fmtNum(totalVal)}</span></div><div><small>Invested</small><span>₹${fmtNum(totalInv)}</span></div>
-      <div><small>Unrealised P&amp;L</small><span class="${cls(totalVal-totalInv)}">₹${fmtNum(totalVal-totalInv)} (${fmtPct(totalInv ? (totalVal/totalInv-1)*100 : null)})</span></div>
+  flowsAll.sort((x,y) => x[0]-y[0]);
+  return {rows: rows.sort((x,y) => y.value*y.fx - x.value*x.fx), problems, totalVal, totalInv, totalDay, totalR: xirr([...flowsAll, [today, totalVal]])};
+}
+async function renderHold(){
+  const el = $("#hold"), h = state.holdings;
+  if (!h){ el.innerHTML = `<button class="hold-btn"><b>My holdings</b><span class="muted">Add holdings in Portfolio to track today's P&amp;L</span><span class="go" aria-hidden="true">›</span></button>`; }
+  else {
+    el.innerHTML = `<div class="hold-btn"><b>My holdings</b><span class="muted">Loading</span></div>`;
+    const p = await computePortfolio(h), prev = p.totalVal - p.totalDay, pl = p.totalVal - p.totalInv;
+    el.innerHTML = `<button class="hold-btn" aria-label="My holdings, open Portfolio"><b>My holdings</b><span class="kv"><small>Value</small>₹${fmtNum(p.totalVal, "INR")}</span>
+      <span class="kv" title="Change over each holding's last session"><small>Today</small><span class="${cls(p.totalDay)}">${money(p.totalDay)} (${fmtPct(prev ? p.totalDay / prev * 100 : null)})</span></span>
+      <span class="kv hide-sm"><small>Total P&amp;L</small><span class="${cls(pl)}">${money(pl)} (${fmtPct(p.totalInv ? pl / p.totalInv * 100 : null)})</span></span><span class="go" aria-hidden="true">›</span></button>`;
+  }
+  const b = $("button.hold-btn", el); if (b) b.onclick = () => setView("portfolio");
+}
+async function renderPortfolio(){
+  const d = $("#detail"), h = state.holdings;
+  const editor = `<section class="block"><h3><span>Holdings</span><span class="sub">stored in this browser only</span></h3>
+    <textarea class="holdings" id="hjson" spellcheck="false" aria-label="Holdings JSON">${esc(JSON.stringify(h || SAMPLE_HOLDINGS, null, 1))}</textarea>
+    <div class="btns"><button class="primary" id="hsave">Save to this browser</button><button id="hclear">Clear</button></div>
+    <p class="warn">Holdings live in localStorage on this device, not in the repo. Do not commit a holdings file to a public GitHub Pages repo.</p></section>`;
+  if (!h){ d.innerHTML = `<h2 class="title">Portfolio</h2><p class="prose" style="margin-top:8px">Paste your holdings below in the format shown, then save. Every id must match a watchlist asset.</p>${editor}`; wireEditor(); return; }
+  d.innerHTML = `<h2 class="title">Portfolio</h2><p class="none" style="margin-top:8px">Loading price history for your holdings</p>`;
+  const {rows, problems, totalVal, totalInv, totalR} = await computePortfolio(h);
+  if (state.view !== "portfolio") return;
+  d.innerHTML = `<h2 class="title">Portfolio</h2><div class="sub">${rows.length} holdings, valued at last close, totals in INR at today's rates</div>
+    <div class="kpis"><div><small>Current value</small><span>₹${fmtNum(totalVal, "INR")}</span></div><div><small>Invested</small><span>₹${fmtNum(totalInv, "INR")}</span></div>
+      <div><small>Unrealised P&amp;L</small><span class="${cls(totalVal-totalInv)}">${money(totalVal-totalInv)} (${fmtPct(totalInv ? (totalVal/totalInv-1)*100 : null)})</span></div>
       <div><small>XIRR</small><span class="${cls(totalR)}">${totalR == null ? "–" : fmtPct(totalR*100)}</span></div></div>
     ${problems.length ? `<p class="warn">${problems.map(esc).join("<br>")}</p>` : ""}
-    <section class="block"><table class="t"><tr><th>Asset</th><th class="n">Units</th><th class="n">Avg cost</th><th class="n">Last</th><th class="n">Value</th><th class="n">P&amp;L</th><th class="n">XIRR</th><th class="n">Weight</th></tr>
-    ${rows.map(r => `<tr><td><a href="#${r.a.id}" data-id="${r.a.id}">${esc(r.a.name)}</a><div class="sub" style="font-size:12px">${esc(r.a.symbol)} · ${r.a.currency}</div></td><td class="n">${fmtNum(r.units)}</td><td class="n">${fmtNum(r.invested/r.units)}</td><td class="n">${fmtNum(r.a.price)}</td><td class="n">${curSym(r.a.currency)}${fmtNum(r.value)}</td><td class="n ${cls(r.pnl)}">${fmtPct(r.invested ? r.pnl/r.invested*100 : null)}</td><td class="n ${cls(r.r)}">${r.r == null ? "–" : fmtPct(r.r*100)}</td><td class="n">${fmtPct(r.value*r.fx/totalVal*100).replace("+","")}</td></tr>`).join("")}</table></section>
+    <section class="block tw"><table class="t"><tr><th>Asset</th><th class="n">Units</th><th class="n">Avg cost</th><th class="n">Last</th><th class="n">Value</th><th class="n">P&amp;L</th><th class="n">XIRR</th><th class="n">Weight</th></tr>
+    ${rows.map(r => `<tr><td><a href="#${r.a.id}" data-id="${r.a.id}">${esc(r.a.name)}</a><div class="sub" style="font-size:13px">${esc(r.a.symbol)} · ${r.a.currency}</div></td><td class="n">${fmtNum(r.units, r.a.currency)}</td><td class="n">${fmtNum(r.invested/r.units, r.a.currency)}</td><td class="n">${fmtNum(r.a.price, r.a.currency)}</td><td class="n">${curSym(r.a.currency)}${fmtNum(r.value, r.a.currency)}</td><td class="n ${cls(r.pnl)}">${fmtPct(r.invested ? r.pnl/r.invested*100 : null)}</td><td class="n ${cls(r.r)}">${r.r == null ? "–" : fmtPct(r.r*100)}</td><td class="n">${fmtPct(r.value*r.fx/totalVal*100).replace("+","")}</td></tr>`).join("")}</table></section>
     ${editor}
     <p class="foot">XIRR uses dated cashflows and today's value; it is annualised, so holdings younger than a year show inflated or deflated figures. Sells reduce units and invested amount at the sell price, which understates realised gains; add a dedicated realised line if that matters.</p>`;
-  backBtn(); wireEditor();
-  d.querySelectorAll("a[data-id]").forEach(x => x.onclick = e => { e.preventDefault(); openAsset(x.dataset.id); });
+  wireEditor();
+  d.querySelectorAll("a[data-id]").forEach(x => x.onclick = e => { e.preventDefault(); openAsset(x.dataset.id, "portfolio"); });
 }
 function wireEditor(){
-  backBtn();
-  $("#hsave").onclick = () => { try { const j = JSON.parse($("#hjson").value); localStorage.setItem(HOLD_KEY, JSON.stringify(j)); state.holdings = j; renderPortfolio(); } catch(e) { alert("Not valid JSON: " + e.message); } };
-  $("#hclear").onclick = () => { localStorage.removeItem(HOLD_KEY); state.holdings = null; renderPortfolio(); };
+  $("#hsave").onclick = () => { try { const j = JSON.parse($("#hjson").value); LS.set(HOLD_KEY, JSON.stringify(j)); state.holdings = j; renderPortfolio(); renderHold(); } catch(e) { alert("Not valid JSON: " + e.message); } };
+  $("#hclear").onclick = () => { LS.del(HOLD_KEY); state.holdings = null; renderPortfolio(); renderHold(); };
 }
 
 /* ---------- boot ---------- */
 (async () => {
+  applyTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
+  $("#theme").onclick = () => applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark", true);
   [state.prices, state.brief, state.wl] = await Promise.all([loadJSON("data/prices.json"), loadJSON("data/brief.json", "data/brief.sample.json"), loadJSON("data/watchlist.json")]);
   if (!state.prices){ $("#rows").innerHTML = '<p class="none" style="padding:20px">No data/prices.json found. Run scripts/fetch_prices.py and push, or open this page over http, not file://.</p>'; return; }
   if (state.prices.assets[0] && !("ret_1w" in state.prices.assets[0])){ $("#rows").innerHTML = '<p class="none" style="padding:20px">prices.json is from an older script. Rerun scripts/fetch_prices.py and push data/.</p>'; return; }
   state.holdings = loadHoldings();
-  $("#date").textContent = state.brief?.date || state.prices.generated_at.slice(0,10);
-  const ageH = (Date.now() - new Date(state.prices.generated_at)) / 36e5, st = $("#stale");
-  st.textContent = ageH < 30 ? "Updated " + Math.round(ageH) + "h ago" : "Data is " + Math.round(ageH/24) + " days old"; st.classList.toggle("warn", ageH >= 30);
-  $("#q").oninput = e => { state.q = e.target.value; renderList(); };
-  $("#movers").onclick = e => { state.movers = !state.movers; e.currentTarget.setAttribute("aria-pressed", state.movers); renderList(); };
-  $("#tab-overview").onclick = () => setView("overview"); $("#home").onclick = () => setView("overview");
-  $("#tab-portfolio").onclick = () => setView("portfolio");
+  try { state.favs = new Set(JSON.parse(LS.get(FAV_KEY) || "[]")); } catch {}
+  state.open = new Set([sections()[0][0]]);
+  buildAliases(); renderStatus(); renderHold(); setInterval(renderStatus, 60000);
+  $("#q").oninput = e => { const was = filtering(); state.q = e.target.value; filterChanged(was); };
+  $("#sort").onchange = e => { state.sort = e.target.value; renderList(); };
+  $("#big").onclick = e => { const was = filtering(); state.big = !state.big; e.currentTarget.setAttribute("aria-pressed", state.big); filterChanged(was); };
+  document.querySelectorAll("#tabs [data-tab]").forEach(t => t.onclick = () => setView(t.dataset.tab));
+  $("#home").onclick = () => setView("overview");
+  window.matchMedia("(min-width:821px)").addEventListener("change", e => { if (e.matches && state.view === "list") setView("overview"); });
   renderList();
   const hash = location.hash.slice(1);
-  const desktop = window.matchMedia("(min-width:821px)").matches;
   if (hash === "portfolio") setView("portfolio");
-  else if (hash && byId(hash)) setView("asset", hash);
-  else if (desktop || hash === "") { setView("overview"); if (!desktop) $("#app").classList.remove("show-detail"); }
+  else if (hash === "assets") setView("list");
+  else if (hash && byId(hash)) setView("asset", hash, isDesktop() ? "overview" : "list");
+  else setView("overview");
 })();
 </script>
 </body>

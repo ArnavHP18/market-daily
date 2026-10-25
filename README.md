@@ -11,6 +11,7 @@ data/brief.json            written by the routine (news, summaries, cited outloo
 data/brief.sample.json     schema example; also the fallback until the routine's first run
 scripts/fetch_prices.py    yfinance + mfapi.in fetcher
 ROUTINE_PROMPT.md          paste into claude.ai/code/routines
+favicon.svg, apple-touch-icon.png, og.png   tab icon, home-screen icon, link preview card
 ```
 
 ## Setup (15 minutes)
@@ -28,8 +29,14 @@ ROUTINE_PROMPT.md          paste into claude.ai/code/routines
 5. claude.ai/code/routines > New routine > repo `market-daily`, paste `ROUTINE_PROMPT.md`, schedule daily 02:15 UTC, remove all connectors. Click Run now and watch the first run.
 6. Add the Pages URL to the same Apple Shortcut pattern you used for ai-daily-signal.
 
+## Using the page
+- Phone: opens on the overview (headline, heatmaps, then the US, India and Global summaries). The watchlist lives in the Assets tab at the bottom.
+- Desktop: the sidebar groups assets by market (US, India, Global, ETFs, Crypto, Metals, FX) under collapsible headers. Sort by name, 1-day move or size of move, filter to moves over 3%, and tap the star on any row to pin it to the top of its group. Pins, theme and holdings are saved in your browser only.
+- The top bar shows the close the prices are from, when the edition was written, and how many assets fetched; it turns amber when the brief is more than a day old.
+- Tile colour scales with the move: grey under 0.5%, faded to 2%, full colour above (1M and 1Y heatmaps use 2/8% and 5/20%). A dashed grey "stale" tile means no data this run.
+
 ## Portfolio
-Open the Portfolio tab, paste holdings in the shown JSON shape, save. It is stored in your browser's localStorage only and never touches the repo. Ids are shown on each asset page ("id ppfas"). SIPs are expanded into monthly buys at that day's close or NAV, so past SIP units are approximate (actual allotment NAV can differ by a day).
+Open the Portfolio tab, paste holdings in the shown JSON shape, save. The "My holdings" strip at the top then shows value, today's profit or loss and total P&L. It is stored in your browser's localStorage only and never touches the repo. Ids are shown on each asset page ("id ppfas"). SIPs are expanded into monthly buys at that day's close or NAV, so past SIP units are approximate (actual allotment NAV can differ by a day).
 
 ## Cadence and data honesty
 
