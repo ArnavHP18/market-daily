@@ -1,8 +1,8 @@
 {
- "date": "2026-11-07",
- "generated_at": "2026-11-07T00:47:38+00:00",
- "headline": "Payrolls beat and chips bounce lift the Nasdaq 1.1 percent as Kospi breaks below 5,000",
- "subhead": "October payrolls rose 165,000 against about 65,000 expected; AMD gained 11.0 percent, Intel 7.7, TSMC 6.3 and Tesla 4.2, while Samsung fell 6.4 percent in Seoul.",
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T00:42:44+00:00",
+ "headline": "Fed hike odds near 77 percent after the payrolls beat put Tuesday's US CPI at center stage",
+ "subhead": "The S&P 500 rose 0.3 percent to 7,376.9 and the 10-year yield to 4.86 percent on Friday, while WTI ended the week down 12.8 percent and India holds its Muhurat session today.",
  "summary": {
   "us": [
    {
@@ -11,9 +11,9 @@
     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
    },
    {
-    "text": "October payrolls rose 165,000 against about 65,000 expected and unemployment fell to 4.1 percent, lifting bets on a December Fed hike.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/06/treasury-yields-inch-lower-as-investors-look-ahead-to-key-jobs-data-.html"
+    "text": "Futures put a December Fed hike at about 77 percent after October payrolls rose 165,000 and unemployment fell to 4.1 percent.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html"
    },
    {
     "text": "Next week turns on October CPI on Tuesday, with FactSet's estimate at 3.9 percent year on year, and producer prices on Friday.",
@@ -23,7 +23,7 @@
   ],
   "india": [
    {
-    "text": "Nifty closed at 25,030.4 and Sensex at 81,028.0 on 6 November, led by M&M, ICICI Bank and HDFC Bank; the price feed still shows 5 November.",
+    "text": "Nifty rose 2.0 percent to 25,030.4 and Sensex closed at 81,028.0 on 6 November, led by M&M, ICICI Bank and HDFC Bank.",
     "source": "Kotak Neo",
     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/"
    },
@@ -40,17 +40,17 @@
   ],
   "global": [
    {
-    "text": "Kospi fell below 5,000 on 6 November after a plunge halted trading, as Samsung fell 6.4 percent and SK Hynix slid on AI regulation fears.",
+    "text": "Kospi fell 6.0 percent to 5,059.7 on 6 November after briefly breaking 5,000, as Samsung fell 6.4 percent on AI regulation fears.",
     "source": "Korea JoongAng Daily",
     "url": "https://www.koreajoongangdaily.com/business/korean-market-hit-by-black-friday-as-kospi-plunges-below-5000-after-us-midterms/12959264"
    },
    {
-    "text": "Europe fell on 6 November, with the STOXX 600 down about 1 percent and the DAX about 2 percent on the US tech rout and hot payrolls.",
+    "text": "Europe fell on 6 November, with the DAX down 1.9 percent and the FTSE 100 down 1.0 percent on the US tech rout and hot payrolls.",
     "source": "Investing.com via Yahoo Finance",
     "url": "https://sg.finance.yahoo.com/news/europe-stocks-drop-tech-drag-084024831.html"
    },
    {
-    "text": "WTI fell 0.2 percent to 90.34 dollars, ending its biggest weekly drop since 2022, down 13.2 percent, on hopes of an Iran deal.",
+    "text": "WTI ended at 90.83 dollars, down 12.8 percent on the week, its biggest weekly drop since 2022, on hopes of a US-Iran deal.",
     "source": "Rigzone (Bloomberg)",
     "url": "https://rigzone.com/news/wire/oil_posts_biggest_weekly_drop_since_2022-06-nov-2026-185035-article"
    }
@@ -59,7 +59,7 @@
  "calendar": [
   {
    "when": "2026-11-08",
-   "what": "Diwali Muhurat trading on NSE and BSE, 2:20 pm to 3:30 pm IST"
+   "what": "Diwali Muhurat trading on NSE and BSE, afternoon session from 2:20 pm IST"
   },
   {
    "when": "2026-11-09",
@@ -71,7 +71,7 @@
   },
   {
    "when": "2026-11-11",
-   "what": "US Veterans Day, bond market closed"
+   "what": "US Veterans Day, bond market closed; OPEC monthly oil market report"
   },
   {
    "when": "2026-11-12",
@@ -95,18 +95,18 @@
    "close": "2026-11-12",
    "price_band": "$11.00 to $13.00",
    "lot": "",
-   "size": "$200.0 m (16.7 m shares), Nasdaq",
+   "size": "$200.0 m (16.7 m shares)",
    "subscription": "",
    "gmp": "",
    "gmp_url": "",
-   "source": "StockAnalysis",
-   "source_url": "https://stockanalysis.com/ipos/calendar/",
+   "source": "IPOScoop",
+   "source_url": "https://www.iposcoop.com/ipo-calendar/",
    "drhp_url": ""
   }
  ],
  "weekly": {
   "week_ending": "2026-11-06",
-  "narrative": "The US midterms set the tone: a relief rally on Wednesday gave way to Thursday's AI chip rout on fears a Democratic Congress curbs data center building, and Friday's partial rebound and a 165,000 payrolls beat still left the S&P 500 down 2.7 percent and the Nasdaq 3.4 percent on the week. India went the other way, with foreign buying and cheaper crude lifting the Nifty 7.0 percent in the week to 5 November and above 25,000 on Friday, while Kospi and the Nikkei bore the brunt of the chip selloff. Hopes of an Iran deal drove WTI down 13.2 percent on the week, and gold rose 4.6 percent and silver 5.8 percent despite rising Fed hike bets, while Bitcoin slipped 2.1 percent. Next week brings US CPI on 10 November, India CPI on 12 November, China's rare earth export pause expiring and a reported start to Anthropic's IPO roadshow."
+  "narrative": "The US midterms set the tone: a relief rally on Wednesday gave way to Thursday's AI chip rout on fears a Democratic Congress curbs data center building, and Friday's partial rebound and a 165,000 payrolls beat still left the S&P 500 down 2.7 percent and the Nasdaq 3.4 percent on the week. India went the other way, with foreign buying and cheaper crude lifting the Nifty 8.6 percent on the week and above 25,000 on Friday, while Kospi and the Nikkei bore the brunt of the chip selloff. Hopes of an Iran deal drove WTI down 12.8 percent on the week, and gold rose 4.5 percent and silver 5.5 percent despite rising Fed hike bets, while Bitcoin slipped 3.4 percent. Next week brings US CPI on 10 November, India CPI on 12 November, China's rare earth export pause expiring and a reported start to Anthropic's IPO roadshow."
  },
  "assets": {
   "gspc": {
@@ -194,50 +194,56 @@
      "source": "CNBC",
      "url": "https://www.cnbc.com/2026/11/06/treasury-yields-inch-lower-as-investors-look-ahead-to-key-jobs-data-.html",
      "date": "2026-11-06"
+    },
+    {
+     "title": "Odds of a December rate hike jump to 77% after a blowout jobs report",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html",
+     "date": "2026-11-06"
     }
    ]
   },
   "aapl": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 332.68 USD from 39 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Tech rout wipes out 2.5 trillion dollars, with AI investors anticipating heavier scrutiny",
-     "source": "AOL",
-     "url": "https://www.aol.com/articles/tech-rout-wipes-2-5-234409000.html",
-     "date": "2026-11-05"
+     "title": "Stock Market Report for November 7, 2026",
+     "source": "Ed Lane (Substack)",
+     "url": "https://edwardlane.substack.com/p/stock-market-report-for-november-366",
+     "date": "2026-11-07"
     },
     {
-     "title": "Massive tech sell-off wipes 2.5 trillion dollars from the stock market",
-     "source": "CNN",
-     "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
-     "date": "2026-11-05"
+     "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+     "date": "2026-11-06"
     }
    ]
   },
   "msft": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 634.14 USD from 54 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 634.14 USD from 54 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Stock Market Report for November 7, 2026",
+     "source": "Ed Lane (Substack)",
+     "url": "https://edwardlane.substack.com/p/stock-market-report-for-november-366",
+     "date": "2026-11-07"
+    },
     {
      "title": "AI bubble about to burst? Top tech investor warns most neocloud players could go to zero",
      "source": "Benzinga",
      "url": "https://www.benzinga.com/markets/tech/26/11/62968934/ai-bubble-about-to-burst-top-tech-investor-warns-most-neocloud-players-could-go-to-zero",
      "date": "2026-11-06"
-    },
-    {
-     "title": "Tech rout wipes out 2.5 trillion dollars, with AI investors anticipating heavier scrutiny",
-     "source": "AOL",
-     "url": "https://www.aol.com/articles/tech-rout-wipes-2-5-234409000.html",
-     "date": "2026-11-05"
     }
    ]
   },
   "nvda": {
    "why": "Nvidia rose as dip buyers returned after Thursday's steep AI chip selloff.",
-   "outlook_1y": "Sell-side consensus target 327.14 USD from 58 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 327.14 USD from 58 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -261,65 +267,71 @@
    ]
   },
   "amzn": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 326.85 USD from 58 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "why": "Amazon led big tech in a 7.9 percent weekly gain on 39 percent AWS revenue growth.",
+   "outlook_1y": "Sell-side consensus target 326.99 USD from 59 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Stock Market Report for November 7, 2026",
+     "source": "Ed Lane (Substack)",
+     "url": "https://edwardlane.substack.com/p/stock-market-report-for-november-366",
+     "date": "2026-11-07"
+    },
     {
      "title": "AI bubble about to burst? Top tech investor warns most neocloud players could go to zero",
      "source": "Benzinga",
      "url": "https://www.benzinga.com/markets/tech/26/11/62968934/ai-bubble-about-to-burst-top-tech-investor-warns-most-neocloud-players-could-go-to-zero",
      "date": "2026-11-06"
-    },
-    {
-     "title": "Tech rout wipes out 2.5 trillion dollars, with AI investors anticipating heavier scrutiny",
-     "source": "AOL",
-     "url": "https://www.aol.com/articles/tech-rout-wipes-2-5-234409000.html",
-     "date": "2026-11-05"
     }
    ]
   },
   "googl": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 400.37 USD from 53 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 400.37 USD from 53 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Nasdaq stock market correction: here's the most attractive bargain in the Magnificent Seven",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/06/nasdaq-stock-market-correction-here-s-the-most-attractive-bargain-in-the-magnificent-seven/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Stock Market Report for November 7, 2026",
+     "source": "Ed Lane (Substack)",
+     "url": "https://edwardlane.substack.com/p/stock-market-report-for-november-366",
+     "date": "2026-11-07"
+    },
     {
      "title": "AI bubble about to burst? Top tech investor warns most neocloud players could go to zero",
      "source": "Benzinga",
      "url": "https://www.benzinga.com/markets/tech/26/11/62968934/ai-bubble-about-to-burst-top-tech-investor-warns-most-neocloud-players-could-go-to-zero",
      "date": "2026-11-06"
-    },
-    {
-     "title": "Tech rout wipes out 2.5 trillion dollars, with AI investors anticipating heavier scrutiny",
-     "source": "AOL",
-     "url": "https://www.aol.com/articles/tech-rout-wipes-2-5-234409000.html",
-     "date": "2026-11-05"
     }
    ]
   },
   "meta": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 848.38 USD from 58 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 850.10 USD from 57 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Stock Market Report for November 7, 2026",
+     "source": "Ed Lane (Substack)",
+     "url": "https://edwardlane.substack.com/p/stock-market-report-for-november-366",
+     "date": "2026-11-07"
+    },
     {
      "title": "AI bubble about to burst? Top tech investor warns most neocloud players could go to zero",
      "source": "Benzinga",
      "url": "https://www.benzinga.com/markets/tech/26/11/62968934/ai-bubble-about-to-burst-top-tech-investor-warns-most-neocloud-players-could-go-to-zero",
      "date": "2026-11-06"
-    },
-    {
-     "title": "Tech rout wipes out 2.5 trillion dollars, with AI investors anticipating heavier scrutiny",
-     "source": "AOL",
-     "url": "https://www.aol.com/articles/tech-rout-wipes-2-5-234409000.html",
-     "date": "2026-11-05"
     }
    ]
   },
   "tsla": {
    "why": "Tesla rose after Musk said Cybertruck production is to wind down around mid-2027 to make room for Cybercab.",
-   "outlook_1y": "Sell-side consensus target 413.10 USD from 40 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 413.10 USD from 40 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -344,26 +356,26 @@
   },
   "jpm": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 373.48 USD from 23 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 373.48 USD from 23 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "JPMorgan stock faces fresh pressure as Democrats plan probing Epstein banking ties",
-     "source": "IBTimes UK",
-     "url": "https://www.ibtimes.co.uk/senate-democrats-jpmorgan-epstein-inquiry-1830484",
-     "date": "2026-11-05"
+     "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+     "date": "2026-11-06"
     },
     {
-     "title": "Dow Jones loses the midterm rally to the data-centre backlash",
-     "source": "FXStreet",
-     "url": "https://fxstreet.com/news/dow-jones-industrial-average-loses-the-midterm-rally-to-the-data-centre-backlash-202611052110",
-     "date": "2026-11-05"
+     "title": "Odds of a December rate hike jump to 77% after a blowout jobs report",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html",
+     "date": "2026-11-06"
     }
    ]
   },
   "amd": {
    "why": "AMD led the chip rebound after Thursday's plunge on AI regulation fears.",
-   "outlook_1y": "Sell-side consensus target 650.01 USD from 48 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 656.24 USD from 48 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -388,7 +400,7 @@
   },
   "intc": {
    "why": "Intel bounced with chipmakers, recovering part of a slide that had shaved value off the government's stake.",
-   "outlook_1y": "Sell-side consensus target 92.72 USD from 43 analysts (Yahoo Finance consensus, 7 Nov 2026). New Street upgraded to buy while Bank of America, Roth and Seaport downgraded to neutral (Yahoo Finance roundup, Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 91.12 USD from 43 analysts (Yahoo Finance consensus, 8 Nov 2026). New Street upgraded to buy while Bank of America, Roth and Seaport downgraded to neutral (Yahoo Finance roundup, Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -406,71 +418,71 @@
    ]
   },
   "nsei": {
-   "why": "Nifty jumped on 5 November as Brent fell and foreign investors bought for a fourth straight day.",
+   "why": "Nifty rose 2.0 percent to 25,030.4 on 6 November as foreign buying extended the Dhanteras rally.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
-    {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
-    },
     {
      "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
      "source": "Kotak Neo",
      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
      "date": "2026-11-06"
+    },
+    {
+     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
+     "source": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Foreign and domestic institutional flows, latest snapshot",
+     "source": "Trendlyne",
+     "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/",
+     "date": "2026-11-06"
     }
    ]
   },
   "nsebank": {
-   "why": "Banks led the 5 November rally on foreign buying and cheaper crude, with ICICI Bank the top Nifty contributor.",
+   "why": "Banks led the 6 November gains, with ICICI Bank and HDFC Bank among the top contributors.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
-    },
-    {
      "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
      "source": "Kotak Neo",
      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
+     "source": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
      "date": "2026-11-06"
     }
    ]
   },
   "reliance-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,666.00 INR from 25 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,613.31 INR from 26 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
-    {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
-    },
     {
      "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
      "source": "ETV Bharat",
      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
      "date": "2026-11-06"
     }
    ]
   },
   "tcs-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 2,398.00 INR from 42 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 2,398.00 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -480,25 +492,6 @@
      "date": "2026-11-06"
     },
     {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
-    }
-   ]
-  },
-  "hdfcbank-ns": {
-   "why": "HDFC Bank rose with lenders on 5 November as foreign investors kept buying and crude fell.",
-   "outlook_1y": "Sell-side consensus target 959.40 INR from 42 analysts (Yahoo Finance consensus, 7 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
-    },
-    {
      "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
      "source": "Kotak Neo",
      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
@@ -506,104 +499,54 @@
     }
    ]
   },
-  "icicibank-ns": {
-   "why": "ICICI Bank hit a record high on broad buying, adding the most points to the Nifty.",
-   "outlook_1y": "Sell-side consensus target 1,768.79 INR from 42 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+  "hdfcbank-ns": {
+   "why": "HDFC Bank rose 3.7 percent as lenders led the 6 November rally on foreign buying.",
+   "outlook_1y": "Sell-side consensus target 959.40 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "ICICI Bank hits all-time high of Rs 1,498.75 as momentum builds across timeframes",
-     "source": "MarketsMojo",
-     "url": "https://www.marketsmojo.com/news/stocks-in-action/icici-bank-ltd-stock-hits-all-time-high-of-rs-149875-on-5-nov-2026-4252634",
-     "date": "2026-11-05"
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
+     "date": "2026-11-06"
     },
     {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
-    },
+     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
+     "source": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "icicibank-ns": {
+   "why": "ICICI Bank rose 4.8 percent to a record 1,571.2 rupees, leading the Nifty's gains.",
+   "outlook_1y": "Sell-side consensus target 1,768.79 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
     {
      "title": "Why ICICI Bank share price is rising",
      "source": "Equitymaster",
      "url": "https://www.equitymaster.com/detail.asp?date=11%2F06%2F2026&story=8&title=Why-ICICI-Bank-Share-Price-is-Rising",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
      "date": "2026-11-06"
     }
    ]
   },
   "infy-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,200.10 INR from 42 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,200.10 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
-    {
-     "title": "Infosys Ltd surges 3.01% to day's high of Rs 1155.4",
-     "source": "MarketsMojo",
-     "url": "https://marketsmojo.com/news/stocks-in-action/infosys-ltd-hits-intraday-high-with-strong-301-surge-on-5-nov-2026-4251815",
-     "date": "2026-11-05"
-    },
     {
      "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
      "source": "ETV Bharat",
      "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
      "date": "2026-11-06"
-    }
-   ]
-  },
-  "sbin-ns": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 1,237.97 INR from 39 analysts (Yahoo Finance consensus, 7 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
-     "source": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
-     "date": "2026-11-06"
-    }
-   ]
-  },
-  "bajfinance-ns": {
-   "why": "Bajaj Finance led a rally in NBFC stocks as the broad market surged on 5 November.",
-   "outlook_1y": "Sell-side consensus target 1,163.86 INR from 35 analysts (Yahoo Finance consensus, 7 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Bajaj Finance, Shriram Finance, Tata Capital, L&T Finance: NBFCs rise amid market rally",
-     "source": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shriram-finance-tata-capital-lt-finance-nbfc-shares-rise-up-to-7-amid-market-rally-key-details-565850-2026-11-05",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
-    }
-   ]
-  },
-  "m&m-ns": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 4,083.97 INR from 35 analysts (Yahoo Finance consensus, 7 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
     },
     {
      "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
@@ -613,35 +556,54 @@
     }
    ]
   },
-  "tmcv-ns": {
+  "sbin-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 508.29 INR from 21 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,237.97 INR from 39 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
-     "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
+     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
+     "source": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
+     "date": "2026-11-06"
     },
     {
-     "title": "Closing Bell: Sensex surges 2,009 points; Nifty reclaims 24,500 mark on Thursday",
-     "source": "DSIJ",
-     "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-surges-2009-points-nifty-reclaims-24500-mark-on-thursday-60324",
-     "date": "2026-11-05"
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
+     "date": "2026-11-06"
     }
    ]
   },
-  "adanient-ns": {
+  "bajfinance-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 3,429.00 INR from 4 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,163.86 INR from 35 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
+     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
+     "source": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
      "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "m&m-ns": {
+   "why": "M&M rose 5.1 percent, leading the Nifty's 6 November gains alongside ICICI Bank and HDFC Bank.",
+   "outlook_1y": "Sell-side consensus target 4,011.83 INR from 35 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
+     "date": "2026-11-06"
     },
     {
      "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
@@ -651,66 +613,54 @@
     }
    ]
   },
-  "shriramfin-ns": {
-   "why": "Shriram Finance jumped with NBFC stocks in a broad 5 November rally.",
-   "outlook_1y": "Sell-side consensus target 1,127.12 INR from 34 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+  "adanient-ns": {
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 3,429.00 INR from 4 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bajaj Finance, Shriram Finance, Tata Capital, L&T Finance: NBFCs rise amid market rally",
-     "source": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/bajaj-finance-shriram-finance-tata-capital-lt-finance-nbfc-shares-rise-up-to-7-amid-market-rally-key-details-565850-2026-11-05",
-     "date": "2026-11-05"
+     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
+     "source": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
+     "date": "2026-11-06"
     },
     {
-     "title": "Market Wrap, 5 November 2026: Benchmark indices surge as bulls drive broad-based rally",
+     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
      "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/benchmarks-rally-on-supportive-domestic-and-global-cues/",
-     "date": "2026-11-05"
+     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
+     "date": "2026-11-06"
     }
    ]
   },
   "n225": {
-   "why": "Chip names dragged the Nikkei on 5 November as the US AI selloff spread to Asia.",
+   "why": "Chip stocks led a second straight rout in Tokyo as the US AI selloff spread to Asia.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Japan's Nikkei tumbles on tech rout despite strength in wider market",
-     "source": "Reuters via The Star",
-     "url": "https://www.thestar.com.my/business/business-news/2026/11/05/japan039s-nikkei-tumbles-on-tech-rout-despite-strength-in-wider-market",
-     "date": "2026-11-05"
+     "title": "Japan, South Korea stocks suffer second rout as Kospi plunges over 5% triggering circuit breaker",
+     "source": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/more/262279367-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-qcom-sox-tradingkey",
+     "date": "2026-11-06"
     },
     {
      "title": "Stocks plunge as election outcome and AI worries crush tech shares",
      "source": "NBC News",
      "url": "https://nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
      "date": "2026-11-06"
-    },
-    {
-     "title": "Japan, South Korea stocks suffer second rout as Kospi plunges over 5% triggering circuit breaker",
-     "source": "TradingKey",
-     "url": "https://www.tradingkey.com/analysis/stocks/more/262279367-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-qcom-sox-tradingkey",
-     "date": "2026-11-06"
     }
    ]
   },
   "hsi": {
-   "why": "Hong Kong had its best day since February 2025 as investors rotated into Chinese internet stocks.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Hang Seng Index soars 3.67% to 24,796.98 in best day since February 2025",
-     "source": "BBN Times",
-     "url": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-index-soars-3-67-to-24-796-98-in-best-day-since-february-2025",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "Hong Kong's Hang Seng Index closes 3.67 pct higher",
-     "source": "Bastille Post",
-     "url": "https://www.bastillepost.com/global/article/6329621-hong-kongs-hang-seng-index-closes-3-67-pct-higher",
-     "date": "2026-11-05"
+     "title": "Stocks plunge as election outcome and AI worries crush tech shares",
+     "source": "NBC News",
+     "url": "https://nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+     "date": "2026-11-06"
     }
    ]
   },
@@ -740,22 +690,10 @@
    ]
   },
   "ftse": {
-   "why": "London slipped on 5 November as a tech selloff and the Bank of England's rate hike weighed.",
+   "why": "London fell 1.0 percent as a tech drag after the US AI chip rout weighed on European shares.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
-    {
-     "title": "FTSE 100 closes lower after Bank of England's hawkish rate hike; US stocks plunge",
-     "source": "BritBrief",
-     "url": "https://britbrief.co.uk/business/markets/ftse-100-falls-after-bank-of-englands-hawkish-rate-hike.html",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "Tech selloff, defence weakness weigh on European shares",
-     "source": "Reuters via Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tech-drag-defence-weakness-weigh-164047028.html",
-     "date": "2026-11-05"
-    },
     {
      "title": "Europe stocks drop on tech drag; STOXX 600 overtakes S&P 500 in YTD gains",
      "source": "Investing.com via Yahoo Finance",
@@ -765,16 +703,10 @@
    ]
   },
   "gdaxi": {
-   "why": "The DAX fell on 5 November as tech and defence stocks weighed on European shares.",
+   "why": "The DAX fell 1.9 percent as tech stocks dragged European shares after the US AI chip rout.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
-    {
-     "title": "Tech selloff, defence weakness weigh on European shares",
-     "source": "Reuters via Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tech-drag-defence-weakness-weigh-164047028.html",
-     "date": "2026-11-05"
-    },
     {
      "title": "Europe stocks drop on tech drag; STOXX 600 overtakes S&P 500 in YTD gains",
      "source": "Investing.com via Yahoo Finance",
@@ -785,7 +717,7 @@
   },
   "tsm": {
    "why": "TSMC's ADR rebounded after Taiwan curbed short selling following the chip rout.",
-   "outlook_1y": "Sell-side consensus target 586.69 USD from 20 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 586.69 USD from 20 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -804,7 +736,7 @@
   },
   "asml": {
    "why": "ASML rose in a relief rally across oversold chip stocks after Thursday's regulation-fear selloff.",
-   "outlook_1y": "Sell-side consensus target 2,137.25 USD from 17 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 2,137.25 USD from 17 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -823,7 +755,7 @@
   },
   "baba": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 184.42 USD from 40 analysts (Yahoo Finance consensus, 7 Nov 2026). Mizuho raised its target to 200 USD on 3 Nov 2026 (MarketBeat).",
+   "outlook_1y": "Sell-side consensus target 184.42 USD from 40 analysts (Yahoo Finance consensus, 8 Nov 2026). Mizuho raised its target to 200 USD on 3 Nov 2026 (MarketBeat).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -842,7 +774,7 @@
   },
   "005930-ks": {
    "why": "Samsung fell 6.4 percent as fears of US AI regulation after the midterms hit memory chipmakers.",
-   "outlook_1y": "Sell-side consensus target 475,628.56 KRW from 35 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 475,628.56 KRW from 35 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -860,7 +792,7 @@
    ]
   },
   "inrx": {
-   "why": "The rupee firmed to 93.89 on 6 November on a weaker dollar and equity inflows, per PTI.",
+   "why": "The rupee gained 52 paise to 93.89 per dollar on 6 November on a weaker dollar and equity inflows.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -869,12 +801,32 @@
      "source": "Telangana Today (PTI)",
      "url": "https://telanganatoday.com/rupee-rallies-52-paise-to-settle-at-93-89-against-us-dollar",
      "date": "2026-11-06"
-    },
+    }
+   ]
+  },
+  "gbpinrx": {
+   "why": "The pound fell 1.4 percent against the rupee as the rupee rallied on strong equity inflows.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
     {
-     "title": "Rupee settles flat at 94.46 against US dollar",
-     "source": "Daily Pioneer (PTI)",
-     "url": "https://dailypioneer.com/business/rupee-settles-flat-at-9446-against-us-dollar",
-     "date": "2026-11-05"
+     "title": "Rupee rallies 52 paise to settle at 93.89 against US dollar",
+     "source": "Telangana Today (PTI)",
+     "url": "https://telanganatoday.com/rupee-rallies-52-paise-to-settle-at-93-89-against-us-dollar",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "eurinrx": {
+   "why": "The euro fell 1.3 percent against the rupee as the rupee rallied on strong equity inflows.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Rupee rallies 52 paise to settle at 93.89 against US dollar",
+     "source": "Telangana Today (PTI)",
+     "url": "https://telanganatoday.com/rupee-rallies-52-paise-to-settle-at-93-89-against-us-dollar",
+     "date": "2026-11-06"
     }
    ]
   },
@@ -898,20 +850,26 @@
    ]
   },
   "usdjpyx": {
-   "why": "The yen firmed toward a one-week high on haven demand after the equity rout, ahead of payrolls.",
+   "why": "The dollar rose 0.6 percent against the yen after October payrolls beat forecasts and lifted Fed hike bets.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
-     "source": "Reuters via Investing.com",
-     "url": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
+     "title": "U.S. dollar rallies as non farm payrolls jump to 165,000",
+     "source": "FX Empire",
+     "url": "https://www.fxempire.com/forecasts/article/u-s-dollar-rallies-as-non-farm-payrolls-jump-to-165000-analysis-for-eur-usd-gbp-usd-usd-cad-usd-jpy-1643010",
      "date": "2026-11-06"
     },
     {
-     "title": "Japanese yen gives back gains on risk-off markets and with NFP on tap",
-     "source": "FXStreet",
-     "url": "https://www.fxstreet.com/news/japanese-yen-gives-back-gains-on-risk-off-markets-and-with-nfp-on-tap-202611060948",
+     "title": "Dollar index jumps after U.S. payrolls beat forecasts",
+     "source": "CNBC",
+     "url": "https://amp.cnbc.com/amp/2026/11/06/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls.html?hostDomain=www.cnbc.com",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+     "source": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
      "date": "2026-11-06"
     }
    ]
@@ -934,9 +892,9 @@
      "date": "2026-11-06"
     },
     {
-     "title": "Gold eases to 4,050 dollars as strong jobs report lifts dollar; central bank buying hits 2026 high",
-     "source": "USAGOLD",
-     "url": "https://www.usagold.com/daily-precious-metals-market-report-november-6-2026/",
+     "title": "Gold price holds critical 4,000 dollar support, but strong US jobs data and inflation risks threaten recovery",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-06/gold-price-holds-critical-4000-support-strong-us-jobs-data-and-inflation",
      "date": "2026-11-06"
     }
    ]
@@ -980,7 +938,7 @@
    ]
   },
   "clf": {
-   "why": "Crude edged lower as US election results raised hopes of an Iran deal, capping its biggest weekly drop since 2022.",
+   "why": "Crude steadied on Friday after its biggest weekly drop since 2022 on bets on a US-Iran deal.",
    "outlook_1y": "Goldman Sachs lifted its December 2026 Brent forecast to 105 dollars from 90 and its 2027 average to 88 from 80, with a 140 dollar upside case if Gulf output stays curtailed (BOE Report, 1 Nov 2026); UBS sees 110 by end-2026.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -991,15 +949,15 @@
      "date": "2026-11-06"
     },
     {
+     "title": "Brent crude oil price 98.32 dollars Saturday as US-Iran deal bets and Tuesday's CPI frame the week",
+     "source": "FinanceFeeds",
+     "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/",
+     "date": "2026-11-07"
+    },
+    {
      "title": "Oil price today: Brent, WTI",
      "source": "CNBC",
      "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
-     "date": "2026-11-06"
-    },
-    {
-     "title": "Oil prices set for weekly drop on Trump's election rout",
-     "source": "The National",
-     "url": "https://www.thenationalnews.com/business/energy/2026/11/06/oil-prices-set-for-weekly-drop-on-trumps-election-rout/",
      "date": "2026-11-06"
     }
    ]
@@ -1010,53 +968,54 @@
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "China's rare-earth export pause expires Nov. 10. Here's what it means for USA Rare Earth and MP Materials",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/05/china-rare-earth-export-pause-usar-mp-materials/",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "USA Rare Earth drops 6% with milestone-based government funding still ahead of it",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-drops-6-175511584.html",
-     "date": "2026-11-05"
+     "title": "MP Materials Q3 2026 earnings call highlights: rare earth output surges 41% as magnet shipments to GM loom",
+     "source": "GuruFocus via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-corp-mp-q3-052120355.html",
+     "date": "2026-11-06"
     }
    ]
   },
   "mp": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 70.94 USD from 16 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 68.24 USD from 17 analysts (Yahoo Finance consensus, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "China's rare-earth export pause expires Nov. 10. Here's what it means for USA Rare Earth and MP Materials",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/05/china-rare-earth-export-pause-usar-mp-materials/",
-     "date": "2026-11-05"
-    },
-    {
-     "title": "USA Rare Earth drops 6% with milestone-based government funding still ahead of it",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-drops-6-175511584.html",
-     "date": "2026-11-05"
+     "title": "MP Materials Q3 2026 earnings call highlights: rare earth output surges 41% as magnet shipments to GM loom",
+     "source": "GuruFocus via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-corp-mp-q3-052120355.html",
+     "date": "2026-11-06"
     }
    ]
   },
-  "lyc-ax": {
+  "ura": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 16.37 AUD from 13 analysts (Yahoo Finance consensus, 7 Nov 2026).",
+   "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "China's rare-earth export pause expires Nov. 10. Here's what it means for USA Rare Earth and MP Materials",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/05/china-rare-earth-export-pause-usar-mp-materials/",
-     "date": "2026-11-05"
+     "title": "Nuclear stocks to follow now, November 7th",
+     "source": "MarketBeat",
+     "url": "https://marketbeat.com/instant-alerts/list-nuclear-stocks-to-follow-now-november-7th-2026-11-07",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "ccj": {
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 118.44 USD from 9 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Nuclear stocks to follow now, November 7th",
+     "source": "MarketBeat",
+     "url": "https://marketbeat.com/instant-alerts/list-nuclear-stocks-to-follow-now-november-7th-2026-11-07",
+     "date": "2026-11-07"
     }
    ]
   },
   "btc-usd": {
-   "why": "Bitcoin held near 76,000 dollars as strong payrolls lifted Fed hike bets and ETF outflows continued.",
+   "why": "Bitcoin held near 75,600 dollars as strong payrolls lifted Fed hike bets and ETF outflows continued.",
    "outlook_1y": "Standard Chartered targets 100,000 dollars by end-2026, Citi 113,000 by October 2027 and Bernstein 125,000 (24/7 Wall St., 6 Oct 2026, cited in the 31 Oct edition).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -1095,19 +1054,6 @@
      "title": "Bitcoin and Ethereum slip as US jobs report shows 165K new jobs",
      "source": "The Crypto Times",
      "url": "https://www.cryptotimes.io/2026/11/06/bitcoin-and-ethereum-slip-as-us-jobs-report-shows-165k-new-jobs/",
-     "date": "2026-11-06"
-    }
-   ]
-  },
-  "xrp-usd": {
-   "why": "XRP slipped below 1.20 dollars as bearish pressure built on its daily and weekly charts.",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "XRP price outlook: can 1.20 dollars hold as bearish pressure builds?",
-     "source": "crypto.news",
-     "url": "https://crypto.news/xrp-price-outlook-november-120-support/",
      "date": "2026-11-06"
     }
    ]
