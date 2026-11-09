@@ -1,73 +1,69 @@
 {
- "date": "2026-11-08",
- "generated_at": "2026-11-08T00:42:44+00:00",
- "headline": "Fed hike odds near 77 percent after the payrolls beat put Tuesday's US CPI at center stage",
- "subhead": "The S&P 500 rose 0.3 percent to 7,376.9 and the 10-year yield to 4.86 percent on Friday, while WTI ended the week down 12.8 percent and India holds its Muhurat session today.",
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T01:30:00+00:00",
+ "headline": "Nvidia board opens probe into CEO Huang over alleged Chinese spy link as crypto hits two-month lows",
+ "subhead": "Bitcoin touched 73,708 dollars and ether 2,223, lowest since August, while the Nifty slipped 0.2 percent to 24,986.4 in Muhurat trading ahead of Tuesday's US CPI.",
  "summary": {
   "us": [
    {
-    "text": "The S&P 500 rose 0.3 percent to 7,376.9 and the Nasdaq 1.1 percent as chipmakers recovered part of Thursday's rout; the Dow fell 0.5 percent.",
-    "source": "Yahoo Finance",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
-   },
-   {
-    "text": "Futures put a December Fed hike at about 77 percent after October payrolls rose 165,000 and unemployment fell to 4.1 percent.",
-    "source": "Yahoo Finance",
-    "url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html"
-   },
-   {
-    "text": "Next week turns on October CPI on Tuesday, with FactSet's estimate at 3.9 percent year on year, and producer prices on Friday.",
+    "text": "The S&P 500 rose 0.3 percent to 7,376.9 and the Nasdaq 1.1 percent on Friday as chipmakers recovered part of Thursday's rout; the Dow fell 0.5 percent.",
     "source": "CNBC",
-    "url": "https://cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html"
+    "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+   },
+   {
+    "text": "Nvidia's board opened an independent probe into CEO Jensen Huang's relationship with a woman US intelligence reportedly says is a Chinese spy; Huang stays on as CEO.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+   },
+   {
+    "text": "Hot October payrolls pushed implied odds of a December Fed hike back above 75 percent ahead of Tuesday's October CPI report.",
+    "source": "Market Index",
+    "url": "https://marketindex.com.au/news/morning-wrap-asx-200-to-rise-s-and-p-500-and-nasdaq-rebound-from-ai-rout"
    }
   ],
   "india": [
    {
-    "text": "Nifty rose 2.0 percent to 25,030.4 and Sensex closed at 81,028.0 on 6 November, led by M&M, ICICI Bank and HDFC Bank.",
+    "text": "Nifty slipped 0.2 percent to 24,986.4 and Sensex closed at 80,999.4 in Sunday's Muhurat session as early gains faded on profit taking.",
     "source": "Kotak Neo",
-    "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/"
+    "url": "https://www.kotakneo.com/news/market-news/muhurat-trading-2026-highlights-sensex-nifty-samvat-2083/"
    },
    {
-    "text": "Foreign investors bought a net 13,749.8 crore rupees of shares on 6 November and domestic institutions sold 5,968.7 crore, provisional data show.",
-    "source": "Trendlyne",
-    "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/"
+    "text": "Foreign investors were roughly flat and domestic institutions sold a net 700 crore rupees in the Muhurat session, provisional data show.",
+    "source": "Tapetide",
+    "url": "https://tapetide.com/fii-dii-data"
    },
    {
-    "text": "The rupee gained 52 paise to settle at 93.89 per dollar on 6 November on a weaker dollar and strong equity inflows.",
-    "source": "Telangana Today (PTI)",
-    "url": "https://telanganatoday.com/rupee-rallies-52-paise-to-settle-at-93-89-against-us-dollar"
+    "text": "The rupee ended last week at 93.89 per dollar; a credible US-Iran deal could lift it toward 92, Business Standard reports.",
+    "source": "Business Standard",
+    "url": "https://business-standard.com/economy/news/rupee-bond-outlook-in-samvat-2083-hinges-on-west-asia-inflation-flows-126110800392_1.html"
    }
   ],
   "global": [
    {
-    "text": "Kospi fell 6.0 percent to 5,059.7 on 6 November after briefly breaking 5,000, as Samsung fell 6.4 percent on AI regulation fears.",
-    "source": "Korea JoongAng Daily",
-    "url": "https://www.koreajoongangdaily.com/business/korean-market-hit-by-black-friday-as-kospi-plunges-below-5000-after-us-midterms/12959264"
+    "text": "The Nikkei rose 1.6 percent in early Monday trade after its steepest weekly fall since March, while the Kospi was little changed.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
    },
    {
-    "text": "Europe fell on 6 November, with the DAX down 1.9 percent and the FTSE 100 down 1.0 percent on the US tech rout and hot payrolls.",
+    "text": "Europe fell on Friday, with the DAX down 1.9 percent and the FTSE 100 down 1.0 percent on the US tech rout and hot payrolls.",
     "source": "Investing.com via Yahoo Finance",
     "url": "https://sg.finance.yahoo.com/news/europe-stocks-drop-tech-drag-084024831.html"
    },
    {
-    "text": "WTI ended at 90.83 dollars, down 12.8 percent on the week, its biggest weekly drop since 2022, on hopes of a US-Iran deal.",
-    "source": "Rigzone (Bloomberg)",
-    "url": "https://rigzone.com/news/wire/oil_posts_biggest_weekly_drop_since_2022-06-nov-2026-185035-article"
+    "text": "Bitcoin fell to 73,708 dollars and ether to 2,223, their lowest since August, on fears a Democratic Congress toughens crypto rules.",
+    "source": "Reuters via MarketScreener",
+    "url": "https://www.marketscreener.com/news/cryptocurrencies-slide-to-two-month-lows-after-us-midterms-ce785fd2d081f522"
    }
   ]
  },
  "calendar": [
   {
-   "when": "2026-11-08",
-   "what": "Diwali Muhurat trading on NSE and BSE, afternoon session from 2:20 pm IST"
-  },
-  {
    "when": "2026-11-09",
-   "what": "Constellation Energy, Occidental Petroleum, KKR and Take-Two results; Fed's Bowman and Goolsbee speak"
+   "what": "China October CPI and PPI; Constellation Energy, Occidental Petroleum, KKR, Take-Two and Skydance results; Fed's Bowman and Goolsbee speak"
   },
   {
    "when": "2026-11-10",
-   "what": "US October CPI; NSE and BSE closed for Diwali Balipratipada; China's rare earth export pause expires"
+   "what": "US October CPI; NSE and BSE closed for Diwali Balipratipada; China's rare earth export pause expires; CoreWeave results"
   },
   {
    "when": "2026-11-11",
@@ -75,7 +71,7 @@
   },
   {
    "when": "2026-11-12",
-   "what": "India October CPI; US jobless claims and existing home sales; Applied Materials results; Rezera US IPO expected"
+   "what": "India October CPI; US jobless claims and existing home sales; UK third quarter GDP; Cisco and Applied Materials results; Rezera US IPO expected"
   },
   {
    "when": "2026-11-13",
@@ -83,7 +79,7 @@
   },
   {
    "when": "2026-11-09/2026-11-13",
-   "what": "Anthropic IPO roadshow reported to start; price range not yet set"
+   "what": "Anthropic IPO roadshow reported to start, price range not yet set; vVardis US IPO expected; about ten Fed officials speak during the week"
   }
  ],
  "ipos": [
@@ -224,7 +220,7 @@
   },
   "msft": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 634.14 USD from 54 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 636.12 USD from 54 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -243,7 +239,7 @@
   },
   "nvda": {
    "why": "Nvidia rose as dip buyers returned after Thursday's steep AI chip selloff.",
-   "outlook_1y": "Sell-side consensus target 327.14 USD from 58 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 327.14 USD from 58 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -253,22 +249,22 @@
      "date": "2026-11-06"
     },
     {
+     "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+     "date": "2026-11-08"
+    },
+    {
      "title": "Nvidia, AMD and Micron rally as chip stocks recover from worst day since 2020",
      "source": "MoneyCheck",
      "url": "https://moneycheck.com/nvidia-amd-and-micron-rally-as-chip-stocks-recover-from-worst-day-since-2020",
-     "date": "2026-11-06"
-    },
-    {
-     "title": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
-     "source": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
      "date": "2026-11-06"
     }
    ]
   },
   "amzn": {
    "why": "Amazon led big tech in a 7.9 percent weekly gain on 39 percent AWS revenue growth.",
-   "outlook_1y": "Sell-side consensus target 326.99 USD from 59 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 326.99 USD from 59 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -287,7 +283,7 @@
   },
   "googl": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 400.37 USD from 53 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 400.37 USD from 53 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -312,7 +308,7 @@
   },
   "meta": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 850.10 USD from 57 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 850.10 USD from 57 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -331,7 +327,7 @@
   },
   "tsla": {
    "why": "Tesla rose after Musk said Cybertruck production is to wind down around mid-2027 to make room for Cybercab.",
-   "outlook_1y": "Sell-side consensus target 413.10 USD from 40 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 413.10 USD from 40 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -356,7 +352,7 @@
   },
   "jpm": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 373.48 USD from 23 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 373.48 USD from 23 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -375,7 +371,7 @@
   },
   "amd": {
    "why": "AMD led the chip rebound after Thursday's plunge on AI regulation fears.",
-   "outlook_1y": "Sell-side consensus target 656.24 USD from 48 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 659.77 USD from 47 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -400,7 +396,7 @@
   },
   "intc": {
    "why": "Intel bounced with chipmakers, recovering part of a slide that had shaved value off the government's stake.",
-   "outlook_1y": "Sell-side consensus target 91.12 USD from 43 analysts (Yahoo Finance consensus, 8 Nov 2026). New Street upgraded to buy while Bank of America, Roth and Seaport downgraded to neutral (Yahoo Finance roundup, Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 91.12 USD from 43 analysts (Yahoo Finance consensus, 9 Nov 2026). New Street upgraded to buy while Bank of America, Roth and Seaport downgraded to neutral (Yahoo Finance roundup, Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -418,52 +414,52 @@
    ]
   },
   "nsei": {
-   "why": "Nifty rose 2.0 percent to 25,030.4 on 6 November as foreign buying extended the Dhanteras rally.",
+   "why": "Nifty slipped 0.2 percent in the Muhurat session as early gains faded on profit taking after a seven-day rally.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "title": "Muhurat Trading 2026: Sensex and Nifty end lower in the first session of Samvat 2083",
      "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
-     "date": "2026-11-06"
+     "url": "https://www.kotakneo.com/news/market-news/muhurat-trading-2026-highlights-sensex-nifty-samvat-2083/",
+     "date": "2026-11-08"
     },
     {
-     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
-     "source": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
-     "date": "2026-11-06"
+     "title": "Muhurat Trading Close: Sensex dips 29 pts, Nifty ends at 24,986; Sun Pharma, Tata Steel shine",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-8-muhurat-trading-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-today-samvat-2083-tata-steel-share-price-126110800267_1.html",
+     "date": "2026-11-08"
     },
     {
-     "title": "Foreign and domestic institutional flows, latest snapshot",
-     "source": "Trendlyne",
-     "url": "https://trendlyne.com/macro-data/fii-dii/latest/snapshot-pastmonth/",
-     "date": "2026-11-06"
+     "title": "Sensex, Nifty end lower in Muhurat trading 2026; pharma, metal stocks gain",
+     "source": "The Federal",
+     "url": "https://thefederal.com/category/business/muhurat-trading-2026-sensex-nifty-262234",
+     "date": "2026-11-08"
     }
    ]
   },
   "nsebank": {
-   "why": "Banks led the 6 November gains, with ICICI Bank and HDFC Bank among the top contributors.",
+   "why": "Bank Nifty fell 0.4 percent as banking stocks came under pressure in the Muhurat session.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Share Market Wrap 6 November 2026: Sensex and Nifty extend gains",
+     "title": "Muhurat Trading 2026: Sensex and Nifty end lower in the first session of Samvat 2083",
      "source": "Kotak Neo",
-     "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-close-higher-as-bull-run-continues/",
-     "date": "2026-11-06"
+     "url": "https://www.kotakneo.com/news/market-news/muhurat-trading-2026-highlights-sensex-nifty-samvat-2083/",
+     "date": "2026-11-08"
     },
     {
-     "title": "Dhanteras pours 'dhan' into stock market: Sensex settles above 81,000; Nifty reclaims 25,000",
-     "source": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/business/stock-market-on-november-6-2026-sensex-nifty50-crude-oil-prices-fii-world-stock-markets-enn26110601249",
-     "date": "2026-11-06"
+     "title": "Muhurat Trading Close: Sensex dips 29 pts, Nifty ends at 24,986; Sun Pharma, Tata Steel shine",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-november-8-muhurat-trading-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-today-samvat-2083-tata-steel-share-price-126110800267_1.html",
+     "date": "2026-11-08"
     }
    ]
   },
   "reliance-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,613.31 INR from 26 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,613.31 INR from 26 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -482,7 +478,7 @@
   },
   "tcs-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 2,398.00 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 2,398.00 INR from 42 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -500,8 +496,8 @@
    ]
   },
   "hdfcbank-ns": {
-   "why": "HDFC Bank rose 3.7 percent as lenders led the 6 November rally on foreign buying.",
-   "outlook_1y": "Sell-side consensus target 959.40 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 959.40 INR from 42 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -519,8 +515,8 @@
    ]
   },
   "icicibank-ns": {
-   "why": "ICICI Bank rose 4.8 percent to a record 1,571.2 rupees, leading the Nifty's gains.",
-   "outlook_1y": "Sell-side consensus target 1,768.79 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 1,769.50 INR from 42 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -539,7 +535,7 @@
   },
   "infy-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,200.10 INR from 42 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,200.10 INR from 42 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -558,7 +554,7 @@
   },
   "sbin-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,237.97 INR from 39 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,233.23 INR from 39 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -577,7 +573,7 @@
   },
   "bajfinance-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,163.86 INR from 35 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,163.86 INR from 35 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -595,8 +591,8 @@
    ]
   },
   "m&m-ns": {
-   "why": "M&M rose 5.1 percent, leading the Nifty's 6 November gains alongside ICICI Bank and HDFC Bank.",
-   "outlook_1y": "Sell-side consensus target 4,011.83 INR from 35 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 4,007.74 INR from 35 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -615,7 +611,7 @@
   },
   "adanient-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 3,429.00 INR from 4 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 3,429.00 INR from 4 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -633,20 +629,20 @@
    ]
   },
   "n225": {
-   "why": "Chip stocks led a second straight rout in Tokyo as the US AI selloff spread to Asia.",
+   "why": "The Nikkei rebounded 1.6 percent in early Monday trade after its steepest weekly fall since March.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Japan, South Korea stocks suffer second rout as Kospi plunges over 5% triggering circuit breaker",
-     "source": "TradingKey",
-     "url": "https://www.tradingkey.com/analysis/stocks/more/262279367-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-qcom-sox-tradingkey",
-     "date": "2026-11-06"
+     "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+     "date": "2026-11-08"
     },
     {
-     "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-     "source": "NBC News",
-     "url": "https://nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+     "title": "Nikkei 225 closes down 5.96 percent at 57,434.77 points after AI sell-off",
+     "source": "ad-hoc-news",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/nikkei-225-closes-down-5-96-percent-at-57-434-77-points-after-ai-sell-off/70472279",
      "date": "2026-11-06"
     }
    ]
@@ -665,10 +661,16 @@
    ]
   },
   "ks11": {
-   "why": "The US AI chip rout spread to Seoul, sinking Samsung and SK Hynix.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+     "date": "2026-11-08"
+    },
     {
      "title": "Japan, South Korea stocks suffer second rout as Kospi plunges over 5% triggering circuit breaker",
      "source": "TradingKey",
@@ -679,12 +681,6 @@
      "title": "Kospi falls below 5,000 as Samsung, SK hynix slide after U.S. midterms",
      "source": "Korea JoongAng Daily",
      "url": "https://www.koreajoongangdaily.com/business/korean-market-hit-by-black-friday-as-kospi-plunges-below-5000-after-us-midterms/12959264",
-     "date": "2026-11-06"
-    },
-    {
-     "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-     "source": "NBC News",
-     "url": "https://nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
      "date": "2026-11-06"
     }
    ]
@@ -717,7 +713,7 @@
   },
   "tsm": {
    "why": "TSMC's ADR rebounded after Taiwan curbed short selling following the chip rout.",
-   "outlook_1y": "Sell-side consensus target 586.69 USD from 20 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 586.69 USD from 20 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -736,7 +732,7 @@
   },
   "asml": {
    "why": "ASML rose in a relief rally across oversold chip stocks after Thursday's regulation-fear selloff.",
-   "outlook_1y": "Sell-side consensus target 2,137.25 USD from 17 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 2,139.16 USD from 17 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -755,7 +751,7 @@
   },
   "baba": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 184.42 USD from 40 analysts (Yahoo Finance consensus, 8 Nov 2026). Mizuho raised its target to 200 USD on 3 Nov 2026 (MarketBeat).",
+   "outlook_1y": "Sell-side consensus target 184.36 USD from 40 analysts (Yahoo Finance consensus, 9 Nov 2026). Mizuho raised its target to 200 USD on 3 Nov 2026 (MarketBeat).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -773,8 +769,8 @@
    ]
   },
   "005930-ks": {
-   "why": "Samsung fell 6.4 percent as fears of US AI regulation after the midterms hit memory chipmakers.",
-   "outlook_1y": "Sell-side consensus target 475,628.56 KRW from 35 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 475,628.56 KRW from 35 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -793,9 +789,15 @@
   },
   "inrx": {
    "why": "The rupee gained 52 paise to 93.89 per dollar on 6 November on a weaker dollar and equity inflows.",
-   "outlook_1y": "No cited forecast found this run.",
+   "outlook_1y": "IDFC First Bank's chief economist expects the rupee to weaken gradually toward 96 to 97 per dollar over the medium term; a credible US-Iran deal could lift it toward 92 (Business Standard, 8 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Rupee, bond outlook in Samvat 2083 hinges on West Asia, inflation, flows",
+     "source": "Business Standard",
+     "url": "https://business-standard.com/economy/news/rupee-bond-outlook-in-samvat-2083-hinges-on-west-asia-inflation-flows-126110800392_1.html",
+     "date": "2026-11-08"
+    },
     {
      "title": "Rupee rallies 52 paise to settle at 93.89 against US dollar",
      "source": "Telangana Today (PTI)",
@@ -805,7 +807,7 @@
    ]
   },
   "gbpinrx": {
-   "why": "The pound fell 1.4 percent against the rupee as the rupee rallied on strong equity inflows.",
+   "why": "The pound fell 1.3 percent against the rupee as the rupee rallied on strong equity inflows.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -818,7 +820,7 @@
    ]
   },
   "eurinrx": {
-   "why": "The euro fell 1.3 percent against the rupee as the rupee rallied on strong equity inflows.",
+   "why": "The euro fell 1.2 percent against the rupee as the rupee rallied on strong equity inflows.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -831,7 +833,7 @@
    ]
   },
   "dx-y-nyb": {
-   "why": "The dollar index jumped after October payrolls beat forecasts and lifted Fed hike bets.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -850,7 +852,7 @@
    ]
   },
   "usdjpyx": {
-   "why": "The dollar rose 0.6 percent against the yen after October payrolls beat forecasts and lifted Fed hike bets.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -875,10 +877,16 @@
    ]
   },
   "gcf": {
-   "why": "Gold slipped as strong payrolls lifted the dollar and strengthened the case for a December Fed hike.",
+   "why": "Gold edged up to about 4,071 dollars an ounce in early Monday trade in Asia.",
    "outlook_1y": "Goldman Sachs end-2027 target 5,400 dollars an ounce, reaffirmed 18 Sep 2026 (FXNX compilation of dated bank targets); UBS has kept its price target after the slide (Yahoo Finance); a Reuters poll median for 2027 is 4,650.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Markets live updates: ANZ posts $7.3 billion profit as Wall Street lifts on AI rebound",
+     "source": "ABC News",
+     "url": "https://abc.net.au/news/2026-11-09/asx-markets-business-live-news/107361534",
+     "date": "2026-11-09"
+    },
     {
      "title": "Gold falls as U.S. payrolls surge by 165,000, strengthening December Fed hike case",
      "source": "Kitco",
@@ -890,17 +898,11 @@
      "source": "Reuters via Kitco",
      "url": "http://www.kitco.com/news/off-the-wire/2026-11-06/gold-drops-stays-track-best-week-over-two-months",
      "date": "2026-11-06"
-    },
-    {
-     "title": "Gold price holds critical 4,000 dollar support, but strong US jobs data and inflation risks threaten recovery",
-     "source": "Kitco",
-     "url": "https://www.kitco.com/news/article/2026-11-06/gold-price-holds-critical-4000-support-strong-us-jobs-data-and-inflation",
-     "date": "2026-11-06"
     }
    ]
   },
   "sif": {
-   "why": "Silver eased with gold as the strong jobs report lifted the dollar and Treasury yields.",
+   "why": "",
    "outlook_1y": "UBS targets 80 dollars an ounce by September 2027, with 70 by December 2026 (Yahoo Finance, citing UBS, Sep 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
@@ -938,10 +940,16 @@
    ]
   },
   "clf": {
-   "why": "Crude steadied on Friday after its biggest weekly drop since 2022 on bets on a US-Iran deal.",
+   "why": "Oil eased in early Asian trade on reports the US and Iran are edging closer to a deal.",
    "outlook_1y": "Goldman Sachs lifted its December 2026 Brent forecast to 105 dollars from 90 and its 2027 average to 88 from 80, with a 140 dollar upside case if Gulf output stays curtailed (BOE Report, 1 Nov 2026); UBS sees 110 by end-2026.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
+    {
+     "title": "Markets live updates: ANZ posts $7.3 billion profit as Wall Street lifts on AI rebound",
+     "source": "ABC News",
+     "url": "https://abc.net.au/news/2026-11-09/asx-markets-business-live-news/107361534",
+     "date": "2026-11-09"
+    },
     {
      "title": "Oil posts biggest weekly drop since 2022",
      "source": "Rigzone (Bloomberg)",
@@ -953,12 +961,6 @@
      "source": "FinanceFeeds",
      "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/",
      "date": "2026-11-07"
-    },
-    {
-     "title": "Oil price today: Brent, WTI",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
-     "date": "2026-11-06"
     }
    ]
   },
@@ -977,7 +979,7 @@
   },
   "mp": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 68.24 USD from 17 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 69.44 USD from 16 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -1003,7 +1005,7 @@
   },
   "ccj": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 118.44 USD from 9 analysts (Yahoo Finance consensus, 8 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 118.55 USD from 9 analysts (Yahoo Finance consensus, 9 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
@@ -1015,46 +1017,135 @@
    ]
   },
   "btc-usd": {
-   "why": "Bitcoin held near 75,600 dollars as strong payrolls lifted Fed hike bets and ETF outflows continued.",
+   "why": "Bitcoin hit 73,708 dollars, its lowest since August, on fears a Democratic Congress toughens crypto rules.",
    "outlook_1y": "Standard Chartered targets 100,000 dollars by end-2026, Citi 113,000 by October 2027 and Bernstein 125,000 (24/7 Wall St., 6 Oct 2026, cited in the 31 Oct edition).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin price falls below 76,000 dollars amid strong US jobs data and ETF outflows",
-     "source": "KuCoin News",
-     "url": "https://www.kucoin.com/news/flash/bitcoin-price-falls-below-76-000-amid-strong-us-jobs-data-and-etf-outflows",
-     "date": "2026-11-06"
+     "title": "Cryptocurrencies slide to two-month lows after US midterms",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/cryptocurrencies-slide-to-two-month-lows-after-us-midterms-ce785fd2d081f522",
+     "date": "2026-11-08"
     },
     {
-     "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures: Crypto Markets Today",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
-     "date": "2026-11-06"
+     "title": "Bitcoin $73,708, Ether $2,223: Crypto Two-Month Lows",
+     "source": "Tech Insider",
+     "url": "https://tech-insider.org/crypto-two-month-lows-bitcoin-73708-ether-2223-after-midterms-2026/",
+     "date": "2026-11-08"
     },
     {
-     "title": "Bitcoin and Ethereum slip as US jobs report shows 165K new jobs",
-     "source": "The Crypto Times",
-     "url": "https://www.cryptotimes.io/2026/11/06/bitcoin-and-ethereum-slip-as-us-jobs-report-shows-165k-new-jobs/",
-     "date": "2026-11-06"
+     "title": "Bitcoin price stalls below $76K as major altcoins suffer double-digit losses",
+     "source": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-76000-altcoin-losses-weekend-watch/",
+     "date": "2026-11-08"
     }
    ]
   },
   "eth-usd": {
-   "why": "Ether steadied near 2,230 dollars after Thursday's selloff as Fed hike bets capped gains.",
+   "why": "Ether fell 4.4 percent, touching 2,223 dollars, its lowest since August, on US crypto regulation fears.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures: Crypto Markets Today",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
+     "title": "Cryptocurrencies slide to two-month lows after US midterms",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/cryptocurrencies-slide-to-two-month-lows-after-us-midterms-ce785fd2d081f522",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Bitcoin $73,708, Ether $2,223: Crypto Two-Month Lows",
+     "source": "Tech Insider",
+     "url": "https://tech-insider.org/crypto-two-month-lows-bitcoin-73708-ether-2223-after-midterms-2026/",
+     "date": "2026-11-08"
+    }
+   ]
+  },
+  "divislab-ns": {
+   "why": "Divi's jumped 7.5 percent to a record after September quarter profit rose 64 percent, beating estimates.",
+   "outlook_1y": "Sell-side consensus target 8,950.11 INR from 28 analysts (Yahoo Finance consensus, 9 Nov 2026). Nuvama said the quarter beat consensus profit estimates by about 29 percent (Elets eHealth, Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Divi's Laboratories Q2 FY27: Stellar Performance Drives 64% Profit Surge",
+     "source": "MarketsMojo",
+     "url": "https://www.marketsmojo.com/news/result-analysis/divis-laboratories-q2-fy27-stellar-performance-drives-64-profit-surge-4256028",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Divi's Labs Q2 FY27 Profit Jumps 64%",
+     "source": "Elets eHealth",
+     "url": "https://ehealth.eletsonline.com/2026/11/divis-q2-fy27-results/",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "sunpharma-ns": {
+   "why": "Sun Pharma rose 3.0 percent, topping Muhurat gainers as pharma stocks led the session.",
+   "outlook_1y": "Sell-side consensus target 2,111.94 INR from 33 analysts (Yahoo Finance consensus, 9 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Muhurat Trading 2026: Sensex and Nifty end lower in the first session of Samvat 2083",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/muhurat-trading-2026-highlights-sensex-nifty-samvat-2083/",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Sensex, Nifty end lower in Muhurat trading 2026; pharma, metal stocks gain",
+     "source": "The Federal",
+     "url": "https://thefederal.com/category/business/muhurat-trading-2026-sensex-nifty-262234",
+     "date": "2026-11-08"
+    }
+   ]
+  },
+  "indiavix": {
+   "why": "India VIX rose 5.5 percent as Muhurat gains faded into a slightly lower close.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Muhurat Trading 2026: Sensex and Nifty end lower in the first session of Samvat 2083",
+     "source": "Kotak Neo",
+     "url": "https://www.kotakneo.com/news/market-news/muhurat-trading-2026-highlights-sensex-nifty-samvat-2083/",
+     "date": "2026-11-08"
+    }
+   ]
+  },
+  "twii": {
+   "why": "Taiwan shares extended the AI chip selloff on fears that US data center building could be delayed.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Shares plunge 3.2%, extending losses",
+     "source": "Taipei Times",
+     "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/06/2003867229",
      "date": "2026-11-06"
     },
     {
-     "title": "Bitcoin and Ethereum slip as US jobs report shows 165K new jobs",
-     "source": "The Crypto Times",
-     "url": "https://www.cryptotimes.io/2026/11/06/bitcoin-and-ethereum-slip-as-us-jobs-report-shows-165k-new-jobs/",
-     "date": "2026-11-06"
+     "title": "Taiwan stocks sink 3.2% on AI data center concerns",
+     "source": "Focus Taiwan",
+     "url": "https://focustaiwan.tw/business/202611050014",
+     "date": "2026-11-05"
+    }
+   ]
+  },
+  "xrp-usd": {
+   "why": "XRP fell 3.7 percent to a 30-day low as US spot ETF inflows stalled and liquidations rose.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "XRP Price Hits 30-Day Low as ETF Inflows Stall, Liquidations Rise",
+     "source": "Analytics Insight",
+     "url": "https://www.analyticsinsight.net/news/xrp-price-hits-30-day-low-as-etf-inflows-stall-liquidations-rise",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "XRP and Solana Both Hit 30-Day Lows This Week. Is It Better to Buy XRP or SOL Right Now?",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/cryptocurrency/2026/11/08/xrp-and-solana-both-hit-30-day-lows-this-week-is-it-better-to-buy-xrp-or-sol-right-now/",
+     "date": "2026-11-08"
     }
    ]
   }
