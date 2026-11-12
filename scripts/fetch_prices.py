@@ -3,7 +3,8 @@
 Pulls 5y daily closes for every asset in data/watchlist.json.
 
 Writes
-  data/prices.json          summary for the list view (price, 1d, returns, 52w range, 30d sparkline, consensus)
+  data/prices.json          summary for the list view (price, 1d, returns, 52w range, 30d sparkline, 50/200-day averages,
+                            consensus target and rating, P/E)
   data/series/<id>.json     full 5y daily [[date, close], ...], loaded by the page only when an asset is opened
 
 Sources
@@ -59,10 +60,22 @@ def yahoo_single(symbol):
     if h is None or h.empty: raise RuntimeError("empty history")
     return clean(h["Close"])
 
-def yahoo_target(symbol):
+def num(v):
+    try:
+        v = float(v)
+        return None if math.isnan(v) or math.isinf(v) else round(v, 2)
+    except (TypeError, ValueError):
+        return None
+
+def yahoo_fundamentals(symbol):
+    """One .info call per stock: analyst consensus plus valuation, for the list view and the swipe app."""
     import yfinance as yf
     info = yf.Ticker(symbol).info or {}
-    return info.get("targetMeanPrice"), info.get("numberOfAnalystOpinions")
+    rec = info.get("recommendationKey")
+    return {"target_mean": info.get("targetMeanPrice"), "target_n": info.get("numberOfAnalystOpinions"),
+            "pe_ttm": num(info.get("trailingPE")), "pe_fwd": num(info.get("forwardPE")),
+            "rec_key": rec if rec and rec != "none" else None, "rec_mean": num(info.get("recommendationMean")),
+            "sector": info.get("sector")}
 
 def from_stooq(symbol):
     s = symbol.lower()
@@ -110,7 +123,13 @@ def enrich(series):
     return {"price": round(last, 4), "as_of": last_d, "chg_1d_pct": pct(last, prev),
             "ret_1w": pct(last, back(7)), "ret_1m": pct(last, back(30)), "ret_3m": pct(last, back(91)), "ret_6m": pct(last, back(182)),
             "ret_1y": pct(last, back(365)), "ret_5y": pct(last, back(365 * 5)),
-            "hi_52w": round(max(yr), 4), "lo_52w": round(min(yr), 4), "spark": spark}
+            "hi_52w": round(max(yr), 4), "lo_52w": round(min(yr), 4), "spark": spark,
+            "dma50": sma(series, 50), "dma200": sma(series, 200)}
+
+def sma(series, n):
+    """Simple moving average of the last n closes (trading days), None if history is too short."""
+    if len(series) < n: return None
+    return round(sum(c for d, c in series[-n:]) / n, 4)
 
 # ---------- main ----------
 def main():
@@ -128,7 +147,8 @@ def main():
     for g, a in assets:
         rec = {"id": a["id"], "symbol": a["symbol"], "name": a["name"], "group": g["id"],
                "type": a.get("type", "stock"), "currency": a.get("currency", g.get("currency", "USD")),
-               "news": bool(a.get("news")), "error": None, "target_mean": None, "target_n": None}
+               "news": bool(a.get("news")), "error": None, "target_mean": None, "target_n": None,
+               "pe_ttm": None, "pe_fwd": None, "rec_key": None, "rec_mean": None, "sector": None}
         src = a.get("source", "yahoo")
         try:
             if src == "mfapi":
@@ -146,15 +166,15 @@ def main():
             rec["error"] = str(e)[:160]; log(f"ERR {a['symbol']:<16} {e}")
         out["assets"].append(rec)
 
-    # analyst consensus, stocks only, time-boxed
+    # analyst consensus and valuation, stocks only, time-boxed
     t0 = time.time(); n = 0
     for rec in out["assets"]:
         if rec["type"] != "stock" or rec["error"] or time.time() - t0 > TARGET_TIME_BUDGET: continue
         try:
-            rec["target_mean"], rec["target_n"] = yahoo_target(rec["symbol"]); n += 1
+            rec.update(yahoo_fundamentals(rec["symbol"])); n += 1
         except Exception: pass
         time.sleep(0.3)
-    log(f"targets fetched for {n} stocks in {int(time.time()-t0)}s")
+    log(f"fundamentals fetched for {n} stocks in {int(time.time()-t0)}s")
 
     for f in SERIES_DIR.glob("*.json"):
         if f.name not in keep: f.unlink()

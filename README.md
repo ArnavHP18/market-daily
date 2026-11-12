@@ -4,6 +4,7 @@ Daily market dashboard, same pattern as ai-daily-signal: a Claude Code cloud rou
 
 ```
 index.html                 dashboard (no build step; loads data/*.json at runtime)
+app/                       swipe view for phones: one stock or theme per screen, installable, reads the same data/*.json
 data/watchlist.json        what to track. Edit this, nothing else, to change coverage
 data/prices.json           written by scripts/fetch_prices.py (prices, returns, 52w range, sparklines)
 data/series/<id>.json      5y daily history per asset, loaded on demand by the page

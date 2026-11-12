@@ -81,6 +81,8 @@ header.top.warn .status{color:var(--gold)} .status b{font-weight:600}
 .only-phone{display:none}
 .theme{width:34px;height:34px;display:grid;place-items:center;border-radius:9px;color:var(--ink-2);background:var(--surface);border:1px solid var(--edge)}
 .theme svg{width:17px;height:17px}
+.swipe{height:34px;display:inline-flex;align-items:center;gap:5px;padding:0 11px;border-radius:9px;font-size:13px;font-weight:600;color:var(--ink-2);background:var(--surface);border:1px solid var(--edge);text-decoration:none;white-space:nowrap}
+.swipe+.theme{margin-left:0}
 
 /* ticker tape */
 .tape{display:flex;overflow-x:auto;scrollbar-width:none;background:var(--surface);border-bottom:1px solid var(--line)}
@@ -318,7 +320,7 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
   .app{display:block;height:auto;overflow:visible;padding-bottom:calc(62px + env(safe-area-inset-bottom))}
   header.top{flex-wrap:wrap;gap:4px 12px;padding:10px 16px}
   .status{order:3;flex-basis:100%;gap:0 14px} .status .si+.si::before{content:none}
-  .theme{margin-left:auto}
+  .theme{margin-left:auto} .swipe{margin-left:auto}
   .only-phone{display:block}
   .tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;border:0;border-top:1px solid var(--line);border-radius:0;padding:6px 8px calc(6px + env(safe-area-inset-bottom));background:var(--bg)}
   .tabs button{flex:1;padding:9px 0;font-size:15px}
@@ -374,6 +376,7 @@ textarea.holdings{width:100%;min-height:220px;background:var(--surface);border:1
       <button data-tab="list" class="only-phone">Assets</button>
       <button data-tab="portfolio">Portfolio</button>
     </nav>
+    <a class="swipe" href="app/" aria-label="Open the swipe view: one stock or theme per screen">Swipe ↑</a>
     <button class="theme" id="theme" aria-label="Switch to light theme"></button>
   </header>
   <nav class="tape" id="tape" aria-label="Commodities, currencies, yields and crypto"></nav>

@@ -90,6 +90,22 @@
      "url": "https://www.wsj.com/...",
      "date": "2026-09-12"
     }
+   ],
+   "links": [
+    {
+     "driver": "iPhone demand",
+     "dir": "up",
+     "text": "Pre-orders beat estimates, the first read on this cycle's upgrade demand.",
+     "source": "Reuters",
+     "url": "https://www.reuters.com/..."
+    },
+    {
+     "driver": "US-China tariffs",
+     "dir": "down",
+     "text": "New tariff threats put China-assembled hardware in focus.",
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/..."
+    }
    ]
   },
   "gold": {
@@ -137,5 +153,43 @@
   "week_ending": "2026-09-12",
   "narrative": "Saturday only. Three to five sentences on what drove the week across US, India, metals and crypto, and the setup for next week. Winners and losers are computed on the page from 1W returns; do not list them here."
  },
- "_schema_note": "Keys: date, generated_at, headline (one line, about 15 words), subhead (one sentence), summary{us,india,global} each an array of 3 {text, source, url}, calendar[{when,what}] (separate items within a day with '; '), assets{id:{why,outlook_1y,outlook_lt,news[{title,source,url,date}]}} (why: one sentence on why it moved, empty if the stories do not say), ipos[{name,market,sector,open,close,price_band,lot,size,subscription,gmp,gmp_url,source,source_url,drhp_url}] (subscription, gmp, gmp_url are empty strings when not sourced), weekly{week_ending,narrative} (Saturdays only, otherwise omit or leave unchanged). Older briefs with a long headline and string summaries still render."
+ "_schema_note": "Keys: date, generated_at, headline (one line, about 15 words), subhead (one sentence), summary{us,india,global} each an array of 3 {text, source, url}, calendar[{when,what}] (separate items within a day with '; '), assets{id:{why,outlook_1y,outlook_lt,news[{title,source,url,date}]}} (why: one sentence on why it moved, empty if the stories do not say), ipos[{name,market,sector,open,close,price_band,lot,size,subscription,gmp,gmp_url,source,source_url,drhp_url}] (subscription, gmp, gmp_url are empty strings when not sourced), weekly{week_ending,narrative} (Saturdays only, otherwise omit or leave unchanged). Older briefs with a long headline and string summaries still render. Swipe view (app/): themes[{id,title,kind (macro|tech|politics|geopolitics|policy|earnings),text,assets[{id,dir (up|down|mixed)}],source,url}] and assets{id}.links[{driver,dir,text,source,url}], both optional; every link and theme needs a story URL seen in search results.",
+ "themes": [
+  {
+   "id": "fed-hike",
+   "title": "Hot US inflation revives Fed hike bets",
+   "kind": "macro",
+   "text": "One or two sentences, at most about 40 words: what happened and the mechanism that links it to the assets below.",
+   "assets": [
+    {
+     "id": "tnx",
+     "dir": "up"
+    },
+    {
+     "id": "dx-y-nyb",
+     "dir": "up"
+    },
+    {
+     "id": "gcf",
+     "dir": "down"
+    }
+   ],
+   "source": "Reuters",
+   "url": "https://www.reuters.com/..."
+  },
+  {
+   "id": "election",
+   "title": "Example political theme",
+   "kind": "politics",
+   "text": "Elections, policy, regulation, sanctions or geopolitics only when a cited story makes the link.",
+   "assets": [
+    {
+     "id": "aapl",
+     "dir": "down"
+    }
+   ],
+   "source": "FT",
+   "url": "https://www.ft.com/..."
+  }
+ ]
 }
