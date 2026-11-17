@@ -1,85 +1,85 @@
 {
- "date": "2026-11-16",
- "generated_at": "2026-11-16T00:43:39+00:00",
- "headline": "Nvidia heads into Tuesday results at a 52-week low with a December Fed hike fully priced",
- "subhead": "Nvidia fell 2.0 percent Friday to 162.85 dollars, 31.9 percent below its 52-week high, the 10-year yield sits at 5.15 percent, and bitcoin is 33.0 percent off its high at 64,903.",
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T00:43:46+00:00",
+ "headline": "Nasdaq enters correction as chip rout deepens before Nvidia's first results since Huang's exit",
+ "subhead": "The S&P 500 fell 1.9 percent to 7,416.6 and the Nasdaq 2.5 percent, Nvidia dropped 4.1 percent to a 52-week low of 156.14, and the VIX jumped 18.7 percent to 22.9.",
  "summary": {
   "us": [
    {
-    "text": "S&P 500 fell 0.4 percent to 7,561.7 and the Nasdaq 0.9 percent to 25,136.3 Friday as AMD dropped 8.8 percent and Cisco 6.2 percent.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html"
+    "text": "S&P 500 fell 1.9 percent to 7,416.6 and the Nasdaq 2.5 percent, now 11.2 percent below its 52-week high; chip index lost 5.3 percent.",
+    "source": "Reuters",
+    "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425"
    },
    {
-    "text": "The 10-year yield rose to 5.15 percent as hot CPI data and Fed comments left a December rate hike fully priced.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+    "text": "Nvidia fell 4.1 percent to a 52-week low of 156.14 after Huang's resignation and a new US rule on China's AI chip access; results due Tuesday.",
+    "source": "Motley Fool",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/"
    },
    {
-    "text": "Week ahead: Nvidia reports Tuesday, FOMC minutes land Wednesday and Anthropic is expected to price Wednesday and list Thursday.",
-    "source": "CoinCentral",
-    "url": "https://coincentral.com/the-week-ahead-nvidia-earnings-anthropic-ipo-and-fed-minutes-set-to-shake-wall-street"
+    "text": "Treasury yields dipped, the 10-year to 5.12 percent, as Fed Chair Warsh warned AI might disappoint; futures price a 95.7 percent chance of a December hike.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
    }
   ],
   "india": [
    {
-    "text": "Nifty fell 0.6 percent to 25,144.3 and Bank Nifty 0.8 percent to 61,034.1 on 13 November as October CPI hit 6.1 percent and crude rose.",
-    "source": "Trendlyne",
-    "url": "https://trendlyne.com/posts/5947234/market-closes-lower-on-rising-crude-oil-prices-and-inflation-concerns"
+    "text": "Nifty rose 146.8 points to 25,291.10 and Sensex 510.4 points to 82,102.85 on Monday, led by banks and FMCG; the price feed here still shows Friday.",
+    "source": "Business Standard",
+    "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html"
    },
    {
-    "text": "FIIs net bought about Rs 5,736.6 crore in cash on 13 November while DIIs net sold about Rs 2,253.6 crore.",
-    "source": "Kotak Neo (exchange provisional data)",
-    "url": "https://www.kotakneo.com/share-market-today/fii-dii-data/"
+    "text": "FIIs net bought 4,865 crore rupees in cash on Monday, an 11th straight buying session, while DIIs net sold 3,519 crore.",
+    "source": "Quantsapp",
+    "url": "https://www.quantsapp.com/fii-dii"
    },
    {
-    "text": "Rupee fell 8 paise to 94.20 per dollar on hot US inflation and higher Treasury yields; October WPI and trade data are due Monday.",
-    "source": "The Sen Times (PTI)",
-    "url": "https://thesentimes.com/rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+    "text": "Rupee rose 27 paise to close at 93.92 per dollar on foreign inflows and softer crude.",
+    "source": "Deccan Herald (PTI)",
+    "url": "https://www.deccanherald.com/business/rupee-rises-27-paise-to-close-at-9392-against-us-dollar-4219975"
    }
   ],
   "global": [
    {
-    "text": "Nikkei fell 0.7 percent Monday after Japan's third-quarter GDP unexpectedly shrank; the Hang Seng fell 1.6 percent Friday on a tech selloff.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+    "text": "Kospi closed Monday at 5,100.25 as SK hynix and Samsung slid, Nikkei finished below 60,000, and both fell again at Tuesday's open.",
+    "source": "TradingKey",
+    "url": "https://www.tradingkey.com/analysis/stocks/more/262306489-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-tradingkey"
    },
    {
-    "text": "Europe: the FTSE 100 rose 0.4 percent to a three-month high of 10,902.6 on insurers and oil majors, while the DAX slipped 0.1 percent.",
-    "source": "MLQ.ai",
-    "url": "https://mlq.ai/news/european-stocks-close-at-another-record-as-insurers-and-oil-majors-offset-a-chip-selloff-capping-the-stoxx-600s-best-week-since-june/"
+    "text": "STOXX 600 closed at 662.31, snapping a five-session record run as AI caution weighed on tech and miners; Hang Seng rose to 23,753.84.",
+    "source": "Reuters",
+    "url": "https://www.marketscreener.com/news/european-stocks-ease-as-tech-and-miners-drag-ce785edfdd89ff2c"
    },
    {
-    "text": "Bitcoin hit about 62,081 dollars on 15 November after seven straight days of US spot ETF outflows, then bounced 1.2 percent to 64,903.",
-    "source": "Investing.com",
-    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667"
+    "text": "Brent settled at 92.44 dollars and WTI at 85.72 as Hormuz flows recovered; bitcoin touched 62,100 at the weekend, its lowest since July.",
+    "source": "Rigzone (Bloomberg)",
+    "url": "https://www.rigzone.com/news/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article"
    }
   ]
  },
  "calendar": [
   {
-   "when": "2026-11-16",
-   "what": "India October WPI inflation and trade data; US Empire State index; Fed Chair Kevin Warsh speaks; Tyson Foods results"
-  },
-  {
-   "when": "2026-11-16/2026-11-20",
-   "what": "China October activity data; PBOC loan prime rate; UK CPI and jobs data; RBA minutes; Japan CPI"
-  },
-  {
    "when": "2026-11-17",
-   "what": "NVIDIA third quarter results after the US close; US October retail sales and industrial production; Home Depot and Disney results; Crystal Crop Protection anchor bidding"
+   "what": "NVIDIA third quarter results after the US close; US October retail sales; Home Depot results"
   },
   {
    "when": "2026-11-18",
-   "what": "FOMC minutes from the October meeting; US October housing starts; Anthropic (ANT) IPO expected to price; Crystal Crop Protection IPO opens; Palo Alto Networks, TJX, Target and Lowe's results"
+   "what": "FOMC minutes from the October meeting; Lowe's, Target and TJX results; Crystal Crop Protection IPO opens"
+  },
+  {
+   "when": "2026-11-18/2026-11-19",
+   "what": "Anthropic (ANT) IPO pricing and expected Nasdaq debut"
   },
   {
    "when": "2026-11-19",
-   "what": "Anthropic (ANT) expected Nasdaq debut; Walmart, Intuit and Ross Stores results; US jobless claims and Philadelphia Fed index"
+   "what": "Walmart results; Alibaba results; Mahanadi Coalfields IPO opens"
   },
   {
    "when": "2026-11-20",
-   "what": "Crystal Crop Protection IPO closes; RBI weekly forex reserves; University of Michigan sentiment final; US monthly options expiration"
+   "what": "Crystal Crop Protection IPO closes; University of Michigan consumer sentiment"
+  },
+  {
+   "when": "2026-11-23",
+   "what": "Mahanadi Coalfields IPO closes"
   }
  ],
  "ipos": [
@@ -93,11 +93,27 @@
    "lot": "55 shares",
    "size": "₹455.49 cr (fresh ₹354.77 cr, OFS ₹100.71 cr)",
    "subscription": "",
-   "gmp": "₹27 (9.9%) as of 15 Nov",
-   "gmp_url": "https://www.investorgain.com/gmp/crystal-crop-protection-ipo/2067/",
+   "gmp": "₹15 (5.5%) as of 16 Nov",
+   "gmp_url": "https://www.investorgain.com/gmp/crystal-crop-protection-ipo-gmp/2067/",
    "source": "Chittorgarh",
    "source_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
    "drhp_url": "https://www.iiflcapital.com/institutional-equities/upload/investmentbanking/prospects/crystal_crop_protection_limited_-_red_herring_prospectus.pdf"
+  },
+  {
+   "name": "Mahanadi Coalfields",
+   "market": "India (NSE/BSE)",
+   "sector": "Coal mining (Coal India subsidiary)",
+   "open": "2026-11-19",
+   "close": "2026-11-23",
+   "price_band": "₹129 to ₹136",
+   "lot": "110 shares",
+   "size": "₹8,981.12 cr (entirely OFS by Coal India)",
+   "subscription": "",
+   "gmp": "",
+   "gmp_url": "",
+   "source": "Upstox",
+   "source_url": "https://upstox.com/news/market-news/ipo/mahanadi-coalfields-ipo-price-band-set-at-129-136-per-share-check-lot-size-and-key-dates/article-203479/",
+   "drhp_url": ""
   },
   {
    "name": "Anthropic (ANT)",
@@ -112,7 +128,7 @@
    "gmp": "",
    "gmp_url": "",
    "source": "Renaissance Capital",
-   "source_url": "https://www.renaissancecapital.com/IPO-Center/News/122723/us-ipo-week-ahead-ai-giant-anthropic-gears-up-for-historic-ipo",
+   "source_url": "https://www.renaissancecapital.com/IPO-Center/News/122727/us-ipo-weekly-recap-two-sizable-ipos-price-a-multibillion-dollar-deal",
    "drhp_url": ""
   }
  ],
@@ -122,840 +138,784 @@
  },
  "assets": {
   "gspc": {
-   "why": "S&P 500 fell 0.4 percent as chip and AI stocks sold off after Jensen Huang's exit from Nvidia.",
+   "why": "Fell as AI and chip stocks sold off after Nvidia's CEO exit and new US curbs on China's AI chip access.",
    "outlook_1y": "Goldman Sachs year-end 2027 target 8,700 (19 Oct 2026); Barclays 8,800 for year-end 2027; Jefferies 9,000 by end-2027; Morgan Stanley 8,300 on a 12-month horizon (SimianX target tracker, Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     },
     {
-     "title": "Stocks making the biggest moves Friday: Nvidia, Cisco Systems, AMD, Apple, Modine and more",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html",
-     "date": "2026-11-13"
+     "title": "Stocks slide to kick off major week for Wall Street",
+     "source": "CNN",
+     "url": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic",
+     "date": "2026-11-16"
     },
     {
-     "title": "Week ahead: Fed minutes, inflation data and Nvidia earnings to guide investors",
-     "source": "FXStreet",
-     "url": "https://www.fxstreet.com/analysis/week-ahead-fed-minutes-inflation-data-and-nvidia-earnings-to-guide-investors-202611131033",
-     "date": "2026-11-13"
+     "title": "Dow and S&P 500 drop, Nasdaq sinks over 2% as Nvidia leads AI trade lower, Anthropic IPO looms",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+     "date": "2026-11-16"
     }
    ]
   },
   "ixic": {
-   "why": "Nasdaq fell 0.9 percent as an AI hardware selloff hit AMD, Cisco and Broadcom.",
+   "why": "Entered correction, 11.2 percent below its 52-week high, as chipmakers led a broad AI selloff.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "AMD falls 8.8% and Cisco 6.2% in chip pullback that drags the Nasdaq 100 down 1.2%",
-     "source": "Quantisnow",
-     "url": "https://www.quantisnow.com/articles/amd-falls-8-8-and-cisco-6-2-in-chip-pullback-that-leaves-the-average-stock-higher",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     },
     {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
+     "title": "Dow and S&P 500 drop, Nasdaq sinks over 2% as Nvidia leads AI trade lower, Anthropic IPO looms",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Arm and Marvell sink 8% as AI chip selloff deepens ahead of NVIDIA earnings",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/16/arm-and-marvell-sink-8-as-ai-chip-selloff-deepens-ahead-of-nvidia-earnings-applied-materials-drops-5/",
+     "date": "2026-11-16"
     }
    ]
   },
   "tnx": {
-   "why": "Yields rose as hot inflation data and Fed comments left a December rate hike fully priced.",
+   "why": "Yields dipped as stocks retreated and Fed Chair Warsh warned that AI might disappoint.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected",
+     "title": "Treasury prices catch a small bid as stock market weakens and Warsh says AI might 'disappoint'",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
-     "date": "2026-11-12"
+     "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html",
+     "date": "2026-11-16"
     },
     {
-     "title": "Fed rate hike December 2026: borrowing and savings outlook",
-     "source": "JournalArta",
-     "url": "https://journalarta.com/en/2026/11/15/fed-december-2026-hike-risk-borrowers-savers/",
-     "date": "2026-11-15"
+     "title": "U.S. Treasury yields top 5% as Warsh speech draws focus",
+     "source": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/world/2026/11/16/us-10-year-yield-tops-5-percent-as-markets-await-fed-chair",
+     "date": "2026-11-16"
     }
    ]
   },
   "aapl": {
-   "why": "Apple closed at a record high as investors treated it as a haven from the AI stock selloff.",
+   "why": "",
    "outlook_1y": "Sell-side consensus target 345.63 USD from 39 analysts (Yahoo Finance consensus, 16 Nov 2026); Bernstein reiterated outperform with a 380 dollar target (CNBC, 13 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Apple shares hit fresh record high: the AI safe-haven premium behind 37x P/E",
-     "source": "TradingKey",
-     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262303076-apple-stock-record-high-37-times-earnings-ai-safe-haven-bernstein-tradingkey",
-     "date": "2026-11-12"
-    },
-    {
-     "title": "Apple stock hits all-time high at 355.4 USD",
-     "source": "Investing.com",
-     "url": "https://www.investing.com/news/company-news/apple-stock-hits-alltime-high-at-3554-usd-93CH-5019808",
-     "date": "2026-11-11"
-    },
-    {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
-    }
-   ]
+   "news": []
   },
   "msft": {
-   "why": "Microsoft edged up 0.2 percent as a global Outlook and Teams outage eased.",
-   "outlook_1y": "Sell-side consensus target 636.12 USD from 54 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 636.12 USD from 54 analysts (Yahoo Finance consensus, 17 Nov 2026). Truist reiterated buy with a 630 dollar target and RBC outperform with 640 (Investing.com, 16 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Closing Look: Friday, November 13, 2026",
-     "source": "CappNotes",
-     "url": "https://cappnotes.substack.com/p/closing-look-friday-november-13-2026",
-     "date": "2026-11-13"
+     "title": "Microsoft 365 outage: what it means for the stock and market positioning",
+     "source": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/microsoft-365-outage-what-it-means-for-the-stock-and-market-positioning-93CH-5030741",
+     "date": "2026-11-16"
     },
     {
-     "title": "Microsoft pulls back 8% from record high as technicals warn of further downside",
-     "source": "TradingKey",
-     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262303629-stock-microsoft-msft-exce-ai-fed-cpi-anthropic-copilot-tradingkey",
-     "date": "2026-11-13"
+     "title": "Truist reiterates Microsoft stock rating on debt issuance impact",
+     "source": "Investing.com",
+     "url": "https://uk.investing.com/news/stock-market-news/truist-reiterates-microsoft-stock-rating-on-debt-issuance-impact-93CH-4985329",
+     "date": "2026-11-16"
     }
    ]
   },
   "nvda": {
-   "why": "Nvidia fell 2.0 percent to a 52-week low as investors weighed Jensen Huang's exit before Tuesday's results.",
-   "outlook_1y": "Sell-side consensus target 276.56 USD from 53 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell to a 52-week low after Jensen Huang's resignation and a new US rule curbing China's AI chip access.",
+   "outlook_1y": "Sell-side consensus target 268.76 USD from 54 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     },
     {
-     "title": "Nvidia earnings preview: what to expect as Kress faces first test without Huang",
-     "source": "Invezz",
-     "url": "https://invezz.com/news/2026/11/13/nvidia-earnings-preview-q3-kress-huang/",
-     "date": "2026-11-13"
+     "title": "Stock Market Today, Nov. 16: Nvidia sinks as U.S. tightens AI chip restrictions and analysts slash price targets",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/",
+     "date": "2026-11-16"
     },
     {
-     "title": "Nvidia earnings preview: NVDA's first test of the post Jensen Huang era",
-     "source": "StoneX",
-     "url": "https://www.stonex.com/en-gb/news-and-analysis/nvidia-earnings-preview-nvda-s-first-test-of-the-post-jenson-huang-era/",
-     "date": "2026-11-13"
+     "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang's exit",
+     "source": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+     "date": "2026-11-16"
     }
    ]
   },
   "amzn": {
-   "why": "Amazon slipped 0.3 percent as AI stocks closed lower after Nvidia's leadership turmoil.",
-   "outlook_1y": "Sell-side consensus target 326.29 USD from 60 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell with Alphabet and Meta as AI jitters hit megacaps ahead of Nvidia results and the Anthropic IPO.",
+   "outlook_1y": "Sell-side consensus target 326.29 USD from 60 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Dow and S&P 500 drop, Nasdaq sinks over 2% as Nvidia leads AI trade lower, Anthropic IPO looms",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+     "date": "2026-11-16"
     }
    ]
   },
   "googl": {
-   "why": "Alphabet fell 1.0 percent as AI stocks closed lower after Jensen Huang's exit from Nvidia.",
-   "outlook_1y": "Sell-side consensus target 400.37 USD from 53 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell with Amazon and Meta as AI jitters hit megacaps ahead of Nvidia results and the Anthropic IPO.",
+   "outlook_1y": "Sell-side consensus target 400.37 USD from 53 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     },
     {
-     "title": "Goldman: S&P 500 to 8,700 on cheap hyperscaler valuations",
-     "source": "FourWeekMBA",
-     "url": "https://fourweekmba.com/ai-goldman-sp-500-to-8700-on-cheap-hyperscaler-valuations/",
-     "date": "2026-11-13"
+     "title": "Stocks slide to kick off major week for Wall Street",
+     "source": "CNN",
+     "url": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic",
+     "date": "2026-11-16"
     }
    ]
   },
   "meta": {
-   "why": "Meta rose 2.9 percent after completing a 9 billion euro bond sale and joining JPMorgan's focus list.",
-   "outlook_1y": "Sell-side consensus target 851.12 USD from 57 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell with other AI megacaps in a broad tech selloff that also hit social media peers Snap and Pinterest.",
+   "outlook_1y": "Sell-side consensus target 850.59 USD from 58 analysts (Yahoo Finance consensus, 17 Nov 2026). Morgan Stanley raised its target to 820 dollars (Yahoo Finance, Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Why is Meta Platforms stock climbing today?",
-     "source": "Investing.com",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-meta-platforms-stock-climbing-today-93CH-5026053",
-     "date": "2026-11-13"
+     "title": "Stock Market Today, Nov. 16: Snap falls amid tech sector sell-off",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-16-223308256.html",
+     "date": "2026-11-16"
     },
     {
-     "title": "Meta Platforms stock jumps 2.9%: here's why",
+     "title": "Meta Platforms stock falls 2.4%",
      "source": "MarketBeat",
-     "url": "https://www.marketbeat.com/instant-alerts/price-meta-platforms-nasdaq-meta-stock-jumps-29-heres-why-2026-11-13/",
-     "date": "2026-11-13"
+     "url": "https://www.marketbeat.com/instant-alerts/price-meta-platforms-nasdaq-meta-stock-falls-24-time-to-sell-2026-11-16/",
+     "date": "2026-11-16"
     },
     {
-     "title": "Meta reclaims 625 dollar share-sale price, eyes 651.60 resistance",
-     "source": "FX Leaders",
-     "url": "https://www.fxleaders.com/news/2026/11/13/meta-stock-forecast-meta-reclaims-625-share-sale-price-eyes-651-60-resistance/",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     }
    ]
   },
   "tsla": {
-   "why": "Tesla fell 1.8 percent as AI-linked stocks closed lower after Nvidia's leadership turmoil.",
-   "outlook_1y": "Sell-side consensus target 412.48 USD from 40 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 412.48 USD from 40 analysts (Yahoo Finance consensus, 17 Nov 2026). JPMorgan reiterated neutral with a 430 dollar target (Investing.com, Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "AI stocks close lower Friday as markets absorb Jensen Huang's exit from Nvidia",
-     "source": "Forbes",
-     "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Tesla Cybercab orders open at 29,990 dollars with an autonomy subscription",
-     "source": "Fox Business",
-     "url": "https://www.foxbusiness.com/technology/tesla-makes-major-cybercab-announcement-driverless-vehicle-goes-sale",
-     "date": "2026-11-14"
-    },
-    {
-     "title": "SpaceX could announce a deal for Tesla as soon as December",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/13/spacex-could-announce-a-deal-for-tesla-as-soon-as-december-here-s-what-it-would-do-to-spacex-stock/",
-     "date": "2026-11-13"
-    }
-   ]
+   "news": []
   },
   "jpm": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 373.48 USD from 23 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell as customers reported online account access problems and bank shares slid with the market.",
+   "outlook_1y": "Sell-side consensus target 373.48 USD from 23 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "JPMorgan stock slid after reports Senate Democrats plan a new investigation over its Epstein relationship",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/13/jpmorgan-stock-slid-report-senate-democrats-investigation-jamie-dimon-jeffrey-epstein-relationship-why-political-risk-jpm-shares/",
-     "date": "2026-11-13"
+     "title": "JPMorgan Chase shares dip amid online access issues",
+     "source": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/9202440/jpmorgan-chase-jpm-shares-dip-amid-online-access-issues-dividend-sustainability-in-focus",
+     "date": "2026-11-16"
     },
     {
-     "title": "Jamie Dimon says outside AI agents will be blocked from JPMorgan accounts",
-     "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/14/jamie-dimon-just-said-5-words-blocking-outside-ai/",
-     "date": "2026-11-14"
+     "title": "JPMorgan Chase stock price down 2.3%",
+     "source": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/price-jpmorgan-chase-co-nyse-jpm-stock-price-down-23-should-you-sell-2026-11-16/",
+     "date": "2026-11-16"
     }
    ]
   },
-  "amd": {
-   "why": "AMD fell 8.8 percent as chip stocks reversed part of their rally after Huang's resignation from Nvidia.",
-   "outlook_1y": "Sell-side consensus target 657.74 USD from 49 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "AMD and Broadcom shares tumble a day after rallying on Jensen Huang resignation",
-     "source": "JKN",
-     "url": "https://news.jkn.co.kr/editions/english/post/1092519",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Stocks making the biggest moves Friday: Nvidia, Cisco Systems, AMD, Apple, Modine and more",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "AMD falls 8.8% and Cisco 6.2% in chip pullback",
-     "source": "Quantisnow",
-     "url": "https://www.quantisnow.com/articles/amd-falls-8-8-and-cisco-6-2-in-chip-pullback-that-leaves-the-average-stock-higher",
-     "date": "2026-11-13"
-    }
-   ]
-  },
-  "csco": {
-   "why": "Cisco slid 6.2 percent a day after beating estimates and raising its full-year outlook.",
-   "outlook_1y": "Sell-side consensus target 129.96 USD from 24 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Stocks making the biggest moves Friday: Nvidia, Cisco Systems, AMD, Apple, Modine and more",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html",
-     "date": "2026-11-13"
-    }
-   ]
-  },
-  "avgo": {
-   "why": "Broadcom fell 4.8 percent as chip stocks reversed part of their post-Huang rally.",
-   "outlook_1y": "Sell-side consensus target 529.24 USD from 47 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "AMD and Broadcom shares tumble a day after rallying on Jensen Huang resignation",
-     "source": "JKN",
-     "url": "https://news.jkn.co.kr/editions/english/post/1092519",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Broadcom's 113 billion dollars in financing guarantees: is the risk priced in?",
-     "source": "Rolling Out",
-     "url": "https://rollingout.com/2026/11/13/broadcom-stock-falls-4-reasons/",
-     "date": "2026-11-13"
-    }
-   ]
-  },
-  "nsei": {
-   "why": "Nifty fell 0.6 percent as October CPI inflation hit 6.1 percent and crude prices rose.",
-   "outlook_1y": "Citi raised its end-2027 Nifty 50 target to 28,000 on 9 Nov 2026; HSBC upgraded India to overweight the same day (Reuters via The Star).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Market closes lower on rising crude oil prices and inflation concerns",
-     "source": "Trendlyne",
-     "url": "https://trendlyne.com/posts/5947234/market-closes-lower-on-rising-crude-oil-prices-and-inflation-concerns",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Markets next week: return of FIIs, Nvidia earnings, inflation and US trade deal",
-     "source": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-key-triggers-that-could-move-dalal-street-return-of-fiis-nvidia-earnings-inflation-and-us-trade-deal-567496-2026-11-15",
-     "date": "2026-11-15"
-    },
-    {
-     "title": "Sensex and Nifty50 fall as India's headline inflation hits 6.09%",
-     "source": "Archyde",
-     "url": "https://www.archyde.com/sensex-and-nifty50-fall-as-indias-headline-inflation-hits-6-09/",
-     "date": "2026-11-13"
-    }
-   ]
-  },
-  "nsebank": {
-   "why": "Bank Nifty fell 0.8 percent as inflation above 6 percent stoked rate hike worries.",
+  "vix": {
+   "why": "Jumped as the Nasdaq fell into correction on AI jitters ahead of Nvidia results.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Market closes lower on rising crude oil prices and inflation concerns",
-     "source": "Trendlyne",
-     "url": "https://trendlyne.com/posts/5947234/market-closes-lower-on-rising-crude-oil-prices-and-inflation-concerns",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     },
     {
-     "title": "Markets next week: return of FIIs, Nvidia earnings, inflation and US trade deal",
-     "source": "Business Today",
-     "url": "https://www.businesstoday.in/markets/stocks/story/markets-next-week-key-triggers-that-could-move-dalal-street-return-of-fiis-nvidia-earnings-inflation-and-us-trade-deal-567496-2026-11-15",
-     "date": "2026-11-15"
+     "title": "Dow and S&P 500 drop, Nasdaq sinks over 2% as Nvidia leads AI trade lower, Anthropic IPO looms",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "arm": {
+   "why": "Fell as a research firm cut chip growth estimates and Nvidia's CEO search kept Arm's Rene Haas in focus.",
+   "outlook_1y": "Sell-side consensus target 272.43 USD from 40 analysts (Yahoo Finance consensus, 17 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Why Arm Holdings plunged today",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/16/why-arm-holdings-plunged-today/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Arm stocks slide as Nvidia CEO search keeps Rene Haas in focus",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/arm-stocks-slide-6-72-174928553.html",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Arm and Marvell sink 8% as AI chip selloff deepens ahead of NVIDIA earnings",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/16/arm-and-marvell-sink-8-as-ai-chip-selloff-deepens-ahead-of-nvidia-earnings-applied-materials-drops-5/",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "mstr": {
+   "why": "Fell as bitcoin traded below Strategy's 75,452 dollar average cost after a weekend crypto selloff.",
+   "outlook_1y": "Sell-side consensus target 233.27 USD from 15 analysts (Yahoo Finance consensus, 17 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Strategy stocks fall 7% as bitcoin trades below its 75,452 dollar average cost",
+     "source": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/9202064/strategy-stocks-fall-7-as-bitcoin-trades-below-its-75452-average-cost",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Strategy sinks 8% as bitcoin selloff deepens; Coinbase and MARA fall 7%",
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/16/strategy-sinks-8-as-bitcoin-selloff-deepens-coinbase-and-mara-fall-7/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "MSTR stock drops 8% as Strategy adds 485 BTC during bitcoin sell-off",
+     "source": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/16/mstr-stock-drops-8-as-strategy-adds-485-btc-during-bitcoin-sell-off/",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "nsei": {
+   "why": "",
+   "outlook_1y": "Citi raised its end-2027 Nifty 50 target to 28,000 on 9 Nov 2026; HSBC upgraded India to overweight the same day (Reuters via The Star).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Sensex ends 512 pts higher, Nifty at 25,291; FMCG, bank shares outshine",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Sensex ends 512 pts higher, Nifty reclaims 25,250 led by bank, FMCG shares",
+     "source": "Zee Business",
+     "url": "https://www.zeebiz.com/market-news/news-sensex-nifty-nov-16-2026-share-market-news-highlights-405612",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "nsebank": {
+   "why": "",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Sensex ends 512 pts higher, Nifty reclaims 25,250 led by bank, FMCG shares",
+     "source": "Zee Business",
+     "url": "https://www.zeebiz.com/market-news/news-sensex-nifty-nov-16-2026-share-market-news-highlights-405612",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Sensex ends 512 pts higher, Nifty at 25,291; FMCG, bank shares outshine",
+     "source": "Business Standard",
+     "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html",
+     "date": "2026-11-16"
     }
    ]
   },
   "reliance-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,615.00 INR from 26 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,615.00 INR from 26 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Reliance Industries shares rebound 15% in November, add Rs 2.38 lakh crore in market value",
-     "source": "TradingView (Business Standard)",
-     "url": "https://www.tradingview.com/news/moodys:152be9b3bb1e8:0-reliance-industries-shares-rebound-15-in-november-add-rs-2-38-lakh-crore-in-market-value-what-s-changed/",
-     "date": "2026-11-13"
-    }
-   ]
-  },
-  "tcs-ns": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 2,370.38 INR from 40 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "IT sector stocks today, November 13: Coforge jumps, Mphasis gains; large-caps weak",
-     "source": "Business Upturn",
-     "url": "https://businessupturn.com/finance/stock-market/it-sector-stocks-today-november-13-coforge-jumps-1-43-mphasis-gains-1-24-sonata-software-falls-1-61/",
-     "date": "2026-11-13"
-    }
-   ]
+   "news": []
   },
   "hdfcbank-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 961.55 INR from 42 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 961.55 INR from 42 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": []
   },
   "icicibank-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,769.74 INR from 42 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,769.74 INR from 42 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": []
   },
-  "infy-ns": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 1,200.10 INR from 42 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "IT sector stocks today, November 13: Coforge jumps, Mphasis gains; large-caps weak",
-     "source": "Business Upturn",
-     "url": "https://businessupturn.com/finance/stock-market/it-sector-stocks-today-november-13-coforge-jumps-1-43-mphasis-gains-1-24-sonata-software-falls-1-61/",
-     "date": "2026-11-13"
-    }
-   ]
-  },
   "sbin-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,233.23 INR from 39 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,233.23 INR from 39 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": []
   },
   "bajfinance-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,166.71 INR from 35 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,166.71 INR from 35 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Stocks to watch: Bajaj Finance launches Rs 11,700 crore QIP at indicative Rs 1,025",
-     "source": "Business Standard",
-     "url": "https://www.business-standard.com/amp/markets/news/stocks-to-watch-bajaj-finance-grse-lic-meesho-itc-tata-investment-126111200073_1.html",
-     "date": "2026-11-12"
-    }
-   ]
+   "news": []
   },
   "adanient-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 3,429.00 INR from 4 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 3,429.00 INR from 4 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Adani Enterprises share price closes at 2,741.50, gains 0.99% on November 12",
-     "source": "5paisa",
-     "url": "https://www.5paisa.com/blog/adani-enterprises-stock-update-12-nov-26",
-     "date": "2026-11-12"
-    }
-   ]
+   "news": []
   },
   "policybzr-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 1,454.22 INR from 23 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 1,454.22 INR from 23 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": []
   },
   "tmcv-ns": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 508.29 INR from 21 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 508.29 INR from 21 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": []
+  },
+  "tcs-ns": {
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 2,383.12 INR from 40 analysts (Yahoo Finance consensus, 17 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "IT stocks today: Tech Mahindra, HCL Tech, Infosys and TCS gain while midcaps decline",
+     "source": "Business Upturn",
+     "url": "https://businessupturn.com/finance/stock-market/it-stocks-today-november-16-tech-mahindra-hcl-tech-infosys-and-tcs-gain-while-route-mobile-cigniti-technologies-decline/",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "infy-ns": {
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 1,200.10 INR from 42 analysts (Yahoo Finance consensus, 17 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "IT stocks today: Tech Mahindra, HCL Tech, Infosys and TCS gain while midcaps decline",
+     "source": "Business Upturn",
+     "url": "https://businessupturn.com/finance/stock-market/it-stocks-today-november-16-tech-mahindra-hcl-tech-infosys-and-tcs-gain-while-route-mobile-cigniti-technologies-decline/",
+     "date": "2026-11-16"
+    }
+   ]
   },
   "indiavix": {
    "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Market closes lower on rising crude oil prices and inflation concerns",
-     "source": "Trendlyne",
-     "url": "https://trendlyne.com/posts/5947234/market-closes-lower-on-rising-crude-oil-prices-and-inflation-concerns",
-     "date": "2026-11-13"
-    }
-   ]
+   "news": []
   },
   "n225": {
-   "why": "Nikkei fell after Japan's third-quarter GDP unexpectedly shrank at a 0.1 percent annualized pace.",
+   "why": "Slipped below 60,000 as chip names such as Kioxia tumbled in the AI selloff before Nvidia results.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Stock market today: live updates (Nikkei leads Asia losses after Japan GDP shrinks)",
-     "source": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
-     "date": "2026-11-15"
-    },
-    {
-     "title": "Japan's Q3 GDP dropped an annualized 0.1%",
-     "source": "Nikkei Asia",
-     "url": "https://asia.nikkei.com/economy/japan-s-q3-gdp-dropped-an-annualized-0.1",
+     "title": "Kospi slumps over 3%, Nikkei 225 falls below 60,000 as SK Hynix and Kioxia tumble over 7%",
+     "source": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/more/262306489-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-tradingkey",
      "date": "2026-11-16"
     },
     {
-     "title": "Japan's GDP arrives at 0% QoQ in Q3 2026 vs 0.1% expected",
-     "source": "FXStreet",
-     "url": "https://fxstreet.com/news/japans-gdp-arrives-at-0-qoq-in-q3-2026-vs-01-expected-202611152353",
-     "date": "2026-11-15"
+     "title": "Kospi falls more than 1% and the Nikkei slips at Tuesday's open as Asia follows Wall Street's chip selloff",
+     "source": "MLQ.ai",
+     "url": "https://mlq.ai/news/kospi-falls-more-than-1-and-the-nikkei-slips-at-tuesdays-open-as-asia-follows-wall-streets-chip-selloff-before-nvidia-results/",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  "ks11": {
+   "why": "Slumped as SK hynix and Samsung fell on heavy foreign selling in the AI chip rout.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Kospi slumps over 3%, Nikkei 225 falls below 60,000 as SK Hynix and Kioxia tumble over 7%",
+     "source": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/more/262306489-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-tradingkey",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Kospi falls more than 1% and the Nikkei slips at Tuesday's open as Asia follows Wall Street's chip selloff",
+     "source": "MLQ.ai",
+     "url": "https://mlq.ai/news/kospi-falls-more-than-1-and-the-nikkei-slips-at-tuesdays-open-as-asia-follows-wall-streets-chip-selloff-before-nvidia-results/",
+     "date": "2026-11-17"
     }
    ]
   },
   "hsi": {
-   "why": "Hang Seng fell 1.6 percent as AI and chip worries drove a tech selloff that hit Alibaba and Tencent.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Hong Kong stocks tumble 370.95 points as tech selloff drags Hang Seng below 24,000",
-     "source": "BusinessToday Malaysia",
-     "url": "https://www.businesstoday.com.my/2026/11/14/hong-kong-stocks-tumble-370-95-points-as-tech-selloff-drags-hang-seng-below-24000/",
-     "date": "2026-11-14"
+     "title": "Hang Seng rises 0.49% to 23,753.84 after three-day slide",
+     "source": "ad-hoc-news",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/hang-seng-rises-0-49-prozent-to-23-753-84-after-three-day-slide/70522190",
+     "date": "2026-11-16"
     },
     {
-     "title": "Hang Seng falls 370 points as tech stocks plunge",
-     "source": "The Standard",
-     "url": "https://www.thestandard.com.hk/finance/article/348438/Hang-Seng-falls-370-points-as-tech-stocks-plunge",
-     "date": "2026-11-13"
+     "title": "Hang Seng Index rebounds from four-day slide as China data misses",
+     "source": "Vantage Markets",
+     "url": "https://www.vantagemarkets.com/market-news/hang-seng-index-rebounds-from-four-day-slide-as-china-data-misses-november-16-2026/",
+     "date": "2026-11-16"
     }
    ]
   },
   "ftse": {
-   "why": "FTSE 100 hit a three-month high as insurers, utilities and oil majors offset a chip selloff.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "European stocks close at another record as insurers and oil majors offset a chip selloff",
-     "source": "MLQ.ai",
-     "url": "https://mlq.ai/news/european-stocks-close-at-another-record-as-insurers-and-oil-majors-offset-a-chip-selloff-capping-the-stoxx-600s-best-week-since-june/",
-     "date": "2026-11-13"
+     "title": "European stocks close weak after cautious session",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-weak-cautious-190339591.html",
+     "date": "2026-11-16"
     },
     {
-     "title": "European stocks close mixed",
-     "source": "QNA",
-     "url": "https://qna.org.qa/en/news/news-details?id=european-stocks-close-mixed&date=14%2F11%2F2026",
-     "date": "2026-11-14"
+     "title": "European stocks ease as tech and miners drag",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/european-stocks-ease-as-tech-and-miners-drag-ce785edfdd89ff2c",
+     "date": "2026-11-16"
     }
    ]
   },
   "gdaxi": {
-   "why": "DAX slipped 0.1 percent as chipmakers such as Infineon fell on Nvidia's leadership crisis.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "European stocks close at another record as insurers and oil majors offset a chip selloff",
-     "source": "MLQ.ai",
-     "url": "https://mlq.ai/news/european-stocks-close-at-another-record-as-insurers-and-oil-majors-offset-a-chip-selloff-capping-the-stoxx-600s-best-week-since-june/",
-     "date": "2026-11-13"
+     "title": "European stocks ease as tech and miners drag",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/european-stocks-ease-as-tech-and-miners-drag-ce785edfdd89ff2c",
+     "date": "2026-11-16"
     },
     {
-     "title": "European stocks close mixed",
-     "source": "QNA",
-     "url": "https://qna.org.qa/en/news/news-details?id=european-stocks-close-mixed&date=14%2F11%2F2026",
-     "date": "2026-11-14"
+     "title": "European stocks close weak after cautious session",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-weak-cautious-190339591.html",
+     "date": "2026-11-16"
     }
    ]
   },
   "tsm": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 586.69 USD from 20 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": []
-  },
-  "baba": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 184.44 USD from 40 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell with chip stocks on uncertainty after Jensen Huang's resignation from Nvidia ahead of its results.",
+   "outlook_1y": "Sell-side consensus target 586.69 USD from 20 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Hong Kong stocks tumble 370.95 points as tech selloff drags Hang Seng below 24,000",
-     "source": "BusinessToday Malaysia",
-     "url": "https://www.businesstoday.com.my/2026/11/14/hong-kong-stocks-tumble-370-95-points-as-tech-selloff-drags-hang-seng-below-24000/",
-     "date": "2026-11-14"
+     "title": "Nvidia tumbles 4%, TSMC ADR falls nearly 5% ahead of first earnings call since Jensen Huang's departure",
+     "source": "BigGo Finance",
+     "url": "https://finance.biggo.com/news/bef30632-90cc-4372-880b-f01d685418a3",
+     "date": "2026-11-16"
     },
     {
-     "title": "Semiconductors lift China stocks; Hong Kong falls as Alibaba weighs",
-     "source": "Business Recorder",
-     "url": "https://www.brecorder.com/news/40448556/semiconductors-lift-china-stocks-hong-kong-falls-as-alibaba-weighs",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
     }
    ]
   },
-  "nvo": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 45.49 USD from 12 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+  "asml": {
+   "why": "Fell as the Philadelphia Semiconductor Index dropped 5.3 percent in a broad chip selloff.",
+   "outlook_1y": "Sell-side consensus target 2,109.51 USD from 17 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": []
+   "news": [
+    {
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
+    }
+   ]
   },
-  "sony": {
+  "baba": {
    "why": "",
-   "outlook_1y": "Sell-side consensus target 31.75 USD from 4 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "outlook_1y": "Sell-side consensus target 184.90 USD from 40 analysts (Yahoo Finance consensus, 17 Nov 2026). Jefferies nudged its target to 192 dollars (Blockchain.News, 16 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": []
+   "news": [
+    {
+     "title": "Alibaba Group shares down 4%",
+     "source": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/price-alibaba-group-nyse-baba-shares-down-4-whats-next-2026-11-16/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Should you buy Alibaba stock before the huge investor update?",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/16/should-you-buy-alibaba-stock-before-the-huge-investor-update/",
+     "date": "2026-11-16"
+    }
+   ]
   },
-  "twii": {
-   "why": "",
-   "outlook_1y": "No cited forecast found this run.",
+  "bhp": {
+   "why": "Fell as miners dragged the ASX and copper hit an almost four-month low on the LME.",
+   "outlook_1y": "Sell-side consensus target 79.36 USD from 7 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": []
+   "news": [
+    {
+     "title": "ASX falls as miners drag, Coles investigates cybersecurity incident",
+     "source": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-11-16/asx-markets-business-live-news-nov-16/107388134",
+     "date": "2026-11-16"
+    }
+   ]
   },
   "inrx": {
-   "why": "Rupee weakened as hot US inflation, rising Treasury yields and hawkish Fed remarks lifted the dollar.",
+   "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Rupee falls 8 paise to close at 94.20 against US dollar",
-     "source": "The Sen Times (PTI)",
-     "url": "https://thesentimes.com/rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/",
-     "date": "2026-11-13"
+     "title": "Rupee rises 27 paise to close at 93.92 against US dollar on fund inflows",
+     "source": "Deccan Herald",
+     "url": "https://www.deccanherald.com/business/rupee-rises-27-paise-to-close-at-9392-against-us-dollar-4219975",
+     "date": "2026-11-16"
     }
    ]
   },
   "dx-y-nyb": {
-   "why": "",
+   "why": "Firmed as traders raised bets on a December Fed rate hike.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "US Dollar price forecast: DXY holds 102.88 as EUR/USD tests 1.1056",
-     "source": "FXEmpire",
-     "url": "https://www.fxempire.com/forecasts/article/us-dollar-price-forecast-dxy-holds-102-88-as-eur-usd-tests-1-1056-gbp-usd-eyes-1-3200-1644417",
-     "date": "2026-11-13"
+     "title": "Gold, silver extend losses as Fed hike bets rise, dollar remains firm",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-fed-hike-bets-rise-dollar-remains-firm-kitco-am",
+     "date": "2026-11-16"
     }
    ]
-  },
-  "eurusdx": {
-   "why": "Euro sat at a 52-week low as markets priced a faster Fed hiking path than the ECB's.",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "EUR/USD holds 1.1051 19-month low as Fed outpaces ECB",
-     "source": "TradingNews",
-     "url": "https://www.tradingnews.com/news/eur-usd-holds-11051-19-month-low-fed-outpaces-ecb-11260-usd-target-in-play",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "EUR/USD price forecast for next week: weekly levels for 16 to 20 November 2026",
-     "source": "RoboForex",
-     "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-weekly-forecast-2026-11-13/",
-     "date": "2026-11-13"
-    }
-   ]
-  },
-  "gbpusdx": {
-   "why": "",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": []
-  },
-  "jpyinrx": {
-   "why": "",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": []
   },
   "gcf": {
-   "why": "Gold held 0.2 percent above its 52-week low as Fed rate hike bets kept Treasury yields high.",
+   "why": "Fell as rising Fed hike bets and a firm dollar weighed, leaving gold at a 52-week low.",
    "outlook_1y": "Goldman Sachs cut its 12-month gold target to 4,700 dollars from 5,235 (ExchangeRates.org.uk, 11 Nov 2026); UBS forecasts 5,400 dollars by September 2027 (goldtrack.io compilation, Nov 2026); a Reuters poll of analysts has a 2027 median of 4,650 (Yahoo Finance, late Oct 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Rate hike bets kept gold on track for its worst week in four months",
-     "source": "CNBC",
-     "url": "https://cnbc.com/2026/11/13/gold-rises-on-bargain-hunting-but-heads-for-weekly-decline.html",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Gold faces weekly rout as high US yields fuel Fed rate hike bets",
-     "source": "TMGM",
-     "url": "https://www.tmgm.com/en/analysis/market-news/article/gold-faces-weekly-rout-as-high-us-yields-fuel-fed-rate-hike-bets-202611132023",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Gold, silver extend losses as Fed hike bets lift dollar, Treasury yields",
+     "title": "Gold, silver extend losses as Fed hike bets rise, dollar remains firm",
      "source": "Kitco",
-     "url": "https://www.kitco.com/news/article/2026-11-12/gold-silver-extend-losses-fed-hike-bets-lift-dollar-treasury-yields-kitco",
-     "date": "2026-11-12"
+     "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-fed-hike-bets-rise-dollar-remains-firm-kitco-am",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Gold, silver extend losses as tech selloff, dollar pressure metals",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-tech-selloff-dollar-pressure-metals-kitco-pm",
+     "date": "2026-11-16"
     }
    ]
   },
   "sif": {
-   "why": "Silver fell to a 52-week low as Fed hike bets and higher yields weighed on metals.",
+   "why": "Fell as rising Fed hike bets and a firm dollar weighed, leaving silver at a 52-week low.",
    "outlook_1y": "UBS targets 80 dollars an ounce by September 2027 (Yahoo Finance, citing UBS, Sep 2026); J.P. Morgan cut its 2027 average to 63.90 from 85.80 (Discovery Alert, Sep 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Gold falls 3.5%, silver slips as Fed hike bets rise",
-     "source": "HDFC Sky",
-     "url": "https://hdfcsky.com/news/gold-slides-3-5percent-as-hawkish-fed-bets-push-treasury-yields-higher-silver-falls-below-51",
-     "date": "2026-11-14"
+     "title": "Gold, silver extend losses as Fed hike bets rise, dollar remains firm",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-fed-hike-bets-rise-dollar-remains-firm-kitco-am",
+     "date": "2026-11-16"
     },
     {
-     "title": "Rate hike bets kept gold on track for its worst week in four months",
-     "source": "CNBC",
-     "url": "https://cnbc.com/2026/11/13/gold-rises-on-bargain-hunting-but-heads-for-weekly-decline.html",
-     "date": "2026-11-13"
+     "title": "Gold, silver extend losses as tech selloff, dollar pressure metals",
+     "source": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-tech-selloff-dollar-pressure-metals-kitco-pm",
+     "date": "2026-11-16"
     }
    ]
   },
   "hgf": {
-   "why": "",
+   "why": "Slipped as copper hit an almost four-month low on the LME.",
    "outlook_1y": "Goldman Sachs raised its 2027 average LME copper forecast to 15,400 dollars a tonne and end-2026 to 14,700, citing weak mine supply (Reuters via MINING.COM, 20 Oct 2026).",
    "outlook_lt": "No cited forecast found this run.",
-   "news": []
+   "news": [
+    {
+     "title": "ASX falls as miners drag, Coles investigates cybersecurity incident",
+     "source": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-11-16/asx-markets-business-live-news-nov-16/107388134",
+     "date": "2026-11-16"
+    }
+   ]
   },
   "clf": {
-   "why": "WTI held near 88.6 dollars as Trump kept the Iran blockade and the IEA flagged a supply surplus.",
+   "why": "Fell as Strait of Hormuz shipments recovered and physical barrels looked well supplied.",
    "outlook_1y": "Goldman Sachs lifted its December 2026 Brent forecast to 105 dollars and its 2027 average to 88 from 80 (CNBC, 2 Nov 2026); Citi sees a 65 dollar Brent average for 2027 if Hormuz reopens (Energy News Beat, 3 Sep 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Oil prices set for second weekly decline as Trump to stay with Iran blockade",
+     "title": "U.S. crude oil declines to 85 dollars a barrel on recovering Middle East exports",
      "source": "CNBC",
-     "url": "https://www.cnbc.com/amp/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html",
-     "date": "2026-11-13"
+     "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+     "date": "2026-11-16"
     },
     {
-     "title": "Oil prices fall for second straight week as global supply surplus emerges",
-     "source": "EnergyNow",
-     "url": "https://energynow.com/2026/11/oil-prices-fall-for-second-straight-week-as-global-supply-surplus-emerges-wti-closes-at-88-56-brent-at-95-84/",
-     "date": "2026-11-13"
-    },
-    {
-     "title": "Oil falls 2nd week in row as Iran uncertainty continues",
-     "source": "DTN",
-     "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/11/13/oil-falls-2nd-week-row-iran",
-     "date": "2026-11-13"
+     "title": "Oil retreats as traders weigh supply glut",
+     "source": "Rigzone (Bloomberg)",
+     "url": "https://www.rigzone.com/news/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article",
+     "date": "2026-11-16"
     }
    ]
   },
-  "ngf": {
-   "why": "",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": []
-  },
-  "fcx": {
-   "why": "",
-   "outlook_1y": "Sell-side consensus target 78.22 USD from 22 analysts (Yahoo Finance consensus, 16 Nov 2026).",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": []
-  },
   "remx": {
-   "why": "",
+   "why": "Rare earth stocks fell after William Blair downgraded USA Rare Earth over feedstock issues ahead of a Trump-Xi meeting.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Critical Metals rises 3% as rare earth stocks extend rally; MP Materials gains",
+     "title": "USA Rare Earth tumbles 10% on William Blair downgrade; Critical Metals plunges 13%, MP Materials drops 5%",
      "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/13/critical-metals-rises-3-as-rare-earth-stocks-extend-rally-usa-rare-earth-climbs-3-mp-materials-gains-2/",
-     "date": "2026-11-13"
+     "url": "https://247wallst.com/investing/2026/11/16/usa-rare-earth-tumbles-10-on-william-blair-downgrade-over-feedstock-issues-critical-metals-plunges-13-mp-materials-drops-5/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Why USA Rare Earth stock dropped again today",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/16/why-usa-rare-earth-stock-dropped-again-today/",
+     "date": "2026-11-16"
     }
    ]
   },
   "mp": {
-   "why": "MP Materials rose 3.5 percent as rare earth stocks extended a rally.",
-   "outlook_1y": "Sell-side consensus target 67.50 USD from 16 analysts (Yahoo Finance consensus, 16 Nov 2026).",
+   "why": "Fell after William Blair downgraded USA Rare Earth over feedstock issues, dragging the group ahead of a Trump-Xi meeting.",
+   "outlook_1y": "Sell-side consensus target 67.50 USD from 16 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Critical Metals rises 3% as rare earth stocks extend rally; MP Materials gains",
+     "title": "USA Rare Earth tumbles 10% on William Blair downgrade; Critical Metals plunges 13%, MP Materials drops 5%",
      "source": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/13/critical-metals-rises-3-as-rare-earth-stocks-extend-rally-usa-rare-earth-climbs-3-mp-materials-gains-2/",
-     "date": "2026-11-13"
+     "url": "https://247wallst.com/investing/2026/11/16/usa-rare-earth-tumbles-10-on-william-blair-downgrade-over-feedstock-issues-critical-metals-plunges-13-mp-materials-drops-5/",
+     "date": "2026-11-16"
     },
     {
-     "title": "Could investing 5,000 dollars in MP Materials help make you a millionaire?",
+     "title": "MP Materials shares down 6.8%",
+     "source": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/price-mp-materials-nyse-mp-shares-down-68-should-you-sell-2026-11-16/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Why USA Rare Earth stock dropped again today",
      "source": "Motley Fool",
-     "url": "https://www.fool.com/investing/2026/11/14/could-investing-5000-in-mp-materials-help-make-you-a-millionaire/",
-     "date": "2026-11-14"
+     "url": "https://www.fool.com/investing/2026/11/16/why-usa-rare-earth-stock-dropped-again-today/",
+     "date": "2026-11-16"
     }
    ]
   },
-  "ura": {
-   "why": "",
-   "outlook_1y": "No cited forecast found this run.",
+  "fcx": {
+   "why": "Was among the S&P 500's sharpest decliners as the AI and chip selloff spread to cyclicals.",
+   "outlook_1y": "Sell-side consensus target 78.22 USD from 22 analysts (Yahoo Finance consensus, 17 Nov 2026).",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Uranium close: Nov 13, 2026",
-     "source": "MineralPulse",
-     "url": "https://mineralpulse.com/editions/uranium-close-2026-11-13",
-     "date": "2026-11-13"
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "source": "Reuters via MarketScreener",
+     "url": "https://www.marketscreener.com/news/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo-ce785edfdd8ef425",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "ASX falls as miners drag, Coles investigates cybersecurity incident",
+     "source": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-11-16/asx-markets-business-live-news-nov-16/107388134",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "ccj": {
+   "why": "",
+   "outlook_1y": "Sell-side consensus target 115.56 USD from 9 analysts (Yahoo Finance consensus, 17 Nov 2026). Barclays cut its target to 89 dollars from 95 (MarketBeat, 16 Nov 2026).",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Cameco sets new 1-year low",
+     "source": "MarketBeat",
+     "url": "https://www.marketbeat.com/instant-alerts/price-cameco-nyse-ccj-sets-new-1-year-low-should-you-sell-2026-11-16/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "A look at Cameco after 6.7% decline",
+     "source": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/9202959/a-look-at-cameco-corp-ccj-after-67-decline-gf-value-6941-vs-price-6599",
+     "date": "2026-11-16"
     }
    ]
   },
   "btc-usd": {
-   "why": "Bitcoin bounced 1.2 percent after a weekend slide toward 62,000 dollars on ETF outflows and liquidations.",
+   "why": "Slipped after a 2 billion dollar weekend liquidation flush took it to its lowest since 14 July.",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Bitcoin slides toward 60,000 dollars as ETF outflows and liquidations intensify",
-     "source": "Investing.com",
-     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667",
-     "date": "2026-11-15"
-    },
-    {
-     "title": "Bitcoin price: overnight low and the weekly close",
-     "source": "CryptoTicker",
-     "url": "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/",
-     "date": "2026-11-15"
-    },
-    {
-     "title": "Bitcoin ETFs are now down over 1.5 billion dollars in net outflows for the year",
+     "title": "Bitcoin slips to 64,000 dollars after 2 billion dollar weekend flush",
      "source": "CoinDesk",
-     "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
-     "date": "2026-11-13"
+     "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+     "source": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Crypto Market Today, Nov. 16: Bitcoin searches for stability after 230 billion dollar crypto sell-off",
+     "source": "Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/crypto-market-today-nov-16-bitcoin-searches-for-stability-after-usd230-billion-crypto-sell-off/",
+     "date": "2026-11-16"
     }
    ]
   },
   "eth-usd": {
-   "why": "Ether rebounded 2.6 percent after the weekend rout pushed it to its lowest since July.",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "Bitcoin slides toward 60,000 dollars as ETF outflows and liquidations intensify",
-     "source": "Investing.com",
-     "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667",
-     "date": "2026-11-15"
-    },
-    {
-     "title": "Weekend crypto crash: leverage and crypto loans with bitcoin below 66,000 dollars",
-     "source": "CryptoTicker",
-     "url": "https://cryptoticker.io/en/crypto-crash-weekend-leverage-crypto-loans/",
-     "date": "2026-11-15"
-    }
-   ]
-  },
-  "xrp-usd": {
-   "why": "XRP rebounded 5.2 percent after sliding below 1 dollar to its lowest since November 2024.",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": [
-    {
-     "title": "XRP crashes below 1 dollar to its lowest since November 2024 as money leaves crypto",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-     "date": "2026-11-15"
-    },
-    {
-     "title": "Crypto market rout deepens as XRP price hits 2-year low and ETF money flees",
-     "source": "Bitcoin.com News",
-     "url": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/",
-     "date": "2026-11-15"
-    }
-   ]
-  },
-  "sui-usd": {
-   "why": "",
-   "outlook_1y": "No cited forecast found this run.",
-   "outlook_lt": "No cited forecast found this run.",
-   "news": []
-  },
-  "ada-usd": {
    "why": "",
    "outlook_1y": "No cited forecast found this run.",
    "outlook_lt": "No cited forecast found this run.",
    "news": [
     {
-     "title": "Top altcoins price forecast: Ripple, Cardano and Solana halt decline amid signs of exhaustion",
+     "title": "Ethereum price forecast: BitMine compares ETH sell-off to SpaceX IPO trend",
      "source": "FXStreet",
-     "url": "https://www.fxstreet.com/cryptocurrencies/news/top-altcoins-price-forecast-ripple-cardano-and-solana-halt-decline-amid-signs-of-exhaustion-202611121201",
-     "date": "2026-11-12"
+     "url": "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-bitmine-sees-spacex-ipo-like-trend-in-eth-ahead-of-anthropic-ipo-202611162159",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "ibit": {
+   "why": "Fell as bitcoin slid after a weekend liquidation flush and seven sessions of spot ETF outflows.",
+   "outlook_1y": "No cited forecast found this run.",
+   "outlook_lt": "No cited forecast found this run.",
+   "news": [
+    {
+     "title": "Bitcoin slips to 64,000 dollars after 2 billion dollar weekend flush",
+     "source": "CoinDesk",
+     "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+     "date": "2026-11-16"
     }
    ]
   }
